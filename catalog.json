@@ -1,6 +1,27 @@
 {
   "products": [
     {
+      "id": "p_1773716251524",
+      "name": "Hollowknight",
+      "price": 1000,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Hollow knight como nuevo",
+      "delivery": "Cuesta Blanca",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773716195/store-pics/wavxuzowdsc6cbw4njhb.png",
+          "publicId": "store-pics/wavxuzowdsc6cbw4njhb"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773716200/store-pics/okjeup2rjnk1potcdjry.png",
+          "publicId": "store-pics/okjeup2rjnk1potcdjry"
+        }
+      ],
+      "updatedAt": "2026-03-17T02:57:31.524Z"
+    },
+    {
       "id": "p_1773714298434",
       "name": "panel",
       "price": 3000,
@@ -30,5 +51,5 @@
       "updatedAt": "2026-03-17T02:24:58.434Z"
     }
   ],
-  "updatedAt": "2026-03-17T02:26:51.482Z"
+  "updatedAt": "2026-03-17T02:57:35.433Z"
 }
