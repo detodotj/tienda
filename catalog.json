@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "p_1773782842783",
+      "name": "test",
+      "price": 500,
+      "category": "Electrónica",
+      "status": "Como nuevo",
+      "desc": "serse",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773782828/store-pics/vtugl8sky5bwgs3b4qug.jpg",
+          "publicId": "store-pics/vtugl8sky5bwgs3b4qug"
+        }
+      ],
+      "updatedAt": "2026-03-17T21:27:22.783Z"
+    },
+    {
       "id": "p_1773775763348",
       "name": "CRT",
       "price": 2000,
@@ -22,5 +39,5 @@
       "updatedAt": "2026-03-17T19:29:23.348Z"
     }
   ],
-  "updatedAt": "2026-03-17T21:21:08.661Z"
+  "updatedAt": "2026-03-17T21:27:26.240Z"
 }
