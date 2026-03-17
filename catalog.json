@@ -1,31 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1773717072002",
-      "name": "control",
-      "price": 500,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "control de videojuegos para pc y android",
-      "delivery": "Cuesta Blanca",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717012/store-pics/zz9ogsy56dydxoisazg1.jpg",
-          "publicId": "store-pics/zz9ogsy56dydxoisazg1"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/emx6jphdjtpuy2exficd.jpg",
-          "publicId": "store-pics/emx6jphdjtpuy2exficd"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/rwxrlzfi4aviavcokebz.jpg",
-          "publicId": "store-pics/rwxrlzfi4aviavcokebz"
-        }
-      ],
-      "updatedAt": "2026-03-17T03:11:12.002Z"
-    },
-    {
       "id": "p_1773716251524",
       "name": "Hollowknight",
       "price": 1000,
@@ -91,7 +66,32 @@
         }
       ],
       "updatedAt": "2026-03-17T22:40:00.173Z"
+    },
+    {
+      "id": "p_1773717072002",
+      "name": "control",
+      "price": 500,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "control de videojuegos para pc y android",
+      "delivery": "Cuesta Blanca",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717012/store-pics/zz9ogsy56dydxoisazg1.jpg",
+          "publicId": "store-pics/zz9ogsy56dydxoisazg1"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/emx6jphdjtpuy2exficd.jpg",
+          "publicId": "store-pics/emx6jphdjtpuy2exficd"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/rwxrlzfi4aviavcokebz.jpg",
+          "publicId": "store-pics/rwxrlzfi4aviavcokebz"
+        }
+      ],
+      "updatedAt": "2026-03-17T03:11:12.002Z"
     }
   ],
-  "updatedAt": "2026-03-17T23:09:54.938Z"
+  "updatedAt": "2026-03-17T23:35:07.714Z"
 }
