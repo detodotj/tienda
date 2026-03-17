@@ -302,6 +302,11 @@ textarea { resize:vertical; min-height:80px; }
         <label>Ruta del archivo catálogo</label>
         <input type="text" id="cfgPath" placeholder="catalog.json">
       </div>
+      <div class="section-label" style="margin-top:20px">Seguridad</div>
+      <div class="form-group">
+        <label>Clave secreta del admin (ADMIN_SECRET)</label>
+        <input type="password" id="cfgAdminSecret" placeholder="tiendatj2024">
+      </div>
       <div class="section-label" style="margin-top:20px">Cloudinary — Almacén de fotos</div>
       <div class="form-row">
         <div class="form-group">
@@ -325,16 +330,17 @@ textarea { resize:vertical; min-height:80px; }
 
 <script>
 const DEFAULT_CLOUD='dcscb3fg4', DEFAULT_PRESET='store-pics', DEFAULT_WA='526642601992';
-let products=[], editingId=null, currentPhotos=[], config={};
+let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[];
 
 function init(){
   try { const s=localStorage.getItem('storeProducts'); if(s) products=JSON.parse(s); } catch(e){ products=[]; }
+  try { const dl=localStorage.getItem('storeDeleted'); if(dl) deletedIds=JSON.parse(dl); } catch(e){ deletedIds=[]; }
   try { const c=localStorage.getItem('storeConfig'); if(c) config=JSON.parse(c); } catch(e){ config={}; }
   if(!config.cloudName) config.cloudName=DEFAULT_CLOUD;
   if(!config.preset) config.preset=DEFAULT_PRESET;
   renderGrid();
 }
-function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); }
+function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); localStorage.setItem('storeDeleted',JSON.stringify(deletedIds)); }
 
 function renderGrid(){
   const search=document.getElementById('searchInput').value.toLowerCase();
@@ -484,11 +490,28 @@ function saveProduct(){
   showToast(editingId?'✅ Producto actualizado':'✅ Producto agregado','success');
 }
 
-function deleteProduct(id){
+async function deleteProduct(id){
   const p=products.find(x=>x.id===id); if(!p) return;
-  if(!confirm(`¿Borrar "${p.name}"?\n\nRecuerda publicar el catálogo después.`)) return;
+  if(!confirm(`¿Borrar "${p.name}"?\n\nEsto eliminará el producto y sus fotos.`)) return;
+  if(!deletedIds.includes(id)) deletedIds.push(id);
   products=products.filter(x=>x.id!==id);
   saveLocal(); renderGrid();
+  if(p.photos && p.photos.length > 0){
+    const publicIds=p.photos.map(ph=>ph.publicId).filter(Boolean);
+    if(publicIds.length > 0){
+      showToast('🗑️ Eliminando fotos de Cloudinary...','');
+      try{
+        const res=await fetch('https://voltmx-backend.vercel.app/api/delete-image',{
+          method:'POST',
+          headers:{'Content-Type':'application/json','x-api-key':config.adminSecret||''},
+          body:JSON.stringify({publicIds})
+        });
+        if(res.ok) showToast('🗑️ Producto y fotos eliminados','success');
+        else showToast('🗑️ Producto eliminado — fotos no se pudieron borrar','success');
+      }catch(e){ showToast('🗑️ Producto eliminado — error al borrar fotos','success'); }
+      return;
+    }
+  }
   showToast('🗑️ Producto eliminado — recuerda publicar','success');
 }
 
@@ -512,7 +535,7 @@ async function publishCatalog(){
       }
     }catch(e2){}
     var localIds=new Set(products.map(function(p){return p.id;}));
-    var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id);}));
+    var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id)&&!deletedIds.includes(p.id);}));
     products=merged;
     saveLocal();
     renderGrid();
@@ -542,6 +565,7 @@ function openConfig(){
   document.getElementById('cfgPath').value=config.path||'catalog.json';
   document.getElementById('cfgCloudName').value=config.cloudName||DEFAULT_CLOUD;
   document.getElementById('cfgPreset').value=config.preset||DEFAULT_PRESET;
+  document.getElementById('cfgAdminSecret').value=config.adminSecret||'';
   document.getElementById('configModal').classList.add('open');
 }
 function closeConfig(){document.getElementById('configModal').classList.remove('open');}
@@ -557,6 +581,7 @@ function saveConfig(){
     path:document.getElementById('cfgPath').value.trim()||'catalog.json',
     cloudName:document.getElementById('cfgCloudName').value.trim()||DEFAULT_CLOUD,
     preset:document.getElementById('cfgPreset').value.trim()||DEFAULT_PRESET,
+    adminSecret:document.getElementById('cfgAdminSecret').value.trim(),
   };
   localStorage.setItem('storeConfig',JSON.stringify(config));
   closeConfig();
