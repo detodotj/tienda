@@ -1,26 +1,4 @@
 {
-  "products": [
-    {
-      "id": "p_1773775763348",
-      "name": "CRT",
-      "price": 2000,
-      "category": "Electrónica",
-      "status": "Regular",
-      "desc": "Crt para videojuegos retro.",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773775728/store-pics/gxmadd3gmm2wiwxvfjdh.png",
-          "publicId": "store-pics/gxmadd3gmm2wiwxvfjdh"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773775728/store-pics/v63exnlgtcnx0zrqrefc.png",
-          "publicId": "store-pics/v63exnlgtcnx0zrqrefc"
-        }
-      ],
-      "updatedAt": "2026-03-17T19:29:23.348Z"
-    }
-  ],
-  "updatedAt": "2026-03-17T22:10:23.421Z"
+  "products": [],
+  "updatedAt": "2026-03-17T22:14:34.085Z"
 }
