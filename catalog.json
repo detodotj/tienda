@@ -1,1 +1,34 @@
-{"products":[],"updatedAt":""}
+{
+  "products": [
+    {
+      "id": "p_1773714298434",
+      "name": "panel",
+      "price": 3000,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "panel solar de 600 watts",
+      "zone": "Otra zona",
+      "whatsapp": "6611282417",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714218/store-pics/ofyojixblcrbmfqjefqk.jpg",
+          "publicId": "store-pics/ofyojixblcrbmfqjefqk"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714228/store-pics/sqgcap2cledxlrpeabrf.jpg",
+          "publicId": "store-pics/sqgcap2cledxlrpeabrf"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714229/store-pics/mt0r7lkjmpzny3lzkckw.jpg",
+          "publicId": "store-pics/mt0r7lkjmpzny3lzkckw"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714230/store-pics/begcv2tadgps4p7lxmkg.jpg",
+          "publicId": "store-pics/begcv2tadgps4p7lxmkg"
+        }
+      ],
+      "updatedAt": "2026-03-17T02:24:58.434Z"
+    }
+  ],
+  "updatedAt": "2026-03-17T02:25:41.216Z"
+}
