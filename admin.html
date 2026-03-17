@@ -328,8 +328,8 @@ const DEFAULT_CLOUD='dcscb3fg4', DEFAULT_PRESET='store-pics', DEFAULT_WA='526642
 let products=[], editingId=null, currentPhotos=[], config={};
 
 function init(){
-  const s=localStorage.getItem('storeProducts'); if(s) products=JSON.parse(s);
-  const c=localStorage.getItem('storeConfig'); if(c) config=JSON.parse(c);
+  try { const s=localStorage.getItem('storeProducts'); if(s) products=JSON.parse(s); } catch(e){ products=[]; }
+  try { const c=localStorage.getItem('storeConfig'); if(c) config=JSON.parse(c); } catch(e){ config={}; }
   if(!config.cloudName) config.cloudName=DEFAULT_CLOUD;
   if(!config.preset) config.preset=DEFAULT_PRESET;
   renderGrid();
@@ -520,17 +520,21 @@ function openConfig(){
 }
 function closeConfig(){document.getElementById('configModal').classList.remove('open');}
 function saveConfig(){
+  const token = document.getElementById('cfgToken').value.trim();
+  const owner = document.getElementById('cfgOwner').value.trim();
+  const repo  = document.getElementById('cfgRepo').value.trim();
+  if(!token){ showToast('El token de GitHub es obligatorio','error'); return; }
+  if(!owner){ showToast('El usuario de GitHub es obligatorio','error'); return; }
+  if(!repo){  showToast('El nombre del repositorio es obligatorio','error'); return; }
   config={
-    token:document.getElementById('cfgToken').value.trim(),
-    owner:document.getElementById('cfgOwner').value.trim(),
-    repo:document.getElementById('cfgRepo').value.trim(),
+    token,owner,repo,
     path:document.getElementById('cfgPath').value.trim()||'catalog.json',
     cloudName:document.getElementById('cfgCloudName').value.trim()||DEFAULT_CLOUD,
     preset:document.getElementById('cfgPreset').value.trim()||DEFAULT_PRESET,
   };
   localStorage.setItem('storeConfig',JSON.stringify(config));
   closeConfig();
-  showToast('✅ Configuración guardada','success');
+  showToast('✅ Configuración guardada — usuario: '+owner+' / repo: '+repo,'success');
 }
 
 let _tt;
