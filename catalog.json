@@ -1,4 +1,22 @@
 {
-  "products": [],
-  "updatedAt": "2026-03-17T22:14:34.085Z"
+  "products": [
+    {
+      "id": "p_1773787200173",
+      "name": "CRT",
+      "price": 1000,
+      "category": "Electrónica",
+      "status": "Regular",
+      "desc": "test",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773787177/store-pics/vx7g36fuihd2rczmuste.png",
+          "publicId": "store-pics/vx7g36fuihd2rczmuste"
+        }
+      ],
+      "updatedAt": "2026-03-17T22:40:00.173Z"
+    }
+  ],
+  "updatedAt": "2026-03-17T22:40:03.976Z"
 }
