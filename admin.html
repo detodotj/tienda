@@ -495,16 +495,42 @@ function deleteProduct(id){
 async function publishCatalog(){
   const{token,owner,repo,path='catalog.json'}=config;
   if(!token||!owner||!repo){showToast('Configura GitHub primero en ⚙️ Configuración','error');openConfig();return;}
-  showToast('⏳ Publicando catálogo...','');
+  showToast('⏳ Sincronizando con GitHub...','');
   try{
-    const catalog={products,updatedAt:new Date().toISOString()};
-    const content=btoa(unescape(encodeURIComponent(JSON.stringify(catalog,null,2))));
+    // 1. Jalar catalog.json actual de GitHub
     let sha=null;
-    try{const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json'}});if(r.ok){const d=await r.json();sha=d.sha;}}catch(e){}
+    let remoteProducts=[];
+    try{
+      const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json'}});
+      if(r.ok){
+        const d=await r.json();
+        sha=d.sha;
+        const decoded=JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/
+/g,'')))));
+        remoteProducts=decoded.products||[];
+      }
+    }catch(e){}
+
+    // 2. Mezclar: remoto + local sin duplicados (local gana si hay mismo id)
+    const localIds=new Set(products.map(p=>p.id));
+    const merged=[
+      ...products,
+      ...remoteProducts.filter(p=>!localIds.has(p.id))
+    ];
+
+    // 3. Actualizar local con el merged
+    products=merged;
+    saveLocal();
+    renderGrid();
+
+    // 4. Publicar el catálogo completo
+    showToast('⏳ Publicando catálogo completo...','');
+    const catalog={products:merged,updatedAt:new Date().toISOString()};
+    const content=btoa(unescape(encodeURIComponent(JSON.stringify(catalog,null,2))));
     const body={message:`Catálogo actualizado — ${new Date().toLocaleString('es-MX')}`,content};
     if(sha) body.sha=sha;
     const res=await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`,{method:'PUT',headers:{Authorization:`token ${token}`,Accept:'application/vnd.github.v3+json','Content-Type':'application/json'},body:JSON.stringify(body)});
-    if(res.ok) showToast('🚀 Catálogo publicado exitosamente','success');
+    if(res.ok){ var txt="🚀 Publicado — "+merged.length+" producto"+(merged.length!==1?"s":"")+" en total"; showToast(txt,"success"); }
     else{const err=await res.json();showToast('Error: '+(err.message||'No se pudo publicar'),'error');}
   }catch(e){showToast('Error de conexión con GitHub','error');}
 }
