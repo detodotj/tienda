@@ -1,23 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1773777909290",
-      "name": "test",
-      "price": 400,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "test 5",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773777882/store-pics/er1k7wzejub1sqsomeyy.png",
-          "publicId": "store-pics/er1k7wzejub1sqsomeyy"
-        }
-      ],
-      "updatedAt": "2026-03-17T20:05:09.290Z"
-    },
-    {
       "id": "p_1773775763348",
       "name": "CRT",
       "price": 2000,
@@ -37,7 +20,24 @@
         }
       ],
       "updatedAt": "2026-03-17T19:29:23.348Z"
+    },
+    {
+      "id": "p_1773777909290",
+      "name": "test",
+      "price": 400,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "test 5",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773777882/store-pics/er1k7wzejub1sqsomeyy.png",
+          "publicId": "store-pics/er1k7wzejub1sqsomeyy"
+        }
+      ],
+      "updatedAt": "2026-03-17T20:05:09.290Z"
     }
   ],
-  "updatedAt": "2026-03-17T20:05:32.947Z"
+  "updatedAt": "2026-03-17T20:29:04.013Z"
 }
