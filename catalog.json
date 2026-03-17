@@ -1,55 +1,26 @@
 {
   "products": [
     {
-      "id": "p_1773716251524",
-      "name": "Hollowknight",
-      "price": 1000,
-      "category": "Videojuegos",
-      "status": "Como nuevo",
-      "desc": "Hollow knight como nuevo",
-      "delivery": "Cuesta Blanca",
+      "id": "p_1773775763348",
+      "name": "CRT",
+      "price": 2000,
+      "category": "Electrónica",
+      "status": "Regular",
+      "desc": "Crt para videojuegos retro.",
+      "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773716195/store-pics/wavxuzowdsc6cbw4njhb.png",
-          "publicId": "store-pics/wavxuzowdsc6cbw4njhb"
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773775728/store-pics/gxmadd3gmm2wiwxvfjdh.png",
+          "publicId": "store-pics/gxmadd3gmm2wiwxvfjdh"
         },
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773716200/store-pics/okjeup2rjnk1potcdjry.png",
-          "publicId": "store-pics/okjeup2rjnk1potcdjry"
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773775728/store-pics/v63exnlgtcnx0zrqrefc.png",
+          "publicId": "store-pics/v63exnlgtcnx0zrqrefc"
         }
       ],
-      "updatedAt": "2026-03-17T02:57:31.524Z"
-    },
-    {
-      "id": "p_1773714298434",
-      "name": "panel",
-      "price": 3000,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "panel solar de 600 watts",
-      "zone": "Otra zona",
-      "whatsapp": "6611282417",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714218/store-pics/ofyojixblcrbmfqjefqk.jpg",
-          "publicId": "store-pics/ofyojixblcrbmfqjefqk"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714228/store-pics/sqgcap2cledxlrpeabrf.jpg",
-          "publicId": "store-pics/sqgcap2cledxlrpeabrf"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714229/store-pics/mt0r7lkjmpzny3lzkckw.jpg",
-          "publicId": "store-pics/mt0r7lkjmpzny3lzkckw"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714230/store-pics/begcv2tadgps4p7lxmkg.jpg",
-          "publicId": "store-pics/begcv2tadgps4p7lxmkg"
-        }
-      ],
-      "updatedAt": "2026-03-17T02:24:58.434Z"
+      "updatedAt": "2026-03-17T19:29:23.348Z"
     }
   ],
-  "updatedAt": "2026-03-17T02:57:35.433Z"
+  "updatedAt": "2026-03-17T19:49:03.772Z"
 }
