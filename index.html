@@ -82,12 +82,12 @@ body { font-family:'Inter', sans-serif; background:var(--bg); color:var(--text);
 
 /* MAIN */
 .main { max-width:1400px; width:95%; margin:0 auto; padding:28px 0 80px; }
-.product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:16px; }
+.product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:14px; }
 
 /* CARD */
 .product-card { background:var(--surface); border-radius:var(--radius); overflow:hidden; border:1px solid var(--border); box-shadow:var(--shadow); transition:box-shadow 0.22s,transform 0.22s; }
 .product-card:hover { box-shadow:var(--shadow-lg); transform:translateY(-3px); }
-.card-gallery { position:relative; height:220px; background:var(--border); overflow:hidden; cursor:pointer; }
+.card-gallery { position:relative; height:180px; background:var(--border); overflow:hidden; cursor:pointer; }
 .card-gallery img { width:100%; height:100%; object-fit:cover; display:none; }
 .card-gallery img.active { display:block; }
 .gallery-arrows { position:absolute; top:50%; transform:translateY(-50%); width:100%; display:flex; justify-content:space-between; padding:0 8px; pointer-events:none; }
