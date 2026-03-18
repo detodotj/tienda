@@ -147,23 +147,6 @@
       "updatedAt": "2026-03-18T01:12:23.727Z"
     },
     {
-      "id": "p_1773797043149",
-      "name": "prueba",
-      "price": 699,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "tersa",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773797019/store-pics/zuhemcufj2mvwfrszcfd.jpg",
-          "publicId": "store-pics/zuhemcufj2mvwfrszcfd"
-        }
-      ],
-      "updatedAt": "2026-03-18T01:24:03.149Z"
-    },
-    {
       "id": "p_1773800410484",
       "name": "CRT",
       "price": 600,
@@ -220,7 +203,8 @@
     "p_1773714298434",
     "p_1773716251524",
     "p_1773794839087",
-    "p_1773795768841"
+    "p_1773795768841",
+    "p_1773797043149"
   ],
-  "updatedAt": "2026-03-18T22:51:56.491Z"
+  "updatedAt": "2026-03-18T22:52:18.904Z"
 }
