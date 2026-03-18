@@ -177,6 +177,11 @@ textarea { resize:vertical; min-height:80px; }
 </head>
 <body>
 
+<!-- Honeypot to prevent browser autofill on real fields -->
+<div style="display:none;position:absolute;left:-9999px">
+  <input type="text" name="username" tabindex="-1">
+  <input type="password" name="password" tabindex="-1">
+</div>
 <div class="header">
   <div><h1>🛍️ Admin Panel <span>— DeTodoUnPoco TJ</span></h1></div>
   <div class="header-actions">
