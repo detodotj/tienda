@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1773796937176",
+      "name": "test 6",
+      "price": 300,
+      "category": "Videojuegos",
+      "status": "Regular",
+      "desc": "test78",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773796914/store-pics/rcouirc8xfu0fnhvhi4r.png",
+          "publicId": "store-pics/rcouirc8xfu0fnhvhi4r"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:22:17.176Z"
+    },
+    {
+      "id": "p_1773796902120",
+      "name": "test",
+      "price": 43,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "test43",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773796884/store-pics/fqda4pimeuhodxjbaeh1.png",
+          "publicId": "store-pics/fqda4pimeuhodxjbaeh1"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:21:42.120Z"
+    },
+    {
       "id": "p_1773717072002",
       "name": "control",
       "price": 500,
@@ -50,5 +84,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T01:20:29.907Z"
+  "updatedAt": "2026-03-18T01:22:22.453Z"
 }
