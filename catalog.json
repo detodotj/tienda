@@ -1,23 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1773796343727",
-      "name": "test",
-      "price": 500,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "test11",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773796324/store-pics/wayzepizevmgpspkzz81.jpg",
-          "publicId": "store-pics/wayzepizevmgpspkzz81"
-        }
-      ],
-      "updatedAt": "2026-03-18T01:12:23.727Z"
-    },
-    {
       "id": "p_1773717072002",
       "name": "control",
       "price": 500,
@@ -41,7 +24,31 @@
         }
       ],
       "updatedAt": "2026-03-17T03:11:12.002Z"
+    },
+    {
+      "id": "p_1773796343727",
+      "name": "test",
+      "price": 500,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "test11",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773796324/store-pics/wayzepizevmgpspkzz81.jpg",
+          "publicId": "store-pics/wayzepizevmgpspkzz81"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:12:23.727Z"
     }
   ],
-  "updatedAt": "2026-03-18T01:13:28.699Z"
+  "deletedIds": [
+    "p_1773787200173",
+    "p_1773714298434",
+    "p_1773716251524",
+    "p_1773794839087",
+    "p_1773795768841"
+  ],
+  "updatedAt": "2026-03-18T01:20:29.907Z"
 }
