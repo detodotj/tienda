@@ -75,8 +75,7 @@ body { font-family:'Inter', sans-serif; background:var(--bg); color:var(--text);
 .count-badge strong { color:var(--text); }
 
 /* CATEGORIES */
-.cat-bar { padding:12px 32px; display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; background:var(--surface); border-bottom:1px solid var(--border); }
-.cat-bar::-webkit-scrollbar { display:none; }
+.cat-bar { padding:12px 32px; display:flex; gap:8px; flex-wrap:wrap; justify-content:center; background:var(--surface); border-bottom:1px solid var(--border); }
 .cat-btn { padding:7px 16px; border-radius:20px; border:1.5px solid var(--border); background:var(--bg); color:var(--text2); font-size:13px; font-weight:500; cursor:pointer; white-space:nowrap; transition:all 0.18s; font-family:inherit; }
 .cat-btn:hover { border-color:var(--accent); color:var(--accent); }
 .cat-btn.active { background:var(--accent); border-color:var(--accent); color:white; }
@@ -230,7 +229,7 @@ footer strong { color:rgba(255,255,255,0.65); }
 <div class="hero">
   <div class="hero-inner">
     <h2>Artículos de calidad<br>a precio <em>justo</em></h2>
-    <p>Todo en Tijuana y Rosarito. Entregas en Cuesta Blanca, Soriana La Gloria, tienda Ley Rosarito o Uber Flash. Contacto directo por WhatsApp.</p>
+    <p>Todo en Tijuana y Rosarito. Entrega en punto de encuentro o Uber Flash. Contacto directo por WhatsApp.</p>
     <div class="hero-badges">
       <span class="hero-badge">✅ Artículos verificados</span>
       <span class="hero-badge">💬 WhatsApp directo</span>
