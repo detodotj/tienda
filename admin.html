@@ -170,6 +170,9 @@ textarea { resize:vertical; min-height:80px; }
   .btn-publish { padding:12px 18px; font-size:13px; }
   .toast { right:12px; left:12px; max-width:100%; }
 }
+
+.subcat-field { display:none; }
+.subcat-field.visible { display:block; }
 </style>
 </head>
 <body>
@@ -252,7 +255,7 @@ textarea { resize:vertical; min-height:80px; }
       <div class="form-row">
         <div class="form-group">
           <label>Categoría *</label>
-          <select id="inputCat">
+          <select id="inputCat" onchange="updateSubcatOptions()">
             <option value="">Seleccionar...</option>
             <option>Ropa</option><option>Electrónica</option><option>Muebles</option><option>Hogar</option>
             <option>Juguetes</option><option>Videojuegos</option><option>Deportes</option>
@@ -268,6 +271,12 @@ textarea { resize:vertical; min-height:80px; }
             <option>Regular</option>
           </select>
         </div>
+      </div>
+      <div class="form-group subcat-field" id="subcatField">
+        <label>Subcategoría</label>
+        <select id="inputSubcat">
+          <option value="">Sin subcategoría</option>
+        </select>
       </div>
 
       <div class="form-group">
@@ -376,6 +385,20 @@ textarea { resize:vertical; min-height:80px; }
 <div class="toast" id="toast"></div>
 
 <script>
+
+const SUBCATS = {
+  'Ropa': ['Hombre','Mujer','Niños','Calzado','Accesorios'],
+  'Electrónica': ['Celulares','Computadoras','Audio','Televisiones','Accesorios'],
+  'Muebles': ['Sala','Recámara','Comedor','Oficina'],
+  'Hogar': ['Cocina','Decoración','Electrodomésticos'],
+  'Juguetes': ['Bebés','Niños','Educativos','Figuras'],
+  'Videojuegos': ['Retro','Modernos','Consolas','Accesorios'],
+  'Deportes': ['Gym','Ciclismo','Outdoor','Accesorios'],
+  'Herramientas': ['Eléctricas','Manuales','Jardín'],
+  'Coleccionables': [],
+  'Antigüedades': []
+};
+
 const DEFAULT_CLOUD='dcscb3fg4', DEFAULT_PRESET='store-pics', DEFAULT_WA='526642601992';
 let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[], pendingDeleteId=null;
 
@@ -420,6 +443,7 @@ function cardHTML(p){
     <div class="card-body">
       <div class="card-cat">${p.category||'Sin categoría'}</div>
       <div class="card-name">${p.name}</div>
+      ${p.subcategory?`<div class="card-delivery" style="font-size:11px;opacity:0.7">${p.subcategory}</div>`:''}
       ${p.delivery?`<div class="card-delivery">${deliveryIcon} ${p.delivery}</div>`:''}
       <div class="card-desc">${p.desc||'Sin descripción'}</div>
       <div class="card-price">$${Number(p.price).toLocaleString('es-MX')} MXN</div>
@@ -429,6 +453,22 @@ function cardHTML(p){
       </div>
     </div>
   </div>`;
+}
+
+
+function updateSubcatOptions() {
+  var cat = document.getElementById('inputCat').value;
+  var field = document.getElementById('subcatField');
+  var select = document.getElementById('inputSubcat');
+  var subs = SUBCATS[cat] || [];
+  if (subs.length === 0) {
+    field.classList.remove('visible');
+    select.value = '';
+    return;
+  }
+  field.classList.add('visible');
+  select.innerHTML = '<option value="">Sin subcategoría</option>' +
+    subs.map(function(s){ return '<option value="'+s+'">'+s+'</option>'; }).join('');
 }
 
 function updateStats(){
@@ -457,6 +497,8 @@ function openAddModal(){
   document.getElementById('inputCat').value='';
   document.getElementById('inputStatus').value='Como nuevo';
   document.getElementById('inputDelivery').value='';
+  document.getElementById('subcatField').classList.remove('visible');
+  document.getElementById('inputSubcat').value='';
   document.getElementById('inputWhatsapp').value=DEFAULT_WA;
   renderPhotosPreview();
   document.getElementById('productModal').classList.add('open');
@@ -470,6 +512,8 @@ function openEditModal(id){
   document.getElementById('inputCat').value=p.category||'';
   document.getElementById('inputStatus').value=p.status||'Como nuevo';
   document.getElementById('inputDesc').value=p.desc||'';
+  updateSubcatOptions();
+  document.getElementById('inputSubcat').value=p.subcategory||'';
   document.getElementById('inputDelivery').value=p.delivery||'';
   document.getElementById('inputWhatsapp').value=p.whatsapp||DEFAULT_WA;
   renderPhotosPreview();
@@ -529,6 +573,7 @@ function saveProduct(){
     price:parseFloat(price), category:cat,
     status:document.getElementById('inputStatus').value,
     desc:document.getElementById('inputDesc').value.trim(),
+    subcategory:document.getElementById('inputSubcat').value,
     delivery:document.getElementById('inputDelivery').value,
     whatsapp:document.getElementById('inputWhatsapp').value.trim()||DEFAULT_WA,
     photos:[...currentPhotos],

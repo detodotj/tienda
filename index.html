@@ -177,12 +177,48 @@ footer strong { color:rgba(255,255,255,0.65); }
   .header-tag { display:none; }
   .hero { padding:34px 16px 30px; }
   .toolbar,.cat-bar { padding:12px 16px; }
-  .main { padding:20px 0 80px; width:100%; }
-  .product-grid { grid-template-columns:repeat(2,1fr); gap:10px; padding:0 10px; }
+  .main { padding:20px 0 80px; width:98%; }
+  .product-grid { grid-template-columns:repeat(2,1fr); gap:10px; padding:0 8px; }
   .card-gallery { height:150px; }
+  .card-body { padding:10px 10px; }
+  .card-name { font-size:13px; }
+  .card-price { font-size:17px; margin-bottom:8px; }
+  .btn-cart { font-size:11px; padding:7px 6px; }
   .cart-drawer { width:100vw; }
   .lb-prev { left:-8px; }
   .lb-next { right:-8px; }
+}
+}
+
+.subcat-bar {
+  display:none;
+  padding:8px 32px;
+  gap:8px;
+  overflow-x:auto;
+  scrollbar-width:none;
+  background:#edeae4;
+  border-bottom:1px solid var(--border);
+  flex-wrap:wrap;
+}
+.subcat-bar.visible { display:flex; }
+.subcat-bar::-webkit-scrollbar { display:none; }
+.subcat-btn {
+  padding:5px 14px;
+  border-radius:20px;
+  border:1.5px solid var(--border);
+  background:var(--surface);
+  color:var(--text2);
+  font-size:12px;
+  font-weight:500;
+  cursor:pointer;
+  white-space:nowrap;
+  transition:all 0.18s;
+  font-family:inherit;
+}
+.subcat-btn:hover { border-color:var(--accent); color:var(--accent); }
+.subcat-btn.active { background:var(--accent); border-color:var(--accent); color:white; }
+@media(max-width:600px){
+  .subcat-bar { padding:8px 12px; flex-wrap:nowrap; overflow-x:auto; }
 }
 </style>
 </head>
@@ -279,6 +315,10 @@ footer strong { color:rgba(255,255,255,0.65); }
   <button class="cat-btn" onclick="setCat('Antigüedades')">🏺 Antigüedades</button>
 </div>
 
+
+<!-- SUBCATEGORÍAS -->
+<div class="subcat-bar" id="subcatBar"></div>
+
 <!-- PRODUCTOS -->
 <div class="main">
   <div id="productGrid">
@@ -335,6 +375,21 @@ footer strong { color:rgba(255,255,255,0.65); }
 const CATALOG_URL = './catalog.json';
 const DEFAULT_WA = '526642601992';
 
+
+const SUBCATS = {
+  'Ropa': ['Hombre','Mujer','Niños','Calzado','Accesorios'],
+  'Electrónica': ['Celulares','Computadoras','Audio','Televisiones','Accesorios'],
+  'Muebles': ['Sala','Recámara','Comedor','Oficina'],
+  'Hogar': ['Cocina','Decoración','Electrodomésticos'],
+  'Juguetes': ['Bebés','Niños','Educativos','Figuras'],
+  'Videojuegos': ['Retro','Modernos','Consolas','Accesorios'],
+  'Deportes': ['Gym','Ciclismo','Outdoor','Accesorios'],
+  'Herramientas': ['Eléctricas','Manuales','Jardín'],
+  'Coleccionables': [],
+  'Antigüedades': []
+};
+let activeSubcat = '';
+
 let allProducts=[], filteredProducts=[], activeCat='', cart=[];
 
 async function loadCatalog() {
@@ -351,10 +406,34 @@ async function loadCatalog() {
 
 function setCat(cat) {
   activeCat=cat;
+  activeSubcat='';
   document.querySelectorAll('.cat-btn').forEach(b=>{
     b.classList.toggle('active', cat==='' ? b.textContent.trim()==='Todos' : b.textContent.includes(cat));
   });
+  renderSubcatBar();
   applyFilters();
+}
+
+function setSubcat(sub) {
+  activeSubcat = activeSubcat===sub ? '' : sub;
+  document.querySelectorAll('.subcat-btn').forEach(b=>{
+    b.classList.toggle('active', b.textContent.trim()===sub && activeSubcat===sub);
+  });
+  applyFilters();
+}
+
+function renderSubcatBar() {
+  const bar = document.getElementById('subcatBar');
+  const subs = activeCat && SUBCATS[activeCat] ? SUBCATS[activeCat] : [];
+  if (subs.length === 0) {
+    bar.classList.remove('visible');
+    bar.innerHTML = '';
+    return;
+  }
+  bar.classList.add('visible');
+  bar.innerHTML = subs.map(s =>
+    `<button class="subcat-btn ${activeSubcat===s?'active':''}" onclick="setSubcat('${s}')">${s}</button>`
+  ).join('');
 }
 
 function applyFilters() {
@@ -364,6 +443,7 @@ function applyFilters() {
   filteredProducts=allProducts.filter(p=>
     (!s||p.name.toLowerCase().includes(s)||(p.desc||'').toLowerCase().includes(s))&&
     (!activeCat||p.category===activeCat)&&
+    (!activeSubcat||p.subcategory===activeSubcat)&&
     (!st||p.status===st)&&
     (!d||p.delivery===d)
   );
@@ -397,6 +477,7 @@ function cardHTML(p) {
     <div class="card-body">
       <div class="card-cat">${p.category||''}</div>
       <div class="card-name">${p.name}</div>
+      ${p.subcategory?`<div class="card-delivery" style="color:var(--text2);font-size:11px;margin-bottom:3px">${p.subcategory}</div>`:''}
       ${p.delivery?`<div class="card-delivery">${deliveryIcon} ${p.delivery}</div>`:''}
       <div class="card-desc">${p.desc||''}</div>
       <div class="card-price">$${Number(p.price).toLocaleString('es-MX')} <small>MXN</small></div>
