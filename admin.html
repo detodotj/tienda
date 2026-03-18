@@ -51,9 +51,9 @@ body { font-family:'Segoe UI',sans-serif; background:var(--bg); color:var(--text
 
 .toolbar { padding:14px 28px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; background:var(--surface); border-bottom:1px solid var(--border); }
 .search-wrap { flex:1; min-width:200px; position:relative; }
-.search-wrap input { width:100%; padding:9px 14px 9px 36px; border:1.5px solid var(--border); border-radius:8px; font-size:13px; background:var(--bg); color:var(--text); transition:border-color 0.2s; font-family:inherit; }
+.search-wrap input { width:100%; padding:9px 14px; border:1.5px solid var(--border); border-radius:8px; font-size:13px; background:var(--bg); color:var(--text); transition:border-color 0.2s; font-family:inherit; }
 .search-wrap input:focus { outline:none; border-color:var(--accent); }
-.search-icon { position:absolute; left:11px; top:50%; transform:translateY(-50%); color:var(--text2); font-size:14px; pointer-events:none; }
+.search-icon { display:none; }
 .filter-select { padding:9px 12px; border:1.5px solid var(--border); border-radius:8px; font-size:13px; background:var(--bg); color:var(--text); cursor:pointer; font-family:inherit; }
 .filter-select:focus { outline:none; border-color:var(--accent); }
 
@@ -193,7 +193,7 @@ textarea { resize:vertical; min-height:80px; }
 <div class="toolbar">
   <div class="search-wrap">
     <span class="search-icon">🔍</span>
-    <input type="text" id="searchInput" placeholder="Buscar producto..." oninput="renderGrid()">
+    <input type="text" id="searchInput" placeholder="Buscar producto..." oninput="renderGrid()" autocomplete="off">
   </div>
   <select class="filter-select" id="filterCat" onchange="renderGrid()">
     <option value="">Todas las categorías</option>
