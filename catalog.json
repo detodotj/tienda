@@ -1,6 +1,48 @@
 {
   "products": [
     {
+      "id": "p_1773796343727",
+      "name": "test",
+      "price": 500,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "test11",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773796324/store-pics/wayzepizevmgpspkzz81.jpg",
+          "publicId": "store-pics/wayzepizevmgpspkzz81"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:12:23.727Z"
+    },
+    {
+      "id": "p_1773717072002",
+      "name": "control",
+      "price": 500,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "control de videojuegos para pc y android",
+      "delivery": "Cuesta Blanca",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717012/store-pics/zz9ogsy56dydxoisazg1.jpg",
+          "publicId": "store-pics/zz9ogsy56dydxoisazg1"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/emx6jphdjtpuy2exficd.jpg",
+          "publicId": "store-pics/emx6jphdjtpuy2exficd"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/rwxrlzfi4aviavcokebz.jpg",
+          "publicId": "store-pics/rwxrlzfi4aviavcokebz"
+        }
+      ],
+      "updatedAt": "2026-03-17T03:11:12.002Z"
+    },
+    {
       "id": "p_1773796937176",
       "name": "test 6",
       "price": 300,
@@ -33,48 +75,6 @@
         }
       ],
       "updatedAt": "2026-03-18T01:21:42.120Z"
-    },
-    {
-      "id": "p_1773717072002",
-      "name": "control",
-      "price": 500,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "control de videojuegos para pc y android",
-      "delivery": "Cuesta Blanca",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717012/store-pics/zz9ogsy56dydxoisazg1.jpg",
-          "publicId": "store-pics/zz9ogsy56dydxoisazg1"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/emx6jphdjtpuy2exficd.jpg",
-          "publicId": "store-pics/emx6jphdjtpuy2exficd"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/rwxrlzfi4aviavcokebz.jpg",
-          "publicId": "store-pics/rwxrlzfi4aviavcokebz"
-        }
-      ],
-      "updatedAt": "2026-03-17T03:11:12.002Z"
-    },
-    {
-      "id": "p_1773796343727",
-      "name": "test",
-      "price": 500,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "test11",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773796324/store-pics/wayzepizevmgpspkzz81.jpg",
-          "publicId": "store-pics/wayzepizevmgpspkzz81"
-        }
-      ],
-      "updatedAt": "2026-03-18T01:12:23.727Z"
     }
   ],
   "deletedIds": [
@@ -84,5 +84,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T01:22:22.453Z"
+  "updatedAt": "2026-03-18T01:22:54.330Z"
 }
