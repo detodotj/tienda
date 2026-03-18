@@ -709,6 +709,11 @@ document.getElementById('productModal').addEventListener('click',e=>{if(e.target
 document.getElementById('deleteModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeDeleteModal();});
 document.getElementById('configModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeConfig();});
 
+// Prevent Chrome autofill
+setTimeout(function(){ 
+  var s = document.getElementById('searchInput');
+  if(s) s.value = '';
+}, 100);
 init();
 </script>
 </body>
