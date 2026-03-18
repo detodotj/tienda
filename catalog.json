@@ -1,6 +1,39 @@
 {
   "products": [
     {
+      "id": "p_1773800410484",
+      "name": "CRT",
+      "price": 600,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Crt tv",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800379/store-pics/k9bljbffdsuzzeb3bl29.jpg",
+          "publicId": "store-pics/k9bljbffdsuzzeb3bl29"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800381/store-pics/mn8lywwimtfz9htgqitk.jpg",
+          "publicId": "store-pics/mn8lywwimtfz9htgqitk"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800384/store-pics/xw3jzfr2q9ge5ffvtilo.jpg",
+          "publicId": "store-pics/xw3jzfr2q9ge5ffvtilo"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800386/store-pics/d9dvhzbx7homq6or3bfj.jpg",
+          "publicId": "store-pics/d9dvhzbx7homq6or3bfj"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800388/store-pics/j9y9pjiycigsvfyynm66.jpg",
+          "publicId": "store-pics/j9y9pjiycigsvfyynm66"
+        }
+      ],
+      "updatedAt": "2026-03-18T02:20:10.485Z"
+    },
+    {
       "id": "p_1773799774048",
       "name": "Consola de videojuegos",
       "price": 600,
@@ -169,5 +202,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T02:16:57.401Z"
+  "updatedAt": "2026-03-18T02:21:08.874Z"
 }
