@@ -1,21 +1,21 @@
 {
   "products": [
     {
-      "id": "p_1773795768841",
-      "name": "warcraft",
-      "price": 800,
-      "category": "Videojuegos",
-      "status": "Buen estado",
-      "desc": "test 10",
+      "id": "p_1773796343727",
+      "name": "test",
+      "price": 500,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "test11",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773795751/store-pics/xwwzo6suecdqv4wdmz0q.png",
-          "publicId": "store-pics/xwwzo6suecdqv4wdmz0q"
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773796324/store-pics/wayzepizevmgpspkzz81.jpg",
+          "publicId": "store-pics/wayzepizevmgpspkzz81"
         }
       ],
-      "updatedAt": "2026-03-18T01:02:48.841Z"
+      "updatedAt": "2026-03-18T01:12:23.727Z"
     },
     {
       "id": "p_1773717072002",
@@ -41,7 +41,91 @@
         }
       ],
       "updatedAt": "2026-03-17T03:11:12.002Z"
+    },
+    {
+      "id": "p_1773716251524",
+      "name": "Hollowknight",
+      "price": 1000,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Hollow knight como nuevo",
+      "delivery": "Cuesta Blanca",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773716195/store-pics/wavxuzowdsc6cbw4njhb.png",
+          "publicId": "store-pics/wavxuzowdsc6cbw4njhb"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773716200/store-pics/okjeup2rjnk1potcdjry.png",
+          "publicId": "store-pics/okjeup2rjnk1potcdjry"
+        }
+      ],
+      "updatedAt": "2026-03-17T02:57:31.524Z"
+    },
+    {
+      "id": "p_1773714298434",
+      "name": "panel",
+      "price": 3000,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "panel solar de 600 watts",
+      "zone": "Otra zona",
+      "whatsapp": "6611282417",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714218/store-pics/ofyojixblcrbmfqjefqk.jpg",
+          "publicId": "store-pics/ofyojixblcrbmfqjefqk"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714228/store-pics/sqgcap2cledxlrpeabrf.jpg",
+          "publicId": "store-pics/sqgcap2cledxlrpeabrf"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714229/store-pics/mt0r7lkjmpzny3lzkckw.jpg",
+          "publicId": "store-pics/mt0r7lkjmpzny3lzkckw"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773714230/store-pics/begcv2tadgps4p7lxmkg.jpg",
+          "publicId": "store-pics/begcv2tadgps4p7lxmkg"
+        }
+      ],
+      "updatedAt": "2026-03-17T02:24:58.434Z"
+    },
+    {
+      "id": "p_1773787200173",
+      "name": "CRT",
+      "price": 1000,
+      "category": "Electrónica",
+      "status": "Regular",
+      "desc": "test",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773787177/store-pics/vx7g36fuihd2rczmuste.png",
+          "publicId": "store-pics/vx7g36fuihd2rczmuste"
+        }
+      ],
+      "updatedAt": "2026-03-17T22:40:00.173Z"
+    },
+    {
+      "id": "p_1773795768841",
+      "name": "warcraft",
+      "price": 800,
+      "category": "Videojuegos",
+      "status": "Buen estado",
+      "desc": "test 10",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773795751/store-pics/xwwzo6suecdqv4wdmz0q.png",
+          "publicId": "store-pics/xwwzo6suecdqv4wdmz0q"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:02:48.841Z"
     }
   ],
-  "updatedAt": "2026-03-18T01:06:13.459Z"
+  "updatedAt": "2026-03-18T01:12:31.270Z"
 }
