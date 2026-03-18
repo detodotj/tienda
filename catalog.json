@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773872538877",
+      "name": "game",
+      "price": 456,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "test",
+      "subcategory": "Retro",
+      "delivery": "Cualquier punto",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773872533/store-pics/yxnzi8qrzcbew2tv9dua.png",
+          "publicId": "store-pics/yxnzi8qrzcbew2tv9dua"
+        }
+      ],
+      "updatedAt": "2026-03-18T22:22:18.877Z"
+    },
+    {
       "id": "p_1773798091139",
       "name": "tv",
       "price": 200,
@@ -203,5 +221,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T21:49:34.550Z"
+  "updatedAt": "2026-03-18T22:22:26.965Z"
 }
