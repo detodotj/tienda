@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "p_1773798035541",
+      "name": "game",
+      "price": 400,
+      "category": "Videojuegos",
+      "status": "Regular",
+      "desc": "tes5509",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773798016/store-pics/r1hwu2dgxgftuea2epie.png",
+          "publicId": "store-pics/r1hwu2dgxgftuea2epie"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:40:35.541Z"
+    },
+    {
       "id": "p_1773797963637",
       "name": "map",
       "price": 400,
@@ -118,5 +135,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T01:39:28.129Z"
+  "updatedAt": "2026-03-18T01:40:39.058Z"
 }
