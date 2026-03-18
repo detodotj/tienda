@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "p_1773799774048",
+      "name": "Consola de videojuegos",
+      "price": 600,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Consola r60 retro gaming",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773799718/store-pics/kxbmi7mrkr2eilkumntg.jpg",
+          "publicId": "store-pics/kxbmi7mrkr2eilkumntg"
+        }
+      ],
+      "updatedAt": "2026-03-18T02:09:34.054Z"
+    },
+    {
       "id": "p_1773798091139",
       "name": "tv",
       "price": 200,
@@ -152,5 +169,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T01:41:34.687Z"
+  "updatedAt": "2026-03-18T02:16:57.401Z"
 }
