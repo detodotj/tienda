@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "p_1773797963637",
+      "name": "map",
+      "price": 400,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "test",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773797955/store-pics/lrf1llkic6uh9nrutmmr.png",
+          "publicId": "store-pics/lrf1llkic6uh9nrutmmr"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:39:23.637Z"
+    },
+    {
       "id": "p_1773796937176",
       "name": "test 6",
       "price": 300,
@@ -101,5 +118,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T01:25:37.024Z"
+  "updatedAt": "2026-03-18T01:39:28.129Z"
 }
