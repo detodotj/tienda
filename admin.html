@@ -558,11 +558,39 @@ async function uploadFiles(files){
 
 function renderPhotosPreview(){
   document.getElementById('photosPreview').innerHTML=currentPhotos.map((ph,i)=>`
-    <div class="preview-thumb">
+    <div class="preview-thumb" draggable="true" 
+      ondragstart="dragStart(event,${i})"
+      ondragover="dragOver(event,${i})"
+      ondragleave="dragLeave(event)"
+      ondrop="dragDrop(event,${i})"
+      ondragend="dragEnd(event)">
       <img src="${ph.url}" alt="">
       ${i===0?'<div class="main-badge">Principal</div>':''}
       <button class="remove-photo" onclick="removePhoto(${i})">×</button>
     </div>`).join('');
+}
+
+let dragSrcIdx = null;
+function dragStart(e, idx){
+  dragSrcIdx = idx;
+  e.currentTarget.classList.add('dragging');
+  e.dataTransfer.effectAllowed = 'move';
+}
+function dragOver(e, idx){
+  e.preventDefault();
+  e.dataTransfer.dropEffect = 'move';
+  if(idx !== dragSrcIdx) e.currentTarget.classList.add('drag-over');
+}
+function dragLeave(e){ e.currentTarget.classList.remove('drag-over'); }
+function dragEnd(e){ e.currentTarget.classList.remove('dragging'); }
+function dragDrop(e, idx){
+  e.preventDefault();
+  e.currentTarget.classList.remove('drag-over');
+  if(dragSrcIdx === null || dragSrcIdx === idx) return;
+  const moved = currentPhotos.splice(dragSrcIdx, 1)[0];
+  currentPhotos.splice(idx, 0, moved);
+  dragSrcIdx = null;
+  renderPhotosPreview();
 }
 function removePhoto(idx){currentPhotos.splice(idx,1);renderPhotosPreview();}
 
