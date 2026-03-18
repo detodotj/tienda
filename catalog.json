@@ -1,21 +1,21 @@
 {
   "products": [
     {
-      "id": "p_1773794839087",
+      "id": "p_1773795768841",
       "name": "warcraft",
-      "price": 900,
+      "price": 800,
       "category": "Videojuegos",
-      "status": "Como nuevo",
-      "desc": "test",
+      "status": "Buen estado",
+      "desc": "test 10",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773794817/store-pics/snpfcakwyy8dslrnml0k.png",
-          "publicId": "store-pics/snpfcakwyy8dslrnml0k"
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773795751/store-pics/xwwzo6suecdqv4wdmz0q.png",
+          "publicId": "store-pics/xwwzo6suecdqv4wdmz0q"
         }
       ],
-      "updatedAt": "2026-03-18T00:47:19.087Z"
+      "updatedAt": "2026-03-18T01:02:48.841Z"
     },
     {
       "id": "p_1773717072002",
@@ -43,5 +43,5 @@
       "updatedAt": "2026-03-17T03:11:12.002Z"
     }
   ],
-  "updatedAt": "2026-03-18T00:54:51.773Z"
+  "updatedAt": "2026-03-18T01:06:13.459Z"
 }
