@@ -501,7 +501,7 @@ async function deleteProduct(id){
     if(publicIds.length > 0){
       showToast('🗑️ Eliminando fotos de Cloudinary...','');
       try{
-        const res=await fetch('https://voltmx-backend.vercel.app/api/delete-image',{
+        const res=await fetch('https://tienda-backend-drab.vercel.app/api/delete-image',{
           method:'POST',
           headers:{'Content-Type':'application/json','x-api-key':config.adminSecret||''},
           body:JSON.stringify({publicIds})
