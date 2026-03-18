@@ -153,9 +153,14 @@
       "category": "Videojuegos",
       "status": "Como nuevo",
       "desc": "Crt tv",
+      "subcategory": "",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800386/store-pics/d9dvhzbx7homq6or3bfj.jpg",
+          "publicId": "store-pics/d9dvhzbx7homq6or3bfj"
+        },
         {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800379/store-pics/k9bljbffdsuzzeb3bl29.jpg",
           "publicId": "store-pics/k9bljbffdsuzzeb3bl29"
@@ -169,15 +174,11 @@
           "publicId": "store-pics/xw3jzfr2q9ge5ffvtilo"
         },
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800386/store-pics/d9dvhzbx7homq6or3bfj.jpg",
-          "publicId": "store-pics/d9dvhzbx7homq6or3bfj"
-        },
-        {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800388/store-pics/j9y9pjiycigsvfyynm66.jpg",
           "publicId": "store-pics/j9y9pjiycigsvfyynm66"
         }
       ],
-      "updatedAt": "2026-03-18T02:20:10.485Z"
+      "updatedAt": "2026-03-18T23:35:15.279Z"
     },
     {
       "id": "p_1773799774048",
@@ -205,5 +206,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-18T23:35:03.801Z"
+  "updatedAt": "2026-03-18T23:35:18.763Z"
 }
