@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "p_1773798091139",
+      "name": "tv",
+      "price": 200,
+      "category": "Muebles",
+      "status": "Regular",
+      "desc": "crt test",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773798073/store-pics/pv0pquq0fiz18kon4xww.png",
+          "publicId": "store-pics/pv0pquq0fiz18kon4xww"
+        }
+      ],
+      "updatedAt": "2026-03-18T01:41:31.139Z"
+    },
+    {
       "id": "p_1773798035541",
       "name": "game",
       "price": 400,
@@ -135,5 +152,5 @@
     "p_1773794839087",
     "p_1773795768841"
   ],
-  "updatedAt": "2026-03-18T01:40:39.058Z"
+  "updatedAt": "2026-03-18T01:41:34.687Z"
 }
