@@ -326,11 +326,32 @@ textarea { resize:vertical; min-height:80px; }
   </div>
 </div>
 
+
+<!-- MODAL CONFIRMAR BORRADO -->
+<div class="modal-overlay" id="deleteModal">
+  <div class="modal" style="max-width:420px">
+    <div class="modal-header" style="border-bottom:2px solid #e74c3c">
+      <h2 style="color:#e74c3c">⚠️ Confirmar eliminación</h2>
+      <button class="modal-close" onclick="closeDeleteModal()">×</button>
+    </div>
+    <div class="modal-body" style="text-align:center;padding:28px 24px">
+      <div style="font-size:48px;margin-bottom:16px">🗑️</div>
+      <p style="font-size:15px;font-weight:700;margin-bottom:10px;color:var(--text)" id="deleteModalName"></p>
+      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px">Esta acción eliminará el producto del catálogo y <strong>borrará permanentemente todas sus fotos de Cloudinary.</strong></p>
+      <p style="font-size:12px;color:#e74c3c;font-weight:600">⚠️ Esta acción no se puede deshacer.</p>
+    </div>
+    <div class="modal-footer" style="justify-content:center;gap:12px">
+      <button class="btn btn-cancel" style="min-width:120px" onclick="closeDeleteModal()">Cancelar</button>
+      <button class="btn btn-danger" style="min-width:120px" id="deleteConfirmBtn" onclick="confirmDelete()">🗑️ Sí, borrar</button>
+    </div>
+  </div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
 const DEFAULT_CLOUD='dcscb3fg4', DEFAULT_PRESET='store-pics', DEFAULT_WA='526642601992';
-let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[];
+let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[], pendingDeleteId=null;
 
 function init(){
   try { const s=localStorage.getItem('storeProducts'); if(s) products=JSON.parse(s); } catch(e){ products=[]; }
@@ -396,6 +417,11 @@ if(!window._ps) window._ps={};
 function changePhoto(id,idx){window._ps[id]=idx;const c=document.getElementById(`photos-${id}`);if(!c)return;c.querySelectorAll('img').forEach((el,i)=>el.classList.toggle('active',i===idx));c.querySelectorAll('.photo-dot').forEach((el,i)=>el.classList.toggle('active',i===idx));}
 function nextPhoto(id){const p=products.find(x=>x.id===id);if(!p||!p.photos)return;changePhoto(id,((window._ps[id]||0)+1)%p.photos.length);}
 function prevPhoto(id){const p=products.find(x=>x.id===id);if(!p||!p.photos)return;changePhoto(id,((window._ps[id]||0)-1+p.photos.length)%p.photos.length);}
+
+function closeDeleteModal(){
+  document.getElementById('deleteModal').classList.remove('open');
+  pendingDeleteId=null;
+}
 
 function openAddModal(){
   editingId=null; currentPhotos=[];
@@ -490,9 +516,17 @@ function saveProduct(){
   showToast(editingId?'✅ Producto actualizado':'✅ Producto agregado','success');
 }
 
-async function deleteProduct(id){
+function deleteProduct(id){
   const p=products.find(x=>x.id===id); if(!p) return;
-  if(!confirm(`¿Borrar "${p.name}"?\n\nEsto eliminará el producto y sus fotos.`)) return;
+  pendingDeleteId=id;
+  document.getElementById('deleteModalName').textContent='"'+p.name+'"';
+  document.getElementById('deleteModal').classList.add('open');
+}
+
+async function confirmDelete(){
+  closeDeleteModal();
+  const id=pendingDeleteId; pendingDeleteId=null;
+  const p=products.find(x=>x.id===id); if(!p) return;
   if(!deletedIds.includes(id)) deletedIds.push(id);
   products=products.filter(x=>x.id!==id);
   saveLocal(); renderGrid();
@@ -592,6 +626,7 @@ let _tt;
 function showToast(msg,type){const t=document.getElementById('toast');t.textContent=msg;t.className='toast show'+(type?' '+type:'');clearTimeout(_tt);_tt=setTimeout(()=>t.classList.remove('show'),3500);}
 
 document.getElementById('productModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal();});
+document.getElementById('deleteModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeDeleteModal();});
 document.getElementById('configModal').addEventListener('click',e=>{if(e.target===e.currentTarget)closeConfig();});
 
 init();
