@@ -557,6 +557,7 @@ async function publishCatalog(){
   try{
     var sha=null;
     var remoteProducts=[];
+    var remoteDeletedIds=[];
     var headers={Authorization:'token '+token,Accept:'application/vnd.github.v3+json'};
     var getUrl='https://api.github.com/repos/'+owner+'/'+repo+'/contents/'+path;
     try{
@@ -567,15 +568,21 @@ async function publishCatalog(){
         var raw=atob(d.content.replace(/\n/g,''));
         var decoded=JSON.parse(decodeURIComponent(escape(raw)));
         remoteProducts=decoded.products||[];
+        remoteDeletedIds=decoded.deletedIds||[];
       }
     }catch(e2){}
+    // Merge deletedIds from remote + local — union of both
+    var allDeletedIds=remoteDeletedIds.concat(deletedIds.filter(function(id){return remoteDeletedIds.indexOf(id)===-1;}));
+    deletedIds=allDeletedIds;
+    saveLocal();
+    // Merge products — local wins, exclude all deleted
     var localIds=new Set(products.map(function(p){return p.id;}));
-    var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id)&&!deletedIds.includes(p.id);}));
+    var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;}));
     products=merged;
     saveLocal();
     renderGrid();
     showToast('Publicando catalogo completo...','');
-    var catalog={products:merged,updatedAt:new Date().toISOString()};
+    var catalog={products:merged,deletedIds:allDeletedIds,updatedAt:new Date().toISOString()};
     var encoded=btoa(unescape(encodeURIComponent(JSON.stringify(catalog,null,2))));
     var msg='Catalogo actualizado '+new Date().toLocaleString('es-MX');
     var body={message:msg,content:encoded};
