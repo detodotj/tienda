@@ -572,6 +572,21 @@ function closeLightbox(){document.getElementById('lightbox').classList.remove('o
 function closeLightboxOverlay(e){if(e.target===e.currentTarget)closeLightbox();}
 document.addEventListener('keydown',e=>{if(!document.getElementById('lightbox').classList.contains('open'))return;if(e.key==='ArrowRight')lbNext();if(e.key==='ArrowLeft')lbPrev();if(e.key==='Escape')closeLightbox();});
 
+// Touch swipe for lightbox
+let _lbTouchX=null;
+document.getElementById('lightbox').addEventListener('touchstart',function(e){
+  _lbTouchX=e.touches[0].clientX;
+},{passive:true});
+document.getElementById('lightbox').addEventListener('touchend',function(e){
+  if(_lbTouchX===null) return;
+  const diff=_lbTouchX - e.changedTouches[0].clientX;
+  if(Math.abs(diff)>40){
+    if(diff>0) lbNext();
+    else lbPrev();
+  }
+  _lbTouchX=null;
+},{passive:true});
+
 loadCatalog();
 </script>
 </body>
