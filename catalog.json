@@ -306,7 +306,8 @@
           "publicId": "store-pics/c3hhv4kjvnwm4nlohpjy"
         }
       ],
-      "updatedAt": "2026-03-19T01:18:50.754Z"
+      "updatedAt": "2026-03-19T01:18:50.754Z",
+      "paused": true
     }
   ],
   "deletedIds": [
@@ -317,5 +318,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-19T22:36:05.935Z"
+  "updatedAt": "2026-03-19T22:54:13.046Z"
 }
