@@ -1,22 +1,88 @@
 {
   "products": [
     {
-      "id": "p_1773872538877",
-      "name": "game",
-      "price": 456,
-      "category": "Videojuegos",
-      "status": "Como nuevo",
-      "desc": "test",
-      "subcategory": "Retro",
-      "delivery": "Cualquier punto",
+      "id": "p_1773878833589",
+      "name": "Se vende gato barato",
+      "price": 300,
+      "category": "Muebles",
+      "status": "Regular",
+      "desc": "Es medio mamón pero es chido.",
+      "subcategory": "Oficina",
+      "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773872533/store-pics/yxnzi8qrzcbew2tv9dua.png",
-          "publicId": "store-pics/yxnzi8qrzcbew2tv9dua"
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773878773/store-pics/zvyptiknitn0j3nrrwyl.jpg",
+          "publicId": "store-pics/zvyptiknitn0j3nrrwyl"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773878775/store-pics/egnc99w0vxm6d7bwskfo.jpg",
+          "publicId": "store-pics/egnc99w0vxm6d7bwskfo"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773878776/store-pics/xqandcjpqjmuckjshdhu.jpg",
+          "publicId": "store-pics/xqandcjpqjmuckjshdhu"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773878778/store-pics/ajyxh9xmclsvkq7nygqe.jpg",
+          "publicId": "store-pics/ajyxh9xmclsvkq7nygqe"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773878779/store-pics/trxbvxs7kd753jggfizr.jpg",
+          "publicId": "store-pics/trxbvxs7kd753jggfizr"
         }
       ],
-      "updatedAt": "2026-03-18T22:22:18.877Z"
+      "updatedAt": "2026-03-19T00:07:13.592Z"
+    },
+    {
+      "id": "p_1773800410484",
+      "name": "CRT",
+      "price": 600,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Crt tv",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800379/store-pics/k9bljbffdsuzzeb3bl29.jpg",
+          "publicId": "store-pics/k9bljbffdsuzzeb3bl29"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800381/store-pics/mn8lywwimtfz9htgqitk.jpg",
+          "publicId": "store-pics/mn8lywwimtfz9htgqitk"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800384/store-pics/xw3jzfr2q9ge5ffvtilo.jpg",
+          "publicId": "store-pics/xw3jzfr2q9ge5ffvtilo"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800386/store-pics/d9dvhzbx7homq6or3bfj.jpg",
+          "publicId": "store-pics/d9dvhzbx7homq6or3bfj"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800388/store-pics/j9y9pjiycigsvfyynm66.jpg",
+          "publicId": "store-pics/j9y9pjiycigsvfyynm66"
+        }
+      ],
+      "updatedAt": "2026-03-18T02:20:10.485Z"
+    },
+    {
+      "id": "p_1773799774048",
+      "name": "Consola de videojuegos",
+      "price": 600,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Consola r60 retro gaming",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773799718/store-pics/kxbmi7mrkr2eilkumntg.jpg",
+          "publicId": "store-pics/kxbmi7mrkr2eilkumntg"
+        }
+      ],
+      "updatedAt": "2026-03-18T02:22:12.494Z"
     },
     {
       "id": "p_1773798091139",
@@ -42,7 +108,6 @@
       "category": "Videojuegos",
       "status": "Regular",
       "desc": "tes5509",
-      "subcategory": "Retro",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -51,7 +116,7 @@
           "publicId": "store-pics/r1hwu2dgxgftuea2epie"
         }
       ],
-      "updatedAt": "2026-03-18T21:49:32.258Z"
+      "updatedAt": "2026-03-18T01:40:35.541Z"
     },
     {
       "id": "p_1773797963637",
@@ -147,55 +212,22 @@
       "updatedAt": "2026-03-18T01:12:23.727Z"
     },
     {
-      "id": "p_1773800410484",
-      "name": "CRT",
-      "price": 600,
+      "id": "p_1773872538877",
+      "name": "game",
+      "price": 456,
       "category": "Videojuegos",
       "status": "Como nuevo",
-      "desc": "Crt tv",
-      "subcategory": "",
-      "delivery": "",
+      "desc": "test",
+      "subcategory": "Retro",
+      "delivery": "Cualquier punto",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800386/store-pics/d9dvhzbx7homq6or3bfj.jpg",
-          "publicId": "store-pics/d9dvhzbx7homq6or3bfj"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800379/store-pics/k9bljbffdsuzzeb3bl29.jpg",
-          "publicId": "store-pics/k9bljbffdsuzzeb3bl29"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800381/store-pics/mn8lywwimtfz9htgqitk.jpg",
-          "publicId": "store-pics/mn8lywwimtfz9htgqitk"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800384/store-pics/xw3jzfr2q9ge5ffvtilo.jpg",
-          "publicId": "store-pics/xw3jzfr2q9ge5ffvtilo"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773800388/store-pics/j9y9pjiycigsvfyynm66.jpg",
-          "publicId": "store-pics/j9y9pjiycigsvfyynm66"
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773872533/store-pics/yxnzi8qrzcbew2tv9dua.png",
+          "publicId": "store-pics/yxnzi8qrzcbew2tv9dua"
         }
       ],
-      "updatedAt": "2026-03-18T23:35:15.279Z"
-    },
-    {
-      "id": "p_1773799774048",
-      "name": "Consola de videojuegos",
-      "price": 600,
-      "category": "Videojuegos",
-      "status": "Como nuevo",
-      "desc": "Consola r60 retro gaming",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773799718/store-pics/kxbmi7mrkr2eilkumntg.jpg",
-          "publicId": "store-pics/kxbmi7mrkr2eilkumntg"
-        }
-      ],
-      "updatedAt": "2026-03-18T02:09:34.054Z"
+      "updatedAt": "2026-03-18T22:22:18.877Z"
     }
   ],
   "deletedIds": [
@@ -206,5 +238,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-18T23:35:18.763Z"
+  "updatedAt": "2026-03-19T00:07:46.848Z"
 }
