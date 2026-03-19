@@ -173,6 +173,23 @@ textarea { resize:vertical; min-height:80px; }
 
 .subcat-field { display:none; }
 .subcat-field.visible { display:block; }
+
+.preview-thumb.is-main { border:2px solid var(--accent); }
+.set-main-btn {
+  position:absolute;
+  bottom:0; left:0; right:0;
+  background:rgba(0,0,0,0.65);
+  color:white; border:none;
+  font-size:11px; font-weight:700;
+  padding:5px 4px; cursor:pointer;
+  display:none; text-align:center; width:100%;
+}
+.preview-thumb:hover .set-main-btn { display:block; }
+.preview-thumb.is-main .set-main-btn { display:none !important; }
+@media(max-width:768px){
+  .set-main-btn { display:block !important; }
+  .preview-thumb.is-main .set-main-btn { display:none !important; }
+}
 </style>
 </head>
 <body>
