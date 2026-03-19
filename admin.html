@@ -558,38 +558,17 @@ async function uploadFiles(files){
 
 function renderPhotosPreview(){
   document.getElementById('photosPreview').innerHTML=currentPhotos.map((ph,i)=>`
-    <div class="preview-thumb" draggable="true" 
-      ondragstart="dragStart(event,${i})"
-      ondragover="dragOver(event,${i})"
-      ondragleave="dragLeave(event)"
-      ondrop="dragDrop(event,${i})"
-      ondragend="dragEnd(event)">
+    <div class="preview-thumb ${i===0?'is-main':''}">
       <img src="${ph.url}" alt="">
       ${i===0?'<div class="main-badge">Principal</div>':''}
       <button class="remove-photo" onclick="removePhoto(${i})">×</button>
+      ${i!==0?`<button class="set-main-btn" onclick="setMainPhoto(${i})">⭐ Principal</button>`:''}
     </div>`).join('');
 }
 
-let dragSrcIdx = null;
-function dragStart(e, idx){
-  dragSrcIdx = idx;
-  e.currentTarget.classList.add('dragging');
-  e.dataTransfer.effectAllowed = 'move';
-}
-function dragOver(e, idx){
-  e.preventDefault();
-  e.dataTransfer.dropEffect = 'move';
-  if(idx !== dragSrcIdx) e.currentTarget.classList.add('drag-over');
-}
-function dragLeave(e){ e.currentTarget.classList.remove('drag-over'); }
-function dragEnd(e){ e.currentTarget.classList.remove('dragging'); }
-function dragDrop(e, idx){
-  e.preventDefault();
-  e.currentTarget.classList.remove('drag-over');
-  if(dragSrcIdx === null || dragSrcIdx === idx) return;
-  const moved = currentPhotos.splice(dragSrcIdx, 1)[0];
-  currentPhotos.splice(idx, 0, moved);
-  dragSrcIdx = null;
+function setMainPhoto(idx){
+  const main = currentPhotos.splice(idx, 1)[0];
+  currentPhotos.unshift(main);
   renderPhotosPreview();
 }
 function removePhoto(idx){currentPhotos.splice(idx,1);renderPhotosPreview();}
@@ -670,8 +649,14 @@ async function publishCatalog(){
       if(r.ok){
         var d=await r.json();
         sha=d.sha;
-        var raw=atob(d.content.replace(/\n/g,''));
-        var decoded=JSON.parse(decodeURIComponent(escape(raw)));
+        try{
+          var raw=atob(d.content.replace(/\n/g,'').replace(/\r/g,''));
+          var decoded=JSON.parse(decodeURIComponent(escape(raw)));
+        }catch(parseErr){
+          var decoded=JSON.parse(new TextDecoder().decode(
+            Uint8Array.from(atob(d.content.replace(/\n/g,'').replace(/\r/g,'')),c=>c.charCodeAt(0))
+          ));
+        }
         remoteProducts=decoded.products||[];
         remoteDeletedIds=decoded.deletedIds||[];
       }

@@ -499,6 +499,27 @@ function cardChange(id,idx,total){window._ci[id]=idx;const c=document.getElement
 function cardNext(id,total){cardChange(id,((window._ci[id]||0)+1)%total,total);}
 function cardPrev(id,total){cardChange(id,((window._ci[id]||0)-1+total)%total,total);}
 
+// Touch swipe for card galleries
+if(!window._touch) window._touch={};
+document.addEventListener('touchstart',function(e){
+  const gallery=e.target.closest('.card-gallery');
+  if(!gallery) return;
+  window._touch.startX=e.touches[0].clientX;
+  window._touch.id=gallery.id.replace('pg-','');
+},{passive:true});
+document.addEventListener('touchend',function(e){
+  if(!window._touch.startX||!window._touch.id) return;
+  const diff=window._touch.startX - e.changedTouches[0].clientX;
+  const id=window._touch.id;
+  const p=filteredProducts.find(x=>x.id===id);
+  if(!p||!p.photos||p.photos.length<2){window._touch.startX=null;return;}
+  if(Math.abs(diff)>40){
+    if(diff>0) cardNext(id,p.photos.length);
+    else cardPrev(id,p.photos.length);
+  }
+  window._touch.startX=null;
+},{passive:true});
+
 function toggleCart(id){if(cart.includes(id)){cart=cart.filter(x=>x!==id);}else{cart.push(id);openCart();}updateCartBtn(id);updateCartUI();}
 function updateCartBtn(id){const btn=document.getElementById(`cartbtn-${id}`);if(!btn)return;const inCart=cart.includes(id);btn.className='btn-cart'+(inCart?' added':'');btn.textContent=inCart?'✓ En selección':'🛒 Agregar';}
 function removeFromCart(id){cart=cart.filter(x=>x!==id);updateCartBtn(id);updateCartUI();}
