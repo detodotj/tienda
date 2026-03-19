@@ -167,6 +167,7 @@
       "category": "Videojuegos",
       "status": "Regular",
       "desc": "tes5509",
+      "subcategory": "Retro",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -175,7 +176,7 @@
           "publicId": "store-pics/r1hwu2dgxgftuea2epie"
         }
       ],
-      "updatedAt": "2026-03-18T01:40:35.541Z"
+      "updatedAt": "2026-03-19T06:06:04.955Z"
     },
     {
       "id": "p_1773797963637",
@@ -315,5 +316,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-19T01:53:10.439Z"
+  "updatedAt": "2026-03-19T06:06:07.980Z"
 }
