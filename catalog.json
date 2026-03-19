@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773883130754",
+      "name": "Test",
+      "price": 1000000000,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773883113/store-pics/c3hhv4kjvnwm4nlohpjy.jpg",
+          "publicId": "store-pics/c3hhv4kjvnwm4nlohpjy"
+        }
+      ],
+      "updatedAt": "2026-03-19T01:18:50.754Z"
+    },
+    {
       "id": "p_1773878833589",
       "name": "Se vende gato barato",
       "price": 300,
@@ -238,5 +256,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-19T01:18:16.461Z"
+  "updatedAt": "2026-03-19T01:18:55.407Z"
 }
