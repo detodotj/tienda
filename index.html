@@ -446,6 +446,7 @@ function applyFilters() {
   const st=document.getElementById('filterStatus').value;
   const d=document.getElementById('filterDelivery').value;
   filteredProducts=allProducts.filter(p=>
+    !p.paused &&
     (!s||p.name.toLowerCase().includes(s)||(p.desc||'').toLowerCase().includes(s))&&
     (!activeCat||p.category===activeCat)&&
     (!activeSubcat||p.subcategory===activeSubcat)&&

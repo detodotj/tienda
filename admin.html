@@ -190,6 +190,26 @@ textarea { resize:vertical; min-height:80px; }
   .set-main-btn { display:block !important; }
   .preview-thumb.is-main .set-main-btn { display:none !important; }
 }
+
+.badge-pausado { background:#fff3cd; color:#856404; }
+.product-card.paused { opacity:0.6; }
+.product-card.paused .card-photos::after {
+  content:'PAUSADO';
+  position:absolute;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  background:rgba(0,0,0,0.7);
+  color:#ffc107;
+  font-size:13px;
+  font-weight:800;
+  padding:8px 18px;
+  border-radius:8px;
+  letter-spacing:2px;
+}
+.btn-pause { background:#e67e22; color:white; }
+.btn-pause:hover { background:#d35400; }
+.btn-resume { background:#27ae60; color:white; }
+.btn-resume:hover { background:#219a52; }
 </style>
 </head>
 <body>
@@ -461,7 +481,7 @@ function cardHTML(p){
   const count=photos.length>1?`<div class="photo-count-badge">📷 ${photos.length}</div>`:'';
 
   return `
-  <div class="product-card" id="card-${p.id}">
+  <div class="product-card ${p.paused?'paused':''}" id="card-${p.id}">
     <div class="card-photos" id="photos-${p.id}">${imgs}${arrows}${dots}${count}<div class="badge-status badge-${sc}">${p.status}</div></div>
     <div class="card-body">
       <div class="card-cat">${p.category||'Sin categoría'}</div>
@@ -472,6 +492,10 @@ function cardHTML(p){
       <div class="card-price">$${Number(p.price).toLocaleString('es-MX')} MXN</div>
       <div class="card-actions">
         <button class="btn btn-edit btn-sm" onclick="openEditModal('${p.id}')">✏️ Editar</button>
+        ${p.paused
+          ? `<button class="btn btn-resume btn-sm" onclick="togglePause('${p.id}')">▶️ Reactivar</button>`
+          : `<button class="btn btn-pause btn-sm" onclick="togglePause('${p.id}')">⏸️ Pausar</button>`
+        }
         <button class="btn btn-danger btn-sm" onclick="deleteProduct('${p.id}')">🗑️ Borrar</button>
       </div>
     </div>
@@ -492,6 +516,15 @@ function updateSubcatOptions() {
   field.classList.add('visible');
   select.innerHTML = '<option value="">Sin subcategoría</option>' +
     subs.map(function(s){ return '<option value="'+s+'">'+s+'</option>'; }).join('');
+}
+
+
+function togglePause(id){
+  const p=products.find(x=>x.id===id); if(!p) return;
+  p.paused = !p.paused;
+  saveLocal();
+  renderGrid();
+  showToast(p.paused ? '⏸️ Producto pausado — ya no se ve en la tienda' : '▶️ Producto reactivado — ya se ve en la tienda','success');
 }
 
 function updateStats(){
