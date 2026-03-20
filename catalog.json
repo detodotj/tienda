@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "p_1773973845301",
+      "name": "Pila",
+      "price": 400,
+      "category": "Electrónica",
+      "status": "Como nuevo",
+      "desc": "Bara bara",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773973814/store-pics/va07qj7msortppwyfpes.jpg",
+          "publicId": "store-pics/va07qj7msortppwyfpes"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:30:45.302Z"
+    },
+    {
+      "id": "p_1773973785548",
+      "name": "Testf",
+      "price": 308,
+      "category": "Deportes",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Gym",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773973768/store-pics/tnufspzpa2vmdfruytv6.jpg",
+          "publicId": "store-pics/tnufspzpa2vmdfruytv6"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:29:45.548Z"
+    },
+    {
       "id": "p_1773973725243",
       "name": "Test",
       "price": 900,
@@ -390,5 +426,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T02:29:09.489Z"
+  "updatedAt": "2026-03-20T02:30:48.714Z"
 }
