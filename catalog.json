@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773973897880",
+      "name": "Crt",
+      "price": 250,
+      "category": "Electrónica",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Televisiones",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773973868/store-pics/vnrn8kiwculwbn3g2egn.jpg",
+          "publicId": "store-pics/vnrn8kiwculwbn3g2egn"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:31:37.880Z"
+    },
+    {
       "id": "p_1773973845301",
       "name": "Pila",
       "price": 400,
@@ -426,5 +444,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T02:30:48.714Z"
+  "updatedAt": "2026-03-20T02:31:53.598Z"
 }
