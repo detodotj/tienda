@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "p_1773974949228",
+      "name": "Crt",
+      "price": 600,
+      "category": "Electrónica",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Televisiones",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974936/store-pics/qsjvfj9522gxuaodwxus.jpg",
+          "publicId": "store-pics/qsjvfj9522gxuaodwxus"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:49:09.228Z"
+    },
+    {
+      "id": "p_1773974900704",
+      "name": "Hydrant inspector",
+      "price": 200000,
+      "category": "Hogar",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974877/store-pics/m5l4b3sa0ogzpl9qq4ls.jpg",
+          "publicId": "store-pics/m5l4b3sa0ogzpl9qq4ls"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:48:20.704Z"
+    },
+    {
       "id": "p_1773974849381",
       "name": "Perro bara",
       "price": 100,
@@ -480,5 +516,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T02:47:38.871Z"
+  "updatedAt": "2026-03-20T02:49:11.618Z"
 }
