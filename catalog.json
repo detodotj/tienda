@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773967763957",
+      "name": "Test",
+      "price": 200,
+      "category": "Hogar",
+      "status": "Como nuevo",
+      "desc": "Test",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773967744/store-pics/j2o0vxulja8wchkkiquy.jpg",
+          "publicId": "store-pics/j2o0vxulja8wchkkiquy"
+        }
+      ],
+      "updatedAt": "2026-03-20T00:49:23.961Z"
+    },
+    {
       "id": "p_1773885187475",
       "name": "Dvd",
       "price": 300,
@@ -336,5 +354,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T00:48:23.169Z"
+  "updatedAt": "2026-03-20T00:49:28.845Z"
 }
