@@ -220,6 +220,95 @@ footer strong { color:rgba(255,255,255,0.65); }
 @media(max-width:600px){
   .subcat-bar { padding:8px 12px; flex-wrap:nowrap; overflow-x:auto; }
 }
+
+/* PRODUCT DETAIL MODAL */
+.product-modal-overlay {
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.7);
+  z-index:1500;
+  align-items:flex-end;
+  justify-content:center;
+  padding:0;
+}
+.product-modal-overlay.open { display:flex; }
+.product-modal {
+  background:var(--surface);
+  width:100%;
+  max-width:560px;
+  max-height:92vh;
+  border-radius:20px 20px 0 0;
+  overflow-y:auto;
+  animation:slideUp 0.3s ease;
+}
+@media(min-width:600px){
+  .product-modal-overlay { align-items:center; padding:20px; }
+  .product-modal { border-radius:20px; max-height:88vh; }
+}
+@keyframes slideUp { from{transform:translateY(100%)} to{transform:translateY(0)} }
+.pm-gallery {
+  position:relative;
+  height:280px;
+  background:var(--border);
+  overflow:hidden;
+  border-radius:20px 20px 0 0;
+  flex-shrink:0;
+}
+@media(min-width:600px){ .pm-gallery { height:320px; border-radius:20px 20px 0 0; } }
+.pm-gallery img { width:100%; height:100%; object-fit:cover; display:none; }
+.pm-gallery img.active { display:block; }
+.pm-close {
+  position:absolute;
+  top:12px; right:12px;
+  background:rgba(0,0,0,0.5);
+  color:white; border:none;
+  width:32px; height:32px;
+  border-radius:50%;
+  font-size:18px; cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  z-index:10;
+}
+.pm-arrows {
+  position:absolute; top:50%; transform:translateY(-50%);
+  width:100%; display:flex; justify-content:space-between; padding:0 10px;
+  pointer-events:none;
+}
+.pm-arrow {
+  background:rgba(0,0,0,0.45); color:white; border:none;
+  width:34px; height:34px; border-radius:50%;
+  font-size:16px; font-weight:700; cursor:pointer;
+  pointer-events:all; display:flex; align-items:center; justify-content:center;
+}
+.pm-dots {
+  position:absolute; bottom:10px; left:50%; transform:translateX(-50%);
+  display:flex; gap:6px;
+}
+.pm-dot { width:7px; height:7px; border-radius:50%; background:rgba(255,255,255,0.5); border:none; cursor:pointer; }
+.pm-dot.active { background:white; }
+.pm-photo-count {
+  position:absolute; top:12px; left:12px;
+  background:rgba(0,0,0,0.5); color:white;
+  font-size:11px; padding:3px 9px; border-radius:20px; font-weight:600;
+}
+.pm-body { padding:20px 20px 32px; }
+.pm-cat { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:var(--accent); margin-bottom:4px; }
+.pm-subcat { font-size:12px; color:var(--text2); margin-bottom:6px; }
+.pm-name { font-family:'Syne',sans-serif; font-size:22px; font-weight:800; line-height:1.2; margin-bottom:10px; }
+.pm-status { display:inline-block; padding:3px 12px; border-radius:20px; font-size:11px; font-weight:700; text-transform:uppercase; margin-bottom:12px; }
+.pm-desc { font-size:14px; color:var(--text2); line-height:1.7; margin-bottom:16px; white-space:pre-wrap; }
+.pm-delivery { font-size:13px; color:var(--text2); margin-bottom:16px; }
+.pm-footer { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-top:16px; border-top:1px solid var(--border); }
+.pm-price { font-family:'Syne',sans-serif; font-size:28px; font-weight:800; color:var(--accent); }
+.pm-wa {
+  display:flex; align-items:center; gap:8px;
+  background:var(--green); color:white;
+  padding:12px 24px; border-radius:12px;
+  font-size:15px; font-weight:700;
+  text-decoration:none; transition:all 0.2s;
+  white-space:nowrap;
+}
+.pm-wa:hover { background:var(--green-dark); }
 </style>
 </head>
 <body>
@@ -328,6 +417,34 @@ footer strong { color:rgba(255,255,255,0.65); }
 <div class="main">
   <div id="productGrid">
     <div class="state-msg"><div class="icon">⏳</div><h3>Cargando productos...</h3></div>
+  </div>
+</div>
+
+
+<!-- PRODUCT DETAIL MODAL -->
+<div class="product-modal-overlay" id="productDetailModal" onclick="closeProductModal(event)">
+  <div class="product-modal" id="productModalInner">
+    <div class="pm-gallery" id="pmGallery">
+      <button class="pm-close" onclick="closeProductModal()">×</button>
+      <div class="pm-arrows">
+        <button class="pm-arrow" onclick="pmPrev()">‹</button>
+        <button class="pm-arrow" onclick="pmNext()">›</button>
+      </div>
+      <div class="pm-dots" id="pmDots"></div>
+      <div class="pm-photo-count" id="pmCount"></div>
+    </div>
+    <div class="pm-body">
+      <div class="pm-cat" id="pmCat"></div>
+      <div class="pm-subcat" id="pmSubcat"></div>
+      <div class="pm-name" id="pmName"></div>
+      <div class="pm-status" id="pmStatus"></div>
+      <div class="pm-desc" id="pmDesc"></div>
+      <div class="pm-delivery" id="pmDelivery"></div>
+      <div class="pm-footer">
+        <div class="pm-price" id="pmPrice"></div>
+        <a class="pm-wa" id="pmWa" href="#" target="_blank" rel="noopener">💬 WhatsApp</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -478,7 +595,7 @@ function cardHTML(p) {
   const count=photos.length>1?`<div class="photo-count">📷 ${photos.length}</div>`:'';
 
   return `
-  <div class="product-card" id="pc-${p.id}">
+  <div class="product-card" id="pc-${p.id}" onclick="openProductModal('${p.id}')" style="cursor:pointer">
     <div class="card-gallery" id="pg-${p.id}">${imgs}${arrows}${dots}${count}<div class="status-badge s-${sc}">${p.status}</div></div>
     <div class="card-body">
       <div class="card-cat">${p.category||''}</div>
@@ -488,7 +605,7 @@ function cardHTML(p) {
       <div class="card-desc">${p.desc||''}</div>
       <div class="card-price">$${Number(p.price).toLocaleString('es-MX')} <small>MXN</small></div>
       <div class="card-actions">
-        <button class="btn-cart ${inCart?'added':''}" id="cartbtn-${p.id}" onclick="toggleCart('${p.id}')">${inCart?'✓ En selección':'🛒 Agregar'}</button>
+        <button class="btn-cart ${inCart?'added':''}" id="cartbtn-${p.id}" onclick="toggleCart('${p.id}');event.stopPropagation()">${inCart?'✓ En selección':'🛒 Agregar'}</button>
         <a class="btn-wa" href="https://wa.me/${wa}?text=${waMsg}" target="_blank" rel="noopener" onclick="event.stopPropagation()">💬</a>
       </div>
     </div>
@@ -587,6 +704,84 @@ document.getElementById('lightbox').addEventListener('touchend',function(e){
   }
   _lbTouchX=null;
 },{passive:true});
+
+
+// PRODUCT DETAIL MODAL
+let pmPhotos = [], pmIdx = 0, pmCurrentId = null;
+
+function openProductModal(id) {
+  const p = allProducts.find(x => x.id === id);
+  if (!p) return;
+  pmCurrentId = id;
+  pmPhotos = p.photos || [];
+  pmIdx = 0;
+
+  // Gallery
+  const gallery = document.getElementById('pmGallery');
+  // Remove old images
+  gallery.querySelectorAll('img').forEach(el => el.remove());
+  if (pmPhotos.length > 0) {
+    pmPhotos.forEach((ph, i) => {
+      const img = document.createElement('img');
+      img.src = ph.url;
+      img.alt = '';
+      if (i === 0) img.classList.add('active');
+      gallery.appendChild(img);
+    });
+    document.getElementById('pmCount').textContent = pmPhotos.length > 1 ? '📷 ' + pmPhotos.length : '';
+    gallery.querySelector('.pm-arrows').style.display = pmPhotos.length > 1 ? 'flex' : 'none';
+  }
+  renderPmDots();
+
+  // Info
+  const sc = {'Nuevo':'nuevo','Como nuevo':'como-nuevo','Buen estado':'buen-estado','Regular':'regular'}[p.status]||'como-nuevo';
+  const scColors = {'nuevo':'#d5f5e3;color:#1e8449','como-nuevo':'#d6eaf8;color:#1a5276','buen-estado':'#fef9e7;color:#9a7d0a','regular':'#fdebd0;color:#a04000'};
+  document.getElementById('pmCat').textContent = p.category || '';
+  document.getElementById('pmSubcat').textContent = p.subcategory || '';
+  document.getElementById('pmSubcat').style.display = p.subcategory ? 'block' : 'none';
+  document.getElementById('pmName').textContent = p.name;
+  const statusEl = document.getElementById('pmStatus');
+  statusEl.textContent = p.status;
+  statusEl.style.cssText = 'background:#' + (scColors[sc]||'eee;color:#333') + ';display:inline-block;padding:3px 12px;border-radius:20px;font-size:11px;font-weight:700;text-transform:uppercase;margin-bottom:12px;';
+  document.getElementById('pmDesc').textContent = p.desc || 'Sin descripción';
+  const deliveryIcon = {'Cuesta Blanca':'📍','Soriana La Gloria':'📍','Ley Rosarito':'📍','Calimax Santa Fe':'📍','Uber Flash':'🚗','Cualquier punto':'📍'}[p.delivery]||'';
+  document.getElementById('pmDelivery').textContent = p.delivery ? deliveryIcon + ' ' + p.delivery : '';
+  document.getElementById('pmDelivery').style.display = p.delivery ? 'block' : 'none';
+  document.getElementById('pmPrice').textContent = '$' + Number(p.price).toLocaleString('es-MX') + ' MXN';
+  const wa = p.whatsapp || '526642601992';
+  const msg = encodeURIComponent('Hola! Vi tu anuncio de "' + p.name + '" ($' + Number(p.price).toLocaleString('es-MX') + ' MXN) y me interesa. ¿Sigue disponible?');
+  document.getElementById('pmWa').href = 'https://wa.me/' + wa + '?text=' + msg;
+
+  document.getElementById('productDetailModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // Touch swipe for modal gallery
+  const inner = document.getElementById('productModalInner');
+  inner._touchX = null;
+  inner.ontouchstart = function(e){ inner._touchX = e.touches[0].clientX; };
+  inner.ontouchend = function(e){
+    if(inner._touchX===null) return;
+    const diff = inner._touchX - e.changedTouches[0].clientX;
+    if(Math.abs(diff) > 40){ if(diff>0) pmNext(); else pmPrev(); }
+    inner._touchX = null;
+  };
+}
+
+function renderPmDots(){
+  const dots = document.getElementById('pmDots');
+  dots.innerHTML = pmPhotos.map((_,i) => '<button class="pm-dot ' + (i===pmIdx?'active':'') + '" onclick="pmGo(' + i + ')"></button>').join('');
+  const imgs = document.getElementById('pmGallery').querySelectorAll('img');
+  imgs.forEach((el,i) => el.classList.toggle('active', i===pmIdx));
+}
+function pmNext(){ pmIdx=(pmIdx+1)%pmPhotos.length; renderPmDots(); }
+function pmPrev(){ pmIdx=(pmIdx-1+pmPhotos.length)%pmPhotos.length; renderPmDots(); }
+function pmGo(i){ pmIdx=i; renderPmDots(); }
+
+function closeProductModal(e){
+  if(e && e.target !== document.getElementById('productDetailModal')) return;
+  document.getElementById('productDetailModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
 
 loadCatalog();
 </script>
