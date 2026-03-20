@@ -681,13 +681,21 @@ function checkout(){
 }
 
 let lbPhotos=[],lbIdx=0;
-function openLightbox(productId,startIdx){const p=allProducts.find(x=>x.id===productId);if(!p||!p.photos||p.photos.length===0)return;lbPhotos=p.photos;lbIdx=startIdx;renderLightbox();document.getElementById('lightbox').classList.add('open');document.body.style.overflow='hidden';}
+function openLightbox(productId,startIdx){const p=allProducts.find(x=>x.id===productId);if(!p||!p.photos||p.photos.length===0)return;lbPhotos=p.photos;lbIdx=startIdx;renderLightbox();document.getElementById('lightbox').classList.add('open');document.body.style.overflow='hidden';history.pushState({modal:'lightbox'},'','');}
 function renderLightbox(){document.getElementById('lbImg').src=lbPhotos[lbIdx].url;document.getElementById('lbCounter').textContent=`${lbIdx+1} / ${lbPhotos.length}`;document.getElementById('lbDots').innerHTML=lbPhotos.map((_,i)=>`<button class="lb-dot ${i===lbIdx?'active':''}" onclick="lbGo(${i})"></button>`).join('');}
 function lbNext(){lbIdx=(lbIdx+1)%lbPhotos.length;renderLightbox();}
 function lbPrev(){lbIdx=(lbIdx-1+lbPhotos.length)%lbPhotos.length;renderLightbox();}
 function lbGo(i){lbIdx=i;renderLightbox();}
-function closeLightbox(){document.getElementById('lightbox').classList.remove('open');document.body.style.overflow='';}
-function closeLightboxOverlay(e){if(e.target===e.currentTarget)closeLightbox();}
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow='';
+  if(history.state&&history.state.modal==='lightbox') history.back();
+}
+function _closeLightboxSilent(){
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow='';
+}
+function closeLightboxOverlay(e){if(e.target===e.currentTarget){ _closeLightboxSilent(); if(history.state&&history.state.modal==='lightbox') history.back(); }}
 document.addEventListener('keydown',e=>{if(!document.getElementById('lightbox').classList.contains('open'))return;if(e.key==='ArrowRight')lbNext();if(e.key==='ArrowLeft')lbPrev();if(e.key==='Escape')closeLightbox();});
 
 // Touch swipe for lightbox
@@ -731,11 +739,11 @@ function openProductModal(id) {
       if (i === 0) img.classList.add('active');
       img.onclick = function(e){
         e.stopPropagation();
-        // Open lightbox at current pmIdx
         lbPhotos = pmPhotos;
         lbIdx = pmIdx;
         renderLightbox();
         document.getElementById('lightbox').classList.add('open');
+        history.pushState({modal:'lightbox'},'','');
       };
       gallery.appendChild(img);
     });
@@ -803,9 +811,11 @@ function _closeProductModalSilent(){
   document.body.style.overflow = '';
 }
 
-// Handle back button
+// Handle back button for both modal and lightbox
 window.addEventListener('popstate', function(e){
-  if(document.getElementById('productDetailModal').classList.contains('open')){
+  if(document.getElementById('lightbox').classList.contains('open')){
+    _closeLightboxSilent();
+  } else if(document.getElementById('productDetailModal').classList.contains('open')){
     _closeProductModalSilent();
   }
 });
