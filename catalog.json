@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773975868618",
+      "name": "Cable",
+      "price": 300,
+      "category": "Electrónica",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773975853/store-pics/nvu4dcxhtyk1tcljsonk.jpg",
+          "publicId": "store-pics/nvu4dcxhtyk1tcljsonk"
+        }
+      ],
+      "updatedAt": "2026-03-20T03:04:28.618Z"
+    },
+    {
       "id": "p_1773975813340",
       "name": "RGB mod",
       "price": 300,
@@ -534,5 +552,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T03:03:35.247Z"
+  "updatedAt": "2026-03-20T03:04:32.109Z"
 }
