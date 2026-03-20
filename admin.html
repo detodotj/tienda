@@ -527,9 +527,10 @@ function updateSubcatOptions() {
 function togglePause(id){
   const p=products.find(x=>x.id===id); if(!p) return;
   p.paused = !p.paused;
+  p.pausedAt = Date.now(); // timestamp for sync resolution
   saveLocal();
   renderGrid();
-  showToast(p.paused ? '⏸️ Producto pausado — ya no se ve en la tienda' : '▶️ Producto reactivado — ya se ve en la tienda','success');
+  showToast(p.paused ? '⏸️ Producto pausado — recuerda publicar' : '▶️ Producto reactivado — recuerda publicar','success');
 }
 
 function updateStats(){
@@ -722,18 +723,23 @@ async function publishCatalog(){
     saveLocal();
     // Merge products — local wins, exclude all deleted
     var localIds=new Set(products.map(function(p){return p.id;}));
-    // Local always wins for paused state (most recent action wins)
-    // Remote paused only applies to products NOT in local
-    var localPausedMap={};
-    products.forEach(function(p){ localPausedMap[p.id]=!!p.paused; });
-    var remotePausedMap={};
-    remoteProducts.forEach(function(p){ remotePausedMap[p.id]=!!p.paused; });
-    // Local products keep their own paused state
-    // Remote-only products use remote paused state
+    // Most recent action wins — compare pausedAt timestamp
+    var remoteMap={};
+    remoteProducts.forEach(function(p){ remoteMap[p.id]=p; });
+    // For products in both local and remote: use whichever pausedAt is more recent
+    products=products.map(function(p){
+      var remote=remoteMap[p.id];
+      if(!remote) return p; // only local, keep as is
+      var localTime=p.pausedAt||0;
+      var remoteTime=remote.pausedAt||0;
+      // If remote has more recent pause action, use remote paused state
+      if(remoteTime>localTime){
+        return Object.assign({},p,{paused:!!remote.paused,pausedAt:remote.pausedAt});
+      }
+      return p; // local is more recent, keep local
+    });
     var merged=products.concat(remoteProducts.filter(function(p){
       return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;
-    }).map(function(p){
-      return Object.assign({},p,{paused:!!remotePausedMap[p.id]});
     }));
     products=merged;
     saveLocal();
