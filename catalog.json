@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1774025803074",
+      "name": "Consola R36S",
+      "price": 500,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Consola no se ha usado, tiene más de diez mil juegos.",
+      "subcategory": "Consolas",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025669/store-pics/pq8xf4i8fe3zuyuzt0cu.jpg",
+          "publicId": "store-pics/pq8xf4i8fe3zuyuzt0cu"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025666/store-pics/bomxuscsdzfaoy0pb8a1.jpg",
+          "publicId": "store-pics/bomxuscsdzfaoy0pb8a1"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025667/store-pics/cuttcdg9mqwcfkwoiy9b.jpg",
+          "publicId": "store-pics/cuttcdg9mqwcfkwoiy9b"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025670/store-pics/gc5caoxetzxesvgchtwg.jpg",
+          "publicId": "store-pics/gc5caoxetzxesvgchtwg"
+        }
+      ],
+      "updatedAt": "2026-03-20T16:56:43.074Z"
+    },
+    {
       "id": "p_1773993020775",
       "name": "Star wars",
       "price": 350,
@@ -570,5 +600,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T07:51:24.552Z"
+  "updatedAt": "2026-03-20T18:05:20.069Z"
 }
