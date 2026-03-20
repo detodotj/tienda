@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773973725243",
+      "name": "Test",
+      "price": 900,
+      "category": "Herramientas",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Jardín",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773973713/store-pics/jcpso5kgtygmcjjidqkd.jpg",
+          "publicId": "store-pics/jcpso5kgtygmcjjidqkd"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:28:45.243Z"
+    },
+    {
       "id": "p_1773967888854",
       "name": "Rampa",
       "price": 3600,
@@ -372,5 +390,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T00:51:36.538Z"
+  "updatedAt": "2026-03-20T02:29:09.489Z"
 }
