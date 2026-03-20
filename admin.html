@@ -722,15 +722,20 @@ async function publishCatalog(){
     saveLocal();
     // Merge products — local wins, exclude all deleted
     var localIds=new Set(products.map(function(p){return p.id;}));
-    // Preserve paused state: remote products keep local paused state if exists
+    // Build paused map: combine local AND remote paused states
     var pausedMap={};
     products.forEach(function(p){ if(p.paused) pausedMap[p.id]=true; });
-    var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;}));
-    // Apply paused state from GitHub to local (remote paused wins)
-    merged=merged.map(function(p){
-      if(p.paused) pausedMap[p.id]=true;
+    remoteProducts.forEach(function(p){ if(p.paused) pausedMap[p.id]=true; });
+    // Merge: local wins for content, but paused state comes from either source
+    var remoteMap={};
+    remoteProducts.forEach(function(p){ remoteMap[p.id]=p; });
+    // Update local products with remote paused state
+    products=products.map(function(p){
       return Object.assign({},p,{paused:!!pausedMap[p.id]});
     });
+    var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;}).map(function(p){
+      return Object.assign({},p,{paused:!!pausedMap[p.id]});
+    }));
     products=merged;
     saveLocal();
     renderGrid();
