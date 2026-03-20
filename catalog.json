@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773974791633",
+      "name": "Mb",
+      "price": 300,
+      "category": "Muebles",
+      "status": "Como nuevo",
+      "desc": "Testp",
+      "subcategory": "Recámara",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974766/store-pics/ulytg4czluqf5v38vq9k.jpg",
+          "publicId": "store-pics/ulytg4czluqf5v38vq9k"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:46:31.635Z"
+    },
+    {
       "id": "p_1773973897880",
       "name": "Crt",
       "price": 250,
@@ -444,5 +462,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T02:31:53.598Z"
+  "updatedAt": "2026-03-20T02:46:35.433Z"
 }
