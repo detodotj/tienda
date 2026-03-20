@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773993020775",
+      "name": "Star wars",
+      "price": 350,
+      "category": "Coleccionables",
+      "status": "Como nuevo",
+      "desc": "Star wars trilogía sellada, version antes de la remasterizacion",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773992945/store-pics/hydcxysdvqxfdqpl9epo.jpg",
+          "publicId": "store-pics/hydcxysdvqxfdqpl9epo"
+        }
+      ],
+      "updatedAt": "2026-03-20T07:50:20.775Z"
+    },
+    {
       "id": "p_1773975868618",
       "name": "Cable",
       "price": 300,
@@ -465,24 +483,24 @@
       "category": "Videojuegos",
       "status": "Nuevo",
       "desc": "control de videojuegos para pc y android",
+      "subcategory": "",
       "delivery": "Cuesta Blanca",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717012/store-pics/zz9ogsy56dydxoisazg1.jpg",
-          "publicId": "store-pics/zz9ogsy56dydxoisazg1"
-        },
-        {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/emx6jphdjtpuy2exficd.jpg",
           "publicId": "store-pics/emx6jphdjtpuy2exficd"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717012/store-pics/zz9ogsy56dydxoisazg1.jpg",
+          "publicId": "store-pics/zz9ogsy56dydxoisazg1"
         },
         {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773717013/store-pics/rwxrlzfi4aviavcokebz.jpg",
           "publicId": "store-pics/rwxrlzfi4aviavcokebz"
         }
       ],
-      "updatedAt": "2026-03-17T03:11:12.002Z",
-      "paused": false
+      "updatedAt": "2026-03-20T07:51:21.241Z"
     },
     {
       "id": "p_1773796343727",
@@ -552,5 +570,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T03:04:32.109Z"
+  "updatedAt": "2026-03-20T07:51:24.552Z"
 }
