@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773974849381",
+      "name": "Perro bara",
+      "price": 100,
+      "category": "Antigüedades",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974826/store-pics/tyyt5d86irfyduif5dcl.jpg",
+          "publicId": "store-pics/tyyt5d86irfyduif5dcl"
+        }
+      ],
+      "updatedAt": "2026-03-20T02:47:29.381Z"
+    },
+    {
       "id": "p_1773974791633",
       "name": "Mb",
       "price": 300,
@@ -462,5 +480,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T02:46:35.433Z"
+  "updatedAt": "2026-03-20T02:47:38.871Z"
 }
