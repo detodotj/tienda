@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1773967888854",
+      "name": "Rampa",
+      "price": 3600,
+      "category": "Hogar",
+      "status": "Como nuevo",
+      "desc": "Test",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773967864/store-pics/zq1rmo5dbvipo08wqzyq.jpg",
+          "publicId": "store-pics/zq1rmo5dbvipo08wqzyq"
+        }
+      ],
+      "updatedAt": "2026-03-20T00:51:28.854Z"
+    },
+    {
       "id": "p_1773967763957",
       "name": "Test",
       "price": 200,
@@ -354,5 +372,5 @@
     "p_1773795768841",
     "p_1773797043149"
   ],
-  "updatedAt": "2026-03-20T00:49:28.845Z"
+  "updatedAt": "2026-03-20T00:51:36.538Z"
 }
