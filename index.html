@@ -449,7 +449,7 @@ footer strong { color:rgba(255,255,255,0.65); }
 </div>
 
 <!-- CART -->
-<div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+<div class="cart-overlay" id="cartOverlay" onclick="_closeCartSilent();if(history.state&&history.state.modal==='cart')history.back()"></div>
 <div class="cart-drawer" id="cartDrawer">
   <div class="cart-header">
     <h3>🛒 Tu selección</h3>
@@ -665,8 +665,18 @@ function updateCartUI(){
   }).join('');
 }
 
-function openCart(){document.getElementById('cartDrawer').classList.add('open');document.getElementById('cartOverlay').classList.add('show');document.body.style.overflow='hidden';}
-function closeCart(){document.getElementById('cartDrawer').classList.remove('open');document.getElementById('cartOverlay').classList.remove('show');document.body.style.overflow='';}
+function openCart(){document.getElementById('cartDrawer').classList.add('open');document.getElementById('cartOverlay').classList.add('show');document.body.style.overflow='hidden';history.pushState({modal:'cart'},'','');}
+function closeCart(){
+  document.getElementById('cartDrawer').classList.remove('open');
+  document.getElementById('cartOverlay').classList.remove('show');
+  document.body.style.overflow='';
+  if(history.state&&history.state.modal==='cart') history.back();
+}
+function _closeCartSilent(){
+  document.getElementById('cartDrawer').classList.remove('open');
+  document.getElementById('cartOverlay').classList.remove('show');
+  document.body.style.overflow='';
+}
 
 function checkout(){
   if(cart.length===0)return;
@@ -811,12 +821,14 @@ function _closeProductModalSilent(){
   document.body.style.overflow = '';
 }
 
-// Handle back button for both modal and lightbox
+// Handle back button for cart, modal and lightbox
 window.addEventListener('popstate', function(e){
   if(document.getElementById('lightbox').classList.contains('open')){
     _closeLightboxSilent();
   } else if(document.getElementById('productDetailModal').classList.contains('open')){
     _closeProductModalSilent();
+  } else if(document.getElementById('cartDrawer').classList.contains('open')){
+    _closeCartSilent();
   }
 });
 
