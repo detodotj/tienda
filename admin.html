@@ -722,19 +722,18 @@ async function publishCatalog(){
     saveLocal();
     // Merge products — local wins, exclude all deleted
     var localIds=new Set(products.map(function(p){return p.id;}));
-    // Build paused map: combine local AND remote paused states
-    var pausedMap={};
-    products.forEach(function(p){ if(p.paused) pausedMap[p.id]=true; });
-    remoteProducts.forEach(function(p){ if(p.paused) pausedMap[p.id]=true; });
-    // Merge: local wins for content, but paused state comes from either source
-    var remoteMap={};
-    remoteProducts.forEach(function(p){ remoteMap[p.id]=p; });
-    // Update local products with remote paused state
-    products=products.map(function(p){
-      return Object.assign({},p,{paused:!!pausedMap[p.id]});
-    });
-    var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;}).map(function(p){
-      return Object.assign({},p,{paused:!!pausedMap[p.id]});
+    // Local always wins for paused state (most recent action wins)
+    // Remote paused only applies to products NOT in local
+    var localPausedMap={};
+    products.forEach(function(p){ localPausedMap[p.id]=!!p.paused; });
+    var remotePausedMap={};
+    remoteProducts.forEach(function(p){ remotePausedMap[p.id]=!!p.paused; });
+    // Local products keep their own paused state
+    // Remote-only products use remote paused state
+    var merged=products.concat(remoteProducts.filter(function(p){
+      return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;
+    }).map(function(p){
+      return Object.assign({},p,{paused:!!remotePausedMap[p.id]});
     }));
     products=merged;
     saveLocal();
