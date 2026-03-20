@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1774050927819",
+      "name": "Star Wars trilogy VHS sellada.",
+      "price": 450,
+      "category": "Coleccionables",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050875/store-pics/suuu5cvwll9bweoey397.jpg",
+          "publicId": "store-pics/suuu5cvwll9bweoey397"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050876/store-pics/kwa9hv97aq1jttphyxuo.jpg",
+          "publicId": "store-pics/kwa9hv97aq1jttphyxuo"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050879/store-pics/b3tm0rssqn6mbwadrnrh.jpg",
+          "publicId": "store-pics/b3tm0rssqn6mbwadrnrh"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050881/store-pics/mwkxweluqb69d07tujui.jpg",
+          "publicId": "store-pics/mwkxweluqb69d07tujui"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050884/store-pics/fwn8ermcg6rgif2pkhbs.jpg",
+          "publicId": "store-pics/fwn8ermcg6rgif2pkhbs"
+        }
+      ],
+      "updatedAt": "2026-03-20T23:55:27.821Z"
+    },
+    {
       "id": "p_1774025803074",
       "name": "Consola R36S",
       "price": 500,
@@ -29,150 +63,6 @@
         }
       ],
       "updatedAt": "2026-03-20T16:56:43.074Z"
-    },
-    {
-      "id": "p_1773993020775",
-      "name": "Star wars",
-      "price": 350,
-      "category": "Coleccionables",
-      "status": "Como nuevo",
-      "desc": "Star wars trilogía sellada, version antes de la remasterizacion",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773992945/store-pics/hydcxysdvqxfdqpl9epo.jpg",
-          "publicId": "store-pics/hydcxysdvqxfdqpl9epo"
-        }
-      ],
-      "updatedAt": "2026-03-20T07:50:20.775Z"
-    },
-    {
-      "id": "p_1773975868618",
-      "name": "Cable",
-      "price": 300,
-      "category": "Electrónica",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773975853/store-pics/nvu4dcxhtyk1tcljsonk.jpg",
-          "publicId": "store-pics/nvu4dcxhtyk1tcljsonk"
-        }
-      ],
-      "updatedAt": "2026-03-20T03:04:28.618Z"
-    },
-    {
-      "id": "p_1773975813340",
-      "name": "RGB mod",
-      "price": 300,
-      "category": "Electrónica",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773975789/store-pics/fcqjbdn12kntnze5b3uo.jpg",
-          "publicId": "store-pics/fcqjbdn12kntnze5b3uo"
-        }
-      ],
-      "updatedAt": "2026-03-20T03:03:33.340Z"
-    },
-    {
-      "id": "p_1773974949228",
-      "name": "Crt",
-      "price": 600,
-      "category": "Electrónica",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Televisiones",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974936/store-pics/qsjvfj9522gxuaodwxus.jpg",
-          "publicId": "store-pics/qsjvfj9522gxuaodwxus"
-        }
-      ],
-      "updatedAt": "2026-03-20T02:49:09.228Z"
-    },
-    {
-      "id": "p_1773974900704",
-      "name": "Hydrant inspector",
-      "price": 200000,
-      "category": "Hogar",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Cocina",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974877/store-pics/m5l4b3sa0ogzpl9qq4ls.jpg",
-          "publicId": "store-pics/m5l4b3sa0ogzpl9qq4ls"
-        }
-      ],
-      "updatedAt": "2026-03-20T02:48:20.704Z"
-    },
-    {
-      "id": "p_1773974849381",
-      "name": "Perro bara",
-      "price": 100,
-      "category": "Antigüedades",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974826/store-pics/tyyt5d86irfyduif5dcl.jpg",
-          "publicId": "store-pics/tyyt5d86irfyduif5dcl"
-        }
-      ],
-      "updatedAt": "2026-03-20T02:47:29.381Z"
-    },
-    {
-      "id": "p_1773974791633",
-      "name": "Mb",
-      "price": 300,
-      "category": "Muebles",
-      "status": "Como nuevo",
-      "desc": "Testp",
-      "subcategory": "Recámara",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773974766/store-pics/ulytg4czluqf5v38vq9k.jpg",
-          "publicId": "store-pics/ulytg4czluqf5v38vq9k"
-        }
-      ],
-      "updatedAt": "2026-03-20T02:46:31.635Z"
-    },
-    {
-      "id": "p_1773973897880",
-      "name": "Crt",
-      "price": 250,
-      "category": "Electrónica",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Televisiones",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1773973868/store-pics/vnrn8kiwculwbn3g2egn.jpg",
-          "publicId": "store-pics/vnrn8kiwculwbn3g2egn"
-        }
-      ],
-      "updatedAt": "2026-03-20T02:31:37.880Z"
     },
     {
       "id": "p_1773973845301",
@@ -579,7 +469,15 @@
     "p_1773794839087",
     "p_1773795768841",
     "p_1773797043149",
-    "p_1773883130754"
+    "p_1773883130754",
+    "p_1773993020775",
+    "p_1773975868618",
+    "p_1773975813340",
+    "p_1773974949228",
+    "p_1773974900704",
+    "p_1773974849381",
+    "p_1773974791633",
+    "p_1773973897880"
   ],
-  "updatedAt": "2026-03-20T18:05:47.275Z"
+  "updatedAt": "2026-03-20T23:55:32.787Z"
 }
