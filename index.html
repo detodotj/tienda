@@ -715,6 +715,8 @@ function openProductModal(id) {
   pmCurrentId = id;
   pmPhotos = p.photos || [];
   pmIdx = 0;
+  // Push state so back button closes modal
+  history.pushState({modal:'product', id}, '', '');
 
   // Gallery
   const gallery = document.getElementById('pmGallery');
@@ -725,7 +727,16 @@ function openProductModal(id) {
       const img = document.createElement('img');
       img.src = ph.url;
       img.alt = '';
+      img.style.cursor = 'zoom-in';
       if (i === 0) img.classList.add('active');
+      img.onclick = function(e){
+        e.stopPropagation();
+        // Open lightbox at current pmIdx
+        lbPhotos = pmPhotos;
+        lbIdx = pmIdx;
+        renderLightbox();
+        document.getElementById('lightbox').classList.add('open');
+      };
       gallery.appendChild(img);
     });
     document.getElementById('pmCount').textContent = pmPhotos.length > 1 ? '📷 ' + pmPhotos.length : '';
@@ -781,7 +792,23 @@ function closeProductModal(e){
   if(e && e.target !== document.getElementById('productDetailModal')) return;
   document.getElementById('productDetailModal').classList.remove('open');
   document.body.style.overflow = '';
+  // Go back in history if we pushed a state
+  if(history.state && history.state.modal==='product'){
+    history.back();
+  }
 }
+
+function _closeProductModalSilent(){
+  document.getElementById('productDetailModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Handle back button
+window.addEventListener('popstate', function(e){
+  if(document.getElementById('productDetailModal').classList.contains('open')){
+    _closeProductModalSilent();
+  }
+});
 
 loadCatalog();
 </script>
