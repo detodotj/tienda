@@ -192,19 +192,20 @@ textarea { resize:vertical; min-height:80px; }
 }
 
 .badge-pausado { background:#fff3cd; color:#856404; }
-.product-card.paused { opacity:0.6; }
-.product-card.paused .card-photos::after {
-  content:'PAUSADO';
+.product-card.paused { opacity:0.65; }
+.paused-overlay {
   position:absolute;
   top:50%; left:50%;
   transform:translate(-50%,-50%);
-  background:rgba(0,0,0,0.7);
+  background:rgba(0,0,0,0.72);
   color:#ffc107;
   font-size:13px;
   font-weight:800;
   padding:8px 18px;
   border-radius:8px;
   letter-spacing:2px;
+  white-space:nowrap;
+  pointer-events:none;
 }
 .btn-pause { background:#e67e22; color:white; }
 .btn-pause:hover { background:#d35400; }
@@ -482,7 +483,11 @@ function cardHTML(p){
 
   return `
   <div class="product-card ${p.paused?'paused':''}" id="card-${p.id}">
-    <div class="card-photos" id="photos-${p.id}">${imgs}${arrows}${dots}${count}<div class="badge-status badge-${sc}">${p.status}</div></div>
+    <div class="card-photos" id="photos-${p.id}">
+      ${imgs}${arrows}${dots}${count}
+      <div class="badge-status badge-${sc}">${p.status}</div>
+      ${p.paused?'<div class="paused-overlay">⏸️ PAUSADO</div>':''}
+    </div>
     <div class="card-body">
       <div class="card-cat">${p.category||'Sin categoría'}</div>
       <div class="card-name">${p.name}</div>
@@ -717,7 +722,15 @@ async function publishCatalog(){
     saveLocal();
     // Merge products — local wins, exclude all deleted
     var localIds=new Set(products.map(function(p){return p.id;}));
+    // Preserve paused state: remote products keep local paused state if exists
+    var pausedMap={};
+    products.forEach(function(p){ if(p.paused) pausedMap[p.id]=true; });
     var merged=products.concat(remoteProducts.filter(function(p){return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;}));
+    // Apply paused state from GitHub to local (remote paused wins)
+    merged=merged.map(function(p){
+      if(p.paused) pausedMap[p.id]=true;
+      return Object.assign({},p,{paused:!!pausedMap[p.id]});
+    });
     products=merged;
     saveLocal();
     renderGrid();
