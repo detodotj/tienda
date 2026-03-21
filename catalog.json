@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "p_1774051215969",
-      "name": "ET VHS demo cassette.",
+      "name": "ET VHS demo tape.",
       "price": 350,
       "category": "Coleccionables",
       "status": "Buen estado",
@@ -24,7 +24,7 @@
           "publicId": "store-pics/ajnbdtbjlvmky9dvurgt"
         }
       ],
-      "updatedAt": "2026-03-21T00:00:39.223Z"
+      "updatedAt": "2026-03-21T00:07:12.276Z"
     },
     {
       "id": "p_1774050927819",
@@ -127,5 +127,5 @@
     "p_1773717072002",
     "p_1773872538877"
   ],
-  "updatedAt": "2026-03-21T00:01:32.754Z"
+  "updatedAt": "2026-03-21T00:07:15.388Z"
 }
