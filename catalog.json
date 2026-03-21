@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1774054001081",
+      "name": "Test",
+      "price": 300,
+      "category": "Herramientas",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Eléctricas",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774053973/store-pics/j7ilmuncsq8ddxczp94c.jpg",
+          "publicId": "store-pics/j7ilmuncsq8ddxczp94c"
+        }
+      ],
+      "updatedAt": "2026-03-21T00:46:41.087Z"
+    },
+    {
       "id": "p_1774051215969",
       "name": "ET VHS demo tape.",
       "price": 350,
@@ -127,5 +145,5 @@
     "p_1773717072002",
     "p_1773872538877"
   ],
-  "updatedAt": "2026-03-21T00:20:58.097Z"
+  "updatedAt": "2026-03-21T00:46:52.311Z"
 }
