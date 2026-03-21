@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1774051215969",
+      "name": "ET VHS demo cassette.",
+      "price": 350,
+      "category": "Coleccionables",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774051175/store-pics/hqccwbuvev1wagiv9cfz.jpg",
+          "publicId": "store-pics/hqccwbuvev1wagiv9cfz"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774051177/store-pics/ajnbdtbjlvmky9dvurgt.jpg",
+          "publicId": "store-pics/ajnbdtbjlvmky9dvurgt"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774051179/store-pics/fnfde5s5g9jk9hjku3mi.jpg",
+          "publicId": "store-pics/fnfde5s5g9jk9hjku3mi"
+        }
+      ],
+      "updatedAt": "2026-03-21T00:00:15.969Z"
+    },
+    {
       "id": "p_1774050927819",
       "name": "Star Wars trilogy VHS sellada.",
       "price": 450,
@@ -101,5 +127,5 @@
     "p_1773717072002",
     "p_1773872538877"
   ],
-  "updatedAt": "2026-03-20T23:57:04.761Z"
+  "updatedAt": "2026-03-21T00:00:21.247Z"
 }
