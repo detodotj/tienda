@@ -1,24 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1774056032732",
-      "name": "test",
-      "price": 300,
-      "category": "Deportes",
-      "status": "Como nuevo",
-      "desc": "test",
-      "subcategory": "Outdoor",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774056017/store-pics/ictnjhqdop16tz620sxr.jpg",
-          "publicId": "store-pics/ictnjhqdop16tz620sxr"
-        }
-      ],
-      "updatedAt": "2026-03-21T01:20:32.732Z"
-    },
-    {
       "id": "p_1774051215969",
       "name": "ET VHS demo tape.",
       "price": 350,
@@ -107,6 +89,24 @@
         }
       ],
       "updatedAt": "2026-03-20T16:56:43.074Z"
+    },
+    {
+      "id": "p_1774056032732",
+      "name": "test",
+      "price": 300,
+      "category": "Deportes",
+      "status": "Como nuevo",
+      "desc": "test",
+      "subcategory": "Outdoor",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774056017/store-pics/ictnjhqdop16tz620sxr.jpg",
+          "publicId": "store-pics/ictnjhqdop16tz620sxr"
+        }
+      ],
+      "updatedAt": "2026-03-21T01:20:32.732Z"
     }
   ],
   "deletedIds": [
@@ -146,5 +146,5 @@
     "p_1773872538877",
     "p_1774054001081"
   ],
-  "updatedAt": "2026-03-21T01:22:30.937Z"
+  "updatedAt": "2026-03-21T01:23:16.298Z"
 }
