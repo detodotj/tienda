@@ -223,6 +223,7 @@ textarea { resize:vertical; min-height:80px; }
 <div class="header">
   <div><h1>🛍️ Admin Panel <span>— DeTodoUnPoco TJ</span></h1></div>
   <div class="header-actions">
+    <button class="btn btn-ghost btn-sm" onclick="syncCatalog()" style="background:rgba(41,128,185,0.3);border-color:rgba(41,128,185,0.5)">⬇️ Bajar</button>
     <button class="btn btn-ghost btn-sm" onclick="openConfig()">⚙️ Configuración</button>
     <button class="btn btn-primary btn-sm" onclick="openAddModal()">+ Agregar producto</button>
   </div>
@@ -252,8 +253,7 @@ textarea { resize:vertical; min-height:80px; }
 
 <div class="main"><div id="productGrid"></div></div>
 
-<div class="publish-wrap" style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
-  <button class="btn-publish" style="background:#2980b9;box-shadow:0 4px 20px rgba(41,128,185,0.45)" onclick="syncCatalog()">⬇️ Bajar catálogo</button>
+<div class="publish-wrap">
   <button class="btn-publish" onclick="publishCatalog()">🚀 Publicar catálogo</button>
 </div>
 
@@ -739,6 +739,7 @@ async function syncFromGitHub(){
 }
 
 async function syncCatalog(){
+  if(!confirm('⬇️ Bajar catálogo\n\n¿Estás seguro?\n\nEsto reemplazará tu lista local con la versión de GitHub.\nCualquier producto que hayas agregado pero no publicado se perderá.')) return;
   var token=config.token, owner=config.owner, repo=config.repo, path=config.path||'catalog.json';
   if(!token||!owner||!repo){showToast('Configura GitHub primero en Configuracion','error');openConfig();return;}
   showToast('⬇️ Bajando catálogo de GitHub...','');
