@@ -252,7 +252,8 @@ textarea { resize:vertical; min-height:80px; }
 
 <div class="main"><div id="productGrid"></div></div>
 
-<div class="publish-wrap">
+<div class="publish-wrap" style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+  <button class="btn-publish" style="background:#2980b9;box-shadow:0 4px 20px rgba(41,128,185,0.45)" onclick="syncCatalog()">⬇️ Bajar catálogo</button>
   <button class="btn-publish" onclick="publishCatalog()">🚀 Publicar catálogo</button>
 </div>
 
@@ -688,6 +689,87 @@ async function confirmDelete(){
     }
   }
   showToast('🗑️ Producto eliminado — recuerda publicar','success');
+}
+
+
+async function syncFromGitHub(){
+  var token=config.token, owner=config.owner, repo=config.repo, path=config.path||'catalog.json';
+  if(!token||!owner||!repo){showToast('Configura GitHub primero en Configuracion','error');openConfig();return;}
+  showToast('⬇️ Bajando catálogo de GitHub...','');
+  try{
+    var headers={Authorization:'token '+token,Accept:'application/vnd.github.v3+json'};
+    var r=await fetch('https://api.github.com/repos/'+owner+'/'+repo+'/contents/'+path,{headers:headers});
+    if(!r.ok){showToast('Error al bajar el catálogo','error');return;}
+    var d=await r.json();
+    try{
+      var raw=atob(d.content.replace(/\n/g,'').replace(/\r/g,''));
+      var decoded=JSON.parse(decodeURIComponent(escape(raw)));
+    }catch(e){
+      var decoded=JSON.parse(new TextDecoder().decode(
+        Uint8Array.from(atob(d.content.replace(/\n/g,'').replace(/\r/g,'')),c=>c.charCodeAt(0))
+      ));
+    }
+    var remoteProducts=decoded.products||[];
+    var remoteDeletedIds=decoded.deletedIds||[];
+    // Merge deletedIds
+    var allDeletedIds=remoteDeletedIds.concat(deletedIds.filter(function(id){return remoteDeletedIds.indexOf(id)===-1;}));
+    deletedIds=allDeletedIds;
+    // Merge products — remote wins for products not in local, local wins for existing
+    var localIds=new Set(products.map(function(p){return p.id;}));
+    var remoteMap={};
+    remoteProducts.forEach(function(p){remoteMap[p.id]=p;});
+    // Update local paused state using timestamps
+    products=products.map(function(p){
+      var remote=remoteMap[p.id];
+      if(!remote) return p;
+      var localTime=p.pausedAt||0;
+      var remoteTime=remote.pausedAt||0;
+      if(remoteTime>localTime) return Object.assign({},p,{paused:!!remote.paused,pausedAt:remote.pausedAt});
+      return p;
+    });
+    // Add remote products not in local
+    var newFromRemote=remoteProducts.filter(function(p){return !localIds.has(p.id)&&allDeletedIds.indexOf(p.id)===-1;});
+    products=products.concat(newFromRemote);
+    // Remove locally deleted products that are in remote deleted list
+    products=products.filter(function(p){return allDeletedIds.indexOf(p.id)===-1;});
+    saveLocal();
+    renderGrid();
+    showToast('✅ Catálogo actualizado — '+products.length+' productos','success');
+  }catch(e){showToast('Error de conexión con GitHub','error');}
+}
+
+async function syncCatalog(){
+  var token=config.token, owner=config.owner, repo=config.repo, path=config.path||'catalog.json';
+  if(!token||!owner||!repo){showToast('Configura GitHub primero en Configuracion','error');openConfig();return;}
+  showToast('⬇️ Bajando catálogo de GitHub...','');
+  try{
+    var headers={Authorization:'token '+token,Accept:'application/vnd.github.v3+json'};
+    var getUrl='https://api.github.com/repos/'+owner+'/'+repo+'/contents/'+path;
+    var r=await fetch(getUrl,{headers:headers});
+    if(!r.ok){showToast('Error al bajar el catálogo','error');return;}
+    var d=await r.json();
+    var raw=atob(d.content.replace(/\n/g,'').replace(/\r/g,''));
+    var decoded=JSON.parse(decodeURIComponent(escape(raw)));
+    var remoteProducts=decoded.products||[];
+    var remoteDeletedIds=decoded.deletedIds||[];
+    // Merge deleted ids
+    var allDeletedIds=remoteDeletedIds.concat(deletedIds.filter(function(id){return remoteDeletedIds.indexOf(id)===-1;}));
+    deletedIds=allDeletedIds;
+    // Merge products — remote wins completely (this is a download, not a publish)
+    var localMap={};
+    products.forEach(function(p){ localMap[p.id]=p; });
+    // For each remote product, use remote but preserve local pausedAt if more recent
+    products=remoteProducts.filter(function(p){return allDeletedIds.indexOf(p.id)===-1;}).map(function(p){
+      var local=localMap[p.id];
+      if(local && (local.pausedAt||0)>(p.pausedAt||0)){
+        return Object.assign({},p,{paused:local.paused,pausedAt:local.pausedAt});
+      }
+      return p;
+    });
+    saveLocal();
+    renderGrid();
+    showToast('✅ Catálogo actualizado — '+products.length+' productos','success');
+  }catch(e){showToast('Error de conexión con GitHub','error');}
 }
 
 async function publishCatalog(){
