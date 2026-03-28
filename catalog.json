@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "p_1774739217278",
+      "name": "Blusa Entro talla L",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Blusa formal, ligera. Abarca L o XL",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739089/store-pics/qcslysvympaahg4elao5.jpg",
+          "publicId": "store-pics/qcslysvympaahg4elao5"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739092/store-pics/oxillgaltbypotmxgw8o.jpg",
+          "publicId": "store-pics/oxillgaltbypotmxgw8o"
+        }
+      ],
+      "updatedAt": "2026-03-28T23:06:57.279Z"
+    },
+    {
       "id": "p_1774738633843",
       "name": "Vestido de noche H&M talla 14 americano",
       "price": 250,
@@ -348,5 +370,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-28T23:02:08.972Z"
+  "updatedAt": "2026-03-28T23:07:04.026Z"
 }
