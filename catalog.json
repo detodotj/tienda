@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1774741840906",
+      "name": "Blusa",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Blusa de manga larga pero tela delgada y fresca. Muy amplia; dice S pero queda L o XL. Poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741517/store-pics/rrfndn1cwlqfnycfinyf.jpg",
+          "publicId": "store-pics/rrfndn1cwlqfnycfinyf"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741521/store-pics/xg7ub9pr3g7jswvabdiz.jpg",
+          "publicId": "store-pics/xg7ub9pr3g7jswvabdiz"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741524/store-pics/gcwo2ho65tkpw7rxrzjn.jpg",
+          "publicId": "store-pics/gcwo2ho65tkpw7rxrzjn"
+        }
+      ],
+      "updatedAt": "2026-03-28T23:50:40.906Z"
+    },
+    {
       "id": "p_1774741467617",
       "name": "Suéter CALI SPORT talla 3XL",
       "price": 120,
@@ -496,5 +522,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-28T23:44:28.994Z"
+  "updatedAt": "2026-03-28T23:50:46.709Z"
 }
