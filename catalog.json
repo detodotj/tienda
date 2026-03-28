@@ -1,6 +1,224 @@
 {
   "products": [
     {
+      "id": "p_1774738633843",
+      "name": "Vestido de noche H&M talla 14 americano",
+      "price": 250,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Vestido rosa, de gala con forro integrado, largo al tobillo. Poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738408/store-pics/xb62jnroqmevdggzyirf.jpg",
+          "publicId": "store-pics/xb62jnroqmevdggzyirf"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738410/store-pics/vgqtrwns2olazcb7doxi.jpg",
+          "publicId": "store-pics/vgqtrwns2olazcb7doxi"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738413/store-pics/mkjcuvmp0ggxcdqwwdy9.jpg",
+          "publicId": "store-pics/mkjcuvmp0ggxcdqwwdy9"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738415/store-pics/zfdt6lknkjd7soegt3lh.jpg",
+          "publicId": "store-pics/zfdt6lknkjd7soegt3lh"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:57:13.843Z"
+    },
+    {
+      "id": "p_1774738376212",
+      "name": "Blusa SheIn XL",
+      "price": 50,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Blusa de vestir 100% poliéster. Fresca para el verano.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738234/store-pics/mrnrgnq5rbwnzucxby2n.jpg",
+          "publicId": "store-pics/mrnrgnq5rbwnzucxby2n"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738237/store-pics/xikkfgbqfsqffkzbycps.jpg",
+          "publicId": "store-pics/xikkfgbqfsqffkzbycps"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:52:56.212Z"
+    },
+    {
+      "id": "p_1774738210042",
+      "name": "Vestido 2XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido largo, arriba del tobillo. Fresco, con bolsas a los lados.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738047/store-pics/khtkurznba8ai630oagl.jpg",
+          "publicId": "store-pics/khtkurznba8ai630oagl"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738049/store-pics/mjxvytzfi0g3wpqjmo6r.jpg",
+          "publicId": "store-pics/mjxvytzfi0g3wpqjmo6r"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:50:10.042Z"
+    },
+    {
+      "id": "p_1774737942694",
+      "name": "Vestido Just Found talla 2X",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido casual, ligero, 100% poliéster. Corto abajo de la rodilla.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774737728/store-pics/litqbzcn9z6rbbkyalkp.jpg",
+          "publicId": "store-pics/litqbzcn9z6rbbkyalkp"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774737730/store-pics/u8zg2lqyjdzwst00wcbd.jpg",
+          "publicId": "store-pics/u8zg2lqyjdzwst00wcbd"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:45:42.695Z"
+    },
+    {
+      "id": "p_1774737706282",
+      "name": "Vestido Express talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Vestido largo arriba del tobillo. Poliéster, ideal para este verano.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774737559/store-pics/e4ap6ljiyhpnppuxhwq0.jpg",
+          "publicId": "store-pics/e4ap6ljiyhpnppuxhwq0"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774737561/store-pics/h9iblqopclndccjbt7ri.jpg",
+          "publicId": "store-pics/h9iblqopclndccjbt7ri"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:41:46.288Z"
+    },
+    {
+      "id": "p_1774736584341",
+      "name": "Blusa Jasambac 2XL",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Blusa fresca para dama. Es 2XL pero viene más como XL",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774736419/store-pics/c2jdhfgahqltfe4usmfn.jpg",
+          "publicId": "store-pics/c2jdhfgahqltfe4usmfn"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774736421/store-pics/mahrxvglwfkzihv5hj4z.jpg",
+          "publicId": "store-pics/mahrxvglwfkzihv5hj4z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774736423/store-pics/y3fyhpaanz5vihbqcgjl.jpg",
+          "publicId": "store-pics/y3fyhpaanz5vihbqcgjl"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:23:04.341Z"
+    },
+    {
+      "id": "p_1774736254373",
+      "name": "Tubos para pelo CONAIR",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "9 tubos grandes para crear ondas con volumen y movimiento.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774736158/store-pics/dey53pq42t8x74v7ecqa.jpg",
+          "publicId": "store-pics/dey53pq42t8x74v7ecqa"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774736160/store-pics/rkzfqzkrxbxwhi0bamps.jpg",
+          "publicId": "store-pics/rkzfqzkrxbxwhi0bamps"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:17:34.373Z"
+    },
+    {
+      "id": "p_1774735679845",
+      "name": "Tacones Nine West talla 10 americano",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Detalles de uso. No despegados. No flojos.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774735418/store-pics/v0qpmdsjrr0fs7c1ww6j.jpg",
+          "publicId": "store-pics/v0qpmdsjrr0fs7c1ww6j"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774735423/store-pics/lbx0yhmh6ndg2js3zdic.jpg",
+          "publicId": "store-pics/lbx0yhmh6ndg2js3zdic"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774735426/store-pics/guckcq2ibzsu5a6jardp.jpg",
+          "publicId": "store-pics/guckcq2ibzsu5a6jardp"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:07:59.845Z"
+    },
+    {
+      "id": "p_1774735324998",
+      "name": "Sandalias 18 Forever talla 27 o 10 americano",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Sin rayones ni despegaduras",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774735208/store-pics/e9swaaffbbmuymnoy083.jpg",
+          "publicId": "store-pics/e9swaaffbbmuymnoy083"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774735212/store-pics/gja5ajkluljdpl53lnsg.jpg",
+          "publicId": "store-pics/gja5ajkluljdpl53lnsg"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774735215/store-pics/yuadlp8vwayvprczleue.jpg",
+          "publicId": "store-pics/yuadlp8vwayvprczleue"
+        }
+      ],
+      "updatedAt": "2026-03-28T22:02:05.000Z"
+    },
+    {
       "id": "p_1774051215969",
       "name": "ET VHS demo tape.",
       "price": 350,
@@ -130,5 +348,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-28T16:41:33.003Z"
+  "updatedAt": "2026-03-28T23:02:08.972Z"
 }
