@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1774741467617",
+      "name": "Suéter CALI SPORT talla 3XL",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Suéter deportivo. Ligero, estira mucho.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741283/store-pics/jdpidgxz3trzt4mwkfvy.jpg",
+          "publicId": "store-pics/jdpidgxz3trzt4mwkfvy"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741286/store-pics/vg89jlqvxwystbejatxf.jpg",
+          "publicId": "store-pics/vg89jlqvxwystbejatxf"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741289/store-pics/vilfslmqbyxewoir1ehy.jpg",
+          "publicId": "store-pics/vilfslmqbyxewoir1ehy"
+        }
+      ],
+      "updatedAt": "2026-03-28T23:44:27.617Z"
+    },
+    {
       "id": "p_1774740552823",
       "name": "Teclados Iclever inalámbricos Bluetooth",
       "price": 280,
@@ -470,5 +496,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-28T23:40:54.995Z"
+  "updatedAt": "2026-03-28T23:44:28.994Z"
 }
