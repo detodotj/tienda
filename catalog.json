@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1774740552823",
+      "name": "Teclados Iclever inalámbricos Bluetooth",
+      "price": 280,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Teclados inalámbricos Bluetooth. Se le pueden conectar hasta 3 dispositivos simultáneos.",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774740315/store-pics/ddi6ijnclxysnzmxveou.jpg",
+          "publicId": "store-pics/ddi6ijnclxysnzmxveou"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774740313/store-pics/o7flohcas9md4xd2n2xw.jpg",
+          "publicId": "store-pics/o7flohcas9md4xd2n2xw"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774740311/store-pics/dsurjtnr9kjvr2q590yq.jpg",
+          "publicId": "store-pics/dsurjtnr9kjvr2q590yq"
+        }
+      ],
+      "updatedAt": "2026-03-28T23:29:40.028Z"
+    },
+    {
       "id": "p_1774739986442",
       "name": "Saco de vestir Mellóday talla 1X",
       "price": 200,
@@ -448,5 +474,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-28T23:19:48.215Z"
+  "updatedAt": "2026-03-28T23:29:50.822Z"
 }
