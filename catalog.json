@@ -1,6 +1,84 @@
 {
   "products": [
     {
+      "id": "p_1774739986442",
+      "name": "Saco de vestir Mellóday talla 1X",
+      "price": 200,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Saco semi formal. Llega abajo de la cadera. Spandex y poliéster. Estira mucho.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739802/store-pics/r1sblfd8xbwhuqvxjitq.jpg",
+          "publicId": "store-pics/r1sblfd8xbwhuqvxjitq"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739809/store-pics/sydwseccrzpc8ujyffv8.jpg",
+          "publicId": "store-pics/sydwseccrzpc8ujyffv8"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739813/store-pics/tpl8alhkcafww27ffa6h.jpg",
+          "publicId": "store-pics/tpl8alhkcafww27ffa6h"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739815/store-pics/b0pg8i5oq2opoyuabhqq.jpg",
+          "publicId": "store-pics/b0pg8i5oq2opoyuabhqq"
+        }
+      ],
+      "updatedAt": "2026-03-28T23:19:46.442Z"
+    },
+    {
+      "id": "p_1774739761079",
+      "name": "Saco XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Saco casual, súper fresco y liviano. Poliéster y spandex.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739560/store-pics/qt7b5qdashumfesiw5ll.jpg",
+          "publicId": "store-pics/qt7b5qdashumfesiw5ll"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739562/store-pics/gffe1nx7jkxf5mlkbadk.jpg",
+          "publicId": "store-pics/gffe1nx7jkxf5mlkbadk"
+        }
+      ],
+      "updatedAt": "2026-03-28T23:16:01.079Z"
+    },
+    {
+      "id": "p_1774739543980",
+      "name": "Saco de vestir Jones New York talla M",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Saco formal, muy bonito y ligero. Llega arriba de la rodilla.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739389/store-pics/wb0frcmdhy3irtdk8cme.jpg",
+          "publicId": "store-pics/wb0frcmdhy3irtdk8cme"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739392/store-pics/ardbypv8sejmcxsferok.jpg",
+          "publicId": "store-pics/ardbypv8sejmcxsferok"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739394/store-pics/fjaczxjrtgjbiesy8ljq.jpg",
+          "publicId": "store-pics/fjaczxjrtgjbiesy8ljq"
+        }
+      ],
+      "updatedAt": "2026-03-28T23:12:23.980Z"
+    },
+    {
       "id": "p_1774739217278",
       "name": "Blusa Entro talla L",
       "price": 60,
@@ -370,5 +448,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-28T23:07:04.026Z"
+  "updatedAt": "2026-03-28T23:19:48.215Z"
 }
