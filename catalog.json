@@ -124,11 +124,11 @@
     },
     {
       "id": "p_1774740552823",
-      "name": "Teclados Iclever inalámbricos Bluetooth",
+      "name": "Teclados Iclever inalámbricos recargables, Bluetooth",
       "price": 280,
       "category": "Electrónica",
       "status": "Nuevo",
-      "desc": "Teclados inalámbricos Bluetooth. Se le pueden conectar hasta 3 dispositivos simultáneos.",
+      "desc": "Teclados inalámbricos Bluetooth recargable. Se le pueden conectar hasta 3 dispositivos simultáneos.",
       "subcategory": "Accesorios",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -146,7 +146,7 @@
           "publicId": "store-pics/dsurjtnr9kjvr2q590yq"
         }
       ],
-      "updatedAt": "2026-03-28T23:29:40.028Z"
+      "updatedAt": "2026-03-29T19:33:52.540Z"
     },
     {
       "id": "p_1774739986442",
@@ -592,5 +592,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-29T02:20:25.251Z"
+  "updatedAt": "2026-03-29T19:34:21.070Z"
 }
