@@ -256,10 +256,6 @@
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738408/store-pics/xb62jnroqmevdggzyirf.jpg",
-          "publicId": "store-pics/xb62jnroqmevdggzyirf"
-        },
-        {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774738410/store-pics/vgqtrwns2olazcb7doxi.jpg",
           "publicId": "store-pics/vgqtrwns2olazcb7doxi"
         },
@@ -272,7 +268,7 @@
           "publicId": "store-pics/zfdt6lknkjd7soegt3lh"
         }
       ],
-      "updatedAt": "2026-03-28T22:57:13.843Z"
+      "updatedAt": "2026-03-31T23:48:24.711Z"
     },
     {
       "id": "p_1774738376212",
@@ -413,7 +409,7 @@
     {
       "id": "p_1774735679845",
       "name": "Tacones Nine West talla 10 americano",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Buen estado",
       "desc": "Detalles de uso. No despegados. No flojos.",
@@ -434,7 +430,7 @@
           "publicId": "store-pics/guckcq2ibzsu5a6jardp"
         }
       ],
-      "updatedAt": "2026-03-28T22:07:59.845Z"
+      "updatedAt": "2026-03-31T23:49:26.179Z"
     },
     {
       "id": "p_1774735324998",
@@ -592,5 +588,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-31T23:43:01.060Z"
+  "updatedAt": "2026-03-31T23:49:31.207Z"
 }
