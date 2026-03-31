@@ -528,7 +528,7 @@
       "price": 450,
       "category": "Videojuegos",
       "status": "Nuevo",
-      "desc": "Consola no se ha usado, tiene más de diez mil juegos.",
+      "desc": "Consola nueva, mas de 15000 juegos",
       "subcategory": "Consolas",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -550,7 +550,7 @@
           "publicId": "store-pics/gc5caoxetzxesvgchtwg"
         }
       ],
-      "updatedAt": "2026-03-29T02:19:21.345Z"
+      "updatedAt": "2026-03-31T23:42:56.965Z"
     }
   ],
   "deletedIds": [
@@ -592,5 +592,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-29T19:34:21.070Z"
+  "updatedAt": "2026-03-31T23:43:01.060Z"
 }
