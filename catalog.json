@@ -1040,10 +1040,10 @@
       "id": "p_1774735679845",
       "name": "Tacones Nine West talla 10 americano",
       "price": 100,
-      "category": "Ropa",
+      "category": "Calzado",
       "status": "Buen estado",
       "desc": "Detalles de uso. No despegados. No flojos.",
-      "subcategory": "Calzado",
+      "subcategory": "Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -1060,16 +1060,16 @@
           "publicId": "store-pics/guckcq2ibzsu5a6jardp"
         }
       ],
-      "updatedAt": "2026-04-01T02:08:54.453Z"
+      "updatedAt": "2026-04-01T04:27:13.060Z"
     },
     {
       "id": "p_1774735324998",
       "name": "Sandalias 18 Forever talla 27 o 10 americano",
       "price": 120,
-      "category": "Ropa",
+      "category": "Calzado",
       "status": "Buen estado",
       "desc": "Sin rayones ni despegaduras",
-      "subcategory": "Calzado",
+      "subcategory": "Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -1086,7 +1086,7 @@
           "publicId": "store-pics/yuadlp8vwayvprczleue"
         }
       ],
-      "updatedAt": "2026-04-01T02:09:02.366Z"
+      "updatedAt": "2026-04-01T04:27:25.948Z"
     },
     {
       "id": "p_1774051215969",
@@ -1218,5 +1218,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T04:07:57.010Z"
+  "updatedAt": "2026-04-01T04:27:30.935Z"
 }
