@@ -1,6 +1,92 @@
 {
   "products": [
     {
+      "id": "p_1775010708011",
+      "name": "Blusa de tirantes SheIn talla XL",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Blusa para dama. Algodón.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010572/store-pics/mqqvyckhsuduia8w57kv.jpg",
+          "publicId": "store-pics/mqqvyckhsuduia8w57kv"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010573/store-pics/zvky2ogojir1ekbqf7jq.jpg",
+          "publicId": "store-pics/zvky2ogojir1ekbqf7jq"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010574/store-pics/iljoumlk0yy3c9ypidhd.jpg",
+          "publicId": "store-pics/iljoumlk0yy3c9ypidhd"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:31:48.011Z"
+    },
+    {
+      "id": "p_1775010539678",
+      "name": "Blusa AUX 2XL",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Blusa casual de tela fresca. Amplia. Poliéster y spandex.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010386/store-pics/m5p75fzppliddvvc6pvo.jpg",
+          "publicId": "store-pics/m5p75fzppliddvvc6pvo"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010389/store-pics/ggcekjwjgtnk2yzdyylj.jpg",
+          "publicId": "store-pics/ggcekjwjgtnk2yzdyylj"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010391/store-pics/arpd4kjk3od9juzcd5e2.jpg",
+          "publicId": "store-pics/arpd4kjk3od9juzcd5e2"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010393/store-pics/tvohfwq7v6j9cuy03tja.jpg",
+          "publicId": "store-pics/tvohfwq7v6j9cuy03tja"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:28:59.678Z"
+    },
+    {
+      "id": "p_1775010350100",
+      "name": "Short Izod talla L",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Short para hombre. Cinta ajustable al interior. 100% algodón.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010212/store-pics/cti6fqsfyu0fafi0krce.jpg",
+          "publicId": "store-pics/cti6fqsfyu0fafi0krce"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010214/store-pics/u8scumizm9czhuehm3jz.jpg",
+          "publicId": "store-pics/u8scumizm9czhuehm3jz"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010215/store-pics/k16rus22krh7tpybeuz4.jpg",
+          "publicId": "store-pics/k16rus22krh7tpybeuz4"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010217/store-pics/dxdd5mlhnegbvbbnxxq8.jpg",
+          "publicId": "store-pics/dxdd5mlhnegbvbbnxxq8"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:25:50.100Z"
+    },
+    {
       "id": "p_1775010108664",
       "name": "Short Greg Norman talla 38",
       "price": 100,
@@ -874,5 +960,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T02:23:11.901Z"
+  "updatedAt": "2026-04-01T02:31:51.654Z"
 }
