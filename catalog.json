@@ -1,12 +1,86 @@
 {
   "products": [
     {
+      "id": "p_1775008772331",
+      "name": "Playera manga larga talla XL",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Playera tipo Henley de manga larga. Poliéster y spandex.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008634/store-pics/vkyyhjzdgppolkpj4u1e.jpg",
+          "publicId": "store-pics/vkyyhjzdgppolkpj4u1e"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008636/store-pics/tzs0v5xueg621hiy2rrq.jpg",
+          "publicId": "store-pics/tzs0v5xueg621hiy2rrq"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008639/store-pics/pdzyndumjnucftbp3wni.jpg",
+          "publicId": "store-pics/pdzyndumjnucftbp3wni"
+        }
+      ],
+      "updatedAt": "2026-04-01T01:59:32.331Z"
+    },
+    {
+      "id": "p_1775008592366",
+      "name": "Playera manga larga Montage talla XL",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Playera tipo Henley de manga larga. Algodón y poliéster.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008434/store-pics/dd08peyp3aaqssqp3eek.jpg",
+          "publicId": "store-pics/dd08peyp3aaqssqp3eek"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008436/store-pics/ds5ypnyqfpa9kh4cev0v.jpg",
+          "publicId": "store-pics/ds5ypnyqfpa9kh4cev0v"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008440/store-pics/etzk3socxajbzlpfvuvj.jpg",
+          "publicId": "store-pics/etzk3socxajbzlpfvuvj"
+        }
+      ],
+      "updatedAt": "2026-04-01T01:56:32.366Z"
+    },
+    {
+      "id": "p_1775008342271",
+      "name": "Pantalón para dormir Garfield talla L",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Pantalón para dormir. Tela delgada y fresca. Poliéster y spandex.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008109/store-pics/sujtr7kqcvsphxk5sab7.jpg",
+          "publicId": "store-pics/sujtr7kqcvsphxk5sab7"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775008110/store-pics/bhxetlei1bmhbszy2euk.jpg",
+          "publicId": "store-pics/bhxetlei1bmhbszy2euk"
+        }
+      ],
+      "updatedAt": "2026-04-01T01:52:22.271Z"
+    },
+    {
       "id": "p_1775007916346",
       "name": "Sudadera Athletic talla XL",
       "price": 80,
       "category": "Ropa",
       "status": "Buen estado",
-      "desc": "",
+      "desc": "Sudadera para hombre. Algodón y poliéster. Amplia.",
       "subcategory": "Hombre",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -24,12 +98,12 @@
           "publicId": "store-pics/iiv52cxpuftpzope5zzt"
         }
       ],
-      "updatedAt": "2026-04-01T01:45:16.346Z"
+      "updatedAt": "2026-04-01T01:47:20.318Z"
     },
     {
       "id": "p_1775007772193",
       "name": "Sudadera Wilson talla L",
-      "price": 100,
+      "price": 80,
       "category": "Ropa",
       "status": "Buen estado",
       "desc": "Sudadera para hombre. Talla L y queda amplia.",
@@ -50,7 +124,7 @@
           "publicId": "store-pics/d6akptv21zd6dnx1xneb"
         }
       ],
-      "updatedAt": "2026-04-01T01:42:52.194Z"
+      "updatedAt": "2026-04-01T01:45:44.152Z"
     },
     {
       "id": "p_1774745382555",
@@ -640,5 +714,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T01:45:21.766Z"
+  "updatedAt": "2026-04-01T01:59:40.734Z"
 }
