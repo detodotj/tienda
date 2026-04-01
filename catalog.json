@@ -1,6 +1,66 @@
 {
   "products": [
     {
+      "id": "p_1775012593307",
+      "name": "Pantalón Liz Claiborne talla 14",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Hermoso pantalón color rosa. Stretch. Algodón y spandex.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012481/store-pics/qledd1jra4skvi75ymqc.jpg",
+          "publicId": "store-pics/qledd1jra4skvi75ymqc"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012483/store-pics/xww8cqrbskxx7jxv7fys.jpg",
+          "publicId": "store-pics/xww8cqrbskxx7jxv7fys"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012485/store-pics/lell4edglx2ztse0zoz3.jpg",
+          "publicId": "store-pics/lell4edglx2ztse0zoz3"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012487/store-pics/okwlmexfdajtsjkukxqk.jpg",
+          "publicId": "store-pics/okwlmexfdajtsjkukxqk"
+        }
+      ],
+      "updatedAt": "2026-04-01T03:03:13.308Z"
+    },
+    {
+      "id": "p_1775012459490",
+      "name": "Vestido SheIn talla L",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso vestido corto con flores. Se expande. 100% poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012245/store-pics/crkrutcqgbfm59o5xvrh.jpg",
+          "publicId": "store-pics/crkrutcqgbfm59o5xvrh"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012247/store-pics/j9ogytaopulwdmmbhaxp.jpg",
+          "publicId": "store-pics/j9ogytaopulwdmmbhaxp"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012249/store-pics/awst6jibtdonbnrw1hul.jpg",
+          "publicId": "store-pics/awst6jibtdonbnrw1hul"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012251/store-pics/e3vdfvxqgvb90kp86nxv.jpg",
+          "publicId": "store-pics/e3vdfvxqgvb90kp86nxv"
+        }
+      ],
+      "updatedAt": "2026-04-01T03:00:59.490Z"
+    },
+    {
       "id": "p_1775012215287",
       "name": "Suéter Merona talla M",
       "price": 100,
@@ -1158,5 +1218,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T02:56:58.418Z"
+  "updatedAt": "2026-04-01T03:03:16.182Z"
 }
