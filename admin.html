@@ -243,7 +243,7 @@ textarea { resize:vertical; min-height:80px; }
     <option value="">Todas las categorías</option>
     <option>Ropa</option><option>Electrónica</option><option>Muebles</option><option>Hogar</option>
     <option>Juguetes</option><option>Videojuegos</option><option>Deportes</option>
-    <option>Herramientas</option><option>Coleccionables</option><option>Antigüedades</option>
+    <option>Herramientas</option><option>Coleccionables</option><option>Antigüedades</option><option>Calzado</option><option>Joyería</option>
   </select>
   <select class="filter-select" id="filterStatus" onchange="renderGrid()">
     <option value="">Todos los estados</option>
@@ -303,7 +303,7 @@ textarea { resize:vertical; min-height:80px; }
             <option value="">Seleccionar...</option>
             <option>Ropa</option><option>Electrónica</option><option>Muebles</option><option>Hogar</option>
             <option>Juguetes</option><option>Videojuegos</option><option>Deportes</option>
-            <option>Herramientas</option><option>Coleccionables</option><option>Antigüedades</option>
+            <option>Herramientas</option><option>Coleccionables</option><option>Antigüedades</option><option>Calzado</option><option>Joyería</option>
           </select>
         </div>
         <div class="form-group">
@@ -441,7 +441,9 @@ const SUBCATS = {
   'Deportes': ['Gym','Ciclismo','Outdoor','Accesorios'],
   'Herramientas': ['Eléctricas','Manuales','Jardín'],
   'Coleccionables': [],
-  'Antigüedades': []
+  'Antigüedades': [],
+  'Calzado': ['Mujer','Hombre','Niño'],
+  'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets']
 };
 
 const DEFAULT_CLOUD='dcscb3fg4', DEFAULT_PRESET='store-pics', DEFAULT_WA='526642601992';
