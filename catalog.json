@@ -1,6 +1,152 @@
 {
   "products": [
     {
+      "id": "p_1775012215287",
+      "name": "Suéter Merona talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Suéter corto 100% acrílico. Muy ligero y suave.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012076/store-pics/h1obbzdqeeeoh5knbqot.jpg",
+          "publicId": "store-pics/h1obbzdqeeeoh5knbqot"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012075/store-pics/jpe3dtleaay3yldsolr6.jpg",
+          "publicId": "store-pics/jpe3dtleaay3yldsolr6"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012078/store-pics/x9ejx3uusdjvjus1nmjw.jpg",
+          "publicId": "store-pics/x9ejx3uusdjvjus1nmjw"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775012080/store-pics/zzww4rjzlgcw4yb93vyu.jpg",
+          "publicId": "store-pics/zzww4rjzlgcw4yb93vyu"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:56:55.287Z"
+    },
+    {
+      "id": "p_1775012044553",
+      "name": "Blusa Sampeel talla L",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Blusa de tela fresca con olanes en mangas. Poliéster y spandex.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011934/store-pics/cdryekxliqbvx4ncwpbb.jpg",
+          "publicId": "store-pics/cdryekxliqbvx4ncwpbb"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011937/store-pics/vjyyg1u7vstiaolmqfzy.jpg",
+          "publicId": "store-pics/vjyyg1u7vstiaolmqfzy"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011940/store-pics/x0ygxw8ntmh9eswkvce1.jpg",
+          "publicId": "store-pics/x0ygxw8ntmh9eswkvce1"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011942/store-pics/rxx2pssjmio9u4j4hu8f.jpg",
+          "publicId": "store-pics/rxx2pssjmio9u4j4hu8f"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:54:04.553Z"
+    },
+    {
+      "id": "p_1775011852078",
+      "name": "Blusa Faded Glory 3X",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Blusa amplia y fresca. 100 % poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011725/store-pics/zxnr9fbdbjisvrsghaym.jpg",
+          "publicId": "store-pics/zxnr9fbdbjisvrsghaym"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011728/store-pics/kj37rsj8zuo4ufboos49.jpg",
+          "publicId": "store-pics/kj37rsj8zuo4ufboos49"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011731/store-pics/tjrhwoegn8qshfs3vqke.jpg",
+          "publicId": "store-pics/tjrhwoegn8qshfs3vqke"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011734/store-pics/tyvslnx9aste41tdxwlf.jpg",
+          "publicId": "store-pics/tyvslnx9aste41tdxwlf"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:50:52.078Z"
+    },
+    {
+      "id": "p_1775011695060",
+      "name": "Blusa Kendall ,& James Unitalla",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Bata para arriba de bikini. Unitalla.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011586/store-pics/mbtkwvlldjfcanx7lfgr.jpg",
+          "publicId": "store-pics/mbtkwvlldjfcanx7lfgr"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011589/store-pics/npd7haikwke7dfmfuzzd.jpg",
+          "publicId": "store-pics/npd7haikwke7dfmfuzzd"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011591/store-pics/h7n6esr0e1io5ivhvy01.jpg",
+          "publicId": "store-pics/h7n6esr0e1io5ivhvy01"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011594/store-pics/sttebjjhhatzxojt8b4u.jpg",
+          "publicId": "store-pics/sttebjjhhatzxojt8b4u"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:48:15.060Z"
+    },
+    {
+      "id": "p_1775011551348",
+      "name": "Falda para dama talla M",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Falda corta para dama. Plisada la frente. Se expande a L.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011353/store-pics/xhfbvt47sfdgqhje69lw.jpg",
+          "publicId": "store-pics/xhfbvt47sfdgqhje69lw"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011355/store-pics/xnftiegpl1d4gvs7dhhm.jpg",
+          "publicId": "store-pics/xnftiegpl1d4gvs7dhhm"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011357/store-pics/zi5hv2woenybhvxwosrn.jpg",
+          "publicId": "store-pics/zi5hv2woenybhvxwosrn"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:45:51.348Z"
+    },
+    {
       "id": "p_1775011158505",
       "name": "Short Nautica talla XL",
       "price": 100,
@@ -1012,5 +1158,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T02:42:13.387Z"
+  "updatedAt": "2026-04-01T02:56:58.418Z"
 }
