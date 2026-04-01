@@ -634,10 +634,10 @@
       "id": "p_1774745382555",
       "name": "Collar de metal",
       "price": 80,
-      "category": "Ropa",
+      "category": "Joyería",
       "status": "Nuevo",
       "desc": "Hermoso collar de metal para dama. Fantasía.",
-      "subcategory": "Accesorios",
+      "subcategory": "Collares",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -654,16 +654,16 @@
           "publicId": "store-pics/shpu4ctpt0voz7azlrh0"
         }
       ],
-      "updatedAt": "2026-04-01T04:40:00.585Z"
+      "updatedAt": "2026-04-01T06:39:54.205Z"
     },
     {
       "id": "p_1774745038965",
       "name": "Collar con piedras color coral y cristal. Fantasía.",
       "price": 100,
-      "category": "Ropa",
+      "category": "Joyería",
       "status": "Buen estado",
       "desc": "Collar de fantasía para dama. Elegante y casual.",
-      "subcategory": "Accesorios",
+      "subcategory": "Collares",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -676,7 +676,7 @@
           "publicId": "store-pics/n2eopinuasjbsxq2asno"
         }
       ],
-      "updatedAt": "2026-04-01T04:40:59.132Z"
+      "updatedAt": "2026-04-01T06:40:09.274Z"
     },
     {
       "id": "p_1774744939799",
@@ -1218,5 +1218,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T05:27:24.605Z"
+  "updatedAt": "2026-04-01T06:40:13.820Z"
 }
