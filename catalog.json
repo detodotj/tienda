@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1775010108664",
+      "name": "Short Greg Norman talla 38",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Short para hombre. Detalles de uso.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009969/store-pics/rddhl5habbak1bqyltbf.jpg",
+          "publicId": "store-pics/rddhl5habbak1bqyltbf"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009971/store-pics/nomv8pagqi6snmsmqtbj.jpg",
+          "publicId": "store-pics/nomv8pagqi6snmsmqtbj"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009973/store-pics/pt40tduryaxo3zuqfzsp.jpg",
+          "publicId": "store-pics/pt40tduryaxo3zuqfzsp"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:21:48.664Z"
+    },
+    {
       "id": "p_1775009852432",
       "name": "Short de mezclilla Wrangler talla 44",
       "price": 100,
@@ -22,9 +48,13 @@
         {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009748/store-pics/loihxf3pehmfejvddpql.jpg",
           "publicId": "store-pics/loihxf3pehmfejvddpql"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009910/store-pics/bgxa2ebxisxeyf0sicqz.jpg",
+          "publicId": "store-pics/bgxa2ebxisxeyf0sicqz"
         }
       ],
-      "updatedAt": "2026-04-01T02:17:32.432Z"
+      "updatedAt": "2026-04-01T02:18:39.865Z"
     },
     {
       "id": "p_1775009713038",
@@ -844,5 +874,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T02:17:35.118Z"
+  "updatedAt": "2026-04-01T02:22:22.633Z"
 }
