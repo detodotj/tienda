@@ -1,6 +1,84 @@
 {
   "products": [
     {
+      "id": "p_1775009852432",
+      "name": "Short de mezclilla Wrangler talla 44",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Short de mezclilla Wrangler para hombre. 100% algodón.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009741/store-pics/eaqj1klomwhdcwcra1lc.jpg",
+          "publicId": "store-pics/eaqj1klomwhdcwcra1lc"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009745/store-pics/agaurb4kwihjv7wunndi.jpg",
+          "publicId": "store-pics/agaurb4kwihjv7wunndi"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009748/store-pics/loihxf3pehmfejvddpql.jpg",
+          "publicId": "store-pics/loihxf3pehmfejvddpql"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:17:32.432Z"
+    },
+    {
+      "id": "p_1775009713038",
+      "name": "Playera de manga corta Billaboung talla L",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Playera manga corta.Tela fresca .Poliéster y elastano.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009554/store-pics/nghu7tr0ld3jwfn7afdt.jpg",
+          "publicId": "store-pics/nghu7tr0ld3jwfn7afdt"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009556/store-pics/mdmlyna81hf0v85studf.jpg",
+          "publicId": "store-pics/mdmlyna81hf0v85studf"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009558/store-pics/di0mbgbp6jgfgesis4ud.jpg",
+          "publicId": "store-pics/di0mbgbp6jgfgesis4ud"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:15:13.038Z"
+    },
+    {
+      "id": "p_1775009479292",
+      "name": "Camisa Van Heusen talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Camisa manga larga para hombre 100% algodón.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009391/store-pics/szhzam7hqn1rkgorhg06.jpg",
+          "publicId": "store-pics/szhzam7hqn1rkgorhg06"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009393/store-pics/rswijxolpvlwrzm1x1vd.jpg",
+          "publicId": "store-pics/rswijxolpvlwrzm1x1vd"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775009395/store-pics/dbb6hzqc1knjeleqnpol.jpg",
+          "publicId": "store-pics/dbb6hzqc1knjeleqnpol"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:11:19.292Z"
+    },
+    {
       "id": "p_1775009202040",
       "name": "Camisa Banana Republic talla XL",
       "price": 120,
@@ -766,5 +844,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T02:09:05.087Z"
+  "updatedAt": "2026-04-01T02:17:35.118Z"
 }
