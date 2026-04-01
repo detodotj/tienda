@@ -1,6 +1,58 @@
 {
   "products": [
     {
+      "id": "p_1775007916346",
+      "name": "Sudadera Athletic talla XL",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775007844/store-pics/ujqc2cx43eh2tbavy35i.jpg",
+          "publicId": "store-pics/ujqc2cx43eh2tbavy35i"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775007846/store-pics/kinxenihaxrdigrbso9q.jpg",
+          "publicId": "store-pics/kinxenihaxrdigrbso9q"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775007847/store-pics/iiv52cxpuftpzope5zzt.jpg",
+          "publicId": "store-pics/iiv52cxpuftpzope5zzt"
+        }
+      ],
+      "updatedAt": "2026-04-01T01:45:16.346Z"
+    },
+    {
+      "id": "p_1775007772193",
+      "name": "Sudadera Wilson talla L",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Sudadera para hombre. Talla L y queda amplia.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775007566/store-pics/z62baysmoixoz7zitybh.jpg",
+          "publicId": "store-pics/z62baysmoixoz7zitybh"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775007568/store-pics/xnivxds8egvirsbj0vsc.jpg",
+          "publicId": "store-pics/xnivxds8egvirsbj0vsc"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775007570/store-pics/d6akptv21zd6dnx1xneb.jpg",
+          "publicId": "store-pics/d6akptv21zd6dnx1xneb"
+        }
+      ],
+      "updatedAt": "2026-04-01T01:42:52.194Z"
+    },
+    {
       "id": "p_1774745382555",
       "name": "Collar de metal para dama",
       "price": 80,
@@ -588,5 +640,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-03-31T23:49:31.207Z"
+  "updatedAt": "2026-04-01T01:45:21.766Z"
 }
