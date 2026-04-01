@@ -1,6 +1,58 @@
 {
   "products": [
     {
+      "id": "p_1775011158505",
+      "name": "Short Nautica talla XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Short para hombre. 100% algodón.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011316/store-pics/rtypam0hjudi28n84wts.jpg",
+          "publicId": "store-pics/rtypam0hjudi28n84wts"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011069/store-pics/t0caxt7v3mmhbgcwep5z.jpg",
+          "publicId": "store-pics/t0caxt7v3mmhbgcwep5z"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011318/store-pics/q7fxbjit27s8uhhprd4u.jpg",
+          "publicId": "store-pics/q7fxbjit27s8uhhprd4u"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:42:07.977Z"
+    },
+    {
+      "id": "p_1775011043117",
+      "name": "Vestido Bobeau talla s",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Hermoso vestido de verano. Largo a la rodilla y más alargado en la parte de atrás. Fondo integrado.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010872/store-pics/kdbynfbrofuo1g0l7ntv.jpg",
+          "publicId": "store-pics/kdbynfbrofuo1g0l7ntv"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010873/store-pics/fe8m7icezv3atxqtpgtz.jpg",
+          "publicId": "store-pics/fe8m7icezv3atxqtpgtz"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010875/store-pics/jgvax1uczikvgt6dqtie.jpg",
+          "publicId": "store-pics/jgvax1uczikvgt6dqtie"
+        }
+      ],
+      "updatedAt": "2026-04-01T02:37:23.118Z"
+    },
+    {
       "id": "p_1775010708011",
       "name": "Blusa de tirantes SheIn talla XL",
       "price": 80,
@@ -960,5 +1012,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T02:31:51.654Z"
+  "updatedAt": "2026-04-01T02:42:13.387Z"
 }
