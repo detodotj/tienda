@@ -1,6 +1,92 @@
 {
   "products": [
     {
+      "id": "p_1775174299121",
+      "name": "Palazzo Charlotte Russe talla S",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso Palazzo corto con short y blusita integrados. Se estira a M.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775174050/store-pics/tuekdgfhvnimzcdqxybv.jpg",
+          "publicId": "store-pics/tuekdgfhvnimzcdqxybv"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775174052/store-pics/egupzxb5ynlu6uqpifqp.jpg",
+          "publicId": "store-pics/egupzxb5ynlu6uqpifqp"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775174054/store-pics/hnh2xnnuayhgjtnokjyt.jpg",
+          "publicId": "store-pics/hnh2xnnuayhgjtnokjyt"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775174056/store-pics/xbuez5eoeruwvdhcxpow.jpg",
+          "publicId": "store-pics/xbuez5eoeruwvdhcxpow"
+        }
+      ],
+      "updatedAt": "2026-04-02T23:58:19.121Z"
+    },
+    {
+      "id": "p_1775174021583",
+      "name": "Pantalón SBetro talla L",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo pantalón largo, acampanado, color rojo. Tela que se expande.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775173871/store-pics/vavtz0pwoyy3shju6ujb.jpg",
+          "publicId": "store-pics/vavtz0pwoyy3shju6ujb"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775173873/store-pics/qmthmoplek8jxvjn4ml0.jpg",
+          "publicId": "store-pics/qmthmoplek8jxvjn4ml0"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775173875/store-pics/cv7zhtrw4rdqsswfjjer.jpg",
+          "publicId": "store-pics/cv7zhtrw4rdqsswfjjer"
+        }
+      ],
+      "updatedAt": "2026-04-02T23:53:41.583Z"
+    },
+    {
+      "id": "p_1775173854974",
+      "name": "Vestido Sweet Wanderer talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido lindo y fresco para el verano. Olanes en tirantes y resorte en cintura.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775173691/store-pics/cefrxny210bbo1fsnghx.jpg",
+          "publicId": "store-pics/cefrxny210bbo1fsnghx"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775173693/store-pics/o19gjdatwpevfnyk7egk.jpg",
+          "publicId": "store-pics/o19gjdatwpevfnyk7egk"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775173696/store-pics/q05h8yzgy6jagwgbxxeu.jpg",
+          "publicId": "store-pics/q05h8yzgy6jagwgbxxeu"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775173698/store-pics/w2m63bwt5zosbsajiaae.jpg",
+          "publicId": "store-pics/w2m63bwt5zosbsajiaae"
+        }
+      ],
+      "updatedAt": "2026-04-02T23:50:54.975Z"
+    },
+    {
       "id": "p_1775173564866",
       "name": "Vestido de noche o cóctel Sandíva talla S",
       "price": 120,
@@ -1580,5 +1666,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-02T23:46:09.267Z"
+  "updatedAt": "2026-04-02T23:58:23.689Z"
 }
