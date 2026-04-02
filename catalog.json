@@ -5,7 +5,7 @@
       "name": "Pantalón Liz Claiborne talla 14",
       "price": 100,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Hermoso pantalón color rosa. Stretch. Algodón y spandex.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -28,7 +28,7 @@
           "publicId": "store-pics/okwlmexfdajtsjkukxqk"
         }
       ],
-      "updatedAt": "2026-04-01T03:03:13.308Z"
+      "updatedAt": "2026-04-02T05:38:26.650Z"
     },
     {
       "id": "p_1775012459490",
@@ -125,7 +125,7 @@
       "name": "Blusa Faded Glory 3X",
       "price": 80,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Blusa amplia y fresca. 100 % poliéster.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -148,7 +148,7 @@
           "publicId": "store-pics/tyvslnx9aste41tdxwlf"
         }
       ],
-      "updatedAt": "2026-04-01T02:50:52.078Z"
+      "updatedAt": "2026-04-02T05:38:39.279Z"
     },
     {
       "id": "p_1775011695060",
@@ -185,7 +185,7 @@
       "name": "Falda para dama talla M",
       "price": 60,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Falda corta para dama. Plisada la frente. Se expande a L.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -204,14 +204,14 @@
           "publicId": "store-pics/zi5hv2woenybhvxwosrn"
         }
       ],
-      "updatedAt": "2026-04-01T02:45:51.348Z"
+      "updatedAt": "2026-04-02T05:38:52.924Z"
     },
     {
       "id": "p_1775011158505",
       "name": "Short Nautica talla XL",
       "price": 100,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Short para hombre. 100% algodón.",
       "subcategory": "Hombre",
       "delivery": "",
@@ -230,14 +230,14 @@
           "publicId": "store-pics/q7fxbjit27s8uhhprd4u"
         }
       ],
-      "updatedAt": "2026-04-01T02:42:07.977Z"
+      "updatedAt": "2026-04-02T05:39:17.018Z"
     },
     {
       "id": "p_1775011043117",
       "name": "Vestido Bobeau talla s",
       "price": 120,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Hermoso vestido de verano. Largo a la rodilla y más alargado en la parte de atrás. Fondo integrado.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -256,14 +256,14 @@
           "publicId": "store-pics/jgvax1uczikvgt6dqtie"
         }
       ],
-      "updatedAt": "2026-04-01T02:37:23.118Z"
+      "updatedAt": "2026-04-02T05:39:28.027Z"
     },
     {
       "id": "p_1775010708011",
       "name": "Blusa de tirantes SheIn talla XL",
       "price": 80,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Blusa para dama. Algodón.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -282,14 +282,14 @@
           "publicId": "store-pics/iljoumlk0yy3c9ypidhd"
         }
       ],
-      "updatedAt": "2026-04-01T02:31:48.011Z"
+      "updatedAt": "2026-04-02T05:39:37.204Z"
     },
     {
       "id": "p_1775010539678",
       "name": "Blusa AUX 2XL",
       "price": 80,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Blusa casual de tela fresca. Amplia. Poliéster y spandex.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -312,7 +312,7 @@
           "publicId": "store-pics/tvohfwq7v6j9cuy03tja"
         }
       ],
-      "updatedAt": "2026-04-01T02:28:59.678Z"
+      "updatedAt": "2026-04-02T05:39:46.561Z"
     },
     {
       "id": "p_1775010350100",
@@ -634,10 +634,10 @@
       "id": "p_1774745382555",
       "name": "Collar de metal",
       "price": 80,
-      "category": "Joyería",
+      "category": "Ropa",
       "status": "Nuevo",
       "desc": "Hermoso collar de metal para dama. Fantasía.",
-      "subcategory": "Collares",
+      "subcategory": "Accesorios",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -654,16 +654,16 @@
           "publicId": "store-pics/shpu4ctpt0voz7azlrh0"
         }
       ],
-      "updatedAt": "2026-04-01T06:39:54.205Z"
+      "updatedAt": "2026-04-01T04:40:00.585Z"
     },
     {
       "id": "p_1774745038965",
       "name": "Collar con piedras color coral y cristal. Fantasía.",
       "price": 100,
-      "category": "Joyería",
+      "category": "Ropa",
       "status": "Buen estado",
       "desc": "Collar de fantasía para dama. Elegante y casual.",
-      "subcategory": "Collares",
+      "subcategory": "Accesorios",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -676,7 +676,7 @@
           "publicId": "store-pics/n2eopinuasjbsxq2asno"
         }
       ],
-      "updatedAt": "2026-04-01T06:40:09.274Z"
+      "updatedAt": "2026-04-01T04:40:59.132Z"
     },
     {
       "id": "p_1774744939799",
@@ -705,7 +705,7 @@
       "name": "Blusa",
       "price": 80,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Blusa de manga larga pero tela delgada y fresca. Muy amplia; dice S pero queda L o XL. Poliéster.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -724,7 +724,7 @@
           "publicId": "store-pics/gcwo2ho65tkpw7rxrzjn"
         }
       ],
-      "updatedAt": "2026-03-28T23:50:40.906Z"
+      "updatedAt": "2026-04-02T05:40:27.025Z"
     },
     {
       "id": "p_1774741467617",
@@ -783,7 +783,7 @@
       "name": "Saco de vestir Mellóday talla 1X",
       "price": 200,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Saco semi formal. Llega abajo de la cadera. Spandex y poliéster. Estira mucho.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -802,14 +802,14 @@
           "publicId": "store-pics/nqh41vtcgiwey7mb9fev"
         }
       ],
-      "updatedAt": "2026-03-28T23:40:50.957Z"
+      "updatedAt": "2026-04-02T05:40:42.497Z"
     },
     {
       "id": "p_1774739761079",
       "name": "Saco XL",
       "price": 120,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Saco casual, súper fresco y liviano. Poliéster y spandex.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -824,14 +824,14 @@
           "publicId": "store-pics/gffe1nx7jkxf5mlkbadk"
         }
       ],
-      "updatedAt": "2026-04-01T05:27:01.127Z"
+      "updatedAt": "2026-04-02T05:41:05.094Z"
     },
     {
       "id": "p_1774739543980",
       "name": "Saco de vestir Jones New York talla M",
       "price": 150,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Saco formal, muy bonito y ligero. Llega arriba de la rodilla.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -850,14 +850,14 @@
           "publicId": "store-pics/fjaczxjrtgjbiesy8ljq"
         }
       ],
-      "updatedAt": "2026-03-28T23:12:23.980Z"
+      "updatedAt": "2026-04-02T05:41:12.749Z"
     },
     {
       "id": "p_1774739217278",
       "name": "Blusa Entro talla L",
       "price": 60,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Blusa formal, ligera. Abarca L o XL",
       "subcategory": "Mujer",
       "delivery": "",
@@ -872,14 +872,14 @@
           "publicId": "store-pics/oxillgaltbypotmxgw8o"
         }
       ],
-      "updatedAt": "2026-03-28T23:06:57.279Z"
+      "updatedAt": "2026-04-02T05:41:25.953Z"
     },
     {
       "id": "p_1774738633843",
       "name": "Vestido de noche H&M talla 14 americano",
       "price": 250,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Vestido rosa, de gala con forro integrado, largo al tobillo. Poliéster.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -898,7 +898,7 @@
           "publicId": "store-pics/zfdt6lknkjd7soegt3lh"
         }
       ],
-      "updatedAt": "2026-03-31T23:48:24.711Z"
+      "updatedAt": "2026-04-02T05:41:55.899Z"
     },
     {
       "id": "p_1774738376212",
@@ -971,7 +971,7 @@
       "name": "Vestido Express talla M",
       "price": 120,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Vestido largo arriba del tobillo. Poliéster, ideal para este verano.",
       "subcategory": "Mujer",
       "delivery": "",
@@ -986,14 +986,14 @@
           "publicId": "store-pics/h9iblqopclndccjbt7ri"
         }
       ],
-      "updatedAt": "2026-03-28T22:41:46.288Z"
+      "updatedAt": "2026-04-02T05:42:13.235Z"
     },
     {
       "id": "p_1774736584341",
       "name": "Blusa Jasambac 2XL",
       "price": 60,
       "category": "Ropa",
-      "status": "Buen estado",
+      "status": "Como nuevo",
       "desc": "Blusa fresca para dama. Es 2XL pero viene más como XL",
       "subcategory": "Mujer",
       "delivery": "",
@@ -1012,7 +1012,7 @@
           "publicId": "store-pics/y3fyhpaanz5vihbqcgjl"
         }
       ],
-      "updatedAt": "2026-03-28T22:23:04.341Z"
+      "updatedAt": "2026-04-02T05:42:23.139Z"
     },
     {
       "id": "p_1774736254373",
@@ -1218,5 +1218,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-01T06:40:13.820Z"
+  "updatedAt": "2026-04-02T05:42:30.733Z"
 }
