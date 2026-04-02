@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775172937128",
+      "name": "Palazzo negro Wild Fable XL",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso Palazzo negro con rosas de tela en el frente. Totalmente spandex.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172738/store-pics/qygxqtjzflehglzexfay.jpg",
+          "publicId": "store-pics/qygxqtjzflehglzexfay"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172740/store-pics/fd4h3aq8bpodts4yzn5v.jpg",
+          "publicId": "store-pics/fd4h3aq8bpodts4yzn5v"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172743/store-pics/ofyqk5cgyjmpe4ihpmqp.jpg",
+          "publicId": "store-pics/ofyqk5cgyjmpe4ihpmqp"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172745/store-pics/ltdjly3had4zsz4lbhbe.jpg",
+          "publicId": "store-pics/ltdjly3had4zsz4lbhbe"
+        }
+      ],
+      "updatedAt": "2026-04-02T23:35:37.129Z"
+    },
+    {
       "id": "p_1775172249140",
       "name": "Charolas de vidrio IVV",
       "price": 400,
@@ -26,9 +56,13 @@
         {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172128/store-pics/d51obhskhv5i5rc9o0b1.jpg",
           "publicId": "store-pics/d51obhskhv5i5rc9o0b1"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172331/store-pics/qocsfswokzxnhhlzgkd6.jpg",
+          "publicId": "store-pics/qocsfswokzxnhhlzgkd6"
         }
       ],
-      "updatedAt": "2026-04-02T23:24:09.143Z"
+      "updatedAt": "2026-04-02T23:25:36.342Z"
     },
     {
       "id": "p_1775170855975",
@@ -1468,5 +1502,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-02T23:24:31.233Z"
+  "updatedAt": "2026-04-02T23:35:43.017Z"
 }
