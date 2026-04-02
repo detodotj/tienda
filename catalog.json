@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1775160356346",
+      "name": "Retro Receiver para SEGA Genesis",
+      "price": 290,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Retro Receiver para SEGA Genesis",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160268/store-pics/ncykenijbxa3tkvooxbr.jpg",
+          "publicId": "store-pics/ncykenijbxa3tkvooxbr"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160269/store-pics/esnq4cbmq1ghpk5qedfv.jpg",
+          "publicId": "store-pics/esnq4cbmq1ghpk5qedfv"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160271/store-pics/g5mktm35lwrjshtodv9s.jpg",
+          "publicId": "store-pics/g5mktm35lwrjshtodv9s"
+        }
+      ],
+      "updatedAt": "2026-04-02T20:05:56.348Z"
+    },
+    {
       "id": "p_1775012593307",
       "name": "Pantalón Liz Claiborne talla 14",
       "price": 100,
@@ -1218,5 +1244,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-02T05:42:30.733Z"
+  "updatedAt": "2026-04-02T20:06:02.298Z"
 }
