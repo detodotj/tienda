@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775172249140",
+      "name": "Charolas de vidrio IVV",
+      "price": 400,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Hermosas charolas de vidrio italiano IVV con detalles cuadriculados que juegan con la luz.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172121/store-pics/c0zqcvlnbh2jzjj2pk5v.jpg",
+          "publicId": "store-pics/c0zqcvlnbh2jzjj2pk5v"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172123/store-pics/zugtyv5amhmfnvzradaj.jpg",
+          "publicId": "store-pics/zugtyv5amhmfnvzradaj"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172125/store-pics/fny8oagiqq2qrnrjxotz.jpg",
+          "publicId": "store-pics/fny8oagiqq2qrnrjxotz"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172128/store-pics/d51obhskhv5i5rc9o0b1.jpg",
+          "publicId": "store-pics/d51obhskhv5i5rc9o0b1"
+        }
+      ],
+      "updatedAt": "2026-04-02T23:24:09.143Z"
+    },
+    {
       "id": "p_1775170855975",
       "name": "2 platos de vidrio grandes",
       "price": 100,
@@ -1438,5 +1468,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-02T23:01:06.224Z"
+  "updatedAt": "2026-04-02T23:24:31.233Z"
 }
