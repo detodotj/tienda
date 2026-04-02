@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1775160845128",
+      "name": "Control 🎮 NES30 8bitdo",
+      "price": 350,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Control NES30 8bitdo para nes mini.",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160670/store-pics/fpqvckof8cljftbqygmd.jpg",
+          "publicId": "store-pics/fpqvckof8cljftbqygmd"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160672/store-pics/tabll0s5ge0kxpmrhxti.jpg",
+          "publicId": "store-pics/tabll0s5ge0kxpmrhxti"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775161215/store-pics/ak0sbqcpkxcqqbhzy2vg.jpg",
+          "publicId": "store-pics/ak0sbqcpkxcqqbhzy2vg"
+        }
+      ],
+      "updatedAt": "2026-04-02T20:20:19.433Z"
+    },
+    {
       "id": "p_1775160356346",
       "name": "Retro Receiver para SEGA Genesis",
       "price": 290,
@@ -1244,5 +1270,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-02T20:06:02.298Z"
+  "updatedAt": "2026-04-02T20:20:35.827Z"
 }
