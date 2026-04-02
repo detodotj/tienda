@@ -1,6 +1,84 @@
 {
   "products": [
     {
+      "id": "p_1775170495651",
+      "name": "Florero de vidrio transparente",
+      "price": 80,
+      "category": "Hogar",
+      "status": "Como nuevo",
+      "desc": "Hermoso y elegante florero de vidrio.",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170428/store-pics/p69y9khkrevvxpc9qkzz.jpg",
+          "publicId": "store-pics/p69y9khkrevvxpc9qkzz"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170430/store-pics/c7o0sm7tq5scmw2s6kun.jpg",
+          "publicId": "store-pics/c7o0sm7tq5scmw2s6kun"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170432/store-pics/doy8dlsmtkknihv5nkww.jpg",
+          "publicId": "store-pics/doy8dlsmtkknihv5nkww"
+        }
+      ],
+      "updatedAt": "2026-04-02T22:54:55.651Z"
+    },
+    {
+      "id": "p_1775170405518",
+      "name": "Vaso portavelas",
+      "price": 60,
+      "category": "Hogar",
+      "status": "Buen estado",
+      "desc": "Hermoso portavelas de vidrio. También funciona como florero.",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170295/store-pics/vyd8vxz0qeahbuofessb.jpg",
+          "publicId": "store-pics/vyd8vxz0qeahbuofessb"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170296/store-pics/rlyohs8hcuq0ghllybg6.jpg",
+          "publicId": "store-pics/rlyohs8hcuq0ghllybg6"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170299/store-pics/zs1m79hyijdo4msfpwr4.jpg",
+          "publicId": "store-pics/zs1m79hyijdo4msfpwr4"
+        }
+      ],
+      "updatedAt": "2026-04-02T22:53:25.518Z"
+    },
+    {
+      "id": "p_1775170246923",
+      "name": "Portavelas dorados",
+      "price": 120,
+      "category": "Hogar",
+      "status": "Como nuevo",
+      "desc": "Hermoso portavelas dorados. Incluyen velas.",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170169/store-pics/ukb15u7kjh2iwmh8bxjt.jpg",
+          "publicId": "store-pics/ukb15u7kjh2iwmh8bxjt"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170171/store-pics/tc8hkcmyrb6dfmyrkp5b.jpg",
+          "publicId": "store-pics/tc8hkcmyrb6dfmyrkp5b"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170173/store-pics/pwbioiexmhwboldixfeq.jpg",
+          "publicId": "store-pics/pwbioiexmhwboldixfeq"
+        }
+      ],
+      "updatedAt": "2026-04-02T22:50:46.925Z"
+    },
+    {
       "id": "p_1775161610691",
       "name": "Charola de cerámica Merry Moments",
       "price": 120,
@@ -1300,5 +1378,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-02T20:30:58.672Z"
+  "updatedAt": "2026-04-02T22:54:59.913Z"
 }
