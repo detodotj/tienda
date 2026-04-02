@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775161610691",
+      "name": "Charola de cerámica Merry Moments",
+      "price": 120,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Hermosa charola de cerámica stoneware.",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775161485/store-pics/yvka17oa8yjronhte949.jpg",
+          "publicId": "store-pics/yvka17oa8yjronhte949"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775161486/store-pics/aylmu13kuppiw4jrhrws.jpg",
+          "publicId": "store-pics/aylmu13kuppiw4jrhrws"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775161488/store-pics/h2fybqda8mtcf8qkusdx.jpg",
+          "publicId": "store-pics/h2fybqda8mtcf8qkusdx"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775161780/store-pics/c6dvmdimaogw2rxtcbmz.jpg",
+          "publicId": "store-pics/c6dvmdimaogw2rxtcbmz"
+        }
+      ],
+      "updatedAt": "2026-04-02T20:30:25.937Z"
+    },
+    {
       "id": "p_1775160845128",
       "name": "Control 🎮 NES30 8bitdo",
       "price": 350,
@@ -1270,5 +1300,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-02T20:20:35.827Z"
+  "updatedAt": "2026-04-02T20:30:58.672Z"
 }
