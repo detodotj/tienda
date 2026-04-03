@@ -540,7 +540,7 @@ function updateStats(){
   document.getElementById('totalCount').textContent=products.length;
   const cats={};
   products.forEach(p=>{cats[p.category]=(cats[p.category]||0)+1;});
-  const top=Object.entries(cats).sort((a,b)=>b[1]-a[1]).slice(0,4);
+  const top=Object.entries(cats).sort((a,b)=>b[1]-a[1]);
   document.getElementById('catStats').innerHTML=top.map(([c,n])=>`${c}: <strong>${n}</strong>`).join(' &nbsp;·&nbsp; ');
 }
 
