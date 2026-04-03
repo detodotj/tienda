@@ -1,22 +1,390 @@
 {
   "products": [
     {
-      "id": "p_1775253809377",
-      "name": "Test1",
-      "price": 900,
-      "category": "Videojuegos",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Retro",
+      "id": "p_1775247249804",
+      "name": "Zapatos Michael Kors talla 10",
+      "price": 120,
+      "category": "Calzado",
+      "status": "Buen estado",
+      "desc": "Lindos zapatos de piso color gris 🩶. Sin detalles.",
+      "subcategory": "Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://i.ibb.co/SD1ZRxfn/1000043967.jpg",
-          "publicId": "ZRwbWJ28"
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775247072/store-pics/ir5edgzmuw4uyobk5ajk.jpg",
+          "publicId": "store-pics/ir5edgzmuw4uyobk5ajk"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775247074/store-pics/ozhrabshf4rzu42edeus.jpg",
+          "publicId": "store-pics/ozhrabshf4rzu42edeus"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775247076/store-pics/szv2yyriyz8rfwi6jzzx.jpg",
+          "publicId": "store-pics/szv2yyriyz8rfwi6jzzx"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775247078/store-pics/yspaiq6u4jmwdc348we0.jpg",
+          "publicId": "store-pics/yspaiq6u4jmwdc348we0"
         }
       ],
-      "updatedAt": "2026-04-03T22:03:29.379Z"
+      "updatedAt": "2026-04-03T20:14:09.805Z"
+    },
+    {
+      "id": "p_1775243636284",
+      "name": "Collar",
+      "price": 120,
+      "category": "Joyería",
+      "status": "Como nuevo",
+      "desc": "Hermoso 😻💟 collar largo, con detalles en azul, negro y plateado.",
+      "subcategory": "Collares",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243551/store-pics/ag3hk5hudymrthyot3pi.jpg",
+          "publicId": "store-pics/ag3hk5hudymrthyot3pi"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243553/store-pics/k32b0qlx3ukwmgz0pc2t.jpg",
+          "publicId": "store-pics/k32b0qlx3ukwmgz0pc2t"
+        }
+      ],
+      "updatedAt": "2026-04-03T19:13:56.284Z"
+    },
+    {
+      "id": "p_1775243516000",
+      "name": "Collar",
+      "price": 60,
+      "category": "Joyería",
+      "status": "Como nuevo",
+      "desc": "Lindo collar 🤩 morado 💜.",
+      "subcategory": "Collares",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243447/store-pics/jc1d0twvo49g9m1qheph.jpg",
+          "publicId": "store-pics/jc1d0twvo49g9m1qheph"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243449/store-pics/h658oflpdzr7noenn92j.jpg",
+          "publicId": "store-pics/h658oflpdzr7noenn92j"
+        }
+      ],
+      "updatedAt": "2026-04-03T19:11:56.000Z"
+    },
+    {
+      "id": "p_1775243412762",
+      "name": "Collar",
+      "price": 60,
+      "category": "Joyería",
+      "status": "Como nuevo",
+      "desc": "Lindo 😙 collar de fantasía negro y largo.",
+      "subcategory": "Collares",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243362/store-pics/mdzadi9dlczi1xo8wvcs.jpg",
+          "publicId": "store-pics/mdzadi9dlczi1xo8wvcs"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243359/store-pics/hm030zmj2qhjdbrjf9vz.jpg",
+          "publicId": "store-pics/hm030zmj2qhjdbrjf9vz"
+        }
+      ],
+      "updatedAt": "2026-04-03T19:10:12.762Z"
+    },
+    {
+      "id": "p_1775243246169",
+      "name": "Cadena",
+      "price": 100,
+      "category": "Joyería",
+      "status": "Como nuevo",
+      "desc": "Hermoso 😻 cadena dorada con dije de cruz.",
+      "subcategory": "Collares",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243182/store-pics/zxqmdiruleakkqlk9wpq.jpg",
+          "publicId": "store-pics/zxqmdiruleakkqlk9wpq"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243184/store-pics/nn5bd9zul4nhrmamtvhd.jpg",
+          "publicId": "store-pics/nn5bd9zul4nhrmamtvhd"
+        }
+      ],
+      "updatedAt": "2026-04-03T19:07:26.171Z"
+    },
+    {
+      "id": "p_1775242937585",
+      "name": "Collar",
+      "price": 100,
+      "category": "Joyería",
+      "status": "Como nuevo",
+      "desc": "Hermoso 💟 y robusto collar de piedras negras. Fantasía.",
+      "subcategory": "Collares",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775242849/store-pics/grf1ai38wa6vvi8zhtom.jpg",
+          "publicId": "store-pics/grf1ai38wa6vvi8zhtom"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775242851/store-pics/mbgqjpjekoffh0mefp5f.jpg",
+          "publicId": "store-pics/mbgqjpjekoffh0mefp5f"
+        }
+      ],
+      "updatedAt": "2026-04-03T19:02:17.585Z"
+    },
+    {
+      "id": "p_1775242803570",
+      "name": "Collar",
+      "price": 80,
+      "category": "Joyería",
+      "status": "Como nuevo",
+      "desc": "Lindo collar 😽 de fantasía con cortes brillantes.",
+      "subcategory": "Collares",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775242708/store-pics/lqsfgb3jwijiobzfdjh0.jpg",
+          "publicId": "store-pics/lqsfgb3jwijiobzfdjh0"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775242710/store-pics/hspsxcwlgdbcu3bucgiv.jpg",
+          "publicId": "store-pics/hspsxcwlgdbcu3bucgiv"
+        }
+      ],
+      "updatedAt": "2026-04-03T19:00:03.570Z"
+    },
+    {
+      "id": "p_1775242104549",
+      "name": "Collar",
+      "price": 120,
+      "category": "Joyería",
+      "status": "Como nuevo",
+      "desc": "Hermoso 😻 collar negro con piedras brillantes de fantasía.",
+      "subcategory": "Collares",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775242016/store-pics/fnv65o1ioblcefzbneno.jpg",
+          "publicId": "store-pics/fnv65o1ioblcefzbneno"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775242018/store-pics/wrn1ovahgiidal7nwpdy.jpg",
+          "publicId": "store-pics/wrn1ovahgiidal7nwpdy"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:48:24.549Z"
+    },
+    {
+      "id": "p_1775241827830",
+      "name": "Blusa BCBG Maxazria talla XXS",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Blusita formal o casual con lindo vuelo en la espalda.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241703/store-pics/wjuapbqc1uvk6w1egjee.jpg",
+          "publicId": "store-pics/wjuapbqc1uvk6w1egjee"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241705/store-pics/fyyhulynoc18zq1qxqll.jpg",
+          "publicId": "store-pics/fyyhulynoc18zq1qxqll"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241706/store-pics/hyrpttsmg11krx48alsd.jpg",
+          "publicId": "store-pics/hyrpttsmg11krx48alsd"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241708/store-pics/ojyxicc2ekr8y5r4z0sz.jpg",
+          "publicId": "store-pics/ojyxicc2ekr8y5r4z0sz"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:43:47.832Z"
+    },
+    {
+      "id": "p_1775241540161",
+      "name": "Vestido de noche o cóctel Taylor talla 10",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Elegante y formal. Vestido 👗 con hermoso cuello V.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241425/store-pics/m9lca2npfnr4nfvssjzr.jpg",
+          "publicId": "store-pics/m9lca2npfnr4nfvssjzr"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241426/store-pics/zqdnhwbltcwnj4o9ar4v.jpg",
+          "publicId": "store-pics/zqdnhwbltcwnj4o9ar4v"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241428/store-pics/hrvzaply8wtdibrph1b1.jpg",
+          "publicId": "store-pics/hrvzaply8wtdibrph1b1"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775241429/store-pics/ltlfwehoj5sdshexf4ae.jpg",
+          "publicId": "store-pics/ltlfwehoj5sdshexf4ae"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:39:00.161Z"
+    },
+    {
+      "id": "p_1775241101804",
+      "name": "Vestido A New Day talla XS",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo vestido, cuello V y largo a la rodilla. Hermoso estampado floral.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240944/store-pics/dcgbqfpoxruaacrl9qly.jpg",
+          "publicId": "store-pics/dcgbqfpoxruaacrl9qly"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240946/store-pics/iwbnvqws7lfl5i4umjdu.jpg",
+          "publicId": "store-pics/iwbnvqws7lfl5i4umjdu"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240948/store-pics/j45trrrrle71lubbhnix.jpg",
+          "publicId": "store-pics/j45trrrrle71lubbhnix"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240950/store-pics/sml0jtmpiw5s8a3hoyrv.jpg",
+          "publicId": "store-pics/sml0jtmpiw5s8a3hoyrv"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:31:41.804Z"
+    },
+    {
+      "id": "p_1775240903427",
+      "name": "Vestido 👗 Tommy Hilfiger talla 12",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso vestido de cóctel con ziper dorado al frente. Largo a la rodilla.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240786/store-pics/ud7oxup5efvd29cp2uxt.jpg",
+          "publicId": "store-pics/ud7oxup5efvd29cp2uxt"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240787/store-pics/bqwrluuxkjjahckojlod.jpg",
+          "publicId": "store-pics/bqwrluuxkjjahckojlod"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240789/store-pics/kgkgvg2nqwe6zavppxx4.jpg",
+          "publicId": "store-pics/kgkgvg2nqwe6zavppxx4"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:28:23.427Z"
+    },
+    {
+      "id": "p_1775240742164",
+      "name": "Blusa Bisou Bisou XL",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Blusa casual, tela muy delgada para el calor. Más larga en la parte de atrás. 100% poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240600/store-pics/w4wbytvq39pxbphdpolm.jpg",
+          "publicId": "store-pics/w4wbytvq39pxbphdpolm"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240602/store-pics/purwrlroqt1voc5n6d0k.jpg",
+          "publicId": "store-pics/purwrlroqt1voc5n6d0k"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240604/store-pics/vauhfc0zmloz8io7zarm.jpg",
+          "publicId": "store-pics/vauhfc0zmloz8io7zarm"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240607/store-pics/pbm8kgvhysq0f0f3u8vu.jpg",
+          "publicId": "store-pics/pbm8kgvhysq0f0f3u8vu"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:25:42.164Z"
+    },
+    {
+      "id": "p_1775240510709",
+      "name": "Vestido Charming Charlie talla S",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo vestido de verano con tirantes. Tiene fondo integrado. Tela exterior con mucho vuelo.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240347/store-pics/gvalq8ta7kkqyhkorl9w.jpg",
+          "publicId": "store-pics/gvalq8ta7kkqyhkorl9w"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240348/store-pics/fet1e5wvxyj8t0nvvfr8.jpg",
+          "publicId": "store-pics/fet1e5wvxyj8t0nvvfr8"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240349/store-pics/q83ck2zzv3fuba6jvaqp.jpg",
+          "publicId": "store-pics/q83ck2zzv3fuba6jvaqp"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240351/store-pics/uow66zoszmmvqiozbgvx.jpg",
+          "publicId": "store-pics/uow66zoszmmvqiozbgvx"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:21:50.709Z"
+    },
+    {
+      "id": "p_1775240289980",
+      "name": "Vestido Princess Polly talla 2 o XS",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo vestido y muy fresco. Llega a la rodilla. Fondo integrado. 100 % poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240546/store-pics/utadqtlyq1j61rozpjpv.jpg",
+          "publicId": "store-pics/utadqtlyq1j61rozpjpv"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240548/store-pics/ck6tutgwotls2zbbvt2g.jpg",
+          "publicId": "store-pics/ck6tutgwotls2zbbvt2g"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240550/store-pics/g9h2zaxd48wpfxqyqegm.jpg",
+          "publicId": "store-pics/g9h2zaxd48wpfxqyqegm"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:22:35.505Z"
     },
     {
       "id": "p_1775192683917",
@@ -1719,146 +2087,22 @@
       "updatedAt": "2026-03-31T23:42:56.965Z"
     },
     {
-      "id": "p_1775241101804",
-      "name": "Vestido A New Day talla XS",
-      "price": 100,
-      "category": "Ropa",
+      "id": "p_1775253809377",
+      "name": "Test1",
+      "price": 900,
+      "category": "Videojuegos",
       "status": "Como nuevo",
-      "desc": "Lindo vestido, cuello V y largo a la rodilla. Hermoso estampado floral.",
-      "subcategory": "Mujer",
+      "desc": "",
+      "subcategory": "Retro",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240944/store-pics/dcgbqfpoxruaacrl9qly.jpg",
-          "publicId": "store-pics/dcgbqfpoxruaacrl9qly"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240946/store-pics/iwbnvqws7lfl5i4umjdu.jpg",
-          "publicId": "store-pics/iwbnvqws7lfl5i4umjdu"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240948/store-pics/j45trrrrle71lubbhnix.jpg",
-          "publicId": "store-pics/j45trrrrle71lubbhnix"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240950/store-pics/sml0jtmpiw5s8a3hoyrv.jpg",
-          "publicId": "store-pics/sml0jtmpiw5s8a3hoyrv"
+          "url": "https://i.ibb.co/SD1ZRxfn/1000043967.jpg",
+          "publicId": "ZRwbWJ28"
         }
       ],
-      "updatedAt": "2026-04-03T18:31:41.804Z"
-    },
-    {
-      "id": "p_1775240903427",
-      "name": "Vestido 👗 Tommy Hilfiger talla 12",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Hermoso vestido de cóctel con ziper dorado al frente. Largo a la rodilla.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240786/store-pics/ud7oxup5efvd29cp2uxt.jpg",
-          "publicId": "store-pics/ud7oxup5efvd29cp2uxt"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240787/store-pics/bqwrluuxkjjahckojlod.jpg",
-          "publicId": "store-pics/bqwrluuxkjjahckojlod"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240789/store-pics/kgkgvg2nqwe6zavppxx4.jpg",
-          "publicId": "store-pics/kgkgvg2nqwe6zavppxx4"
-        }
-      ],
-      "updatedAt": "2026-04-03T18:28:23.427Z"
-    },
-    {
-      "id": "p_1775240742164",
-      "name": "Blusa Bisou Bisou XL",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusa casual, tela muy delgada para el calor. Más larga en la parte de atrás. 100% poliéster.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240600/store-pics/w4wbytvq39pxbphdpolm.jpg",
-          "publicId": "store-pics/w4wbytvq39pxbphdpolm"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240602/store-pics/purwrlroqt1voc5n6d0k.jpg",
-          "publicId": "store-pics/purwrlroqt1voc5n6d0k"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240604/store-pics/vauhfc0zmloz8io7zarm.jpg",
-          "publicId": "store-pics/vauhfc0zmloz8io7zarm"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240607/store-pics/pbm8kgvhysq0f0f3u8vu.jpg",
-          "publicId": "store-pics/pbm8kgvhysq0f0f3u8vu"
-        }
-      ],
-      "updatedAt": "2026-04-03T18:25:42.164Z"
-    },
-    {
-      "id": "p_1775240510709",
-      "name": "Vestido Charming Charlie talla S",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Lindo vestido de verano con tirantes. Tiene fondo integrado. Tela exterior con mucho vuelo.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240347/store-pics/gvalq8ta7kkqyhkorl9w.jpg",
-          "publicId": "store-pics/gvalq8ta7kkqyhkorl9w"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240348/store-pics/fet1e5wvxyj8t0nvvfr8.jpg",
-          "publicId": "store-pics/fet1e5wvxyj8t0nvvfr8"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240349/store-pics/q83ck2zzv3fuba6jvaqp.jpg",
-          "publicId": "store-pics/q83ck2zzv3fuba6jvaqp"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240351/store-pics/uow66zoszmmvqiozbgvx.jpg",
-          "publicId": "store-pics/uow66zoszmmvqiozbgvx"
-        }
-      ],
-      "updatedAt": "2026-04-03T18:21:50.709Z"
-    },
-    {
-      "id": "p_1775240289980",
-      "name": "Vestido Princess Polly talla 2 o XS",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Lindo vestido y muy fresco. Llega a la rodilla. Fondo integrado. 100 % poliéster.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240546/store-pics/utadqtlyq1j61rozpjpv.jpg",
-          "publicId": "store-pics/utadqtlyq1j61rozpjpv"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240548/store-pics/ck6tutgwotls2zbbvt2g.jpg",
-          "publicId": "store-pics/ck6tutgwotls2zbbvt2g"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240550/store-pics/g9h2zaxd48wpfxqyqegm.jpg",
-          "publicId": "store-pics/g9h2zaxd48wpfxqyqegm"
-        }
-      ],
-      "updatedAt": "2026-04-03T18:22:35.505Z"
+      "updatedAt": "2026-04-03T22:03:29.379Z"
     }
   ],
   "deletedIds": [
@@ -1900,5 +2144,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-03T22:03:35.055Z"
+  "updatedAt": "2026-04-03T22:08:43.860Z"
 }
