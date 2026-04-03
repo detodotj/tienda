@@ -387,16 +387,10 @@ textarea { resize:vertical; min-height:80px; }
         <label>Clave secreta del admin (ADMIN_SECRET)</label>
         <input type="password" id="cfgAdminSecret" placeholder="tiendatj2024">
       </div>
-      <div class="section-label" style="margin-top:20px">Cloudinary — Almacén de fotos</div>
-      <div class="form-row">
-        <div class="form-group">
-          <label>Cloud Name</label>
-          <input type="text" id="cfgCloudName" placeholder="dcscb3fg4">
-        </div>
-        <div class="form-group">
-          <label>Upload Preset</label>
-          <input type="text" id="cfgPreset" placeholder="store-pics">
-        </div>
+      <div class="section-label" style="margin-top:20px">ImgBB — Almacén de fotos</div>
+      <div class="form-group">
+        <label>API Key de ImgBB</label>
+        <input type="text" id="cfgImgbbKey" placeholder="4900e81d5d53d6c1f6d0b11f4a24b410">
       </div>
     </div>
     <div class="modal-footer">
@@ -417,7 +411,7 @@ textarea { resize:vertical; min-height:80px; }
     <div class="modal-body" style="text-align:center;padding:28px 24px">
       <div style="font-size:48px;margin-bottom:16px">🗑️</div>
       <p style="font-size:15px;font-weight:700;margin-bottom:10px;color:var(--text)" id="deleteModalName"></p>
-      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px">Esta acción eliminará el producto del catálogo y <strong>borrará permanentemente todas sus fotos de Cloudinary.</strong></p>
+      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px">Esta acción eliminará el producto del catálogo y <strong>las fotos quedarán en ImgBB — puedes borrarlas manualmente en imgbb.com cuando quieras.</strong></p>
       <p style="font-size:12px;color:#e74c3c;font-weight:600">⚠️ Esta acción no se puede deshacer.</p>
     </div>
     <div class="modal-footer" style="justify-content:center;gap:12px">
@@ -446,15 +440,14 @@ const SUBCATS = {
   'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets']
 };
 
-const DEFAULT_CLOUD='dcscb3fg4', DEFAULT_PRESET='store-pics', DEFAULT_WA='526642601992';
+const IMGBB_API_KEY='4900e81d5d53d6c1f6d0b11f4a24b410', DEFAULT_WA='526642601992';
 let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[], pendingDeleteId=null;
 
 function init(){
   try { const s=localStorage.getItem('storeProducts'); if(s) products=JSON.parse(s); } catch(e){ products=[]; }
   try { const dl=localStorage.getItem('storeDeleted'); if(dl) deletedIds=JSON.parse(dl); } catch(e){ deletedIds=[]; }
   try { const c=localStorage.getItem('storeConfig'); if(c) config=JSON.parse(c); } catch(e){ config={}; }
-  if(!config.cloudName) config.cloudName=DEFAULT_CLOUD;
-  if(!config.preset) config.preset=DEFAULT_PRESET;
+  if(!config.imgbbKey) config.imgbbKey=IMGBB_API_KEY;
   renderGrid();
 }
 function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); localStorage.setItem('storeDeleted',JSON.stringify(deletedIds)); }
@@ -592,8 +585,7 @@ function handleDrop(e){e.preventDefault();document.getElementById('dropZone').cl
 function handleFileSelect(e){uploadFiles(Array.from(e.target.files));e.target.value='';}
 
 async function uploadFiles(files){
-  const cloudName=(config.cloudName||DEFAULT_CLOUD).trim();
-  const preset=(config.preset||DEFAULT_PRESET).trim();
+  const apiKey=(config.imgbbKey||IMGBB_API_KEY).trim();
   const remaining=6-currentPhotos.length;
   if(remaining<=0){showToast('Máximo 6 fotos por producto','error');return;}
   const toUpload=files.slice(0,remaining);
@@ -603,14 +595,12 @@ async function uploadFiles(files){
     document.getElementById('uploadingText').textContent=`Subiendo foto ${i+1} de ${toUpload.length}...`;
     try{
       const fd=new FormData();
-      fd.append('file',toUpload[i]);
-      fd.append('upload_preset',preset);
-      fd.append('folder','store-pics');
-      const res=await fetch(`https://api.cloudinary.com/v1_1/${cloudName}/image/upload`,{method:'POST',body:fd});
+      fd.append('image',toUpload[i]);
+      const res=await fetch(`https://api.imgbb.com/1/upload?key=${apiKey}`,{method:'POST',body:fd});
       const data=await res.json();
-      if(data.secure_url){currentPhotos.push({url:data.secure_url,publicId:data.public_id});renderPhotosPreview();}
-      else showToast(`Error subiendo foto ${i+1}: ${data.error?.message||''}','error`);
-    }catch(err){showToast('Error de conexión con Cloudinary','error');}
+      if(data.success){currentPhotos.push({url:data.data.url,publicId:data.data.id});renderPhotosPreview();}
+      else showToast(`Error subiendo foto ${i+1}: ${data.error?.message||''},'error`);
+    }catch(err){showToast('Error de conexión con ImgBB','error');}
   }
   ind.classList.remove('show');
 }
@@ -674,22 +664,6 @@ async function confirmDelete(){
   if(!deletedIds.includes(id)) deletedIds.push(id);
   products=products.filter(x=>x.id!==id);
   saveLocal(); renderGrid();
-  if(p.photos && p.photos.length > 0){
-    const publicIds=p.photos.map(ph=>ph.publicId).filter(Boolean);
-    if(publicIds.length > 0){
-      showToast('🗑️ Eliminando fotos de Cloudinary...','');
-      try{
-        const res=await fetch('https://tienda-backend-drab.vercel.app/api/delete-image',{
-          method:'POST',
-          headers:{'Content-Type':'application/json','x-api-key':config.adminSecret||''},
-          body:JSON.stringify({publicIds})
-        });
-        if(res.ok) showToast('🗑️ Producto y fotos eliminados','success');
-        else showToast('🗑️ Producto eliminado — fotos no se pudieron borrar','success');
-      }catch(e){ showToast('🗑️ Producto eliminado — error al borrar fotos','success'); }
-      return;
-    }
-  }
   showToast('🗑️ Producto eliminado — recuerda publicar','success');
 }
 
@@ -853,8 +827,7 @@ function openConfig(){
   document.getElementById('cfgOwner').value=config.owner||'';
   document.getElementById('cfgRepo').value=config.repo||'';
   document.getElementById('cfgPath').value=config.path||'catalog.json';
-  document.getElementById('cfgCloudName').value=config.cloudName||DEFAULT_CLOUD;
-  document.getElementById('cfgPreset').value=config.preset||DEFAULT_PRESET;
+  document.getElementById('cfgImgbbKey').value=config.imgbbKey||IMGBB_API_KEY;
   document.getElementById('cfgAdminSecret').value=config.adminSecret||'';
   document.getElementById('configModal').classList.add('open');
 }
@@ -869,8 +842,7 @@ function saveConfig(){
   config={
     token,owner,repo,
     path:document.getElementById('cfgPath').value.trim()||'catalog.json',
-    cloudName:document.getElementById('cfgCloudName').value.trim()||DEFAULT_CLOUD,
-    preset:document.getElementById('cfgPreset').value.trim()||DEFAULT_PRESET,
+    imgbbKey:document.getElementById('cfgImgbbKey').value.trim()||IMGBB_API_KEY,
     adminSecret:document.getElementById('cfgAdminSecret').value.trim(),
   };
   localStorage.setItem('storeConfig',JSON.stringify(config));
