@@ -1,6 +1,58 @@
 {
   "products": [
     {
+      "id": "p_1775191745491",
+      "name": "Fallout decoración de cumpleaños.",
+      "price": 120,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "Fallout decoración de cumpleaños.",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191631/store-pics/ojtfjdeizhrbb6egrjnt.jpg",
+          "publicId": "store-pics/ojtfjdeizhrbb6egrjnt"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191627/store-pics/wnhlluxkovierijmls9w.jpg",
+          "publicId": "store-pics/wnhlluxkovierijmls9w"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191629/store-pics/pk8asqyjbauzdf22zxus.jpg",
+          "publicId": "store-pics/pk8asqyjbauzdf22zxus"
+        }
+      ],
+      "updatedAt": "2026-04-03T04:49:05.491Z"
+    },
+    {
+      "id": "p_1775191609106",
+      "name": "Batman",
+      "price": 100,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "Figura de batman.",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191484/store-pics/sj9yjpcqyxkcvkkqbfx9.jpg",
+          "publicId": "store-pics/sj9yjpcqyxkcvkkqbfx9"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191481/store-pics/kozdktwi7ijcmcispxdu.jpg",
+          "publicId": "store-pics/kozdktwi7ijcmcispxdu"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191482/store-pics/k14cbgylpncum2zaaomn.jpg",
+          "publicId": "store-pics/k14cbgylpncum2zaaomn"
+        }
+      ],
+      "updatedAt": "2026-04-03T04:46:49.106Z"
+    },
+    {
       "id": "p_1775174299121",
       "name": "Palazzo Charlotte Russe talla S",
       "price": 120,
@@ -1666,5 +1718,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-03T03:41:58.634Z"
+  "updatedAt": "2026-04-03T04:49:19.142Z"
 }
