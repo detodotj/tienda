@@ -383,13 +383,13 @@ footer strong { color:rgba(255,255,255,0.65); }
     <option>Buen estado</option>
     <option>Regular</option>
   </select>
-  <select class="filter-pill" id="filterDelivery" onchange="applyFilters()">
-    <option value="">Cualquier punto</option>
-    <option>Cuesta Blanca</option>
-    <option>Soriana La Gloria</option>
-    <option>Ley Rosarito</option>
-    <option>Calimax Santa Fe</option>
-    <option>Uber Flash</option>
+  <select class="filter-pill" id="filterPrice" onchange="applyFilters()">
+    <option value="">Cualquier precio</option>
+    <option value="0-100">Hasta $100</option>
+    <option value="100-300">$100 — $300</option>
+    <option value="300-500">$300 — $500</option>
+    <option value="500-1000">$500 — $1,000</option>
+    <option value="1000-99999">Más de $1,000</option>
   </select>
   <div class="count-badge" id="countBadge"></div>
 </div>
@@ -516,7 +516,13 @@ const SUBCATS = {
 };
 let activeSubcat = '';
 
-let allProducts=[], filteredProducts=[], activeCat='', cart=[];
+let allProducts=[], filteredProducts=[], activeCat='', cart=[], priceRange='';
+
+function filterByPrice(p, range){
+  const price = Number(p.price);
+  const parts = range.split('-');
+  return price >= Number(parts[0]) && price <= Number(parts[1]);
+}
 
 async function loadCatalog() {
   try {
@@ -533,6 +539,7 @@ async function loadCatalog() {
 function setCat(cat) {
   activeCat=cat;
   activeSubcat='';
+  document.getElementById('searchInput').value='';
   document.querySelectorAll('.cat-btn').forEach(b=>{
     b.classList.toggle('active', cat==='' ? b.textContent.trim()==='Todos' : b.textContent.includes(cat));
   });
@@ -565,14 +572,23 @@ function renderSubcatBar() {
 function applyFilters() {
   const s=document.getElementById('searchInput').value.toLowerCase();
   const st=document.getElementById('filterStatus').value;
-  const d=document.getElementById('filterDelivery').value;
+  priceRange=document.getElementById('filterPrice').value;
+  // Flexible search: match singular/plural by trying s and s without last char
+  const sShort = s.length > 3 ? s.slice(0,-1) : s;
   filteredProducts=allProducts.filter(p=>
     !p.paused &&
-    (!s||p.name.toLowerCase().includes(s)||(p.desc||'').toLowerCase().includes(s))&&
+    (!s||
+      p.name.toLowerCase().includes(s)||
+      p.name.toLowerCase().includes(sShort)||
+      (p.desc||'').toLowerCase().includes(s)||
+      (p.desc||'').toLowerCase().includes(sShort)||
+      (p.subcategory||'').toLowerCase().includes(s)||
+      (p.category||'').toLowerCase().includes(s)
+    )&&
     (!activeCat||p.category===activeCat)&&
     (!activeSubcat||p.subcategory===activeSubcat)&&
     (!st||p.status===st)&&
-    (!d||p.delivery===d)
+    (!priceRange||filterByPrice(p,priceRange))
   );
   renderGrid();
 }
