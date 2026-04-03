@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "p_1775192683917",
-      "name": "Light gun ps1",
+      "name": "Light gun PS1",
       "price": 350,
       "category": "Videojuegos",
       "status": "Como nuevo",
@@ -32,7 +32,7 @@
           "publicId": "store-pics/io1vvirgkwulkc3hb7xv"
         }
       ],
-      "updatedAt": "2026-04-03T05:04:43.917Z"
+      "updatedAt": "2026-04-03T05:05:18.606Z"
     },
     {
       "id": "p_1775191745491",
@@ -1752,5 +1752,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-03T05:04:50.959Z"
+  "updatedAt": "2026-04-03T05:05:28.915Z"
 }
