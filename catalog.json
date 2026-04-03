@@ -16,23 +16,15 @@
           "publicId": "store-pics/zld1tdf3fnmllywhdkem"
         },
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775192557/store-pics/ml4luy1z3iexryv7kgfy.jpg",
-          "publicId": "store-pics/ml4luy1z3iexryv7kgfy"
-        },
-        {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775192559/store-pics/xelymgvbg1a1u0czqhda.jpg",
           "publicId": "store-pics/xelymgvbg1a1u0czqhda"
         },
         {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775192561/store-pics/tmalfj1ky30quvr2mtrd.jpg",
           "publicId": "store-pics/tmalfj1ky30quvr2mtrd"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775192582/store-pics/io1vvirgkwulkc3hb7xv.jpg",
-          "publicId": "store-pics/io1vvirgkwulkc3hb7xv"
         }
       ],
-      "updatedAt": "2026-04-03T05:05:18.606Z"
+      "updatedAt": "2026-04-03T17:18:40.480Z"
     },
     {
       "id": "p_1775191745491",
@@ -52,13 +44,9 @@
         {
           "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191627/store-pics/wnhlluxkovierijmls9w.jpg",
           "publicId": "store-pics/wnhlluxkovierijmls9w"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191629/store-pics/pk8asqyjbauzdf22zxus.jpg",
-          "publicId": "store-pics/pk8asqyjbauzdf22zxus"
         }
       ],
-      "updatedAt": "2026-04-03T04:49:05.491Z"
+      "updatedAt": "2026-04-03T17:18:16.215Z"
     },
     {
       "id": "p_1775191609106",
@@ -1752,5 +1740,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-03T05:18:06.825Z"
+  "updatedAt": "2026-04-03T17:19:00.414Z"
 }
