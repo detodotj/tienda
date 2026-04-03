@@ -1,6 +1,49 @@
 {
   "products": [
     {
+      "id": "p_1775240510709",
+      "name": "Vestido Charming Charlie talla S",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo vestido de verano con tirantes. Tiene fondo integrado. Tela exterior con mucho vuelo.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240347/store-pics/gvalq8ta7kkqyhkorl9w.jpg",
+          "publicId": "store-pics/gvalq8ta7kkqyhkorl9w"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240348/store-pics/fet1e5wvxyj8t0nvvfr8.jpg",
+          "publicId": "store-pics/fet1e5wvxyj8t0nvvfr8"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240349/store-pics/q83ck2zzv3fuba6jvaqp.jpg",
+          "publicId": "store-pics/q83ck2zzv3fuba6jvaqp"
+        },
+        {
+          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775240351/store-pics/uow66zoszmmvqiozbgvx.jpg",
+          "publicId": "store-pics/uow66zoszmmvqiozbgvx"
+        }
+      ],
+      "updatedAt": "2026-04-03T18:21:50.709Z"
+    },
+    {
+      "id": "p_1775240289980",
+      "name": "Vestido Princess Polly talla 2 o XS",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo vestido y muy fresco. Llega a la rodilla. Fondo integrado. 100 % poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [],
+      "updatedAt": "2026-04-03T18:18:09.985Z"
+    },
+    {
       "id": "p_1775192683917",
       "name": "Light gun PS1",
       "price": 350,
@@ -1740,5 +1783,5 @@
     "p_1774056032732",
     "p_1774059706129"
   ],
-  "updatedAt": "2026-04-03T18:06:46.972Z"
+  "updatedAt": "2026-04-03T18:21:56.619Z"
 }
