@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775335690838",
+      "name": "Sweater Spence talla L",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Sweater Spence. Tela brillante, largo a la rodilla. Rayón y poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1tmDcQwv/8183.jpg",
+          "publicId": "67W3Qwfn"
+        },
+        {
+          "url": "https://i.ibb.co/tkmRXZ6/8184.jpg",
+          "publicId": "YYRgZDS"
+        },
+        {
+          "url": "https://i.ibb.co/MD9DjLsf/8181.jpg",
+          "publicId": "VW3Wh8tx"
+        },
+        {
+          "url": "https://i.ibb.co/Y4mbM9pf/8182.jpg",
+          "publicId": "p6cn8DJ4"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:48:10.838Z"
+    },
+    {
       "id": "p_1775335283277",
       "name": "Pants Sugar Kiss talla L",
       "price": 60,
@@ -2289,5 +2319,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T20:41:28.222Z"
+  "updatedAt": "2026-04-04T20:48:16.094Z"
 }
