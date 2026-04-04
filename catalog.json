@@ -1,6 +1,66 @@
 {
   "products": [
     {
+      "id": "p_1775333932287",
+      "name": "Vestido Trixxi talla L",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido de cóctel strapless, con cinturón, largo a la rodilla y más largo en parte de atrás.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/8gY9jDC9/8158.jpg",
+          "publicId": "Jj3HzR1H"
+        },
+        {
+          "url": "https://i.ibb.co/DfYkW2y9/8157.jpg",
+          "publicId": "b5FLm9Zs"
+        },
+        {
+          "url": "https://i.ibb.co/Z1FXrGGM/8156.jpg",
+          "publicId": "Hpb4yBBH"
+        },
+        {
+          "url": "https://i.ibb.co/WNXwHjTw/8159.jpg",
+          "publicId": "qL8fDVZf"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:18:52.287Z"
+    },
+    {
+      "id": "p_1775333347849",
+      "name": "Saco Ikara New York talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Elegante saco de tela transparente y detalles de pedrería.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rGQr3yjc/8154.jpg",
+          "publicId": "mCRW0zjX"
+        },
+        {
+          "url": "https://i.ibb.co/GQqPxV8d/8151.jpg",
+          "publicId": "9H7Y8q1p"
+        },
+        {
+          "url": "https://i.ibb.co/nZgmsj5/8150.jpg",
+          "publicId": "H1F4Dqk"
+        },
+        {
+          "url": "https://i.ibb.co/BKSZNZps/8152.jpg",
+          "publicId": "TqF8L8fh"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:09:07.849Z"
+    },
+    {
       "id": "p_1775332142680",
       "name": "Juego de Ganzúas",
       "price": 450,
@@ -2131,5 +2191,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T19:52:44.321Z"
+  "updatedAt": "2026-04-04T20:18:55.740Z"
 }
