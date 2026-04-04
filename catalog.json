@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1775269550830",
+      "name": "Test",
+      "price": 600,
+      "category": "Muebles",
+      "status": "Como nuevo",
+      "desc": "Test1",
+      "subcategory": "Comedor",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/r2fyGC5c/7897.jpg",
+          "publicId": "RT4HpxQB"
+        }
+      ],
+      "updatedAt": "2026-04-04T02:25:50.836Z"
+    },
+    {
       "id": "p_1775247249804",
       "name": "Zapatos Michael Kors talla 10",
       "price": 120,
@@ -2085,24 +2103,6 @@
         }
       ],
       "updatedAt": "2026-03-31T23:42:56.965Z"
-    },
-    {
-      "id": "p_1775253809377",
-      "name": "Test1",
-      "price": 900,
-      "category": "Videojuegos",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/SD1ZRxfn/1000043967.jpg",
-          "publicId": "ZRwbWJ28"
-        }
-      ],
-      "updatedAt": "2026-04-03T22:03:29.379Z"
     }
   ],
   "deletedIds": [
@@ -2154,5 +2154,5 @@
     "p_1774050927819",
     "p_1774051215969"
   ],
-  "updatedAt": "2026-04-04T02:22:16.562Z"
+  "updatedAt": "2026-04-04T02:25:54.383Z"
 }
