@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775335283277",
+      "name": "Pants Sugar Kiss talla L",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Pants Sugar Kiss 😘",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PzPVCNNw/8176.jpg",
+          "publicId": "QjTxmffr"
+        },
+        {
+          "url": "https://i.ibb.co/hqPkWRn/8173.jpg",
+          "publicId": "pmtgzvs"
+        },
+        {
+          "url": "https://i.ibb.co/gLffGsFH/8175.jpg",
+          "publicId": "kswwpY6k"
+        },
+        {
+          "url": "https://i.ibb.co/bjxzcGns/8177.jpg",
+          "publicId": "HL0n59Qt"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:41:23.277Z"
+    },
+    {
       "id": "p_1775334992233",
       "name": "Palazzo BCX talla 15 o XL",
       "price": 150,
@@ -2259,5 +2289,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T20:36:36.849Z"
+  "updatedAt": "2026-04-04T20:41:28.222Z"
 }
