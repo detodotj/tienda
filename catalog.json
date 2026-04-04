@@ -1,6 +1,80 @@
 {
   "products": [
     {
+      "id": "p_1775271052340",
+      "name": "Fallout decoración de cumpleaños.",
+      "price": 120,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Decoración para cumpleaños de video juego Fallout.",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/4ZVfTM48/1000043954.jpg",
+          "publicId": "0jGXMZYC"
+        },
+        {
+          "url": "https://i.ibb.co/Z6KKBkp8/1000043952.jpg",
+          "publicId": "zhbbX0TR"
+        }
+      ],
+      "updatedAt": "2026-04-04T02:50:52.340Z"
+    },
+    {
+      "id": "p_1775270955826",
+      "name": "Figura de batman",
+      "price": 100,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "Figura de batman.",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/zh4xt8Mw/1000043955.jpg",
+          "publicId": "99rgdwDj"
+        },
+        {
+          "url": "https://i.ibb.co/WjKgSvk/1000043957.jpg",
+          "publicId": "Jgk5Xjv"
+        },
+        {
+          "url": "https://i.ibb.co/MDvFxqDJ/1000043956.jpg",
+          "publicId": "N6vcdw6G"
+        }
+      ],
+      "updatedAt": "2026-04-04T02:49:15.826Z"
+    },
+    {
+      "id": "p_1775270875025",
+      "name": "Light gun PS1",
+      "price": 350,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Light gun marca pelican PS1",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/bRHSvPTf/1000043965.jpg",
+          "publicId": "h1XPdybq"
+        },
+        {
+          "url": "https://i.ibb.co/C3fBbSgG/1000043964.jpg",
+          "publicId": "G4q7WryS"
+        },
+        {
+          "url": "https://i.ibb.co/fVgZdgr9/1000043960.jpg",
+          "publicId": "gb2QZ2td"
+        }
+      ],
+      "updatedAt": "2026-04-04T02:47:55.026Z"
+    },
+    {
       "id": "p_1775247249804",
       "name": "Zapatos Michael Kors talla 10",
       "price": 120,
@@ -783,58 +857,6 @@
       "updatedAt": "2026-04-02T20:30:25.937Z"
     },
     {
-      "id": "p_1775160845128",
-      "name": "Control 🎮 NES30 8bitdo",
-      "price": 350,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Control NES30 8bitdo para nes mini.",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160670/store-pics/fpqvckof8cljftbqygmd.jpg",
-          "publicId": "store-pics/fpqvckof8cljftbqygmd"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160672/store-pics/tabll0s5ge0kxpmrhxti.jpg",
-          "publicId": "store-pics/tabll0s5ge0kxpmrhxti"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775161215/store-pics/ak0sbqcpkxcqqbhzy2vg.jpg",
-          "publicId": "store-pics/ak0sbqcpkxcqqbhzy2vg"
-        }
-      ],
-      "updatedAt": "2026-04-04T02:17:20.770Z"
-    },
-    {
-      "id": "p_1775160356346",
-      "name": "Retro Receiver para SEGA Genesis",
-      "price": 290,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Retro Receiver para SEGA Genesis",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160268/store-pics/ncykenijbxa3tkvooxbr.jpg",
-          "publicId": "store-pics/ncykenijbxa3tkvooxbr"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160269/store-pics/esnq4cbmq1ghpk5qedfv.jpg",
-          "publicId": "store-pics/esnq4cbmq1ghpk5qedfv"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775160271/store-pics/g5mktm35lwrjshtodv9s.jpg",
-          "publicId": "store-pics/g5mktm35lwrjshtodv9s"
-        }
-      ],
-      "updatedAt": "2026-04-04T02:17:28.020Z"
-    },
-    {
       "id": "p_1775012593307",
       "name": "Pantalón Liz Claiborne talla 14",
       "price": 100,
@@ -1587,32 +1609,6 @@
       "updatedAt": "2026-03-28T23:44:27.617Z"
     },
     {
-      "id": "p_1774740552823",
-      "name": "Teclados Iclever inalámbricos recargables, Bluetooth",
-      "price": 280,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Teclados inalámbricos Bluetooth recargable. Se le pueden conectar hasta 3 dispositivos simultáneos.",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774740315/store-pics/ddi6ijnclxysnzmxveou.jpg",
-          "publicId": "store-pics/ddi6ijnclxysnzmxveou"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774740313/store-pics/o7flohcas9md4xd2n2xw.jpg",
-          "publicId": "store-pics/o7flohcas9md4xd2n2xw"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774740311/store-pics/dsurjtnr9kjvr2q590yq.jpg",
-          "publicId": "store-pics/dsurjtnr9kjvr2q590yq"
-        }
-      ],
-      "updatedAt": "2026-03-29T19:33:52.540Z"
-    },
-    {
       "id": "p_1774739986442",
       "name": "Saco de vestir Mellóday talla 1X",
       "price": 200,
@@ -1921,96 +1917,6 @@
         }
       ],
       "updatedAt": "2026-04-03T05:18:00.891Z"
-    },
-    {
-      "id": "p_1774051215969",
-      "name": "ET VHS demo tape.",
-      "price": 350,
-      "category": "Coleccionables",
-      "status": "Buen estado",
-      "desc": "",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774051179/store-pics/fnfde5s5g9jk9hjku3mi.jpg",
-          "publicId": "store-pics/fnfde5s5g9jk9hjku3mi"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774051175/store-pics/hqccwbuvev1wagiv9cfz.jpg",
-          "publicId": "store-pics/hqccwbuvev1wagiv9cfz"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774051177/store-pics/ajnbdtbjlvmky9dvurgt.jpg",
-          "publicId": "store-pics/ajnbdtbjlvmky9dvurgt"
-        }
-      ],
-      "updatedAt": "2026-03-21T00:07:12.276Z"
-    },
-    {
-      "id": "p_1774050927819",
-      "name": "Star Wars trilogy VHS sellada.",
-      "price": 450,
-      "category": "Coleccionables",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050884/store-pics/fwn8ermcg6rgif2pkhbs.jpg",
-          "publicId": "store-pics/fwn8ermcg6rgif2pkhbs"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050881/store-pics/mwkxweluqb69d07tujui.jpg",
-          "publicId": "store-pics/mwkxweluqb69d07tujui"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050875/store-pics/suuu5cvwll9bweoey397.jpg",
-          "publicId": "store-pics/suuu5cvwll9bweoey397"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050876/store-pics/kwa9hv97aq1jttphyxuo.jpg",
-          "publicId": "store-pics/kwa9hv97aq1jttphyxuo"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774050879/store-pics/b3tm0rssqn6mbwadrnrh.jpg",
-          "publicId": "store-pics/b3tm0rssqn6mbwadrnrh"
-        }
-      ],
-      "updatedAt": "2026-03-20T23:55:52.950Z"
-    },
-    {
-      "id": "p_1774025803074",
-      "name": "Consola R36S",
-      "price": 450,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Consola nueva, mas de 15000 juegos",
-      "subcategory": "Consolas",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025669/store-pics/pq8xf4i8fe3zuyuzt0cu.jpg",
-          "publicId": "store-pics/pq8xf4i8fe3zuyuzt0cu"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025666/store-pics/bomxuscsdzfaoy0pb8a1.jpg",
-          "publicId": "store-pics/bomxuscsdzfaoy0pb8a1"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025667/store-pics/cuttcdg9mqwcfkwoiy9b.jpg",
-          "publicId": "store-pics/cuttcdg9mqwcfkwoiy9b"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774025670/store-pics/gc5caoxetzxesvgchtwg.jpg",
-          "publicId": "store-pics/gc5caoxetzxesvgchtwg"
-        }
-      ],
-      "updatedAt": "2026-03-31T23:42:56.965Z"
     }
   ],
   "deletedIds": [
@@ -2063,5 +1969,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T02:45:09.153Z"
+  "updatedAt": "2026-04-04T02:50:58.140Z"
 }
