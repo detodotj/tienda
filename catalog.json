@@ -1,24 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1775269550830",
-      "name": "Test",
-      "price": 600,
-      "category": "Muebles",
-      "status": "Como nuevo",
-      "desc": "Test1",
-      "subcategory": "Comedor",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/r2fyGC5c/7897.jpg",
-          "publicId": "RT4HpxQB"
-        }
-      ],
-      "updatedAt": "2026-04-04T02:25:50.836Z"
-    },
-    {
       "id": "p_1775247249804",
       "name": "Zapatos Michael Kors talla 10",
       "price": 120,
@@ -403,80 +385,6 @@
         }
       ],
       "updatedAt": "2026-04-03T18:22:35.505Z"
-    },
-    {
-      "id": "p_1775192683917",
-      "name": "Light gun PS1",
-      "price": 350,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Light gun marca pelican para PS1",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775192555/store-pics/zld1tdf3fnmllywhdkem.jpg",
-          "publicId": "store-pics/zld1tdf3fnmllywhdkem"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775192559/store-pics/xelymgvbg1a1u0czqhda.jpg",
-          "publicId": "store-pics/xelymgvbg1a1u0czqhda"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775192561/store-pics/tmalfj1ky30quvr2mtrd.jpg",
-          "publicId": "store-pics/tmalfj1ky30quvr2mtrd"
-        }
-      ],
-      "updatedAt": "2026-04-04T02:16:54.838Z"
-    },
-    {
-      "id": "p_1775191745491",
-      "name": "Fallout decoración de cumpleaños.",
-      "price": 120,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Fallout decoración de cumpleaños.",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191631/store-pics/ojtfjdeizhrbb6egrjnt.jpg",
-          "publicId": "store-pics/ojtfjdeizhrbb6egrjnt"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191627/store-pics/wnhlluxkovierijmls9w.jpg",
-          "publicId": "store-pics/wnhlluxkovierijmls9w"
-        }
-      ],
-      "updatedAt": "2026-04-04T02:17:03.494Z"
-    },
-    {
-      "id": "p_1775191609106",
-      "name": "Batman",
-      "price": 100,
-      "category": "Juguetes",
-      "status": "Nuevo",
-      "desc": "Figura de batman.",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191484/store-pics/sj9yjpcqyxkcvkkqbfx9.jpg",
-          "publicId": "store-pics/sj9yjpcqyxkcvkkqbfx9"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191481/store-pics/kozdktwi7ijcmcispxdu.jpg",
-          "publicId": "store-pics/kozdktwi7ijcmcispxdu"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775191482/store-pics/k14cbgylpncum2zaaomn.jpg",
-          "publicId": "store-pics/k14cbgylpncum2zaaomn"
-        }
-      ],
-      "updatedAt": "2026-04-03T04:46:49.106Z"
     },
     {
       "id": "p_1775174299121",
@@ -2152,7 +2060,8 @@
     "p_1775253809377",
     "p_1774025803074",
     "p_1774050927819",
-    "p_1774051215969"
+    "p_1774051215969",
+    "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T02:25:54.383Z"
+  "updatedAt": "2026-04-04T02:45:09.153Z"
 }
