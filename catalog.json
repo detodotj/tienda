@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1775332142680",
+      "name": "Juego de Ganzúas",
+      "price": 450,
+      "category": "Herramientas",
+      "status": "Nuevo",
+      "desc": "Juego de ganzúas de 16 piezas con 3 cerraduras transparentes de práctica + cubiertas e instrucciones",
+      "subcategory": "Manuales",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PztvQW80/8133.jpg",
+          "publicId": "93Gkt4jS"
+        }
+      ],
+      "updatedAt": "2026-04-04T19:52:41.741Z"
+    },
+    {
       "id": "p_1775275010626",
       "name": "Teclados nuevos Bluetooth recargables.",
       "price": 280,
@@ -2113,5 +2131,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T03:58:09.300Z"
+  "updatedAt": "2026-04-04T19:52:44.321Z"
 }
