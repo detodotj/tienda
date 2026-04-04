@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775334119911",
+      "name": "Chamarra Caslon talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Chamarra de invierno ☃️ súper bonita.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/SwVr5Qry/8160.jpg",
+          "publicId": "hF2fLXf9"
+        },
+        {
+          "url": "https://i.ibb.co/nMq6419B/8142.jpg",
+          "publicId": "jk9bqwmz"
+        },
+        {
+          "url": "https://i.ibb.co/xKbTkDZJ/8144.jpg",
+          "publicId": "MyH0vsdM"
+        },
+        {
+          "url": "https://i.ibb.co/nq500VzB/8145.jpg",
+          "publicId": "NgH33kZr"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:23:57.783Z"
+    },
+    {
       "id": "p_1775333932287",
       "name": "Vestido Trixxi talla L",
       "price": 120,
@@ -2191,5 +2221,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T20:18:55.740Z"
+  "updatedAt": "2026-04-04T20:24:02.787Z"
 }
