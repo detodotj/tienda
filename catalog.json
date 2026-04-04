@@ -1,6 +1,150 @@
 {
   "products": [
     {
+      "id": "p_1775275010626",
+      "name": "Teclados nuevos Bluetooth recargables.",
+      "price": 280,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Teclados Bluetooth recargables conexión simultánea a tres dispositivos.",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/XfrthgMw/1000043994.jpg",
+          "publicId": "j9PDc2sp"
+        }
+      ],
+      "updatedAt": "2026-04-04T03:56:50.626Z"
+    },
+    {
+      "id": "p_1775274852289",
+      "name": "8bitdo control para mini nes.",
+      "price": 300,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "8bitdo control para mini nes classic.",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/vCzqdy8H/1000043991.jpg",
+          "publicId": "Kcyhs4HX"
+        },
+        {
+          "url": "https://i.ibb.co/8gp9HdJM/1000043988.jpg",
+          "publicId": "QvRM4CZ9"
+        },
+        {
+          "url": "https://i.ibb.co/pvdjgS7R/1000043989.jpg",
+          "publicId": "kgX2pt79"
+        }
+      ],
+      "updatedAt": "2026-04-04T03:54:12.289Z"
+    },
+    {
+      "id": "p_1775274691169",
+      "name": "Retro receiver para Sega genesis",
+      "price": 250,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Retro receiver SEGA para Genesis",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/99YtygxV/1000043992.jpg",
+          "publicId": "6RsBDwK1"
+        },
+        {
+          "url": "https://i.ibb.co/GfkLzzCX/1000043993.jpg",
+          "publicId": "JW24DDrN"
+        }
+      ],
+      "updatedAt": "2026-04-04T03:57:43.770Z"
+    },
+    {
+      "id": "p_1775274555708",
+      "name": "HDD external case 2.5",
+      "price": 100,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "HDD external case 2.5",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/g2nrcFX/1000043996.jpg",
+          "publicId": "33JTPY8"
+        },
+        {
+          "url": "https://i.ibb.co/yGcS1rM/1000043998.jpg",
+          "publicId": "Bd5Nx97"
+        },
+        {
+          "url": "https://i.ibb.co/nNnJqvf5/1000043995.jpg",
+          "publicId": "Q3Cw7Rn1"
+        }
+      ],
+      "updatedAt": "2026-04-04T03:50:03.773Z"
+    },
+    {
+      "id": "p_1775274420744",
+      "name": "Star wars trilogy VHS sellada.",
+      "price": 450,
+      "category": "Coleccionables",
+      "status": "Como nuevo",
+      "desc": "Star wars trilogy VHS sellada",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/dJgmYBFT/1000043999.jpg",
+          "publicId": "pryhF2c7"
+        },
+        {
+          "url": "https://i.ibb.co/7Nr9D7rF/1000044000.jpg",
+          "publicId": "93yM0Ryj"
+        },
+        {
+          "url": "https://i.ibb.co/pr4X2Dty/1000044001.jpg",
+          "publicId": "bRNd1hSJ"
+        }
+      ],
+      "updatedAt": "2026-04-04T03:47:00.744Z"
+    },
+    {
+      "id": "p_1775274310758",
+      "name": "Demo tape",
+      "price": 300,
+      "category": "Coleccionables",
+      "status": "Como nuevo",
+      "desc": "E.T. demo tape.",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Ldvf9nk6/1000044003.jpg",
+          "publicId": "s9trsymQ"
+        },
+        {
+          "url": "https://i.ibb.co/k6gNRcb1/1000044002.jpg",
+          "publicId": "bRgcSdwJ"
+        },
+        {
+          "url": "https://i.ibb.co/xtMFbqJR/1000044004.jpg",
+          "publicId": "MxRBHkM3"
+        }
+      ],
+      "updatedAt": "2026-04-04T03:45:10.758Z"
+    },
+    {
       "id": "p_1775271052340",
       "name": "Fallout decoración de cumpleaños.",
       "price": 120,
@@ -1969,5 +2113,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T02:50:58.140Z"
+  "updatedAt": "2026-04-04T03:58:09.300Z"
 }
