@@ -1,6 +1,44 @@
 {
   "products": [
     {
+      "id": "p_1775334992233",
+      "name": "Palazzo BCX talla 15 o XL",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso 😻 Palazzo de negro brillante. Tela que se expande.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rKymQY9H/8170.jpg",
+          "publicId": "JWkKcVZH"
+        },
+        {
+          "url": "https://i.ibb.co/Qv1CPkVV/8163.jpg",
+          "publicId": "b582sFVV"
+        },
+        {
+          "url": "https://i.ibb.co/d4cJdh3X/8166.jpg",
+          "publicId": "b53RSfyY"
+        },
+        {
+          "url": "https://i.ibb.co/x8CFBRzN/8165.jpg",
+          "publicId": "HpFhbkGj"
+        },
+        {
+          "url": "https://i.ibb.co/wNh4vK1m/8171.jpg",
+          "publicId": "DDfQq7n2"
+        },
+        {
+          "url": "https://i.ibb.co/7dkcMn6B/8162.jpg",
+          "publicId": "C3PdCbT4"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:36:32.235Z"
+    },
+    {
       "id": "p_1775334119911",
       "name": "Chamarra Caslon talla M",
       "price": 120,
@@ -2221,5 +2259,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T20:24:02.787Z"
+  "updatedAt": "2026-04-04T20:36:36.849Z"
 }
