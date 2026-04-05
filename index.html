@@ -309,6 +309,17 @@ footer strong { color:rgba(255,255,255,0.65); }
   white-space:nowrap;
 }
 .pm-wa:hover { background:var(--green-dark); }
+
+.sold-banner {
+  position:absolute; top:0; left:0; right:0;
+  background:rgba(39,174,96,0.88);
+  color:white; text-align:center;
+  font-size:13px; font-weight:800;
+  padding:8px; letter-spacing:2px;
+  pointer-events:none;
+}
+.product-card.sold-card { opacity:0.8; }
+.product-card.sold-card .card-gallery { filter:grayscale(30%); }
 </style>
 </head>
 <body>
@@ -624,10 +635,10 @@ function cardHTML(p) {
       ${p.delivery?`<div class="card-delivery">${deliveryIcon} ${p.delivery}</div>`:''}
       <div class="card-desc">${p.desc||''}</div>
       <div class="card-price">$${Number(p.price).toLocaleString('es-MX')} <small>MXN</small></div>
-      <div class="card-actions">
-        <button class="btn-cart ${inCart?'added':''}" id="cartbtn-${p.id}" onclick="toggleCart('${p.id}');event.stopPropagation()">${inCart?'✓ En selección':'🛒 Agregar'}</button>
-        <a class="btn-wa" href="https://wa.me/${wa}?text=${waMsg}" target="_blank" rel="noopener" onclick="event.stopPropagation()">💬</a>
-      </div>
+      ${p.sold
+        ? '<div style="background:#d5f5e3;border:1.5px solid #27ae60;border-radius:10px;padding:10px;text-align:center;font-weight:700;color:#1e8449;font-size:14px;">✅ ¡Ya fue vendido!</div>'
+        : `<div class="card-actions"><button class="btn-cart ${inCart?'added':''}" id="cartbtn-${p.id}" onclick="toggleCart('${p.id}');event.stopPropagation()">${inCart?'✓ En selección':'🛒 Agregar'}</button><a class="btn-wa" href="https://wa.me/${wa}?text=${waMsg}" target="_blank" rel="noopener" onclick="event.stopPropagation()">💬</a></div>`
+      }
     </div>
   </div>`;
 }

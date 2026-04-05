@@ -211,6 +211,32 @@ textarea { resize:vertical; min-height:80px; }
 .btn-pause:hover { background:#d35400; }
 .btn-resume { background:#27ae60; color:white; }
 .btn-resume:hover { background:#219a52; }
+
+.badge-vendido { background:#d5f5e3; color:#1e8449; }
+.product-card.sold { opacity:0.75; }
+.sold-overlay {
+  position:absolute; top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  background:rgba(39,174,96,0.88);
+  color:white; font-size:13px; font-weight:800;
+  padding:8px 18px; border-radius:8px;
+  letter-spacing:2px; white-space:nowrap; pointer-events:none;
+}
+.btn-sold { background:#27ae60; color:white; }
+.btn-sold:hover { background:#219a52; }
+.btn-unsold { background:#7f8c8d; color:white; }
+.btn-unsold:hover { background:#636e72; }
+.deleted-log-btn {
+  position:fixed; bottom:24px; left:28px; z-index:200;
+  background:#8e44ad; color:white; border:none;
+  padding:12px 18px; border-radius:50px; font-size:13px;
+  font-weight:700; cursor:pointer; font-family:inherit;
+  box-shadow:0 4px 20px rgba(142,68,173,0.4);
+  display:none; align-items:center; gap:8px; transition:all 0.2s;
+}
+.deleted-log-btn.show { display:flex; }
+.deleted-log-btn:hover { background:#7d3c98; transform:translateY(-2px); }
+@media(max-width:600px){ .deleted-log-btn { bottom:16px; left:16px; padding:10px 14px; font-size:12px; } }
 </style>
 </head>
 <body>
@@ -252,6 +278,8 @@ textarea { resize:vertical; min-height:80px; }
 </div>
 
 <div class="main"><div id="productGrid"></div></div>
+
+<button class="deleted-log-btn" id="deletedLogBtn" onclick="downloadDeletedLog()">📋 Fotos por borrar</button>
 
 <div class="publish-wrap">
   <button class="btn-publish" onclick="publishCatalog()">🚀 Publicar catálogo</button>
@@ -441,16 +469,18 @@ const SUBCATS = {
 };
 
 const IMGBB_API_KEY='4900e81d5d53d6c1f6d0b11f4a24b410', DEFAULT_WA='526642601992';
-let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[], pendingDeleteId=null;
+let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[], pendingDeleteId=null, deletedPhotosLog=[];
 
 function init(){
   try { const s=localStorage.getItem('storeProducts'); if(s) products=JSON.parse(s); } catch(e){ products=[]; }
   try { const dl=localStorage.getItem('storeDeleted'); if(dl) deletedIds=JSON.parse(dl); } catch(e){ deletedIds=[]; }
+  try { const dpl=localStorage.getItem('storeDeletedPhotos'); if(dpl) deletedPhotosLog=JSON.parse(dpl); } catch(e){ deletedPhotosLog=[]; }
+  updateDeletedLogBtn();
   try { const c=localStorage.getItem('storeConfig'); if(c) config=JSON.parse(c); } catch(e){ config={}; }
   if(!config.imgbbKey) config.imgbbKey=IMGBB_API_KEY;
   renderGrid();
 }
-function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); localStorage.setItem('storeDeleted',JSON.stringify(deletedIds)); }
+function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); localStorage.setItem('storeDeleted',JSON.stringify(deletedIds)); localStorage.setItem('storeDeletedPhotos',JSON.stringify(deletedPhotosLog)); }
 
 function renderGrid(){
   const search=document.getElementById('searchInput').value.toLowerCase();
@@ -478,11 +508,11 @@ function cardHTML(p){
   const count=photos.length>1?`<div class="photo-count-badge">📷 ${photos.length}</div>`:'';
 
   return `
-  <div class="product-card ${p.paused?'paused':''}" id="card-${p.id}">
+  <div class="product-card ${p.sold?'sold':p.paused?'paused':''}" id="card-${p.id}">
     <div class="card-photos" id="photos-${p.id}">
       ${imgs}${arrows}${dots}${count}
       <div class="badge-status badge-${sc}">${p.status}</div>
-      ${p.paused?'<div class="paused-overlay">⏸️ PAUSADO</div>':''}
+      ${p.sold?'<div class="sold-overlay">✅ VENDIDO</div>':p.paused?'<div class="paused-overlay">⏸️ PAUSADO</div>':''}
     </div>
     <div class="card-body">
       <div class="card-cat">${p.category||'Sin categoría'}</div>
@@ -493,10 +523,13 @@ function cardHTML(p){
       <div class="card-price">$${Number(p.price).toLocaleString('es-MX')} MXN</div>
       <div class="card-actions">
         <button class="btn btn-edit btn-sm" onclick="openEditModal('${p.id}')">✏️ Editar</button>
-        ${p.paused
-          ? `<button class="btn btn-resume btn-sm" onclick="togglePause('${p.id}')">▶️ Reactivar</button>`
-          : `<button class="btn btn-pause btn-sm" onclick="togglePause('${p.id}')">⏸️ Pausar</button>`
+        ${p.sold
+          ? `<button class="btn btn-unsold btn-sm" onclick="toggleSold('${p.id}')">↩️ Activo</button>`
+          : p.paused
+            ? `<button class="btn btn-resume btn-sm" onclick="togglePause('${p.id}')">▶️ Reactivar</button>`
+            : `<button class="btn btn-pause btn-sm" onclick="togglePause('${p.id}')">⏸️ Pausar</button>`
         }
+        ${!p.sold ? `<button class="btn btn-sold btn-sm" onclick="toggleSold('${p.id}')">✅ Vendido</button>` : ''}
         <button class="btn btn-danger btn-sm" onclick="deleteProduct('${p.id}')">🗑️ Borrar</button>
       </div>
     </div>
@@ -519,6 +552,51 @@ function updateSubcatOptions() {
     subs.map(function(s){ return '<option value="'+s+'">'+s+'</option>'; }).join('');
 }
 
+
+
+function toggleSold(id){
+  const p=products.find(x=>x.id===id); if(!p) return;
+  p.sold = !p.sold;
+  if(p.sold){ p.paused=false; } // unsell unpauses
+  p.soldAt = Date.now();
+  saveLocal(); renderGrid();
+  showToast(p.sold ? '✅ Marcado como vendido — recuerda publicar' : '↩️ Producto reactivado — recuerda publicar','success');
+}
+
+function updateDeletedLogBtn(){
+  const btn=document.getElementById('deletedLogBtn');
+  if(!btn) return;
+  const total=deletedPhotosLog.reduce((s,e)=>s+e.photos.length,0);
+  if(total>0){ btn.classList.add('show'); btn.textContent='📋 Fotos por borrar ('+total+')'; }
+  else { btn.classList.remove('show'); }
+}
+
+function downloadDeletedLog(){
+  if(deletedPhotosLog.length===0){ showToast('No hay fotos pendientes de borrar',''); return; }
+  let text='FOTOS PARA BORRAR EN IMGBB\n';
+  text+='Ve a imgbb.com → tu cuenta → borra estas fotos\n\n';
+  let total=0;
+  deletedPhotosLog.forEach(function(entry){
+    text+='Producto: '+entry.product+' ('+entry.date+')\n';
+    entry.photos.forEach(function(ph){
+      text+='  ID: '+ph.id+'\n';
+      text+='  URL: '+ph.url+'\n';
+    });
+    text+='\n';
+    total+=entry.photos.length;
+  });
+  text+='Total: '+total+' fotos\n';
+  const blob=new Blob([text],{type:'text/plain'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url; a.download='fotos-borrar-'+new Date().toISOString().split('T')[0]+'.txt';
+  a.click(); URL.revokeObjectURL(url);
+  if(confirm('¿Marcar estas fotos como borradas y limpiar la lista?')){
+    deletedPhotosLog=[];
+    saveLocal(); updateDeletedLogBtn();
+    showToast('✅ Lista limpiada','success');
+  }
+}
 
 function togglePause(id){
   const p=products.find(x=>x.id===id); if(!p) return;
@@ -662,8 +740,20 @@ async function confirmDelete(){
   closeDeleteModal();
   const p=products.find(x=>x.id===id); if(!p) return;
   if(!deletedIds.includes(id)) deletedIds.push(id);
+  // Log ImgBB photos for future manual deletion
+  if(p.photos && p.photos.length > 0){
+    const imgbbPhotos=p.photos.filter(function(ph){return ph.url&&ph.url.includes('ibb.co');});
+    if(imgbbPhotos.length > 0){
+      deletedPhotosLog.push({
+        product:p.name,
+        date:new Date().toLocaleDateString('es-MX'),
+        photos:imgbbPhotos.map(function(ph){return {id:ph.publicId,url:ph.url};})
+      });
+    }
+  }
   products=products.filter(x=>x.id!==id);
   saveLocal(); renderGrid();
+  updateDeletedLogBtn();
   showToast('🗑️ Producto eliminado — recuerda publicar','success');
 }
 
