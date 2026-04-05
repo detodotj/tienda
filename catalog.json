@@ -159,7 +159,7 @@
       "category": "Electrónica",
       "status": "Nuevo",
       "desc": "Ergonomic mouse",
-      "subcategory": "Accesorios",
+      "subcategory": "Computadoras",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -172,7 +172,7 @@
           "publicId": "p64vxfCQ"
         }
       ],
-      "updatedAt": "2026-04-05T21:19:21.457Z"
+      "updatedAt": "2026-04-05T22:05:46.056Z"
     },
     {
       "id": "p_1775423856039",
@@ -2678,5 +2678,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-05T22:04:35.908Z"
+  "updatedAt": "2026-04-05T22:05:54.203Z"
 }
