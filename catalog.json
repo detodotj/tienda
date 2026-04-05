@@ -1,212 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1775335690838",
-      "name": "Sweater Spence talla L",
-      "price": 60,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Sweater Spence. Tela brillante, largo a la rodilla. Rayón y poliéster.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/1tmDcQwv/8183.jpg",
-          "publicId": "67W3Qwfn"
-        },
-        {
-          "url": "https://i.ibb.co/tkmRXZ6/8184.jpg",
-          "publicId": "YYRgZDS"
-        },
-        {
-          "url": "https://i.ibb.co/MD9DjLsf/8181.jpg",
-          "publicId": "VW3Wh8tx"
-        },
-        {
-          "url": "https://i.ibb.co/Y4mbM9pf/8182.jpg",
-          "publicId": "p6cn8DJ4"
-        }
-      ],
-      "updatedAt": "2026-04-04T20:48:10.838Z"
-    },
-    {
-      "id": "p_1775335283277",
-      "name": "Pants Sugar Kiss talla L",
-      "price": 60,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Pants Sugar Kiss 😘",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/PzPVCNNw/8176.jpg",
-          "publicId": "QjTxmffr"
-        },
-        {
-          "url": "https://i.ibb.co/hqPkWRn/8173.jpg",
-          "publicId": "pmtgzvs"
-        },
-        {
-          "url": "https://i.ibb.co/gLffGsFH/8175.jpg",
-          "publicId": "kswwpY6k"
-        },
-        {
-          "url": "https://i.ibb.co/bjxzcGns/8177.jpg",
-          "publicId": "HL0n59Qt"
-        }
-      ],
-      "updatedAt": "2026-04-04T20:41:23.277Z"
-    },
-    {
-      "id": "p_1775334992233",
-      "name": "Palazzo BCX talla 15 o XL",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Hermoso 😻 Palazzo de negro brillante. Tela que se expande.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/rKymQY9H/8170.jpg",
-          "publicId": "JWkKcVZH"
-        },
-        {
-          "url": "https://i.ibb.co/Qv1CPkVV/8163.jpg",
-          "publicId": "b582sFVV"
-        },
-        {
-          "url": "https://i.ibb.co/d4cJdh3X/8166.jpg",
-          "publicId": "b53RSfyY"
-        },
-        {
-          "url": "https://i.ibb.co/x8CFBRzN/8165.jpg",
-          "publicId": "HpFhbkGj"
-        },
-        {
-          "url": "https://i.ibb.co/wNh4vK1m/8171.jpg",
-          "publicId": "DDfQq7n2"
-        },
-        {
-          "url": "https://i.ibb.co/7dkcMn6B/8162.jpg",
-          "publicId": "C3PdCbT4"
-        }
-      ],
-      "updatedAt": "2026-04-04T20:36:32.235Z"
-    },
-    {
-      "id": "p_1775334119911",
-      "name": "Chamarra Caslon talla M",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Chamarra de invierno ☃️ súper bonita.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/SwVr5Qry/8160.jpg",
-          "publicId": "hF2fLXf9"
-        },
-        {
-          "url": "https://i.ibb.co/nMq6419B/8142.jpg",
-          "publicId": "jk9bqwmz"
-        },
-        {
-          "url": "https://i.ibb.co/xKbTkDZJ/8144.jpg",
-          "publicId": "MyH0vsdM"
-        },
-        {
-          "url": "https://i.ibb.co/nq500VzB/8145.jpg",
-          "publicId": "NgH33kZr"
-        }
-      ],
-      "updatedAt": "2026-04-04T20:23:57.783Z"
-    },
-    {
-      "id": "p_1775333932287",
-      "name": "Vestido Trixxi talla L",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Vestido de cóctel strapless, con cinturón, largo a la rodilla y más largo en parte de atrás.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/8gY9jDC9/8158.jpg",
-          "publicId": "Jj3HzR1H"
-        },
-        {
-          "url": "https://i.ibb.co/DfYkW2y9/8157.jpg",
-          "publicId": "b5FLm9Zs"
-        },
-        {
-          "url": "https://i.ibb.co/Z1FXrGGM/8156.jpg",
-          "publicId": "Hpb4yBBH"
-        },
-        {
-          "url": "https://i.ibb.co/WNXwHjTw/8159.jpg",
-          "publicId": "qL8fDVZf"
-        }
-      ],
-      "updatedAt": "2026-04-04T20:18:52.287Z"
-    },
-    {
-      "id": "p_1775333347849",
-      "name": "Saco Ikara New York talla M",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Elegante saco de tela transparente y detalles de pedrería.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/rGQr3yjc/8154.jpg",
-          "publicId": "mCRW0zjX"
-        },
-        {
-          "url": "https://i.ibb.co/GQqPxV8d/8151.jpg",
-          "publicId": "9H7Y8q1p"
-        },
-        {
-          "url": "https://i.ibb.co/nZgmsj5/8150.jpg",
-          "publicId": "H1F4Dqk"
-        },
-        {
-          "url": "https://i.ibb.co/BKSZNZps/8152.jpg",
-          "publicId": "TqF8L8fh"
-        }
-      ],
-      "updatedAt": "2026-04-04T20:09:07.849Z"
-    },
-    {
-      "id": "p_1775332142680",
-      "name": "Juego de Ganzúas",
-      "price": 450,
-      "category": "Herramientas",
-      "status": "Nuevo",
-      "desc": "Juego de ganzúas de 16 piezas con 3 cerraduras transparentes de práctica + cubiertas e instrucciones",
-      "subcategory": "Manuales",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/PztvQW80/8133.jpg",
-          "publicId": "93Gkt4jS"
-        }
-      ],
-      "updatedAt": "2026-04-04T19:52:41.741Z"
-    },
-    {
       "id": "p_1775275010626",
       "name": "Teclados nuevos Bluetooth recargables.",
       "price": 280,
@@ -396,7 +190,10 @@
           "publicId": "N6vcdw6G"
         }
       ],
-      "updatedAt": "2026-04-04T02:49:15.826Z"
+      "updatedAt": "2026-04-04T02:49:15.826Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1775367205952
     },
     {
       "id": "p_1775270875025",
@@ -1462,7 +1259,10 @@
           "publicId": "store-pics/jgvax1uczikvgt6dqtie"
         }
       ],
-      "updatedAt": "2026-04-02T05:39:28.027Z"
+      "updatedAt": "2026-04-02T05:39:28.027Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1775367237834
     },
     {
       "id": "p_1775010708011",
@@ -2030,7 +1830,10 @@
           "publicId": "store-pics/fjaczxjrtgjbiesy8ljq"
         }
       ],
-      "updatedAt": "2026-04-02T05:41:12.749Z"
+      "updatedAt": "2026-04-02T05:41:12.749Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1775367294970
     },
     {
       "id": "p_1774739217278",
@@ -2267,6 +2070,212 @@
         }
       ],
       "updatedAt": "2026-04-03T05:18:00.891Z"
+    },
+    {
+      "id": "p_1775335690838",
+      "name": "Sweater Spence talla L",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Sweater Spence. Tela brillante, largo a la rodilla. Rayón y poliéster.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1tmDcQwv/8183.jpg",
+          "publicId": "67W3Qwfn"
+        },
+        {
+          "url": "https://i.ibb.co/tkmRXZ6/8184.jpg",
+          "publicId": "YYRgZDS"
+        },
+        {
+          "url": "https://i.ibb.co/MD9DjLsf/8181.jpg",
+          "publicId": "VW3Wh8tx"
+        },
+        {
+          "url": "https://i.ibb.co/Y4mbM9pf/8182.jpg",
+          "publicId": "p6cn8DJ4"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:48:10.838Z"
+    },
+    {
+      "id": "p_1775335283277",
+      "name": "Pants Sugar Kiss talla L",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Pants Sugar Kiss 😘",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PzPVCNNw/8176.jpg",
+          "publicId": "QjTxmffr"
+        },
+        {
+          "url": "https://i.ibb.co/hqPkWRn/8173.jpg",
+          "publicId": "pmtgzvs"
+        },
+        {
+          "url": "https://i.ibb.co/gLffGsFH/8175.jpg",
+          "publicId": "kswwpY6k"
+        },
+        {
+          "url": "https://i.ibb.co/bjxzcGns/8177.jpg",
+          "publicId": "HL0n59Qt"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:41:23.277Z"
+    },
+    {
+      "id": "p_1775334992233",
+      "name": "Palazzo BCX talla 15 o XL",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso 😻 Palazzo de negro brillante. Tela que se expande.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rKymQY9H/8170.jpg",
+          "publicId": "JWkKcVZH"
+        },
+        {
+          "url": "https://i.ibb.co/Qv1CPkVV/8163.jpg",
+          "publicId": "b582sFVV"
+        },
+        {
+          "url": "https://i.ibb.co/d4cJdh3X/8166.jpg",
+          "publicId": "b53RSfyY"
+        },
+        {
+          "url": "https://i.ibb.co/x8CFBRzN/8165.jpg",
+          "publicId": "HpFhbkGj"
+        },
+        {
+          "url": "https://i.ibb.co/wNh4vK1m/8171.jpg",
+          "publicId": "DDfQq7n2"
+        },
+        {
+          "url": "https://i.ibb.co/7dkcMn6B/8162.jpg",
+          "publicId": "C3PdCbT4"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:36:32.235Z"
+    },
+    {
+      "id": "p_1775334119911",
+      "name": "Chamarra Caslon talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Chamarra de invierno ☃️ súper bonita.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/SwVr5Qry/8160.jpg",
+          "publicId": "hF2fLXf9"
+        },
+        {
+          "url": "https://i.ibb.co/nMq6419B/8142.jpg",
+          "publicId": "jk9bqwmz"
+        },
+        {
+          "url": "https://i.ibb.co/xKbTkDZJ/8144.jpg",
+          "publicId": "MyH0vsdM"
+        },
+        {
+          "url": "https://i.ibb.co/nq500VzB/8145.jpg",
+          "publicId": "NgH33kZr"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:23:57.783Z"
+    },
+    {
+      "id": "p_1775333932287",
+      "name": "Vestido Trixxi talla L",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido de cóctel strapless, con cinturón, largo a la rodilla y más largo en parte de atrás.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/8gY9jDC9/8158.jpg",
+          "publicId": "Jj3HzR1H"
+        },
+        {
+          "url": "https://i.ibb.co/DfYkW2y9/8157.jpg",
+          "publicId": "b5FLm9Zs"
+        },
+        {
+          "url": "https://i.ibb.co/Z1FXrGGM/8156.jpg",
+          "publicId": "Hpb4yBBH"
+        },
+        {
+          "url": "https://i.ibb.co/WNXwHjTw/8159.jpg",
+          "publicId": "qL8fDVZf"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:18:52.287Z"
+    },
+    {
+      "id": "p_1775333347849",
+      "name": "Saco Ikara New York talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Elegante saco de tela transparente y detalles de pedrería.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rGQr3yjc/8154.jpg",
+          "publicId": "mCRW0zjX"
+        },
+        {
+          "url": "https://i.ibb.co/GQqPxV8d/8151.jpg",
+          "publicId": "9H7Y8q1p"
+        },
+        {
+          "url": "https://i.ibb.co/nZgmsj5/8150.jpg",
+          "publicId": "H1F4Dqk"
+        },
+        {
+          "url": "https://i.ibb.co/BKSZNZps/8152.jpg",
+          "publicId": "TqF8L8fh"
+        }
+      ],
+      "updatedAt": "2026-04-04T20:09:07.849Z"
+    },
+    {
+      "id": "p_1775332142680",
+      "name": "Juego de Ganzúas",
+      "price": 450,
+      "category": "Herramientas",
+      "status": "Nuevo",
+      "desc": "Juego de ganzúas de 16 piezas con 3 cerraduras transparentes de práctica + cubiertas e instrucciones",
+      "subcategory": "Manuales",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PztvQW80/8133.jpg",
+          "publicId": "93Gkt4jS"
+        }
+      ],
+      "updatedAt": "2026-04-04T19:52:41.741Z"
     }
   ],
   "deletedIds": [
@@ -2319,5 +2328,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-04T20:50:03.551Z"
+  "updatedAt": "2026-04-05T05:37:44.728Z"
 }
