@@ -602,28 +602,6 @@
       "updatedAt": "2026-04-03T20:14:09.805Z"
     },
     {
-      "id": "p_1775243636284",
-      "name": "Collar",
-      "price": 120,
-      "category": "Joyería",
-      "status": "Como nuevo",
-      "desc": "Hermoso 😻💟 collar largo, con detalles en azul, negro y plateado.",
-      "subcategory": "Collares",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243551/store-pics/ag3hk5hudymrthyot3pi.jpg",
-          "publicId": "store-pics/ag3hk5hudymrthyot3pi"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243553/store-pics/k32b0qlx3ukwmgz0pc2t.jpg",
-          "publicId": "store-pics/k32b0qlx3ukwmgz0pc2t"
-        }
-      ],
-      "updatedAt": "2026-04-03T19:13:56.284Z"
-    },
-    {
       "id": "p_1775243516000",
       "name": "Collar",
       "price": 60,
@@ -666,28 +644,6 @@
         }
       ],
       "updatedAt": "2026-04-03T19:10:12.762Z"
-    },
-    {
-      "id": "p_1775243246169",
-      "name": "Cadena",
-      "price": 100,
-      "category": "Joyería",
-      "status": "Como nuevo",
-      "desc": "Hermoso 😻 cadena dorada con dije de cruz.",
-      "subcategory": "Collares",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243182/store-pics/zxqmdiruleakkqlk9wpq.jpg",
-          "publicId": "store-pics/zxqmdiruleakkqlk9wpq"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243184/store-pics/nn5bd9zul4nhrmamtvhd.jpg",
-          "publicId": "store-pics/nn5bd9zul4nhrmamtvhd"
-        }
-      ],
-      "updatedAt": "2026-04-03T19:07:26.171Z"
     },
     {
       "id": "p_1775242937585",
@@ -2013,28 +1969,6 @@
       "updatedAt": "2026-04-03T03:41:56.350Z"
     },
     {
-      "id": "p_1774745038965",
-      "name": "Collar con piedras color coral y cristal. Fantasía.",
-      "price": 100,
-      "category": "Joyería",
-      "status": "Buen estado",
-      "desc": "Collar de fantasía para dama. Elegante y casual.",
-      "subcategory": "Collares",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774744963/store-pics/zf9ybjs4ixc9vuvkvund.jpg",
-          "publicId": "store-pics/zf9ybjs4ixc9vuvkvund"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774744965/store-pics/n2eopinuasjbsxq2asno.jpg",
-          "publicId": "store-pics/n2eopinuasjbsxq2asno"
-        }
-      ],
-      "updatedAt": "2026-04-03T03:41:39.745Z"
-    },
-    {
       "id": "p_1774744939799",
       "name": "Almohadillas para pañales para perro marca Joccik",
       "price": 120,
@@ -2676,7 +2610,10 @@
     "p_1774025803074",
     "p_1774050927819",
     "p_1774051215969",
-    "p_1775269550830"
+    "p_1775269550830",
+    "p_1775243636284",
+    "p_1775243246169",
+    "p_1774745038965"
   ],
-  "updatedAt": "2026-04-05T22:05:54.203Z"
+  "updatedAt": "2026-04-05T22:08:45.701Z"
 }
