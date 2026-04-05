@@ -1,6 +1,356 @@
 {
   "products": [
     {
+      "id": "p_1775426577525",
+      "name": "Cable de audio - fibra optica",
+      "price": 60,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Cable de audio - fibra optica",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/nq0TRfFd/1000044101.jpg",
+          "publicId": "qLnzx9vq"
+        },
+        {
+          "url": "https://i.ibb.co/2TrqvZ5/1000044102.jpg",
+          "publicId": "cj9J6Yx"
+        }
+      ],
+      "updatedAt": "2026-04-05T22:02:57.527Z"
+    },
+    {
+      "id": "p_1775425955734",
+      "name": "Monitor de CO2.",
+      "price": 150,
+      "category": "Electrónica",
+      "status": "Como nuevo",
+      "desc": "Monitor de CO2",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/GfS8R0SK/1000044100.jpg",
+          "publicId": "Q7wTMfw2"
+        },
+        {
+          "url": "https://i.ibb.co/gbc9FqVY/1000044095.jpg",
+          "publicId": "PsVjzXQk"
+        },
+        {
+          "url": "https://i.ibb.co/qYwLL6xg/1000044094.jpg",
+          "publicId": "nMSqqpR1"
+        },
+        {
+          "url": "https://i.ibb.co/20KF0n9k/1000044093.jpg",
+          "publicId": "GfPdfx65"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:56:16.106Z"
+    },
+    {
+      "id": "p_1775425762311",
+      "name": "Apagador/enchufe",
+      "price": 40,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Apagador/enchufe",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/21pQB4xy/1000044091.jpg",
+          "publicId": "NdGPzB5s"
+        },
+        {
+          "url": "https://i.ibb.co/mC78vtFc/1000044092.jpg",
+          "publicId": "JRPQx2Fs"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:49:22.311Z"
+    },
+    {
+      "id": "p_1775425706148",
+      "name": "Mini dp portb to HDMI",
+      "price": 80,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Mini dp portb to HDMI",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/gM5YjrW5/1000044090.jpg",
+          "publicId": "JRfZBcpf"
+        },
+        {
+          "url": "https://i.ibb.co/xqDC0kFd/1000044089.jpg",
+          "publicId": "Xxb2gQYM"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:48:26.150Z"
+    },
+    {
+      "id": "p_1775425471152",
+      "name": "Cortadora de pelo Wahl",
+      "price": 250,
+      "category": "Electrónica",
+      "status": "Como nuevo",
+      "desc": "Cortadora de pelo Wahl",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PsB2jV9k/1000044088.jpg",
+          "publicId": "1YHCQ4dc"
+        },
+        {
+          "url": "https://i.ibb.co/C3Zzpd3j/1000044085.jpg",
+          "publicId": "xt0DKvtn"
+        },
+        {
+          "url": "https://i.ibb.co/HLR2WH9M/1000044086.jpg",
+          "publicId": "rKqtCwXL"
+        },
+        {
+          "url": "https://i.ibb.co/Y4xfphy0/1000044087.jpg",
+          "publicId": "0pxYhrFs"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:44:31.154Z"
+    },
+    {
+      "id": "p_1775424561596",
+      "name": "Mouse pad grande para escritorio.",
+      "price": 140,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Mousepad grande un metro de largo aproximadamente.",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/S77qBpGH/1000044081.jpg",
+          "publicId": "3YYtcHQV"
+        },
+        {
+          "url": "https://i.ibb.co/CsQkvbwW/1000044084.jpg",
+          "publicId": "yBqw56NV"
+        },
+        {
+          "url": "https://i.ibb.co/MyHdFHSB/1000044082.jpg",
+          "publicId": "mrKpfKTN"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:29:21.601Z"
+    },
+    {
+      "id": "p_1775423961456",
+      "name": "Ergonomic mouse",
+      "price": 150,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Ergonomic mouse",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/8DMv6W3T/1000044076.jpg",
+          "publicId": "LzSjnLwb"
+        },
+        {
+          "url": "https://i.ibb.co/Fk8bK5GX/1000044077.jpg",
+          "publicId": "p64vxfCQ"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:19:21.457Z"
+    },
+    {
+      "id": "p_1775423856039",
+      "name": "Android TV box hd",
+      "price": 250,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Android TV box hd",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/x8LDxF5W/1000044074.jpg",
+          "publicId": "LhR8VNpm"
+        },
+        {
+          "url": "https://i.ibb.co/8DT6vkB0/1000044075.jpg",
+          "publicId": "RpZzr8S9"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:17:36.039Z"
+    },
+    {
+      "id": "p_1775423729211",
+      "name": "8BitDo controller mini Sega genesis/pc",
+      "price": 250,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "8BitDo controller mini Sega genesis/pc",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/dszZGM04/1000044072.jpg",
+          "publicId": "1Ywc8QfG"
+        },
+        {
+          "url": "https://i.ibb.co/7NKzJ2Wc/1000044073.jpg",
+          "publicId": "cXQvcDF5"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:15:29.212Z"
+    },
+    {
+      "id": "p_1775423594577",
+      "name": "Consola R36S portátil.",
+      "price": 450,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Consola R36S portátil más de 15000 juegos.",
+      "subcategory": "Consolas",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/MDCsz6vB/1000044070.jpg",
+          "publicId": "svV2THfW"
+        },
+        {
+          "url": "https://i.ibb.co/J04xZHd/1000044071.jpg",
+          "publicId": "CNZJLQt"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:13:14.580Z"
+    },
+    {
+      "id": "p_1775423340638",
+      "name": "Raqueta eléctrica para matar mosquitos y moscas",
+      "price": 150,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Raqueta eléctrica para matar mosquitos y moscas",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/TMYdgDLJ/1000044069.jpg",
+          "publicId": "CKmDHp24"
+        },
+        {
+          "url": "https://i.ibb.co/hx79vRvx/1000044068.jpg",
+          "publicId": "SDsypXpD"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:09:09.083Z"
+    },
+    {
+      "id": "p_1775423022843",
+      "name": "Star Wars light saber.",
+      "price": 150,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "Star Wars light saber 150 c/u",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/yBddrF2j/1000044063.jpg",
+          "publicId": "4gKKHRkr"
+        },
+        {
+          "url": "https://i.ibb.co/S47Fj56j/1000044065.jpg",
+          "publicId": "0RVH7mn7"
+        }
+      ],
+      "updatedAt": "2026-04-05T21:03:42.846Z"
+    },
+    {
+      "id": "p_1775422441320",
+      "name": "Audífonos inalámbricos JLAB Bluetooth.",
+      "price": 250,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Audífonos inalámbricos Bluetooth.",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/c9qnG9W/1000044059.jpg",
+          "publicId": "fWJwhW3"
+        },
+        {
+          "url": "https://i.ibb.co/1YfrVbgP/1000044060.jpg",
+          "publicId": "bjgsh70C"
+        }
+      ],
+      "updatedAt": "2026-04-05T20:54:01.326Z"
+    },
+    {
+      "id": "p_1775422049752",
+      "name": "Control Inalámbrico PlayStation 4 DualShock 4 Berry Blue",
+      "price": 550,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Control Inalámbrico PlayStation 4 DualShock 4 Berry Blue",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Qvvdcwjd/1000044057.jpg",
+          "publicId": "3mmzsZYz"
+        },
+        {
+          "url": "https://i.ibb.co/fzcjzRz6/1000044058.jpg",
+          "publicId": "xt4xtvt9"
+        }
+      ],
+      "updatedAt": "2026-04-05T20:47:29.753Z"
+    },
+    {
+      "id": "p_1775421804481",
+      "name": "Control mini pro elite inalámbrico PS3",
+      "price": 250,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Control Power A mini pro elite inalámbrico para PS3",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/s9FY9Wkp/1000044053.jpg",
+          "publicId": "GQVSQHBf"
+        },
+        {
+          "url": "https://i.ibb.co/5DPwXJj/1000044056.jpg",
+          "publicId": "fRsLVTN"
+        }
+      ],
+      "updatedAt": "2026-04-05T20:43:24.487Z"
+    },
+    {
       "id": "p_1775275010626",
       "name": "Teclados nuevos Bluetooth recargables.",
       "price": 280,
@@ -2328,5 +2678,5 @@
     "p_1774051215969",
     "p_1775269550830"
   ],
-  "updatedAt": "2026-04-05T05:37:44.728Z"
+  "updatedAt": "2026-04-05T22:04:28.297Z"
 }
