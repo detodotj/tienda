@@ -1,6 +1,66 @@
 {
   "products": [
     {
+      "id": "p_1775434792460",
+      "name": "Vestido Sanctuary talla XS",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo vestido, muy fresco, con tirantes y olanes.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PZ2XqszK/8357.jpg",
+          "publicId": "GvZYzf3y"
+        },
+        {
+          "url": "https://i.ibb.co/RTn7YDT9/8355.jpg",
+          "publicId": "0yNQmGyc"
+        },
+        {
+          "url": "https://i.ibb.co/h1xVjvVG/8354.jpg",
+          "publicId": "YT4hMGh5"
+        },
+        {
+          "url": "https://i.ibb.co/b56tg5JN/8356.jpg",
+          "publicId": "YBNg7BZf"
+        }
+      ],
+      "updatedAt": "2026-04-06T00:19:52.460Z"
+    },
+    {
+      "id": "p_1775434671326",
+      "name": "Vestido Trixxi talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso vestido de verano 😻",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/GvSshhZG/8351.jpg",
+          "publicId": "VW4HKKFb"
+        },
+        {
+          "url": "https://i.ibb.co/whdNhxZ7/8347.jpg",
+          "publicId": "v4cx4KCh"
+        },
+        {
+          "url": "https://i.ibb.co/BHrDRnY6/8348.jpg",
+          "publicId": "MyGTLBJ1"
+        },
+        {
+          "url": "https://i.ibb.co/gsyqpLk/8352.jpg",
+          "publicId": "dnBCqw8"
+        }
+      ],
+      "updatedAt": "2026-04-06T00:17:51.326Z"
+    },
+    {
       "id": "p_1775434417663",
       "name": "Vestido Banana Republic talla M",
       "price": 150,
@@ -2697,5 +2757,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T00:13:44.978Z"
+  "updatedAt": "2026-04-06T00:19:57.488Z"
 }
