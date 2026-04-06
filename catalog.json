@@ -1,6 +1,66 @@
 {
   "products": [
     {
+      "id": "p_1775441505560",
+      "name": "Chamarra 🧥 Nissi talla L",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Chamarra de mezclilla. Muy bonita 😊",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/by3bqz2/8409.jpg",
+          "publicId": "Xd4YNS3"
+        },
+        {
+          "url": "https://i.ibb.co/MyCj64fq/8405.jpg",
+          "publicId": "V0qhmZxX"
+        },
+        {
+          "url": "https://i.ibb.co/zHxn2xRQ/8462.jpg",
+          "publicId": "3YdrFdN4"
+        },
+        {
+          "url": "https://i.ibb.co/0ytf8XMN/8407.jpg",
+          "publicId": "m58H1Bqs"
+        }
+      ],
+      "updatedAt": "2026-04-06T02:11:45.560Z"
+    },
+    {
+      "id": "p_1775441327728",
+      "name": "Vestido talla 8-9",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido blanco para niña 😍",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/JW71kh7m/8461.jpg",
+          "publicId": "vCPFztPV"
+        },
+        {
+          "url": "https://i.ibb.co/0V97T3xg/8400.jpg",
+          "publicId": "prK7cpSt"
+        },
+        {
+          "url": "https://i.ibb.co/kVHdktDx/8403.jpg",
+          "publicId": "7xY98qpX"
+        },
+        {
+          "url": "https://i.ibb.co/yc34v1Dc/8402.jpg",
+          "publicId": "jPpJ02dP"
+        }
+      ],
+      "updatedAt": "2026-04-06T02:08:47.733Z"
+    },
+    {
       "id": "p_1775441086696",
       "name": "Vestido Merona talla 12",
       "price": 120,
@@ -2985,5 +3045,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T02:04:59.893Z"
+  "updatedAt": "2026-04-06T02:11:50.861Z"
 }
