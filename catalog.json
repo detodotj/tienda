@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775434958737",
+      "name": "Blusa Metaphor talla XL",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Tela súper delgada y fresca.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1Gzh1tXn/8358.jpg",
+          "publicId": "QvDzL3Hc"
+        },
+        {
+          "url": "https://i.ibb.co/RKPBCJB/8457.jpg",
+          "publicId": "DFk87j8"
+        },
+        {
+          "url": "https://i.ibb.co/Sw2jZHsX/8360.jpg",
+          "publicId": "DfNJjmVD"
+        },
+        {
+          "url": "https://i.ibb.co/YTVnY0JZ/8359.jpg",
+          "publicId": "93dKzZBt"
+        }
+      ],
+      "updatedAt": "2026-04-06T00:22:38.737Z"
+    },
+    {
       "id": "p_1775434792460",
       "name": "Vestido Sanctuary talla XS",
       "price": 100,
@@ -2757,5 +2787,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T00:19:57.488Z"
+  "updatedAt": "2026-04-06T00:22:45.314Z"
 }
