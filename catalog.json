@@ -903,7 +903,7 @@
     {
       "id": "p_1775421804481",
       "name": "Control mini pro elite inalámbrico PS3",
-      "price": 250,
+      "price": 270,
       "category": "Videojuegos",
       "status": "Nuevo",
       "desc": "Control Power A mini pro elite inalámbrico para PS3",
@@ -920,7 +920,7 @@
           "publicId": "fRsLVTN"
         }
       ],
-      "updatedAt": "2026-04-05T20:43:24.487Z"
+      "updatedAt": "2026-04-06T05:28:04.864Z"
     },
     {
       "id": "p_1775275010626",
@@ -3187,5 +3187,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T05:24:55.079Z"
+  "updatedAt": "2026-04-06T05:28:17.011Z"
 }
