@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1775435087632",
+      "name": "Traje de baño Kona Sol 😎 talla 2X",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Traje de baño 😃",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PvnbLfb7/8362.jpg",
+          "publicId": "tTtNGWN7"
+        },
+        {
+          "url": "https://i.ibb.co/WvJxg0LM/8363.jpg",
+          "publicId": "TM3vm1s7"
+        },
+        {
+          "url": "https://i.ibb.co/jZyBBqQZ/8364.jpg",
+          "publicId": "6JHVVGTJ"
+        }
+      ],
+      "updatedAt": "2026-04-06T00:26:39.423Z"
+    },
+    {
       "id": "p_1775434958737",
       "name": "Blusa Metaphor talla XL",
       "price": 120,
@@ -2787,5 +2813,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T00:22:45.314Z"
+  "updatedAt": "2026-04-06T00:26:44.351Z"
 }
