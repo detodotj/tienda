@@ -1,6 +1,88 @@
 {
   "products": [
     {
+      "id": "p_1775434417663",
+      "name": "Vestido Banana Republic talla M",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Elegante vestido de cóctel o gala Banana Republic.",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/XxT4mdf6/8350.jpg",
+          "publicId": "23B6XL0R"
+        },
+        {
+          "url": "https://i.ibb.co/vCL86jcH/8343.jpg",
+          "publicId": "dskyw5fr"
+        },
+        {
+          "url": "https://i.ibb.co/FSs7xnJ/8344.jpg",
+          "publicId": "JfxkBC2"
+        },
+        {
+          "url": "https://i.ibb.co/rKdyCFmk/8345.jpg",
+          "publicId": "vCXz7VH1"
+        }
+      ],
+      "updatedAt": "2026-04-06T00:13:37.663Z"
+    },
+    {
+      "id": "p_1775434181411",
+      "name": "Aretes",
+      "price": 70,
+      "category": "Joyería",
+      "status": "Nuevo",
+      "desc": "Hermosos aretes plateados.",
+      "subcategory": "Aretes",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/sdWSc5t5/8440.jpg",
+          "publicId": "Jw3L8xCx"
+        },
+        {
+          "url": "https://i.ibb.co/7dTjznF2/8439.jpg",
+          "publicId": "q347nNwk"
+        },
+        {
+          "url": "https://i.ibb.co/hRyBRXW5/8441.jpg",
+          "publicId": "SXPtXQnT"
+        }
+      ],
+      "updatedAt": "2026-04-06T00:09:41.411Z"
+    },
+    {
+      "id": "p_1775434072734",
+      "name": "Aretes",
+      "price": 70,
+      "category": "Joyería",
+      "status": "Nuevo",
+      "desc": "Aretes de fantasía dorados.",
+      "subcategory": "Aretes",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/RksFWgw9/8442.jpg",
+          "publicId": "XrKQTWRb"
+        },
+        {
+          "url": "https://i.ibb.co/Mk5yXWYd/8443.jpg",
+          "publicId": "F4qkPNSp"
+        },
+        {
+          "url": "https://i.ibb.co/RpkY4bWt/8444.jpg",
+          "publicId": "tMTQPK5n"
+        }
+      ],
+      "updatedAt": "2026-04-06T00:07:52.735Z"
+    },
+    {
       "id": "p_1775426577525",
       "name": "Cable de audio - fibra optica",
       "price": 60,
@@ -370,7 +452,7 @@
     },
     {
       "id": "p_1775274852289",
-      "name": "8bitdo control para mini nes.",
+      "name": "8bitdo control para mini nes/pc.",
       "price": 300,
       "category": "Videojuegos",
       "status": "Nuevo",
@@ -392,7 +474,7 @@
           "publicId": "kgX2pt79"
         }
       ],
-      "updatedAt": "2026-04-04T03:54:12.289Z"
+      "updatedAt": "2026-04-05T22:36:31.514Z"
     },
     {
       "id": "p_1775274691169",
@@ -2615,5 +2697,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-05T22:08:59.197Z"
+  "updatedAt": "2026-04-06T00:13:44.978Z"
 }
