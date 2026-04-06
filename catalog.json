@@ -1,6 +1,122 @@
 {
   "products": [
     {
+      "id": "p_1775503081551",
+      "name": "Blusa Vitamin A talla XS",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Estampado alegre y fresco🍹",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/C5hCNS04/8634.jpg",
+          "publicId": "fY46BT0Z"
+        },
+        {
+          "url": "https://i.ibb.co/WvWq0dx6/8636.jpg",
+          "publicId": "fdYB9K12"
+        },
+        {
+          "url": "https://i.ibb.co/mCKzBMNk/8635.jpg",
+          "publicId": "VWGBNPwR"
+        }
+      ],
+      "updatedAt": "2026-04-06T19:18:01.554Z"
+    },
+    {
+      "id": "p_1775502711522",
+      "name": "Camisa American Rag talla 2XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Camisa gris 🩶 de manga corta para caballero 😀",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/KkMbpwj/8628.jpg",
+          "publicId": "QR2p3dF"
+        },
+        {
+          "url": "https://i.ibb.co/ynSwPDT1/8631.jpg",
+          "publicId": "wNs9gTHX"
+        },
+        {
+          "url": "https://i.ibb.co/1f9t04xs/8630.jpg",
+          "publicId": "vxJ6cM8s"
+        },
+        {
+          "url": "https://i.ibb.co/gLrvF9Lm/8629.jpg",
+          "publicId": "rRQbf0RF"
+        }
+      ],
+      "updatedAt": "2026-04-06T19:11:51.525Z"
+    },
+    {
+      "id": "p_1775502470590",
+      "name": "Camisa VatPave talla M",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Camisa casual de manga corta.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/sdKQpWxc/8623.jpg",
+          "publicId": "nN7fqPd4"
+        },
+        {
+          "url": "https://i.ibb.co/W4fRckB0/8624.jpg",
+          "publicId": "B5BYgyTG"
+        },
+        {
+          "url": "https://i.ibb.co/Q3MgbvPt/8627.jpg",
+          "publicId": "39c3rmpQ"
+        },
+        {
+          "url": "https://i.ibb.co/bRJ9T8Zx/8625.jpg",
+          "publicId": "mF8WkMwm"
+        }
+      ],
+      "updatedAt": "2026-04-06T19:07:50.598Z"
+    },
+    {
+      "id": "p_1775502156694",
+      "name": "Blusa Chelsea & Theodore talla S",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Blusita formal con lindo detalle en tirantes.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/jPpDhW2p/8622.jpg",
+          "publicId": "YFrh2yMr"
+        },
+        {
+          "url": "https://i.ibb.co/j9xJr5p9/8620.jpg",
+          "publicId": "CpXPHtrp"
+        },
+        {
+          "url": "https://i.ibb.co/RG0347FP/8619.jpg",
+          "publicId": "Cp7bsWcv"
+        },
+        {
+          "url": "https://i.ibb.co/GfKSX0jY/8621.jpg",
+          "publicId": "JWfJNKP6"
+        }
+      ],
+      "updatedAt": "2026-04-06T19:02:36.695Z"
+    },
+    {
       "id": "p_1775500935029",
       "name": "Blusa Torrid talla 1X",
       "price": 80,
@@ -3497,5 +3613,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T18:42:18.935Z"
+  "updatedAt": "2026-04-06T19:18:08.209Z"
 }
