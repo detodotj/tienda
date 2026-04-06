@@ -1,6 +1,66 @@
 {
   "products": [
     {
+      "id": "p_1775440695046",
+      "name": "Vestido Jones New York talla 8",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Hermoso vestido 😍 negro, largo a la rodilla.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/hRFXsh9S/8386.jpg",
+          "publicId": "0jyBq82x"
+        },
+        {
+          "url": "https://i.ibb.co/N2MmNPQ9/8383.jpg",
+          "publicId": "4RHYSG98"
+        },
+        {
+          "url": "https://i.ibb.co/9HFMWs5T/8385.jpg",
+          "publicId": "k2RdXQC8"
+        },
+        {
+          "url": "https://i.ibb.co/WWVSp3TM/8382.jpg",
+          "publicId": "FbHGqWPy"
+        }
+      ],
+      "updatedAt": "2026-04-06T01:58:15.046Z"
+    },
+    {
+      "id": "p_1775440556692",
+      "name": "Palazzo Lilyful talla S",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Palazzo azul con cinta que se ata en el busto. Largo abajo de la rodilla.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rRfX3G1C/8380.jpg",
+          "publicId": "4ng02Z56"
+        },
+        {
+          "url": "https://i.ibb.co/002XpZ0/8378.jpg",
+          "publicId": "sTRPpQT"
+        },
+        {
+          "url": "https://i.ibb.co/svXVm7td/8376.jpg",
+          "publicId": "JRSsBZCw"
+        },
+        {
+          "url": "https://i.ibb.co/0yYxYzPy/8379.jpg",
+          "publicId": "s9sZsXL9"
+        }
+      ],
+      "updatedAt": "2026-04-06T01:55:56.696Z"
+    },
+    {
       "id": "p_1775440236730",
       "name": "Vestido Classique Entier talla 10",
       "price": 120,
@@ -2873,5 +2933,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T01:50:55.475Z"
+  "updatedAt": "2026-04-06T01:59:45.079Z"
 }
