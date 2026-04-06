@@ -1,6 +1,58 @@
 {
   "products": [
     {
+      "id": "p_1775441086696",
+      "name": "Vestido Merona talla 12",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido muy fresco 😍 con lindos olanes.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/bMgbLMSf/8394.jpg",
+          "publicId": "v6xXm67t"
+        },
+        {
+          "url": "https://i.ibb.co/zWWWdD31/8392.jpg",
+          "publicId": "rKKK9NBg"
+        },
+        {
+          "url": "https://i.ibb.co/HDFFqvnz/8393.jpg",
+          "publicId": "N6VVKhZj"
+        }
+      ],
+      "updatedAt": "2026-04-06T02:04:46.697Z"
+    },
+    {
+      "id": "p_1775440914321",
+      "name": "Vestido Merona talla 12",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Muy lindo vestido 🩷 y azul con cinturón.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/hJX5Lk7N/8388.jpg",
+          "publicId": "ks3n5pHT"
+        },
+        {
+          "url": "https://i.ibb.co/fY0G2Nym/8390.jpg",
+          "publicId": "Fb7qKYyG"
+        },
+        {
+          "url": "https://i.ibb.co/kssf8F4K/8389.jpg",
+          "publicId": "C33Z7FbB"
+        }
+      ],
+      "updatedAt": "2026-04-06T02:01:54.322Z"
+    },
+    {
       "id": "p_1775440695046",
       "name": "Vestido Jones New York talla 8",
       "price": 100,
@@ -2933,5 +2985,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T01:59:45.079Z"
+  "updatedAt": "2026-04-06T02:04:59.893Z"
 }
