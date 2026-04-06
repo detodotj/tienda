@@ -403,7 +403,7 @@
     {
       "id": "p_1775434958737",
       "name": "Blusa Metaphor talla XL",
-      "price": 120,
+      "price": 100,
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "Tela súper delgada y fresca.",
@@ -428,7 +428,7 @@
           "publicId": "93dKzZBt"
         }
       ],
-      "updatedAt": "2026-04-06T00:22:38.737Z"
+      "updatedAt": "2026-04-06T16:14:38.475Z"
     },
     {
       "id": "p_1775434792460",
@@ -1914,7 +1914,7 @@
     {
       "id": "p_1775012459490",
       "name": "Vestido SheIn talla L",
-      "price": 120,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Hermoso vestido corto con flores. Se expande. 100% poliéster.",
@@ -1939,7 +1939,7 @@
           "publicId": "store-pics/e3vdfvxqgvb90kp86nxv"
         }
       ],
-      "updatedAt": "2026-04-01T03:00:59.490Z"
+      "updatedAt": "2026-04-06T16:16:21.700Z"
     },
     {
       "id": "p_1775012215287",
@@ -3187,5 +3187,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T05:28:40.831Z"
+  "updatedAt": "2026-04-06T16:21:30.222Z"
 }
