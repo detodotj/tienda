@@ -1,6 +1,66 @@
 {
   "products": [
     {
+      "id": "p_1775446910109",
+      "name": "Vestido Trac talla M",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestidito ❤️ lindo escote. Espalda descubierta.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Z6XKD93w/8473.jpg",
+          "publicId": "vxqmn9br"
+        },
+        {
+          "url": "https://i.ibb.co/3mmqCjCD/8431.jpg",
+          "publicId": "gZZpRfR5"
+        },
+        {
+          "url": "https://i.ibb.co/7dRfH8c6/8432.jpg",
+          "publicId": "YFyC6Y9q"
+        },
+        {
+          "url": "https://i.ibb.co/fzhynqVW/8434.jpg",
+          "publicId": "0Rg6FmpL"
+        },
+        {
+          "url": "https://i.ibb.co/C3tywNk7/8474.jpg",
+          "publicId": "bM3V6qSB"
+        }
+      ],
+      "updatedAt": "2026-04-06T03:41:50.111Z"
+    },
+    {
+      "id": "p_1775446508890",
+      "name": "Pantalón Moschino talla 12",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Stretch, muy lindo color azul 💙",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/m56rVqGD/8425.jpg",
+          "publicId": "Qvr73Nfb"
+        },
+        {
+          "url": "https://i.ibb.co/hFZqzDq7/8426.jpg",
+          "publicId": "N2m4BZ4V"
+        },
+        {
+          "url": "https://i.ibb.co/VY2rWtbL/8427.jpg",
+          "publicId": "r24TGmqQ"
+        }
+      ],
+      "updatedAt": "2026-04-06T03:35:08.893Z"
+    },
+    {
       "id": "p_1775446329709",
       "name": "Vestido Nu Label XL",
       "price": 80,
@@ -3127,5 +3187,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T03:32:15.140Z"
+  "updatedAt": "2026-04-06T03:41:55.505Z"
 }
