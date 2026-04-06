@@ -1,6 +1,58 @@
 {
   "products": [
     {
+      "id": "p_1775446329709",
+      "name": "Vestido Nu Label XL",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Blusita con tirantes y manga, muy de verano 😻",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ds5SSpHr/8423.jpg",
+          "publicId": "hxmkkdTy"
+        },
+        {
+          "url": "https://i.ibb.co/Swr1S82Z/8420.jpg",
+          "publicId": "4RdDkGc0"
+        },
+        {
+          "url": "https://i.ibb.co/pjz9x8wy/8422.jpg",
+          "publicId": "8g5S0psc"
+        }
+      ],
+      "updatedAt": "2026-04-06T03:32:09.709Z"
+    },
+    {
+      "id": "p_1775446170572",
+      "name": "Vestido Divided talla 12",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Vestido fresco y básico para el verano. 😊",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/F4Fy2PWf/8470.jpg",
+          "publicId": "DfZvhqb6"
+        },
+        {
+          "url": "https://i.ibb.co/CsMJV3q2/8417.jpg",
+          "publicId": "vvQsL6bY"
+        },
+        {
+          "url": "https://i.ibb.co/nqmZ400S/8472.jpg",
+          "publicId": "p6wGNPPp"
+        }
+      ],
+      "updatedAt": "2026-04-06T03:29:30.572Z"
+    },
+    {
       "id": "p_1775442408274",
       "name": "Chamarra talla 8",
       "price": 100,
@@ -3075,5 +3127,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T02:30:05.812Z"
+  "updatedAt": "2026-04-06T03:32:15.140Z"
 }
