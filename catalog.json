@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775438384682",
+      "name": "Vestido Voir Voir talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Lindo 😘 vestido de cóctel. Elegante y casual.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1Jrg1jHV/8368.jpg",
+          "publicId": "Xk7Q1MmB"
+        },
+        {
+          "url": "https://i.ibb.co/CpkCXd56/8366.jpg",
+          "publicId": "sp0xDSvC"
+        },
+        {
+          "url": "https://i.ibb.co/XkyP2Mvq/8370.jpg",
+          "publicId": "k63THvWt"
+        },
+        {
+          "url": "https://i.ibb.co/Cpc6MmxX/8369.jpg",
+          "publicId": "RGFNBYLM"
+        }
+      ],
+      "updatedAt": "2026-04-06T01:22:34.459Z"
+    },
+    {
       "id": "p_1775435087632",
       "name": "Traje de baño Kona Sol 😎 talla 2X",
       "price": 100,
@@ -2813,5 +2843,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-06T00:26:44.351Z"
+  "updatedAt": "2026-04-06T01:22:44.936Z"
 }
