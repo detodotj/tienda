@@ -2436,7 +2436,7 @@
     {
       "id": "p_1775011852078",
       "name": "Blusa Faded Glory 3X",
-      "price": 80,
+      "price": 60,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "Blusa amplia y fresca. 100 % poliéster.",
@@ -2461,7 +2461,7 @@
           "publicId": "store-pics/tyvslnx9aste41tdxwlf"
         }
       ],
-      "updatedAt": "2026-04-07T15:29:15.312Z"
+      "updatedAt": "2026-04-07T17:43:21.531Z"
     },
     {
       "id": "p_1775011695060",
@@ -2522,7 +2522,7 @@
     {
       "id": "p_1775011158505",
       "name": "Short Nautica talla XL",
-      "price": 100,
+      "price": 80,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "Short para hombre. 100% algodón.",
@@ -2543,7 +2543,7 @@
           "publicId": "store-pics/q7fxbjit27s8uhhprd4u"
         }
       ],
-      "updatedAt": "2026-04-07T15:29:37.871Z"
+      "updatedAt": "2026-04-07T17:43:42.776Z"
     },
     {
       "id": "p_1775011043117",
@@ -3619,5 +3619,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-07T17:42:16.319Z"
+  "updatedAt": "2026-04-07T17:44:13.986Z"
 }
