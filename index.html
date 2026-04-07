@@ -409,8 +409,6 @@ footer strong { color:rgba(255,255,255,0.65); }
 <div class="cat-bar">
   <button class="cat-btn active" onclick="setCat('')">Todos</button>
   <button class="cat-btn" onclick="setCat('Ropa')">👕 Ropa</button>
-  <button class="cat-btn" onclick="setCat('Calzado')">👟 Calzado</button>
-  <button class="cat-btn" onclick="setCat('Joyería')">💍 Joyería</button>
   <button class="cat-btn" onclick="setCat('Electrónica')">📱 Electrónica</button>
   <button class="cat-btn" onclick="setCat('Hogar')">🏠 Hogar</button>
   <button class="cat-btn" onclick="setCat('Juguetes')">🧸 Juguetes</button>
@@ -418,6 +416,8 @@ footer strong { color:rgba(255,255,255,0.65); }
   <button class="cat-btn" onclick="setCat('Deportes')">⚽ Deportes</button>
   <button class="cat-btn" onclick="setCat('Herramientas')">🔧 Herramientas</button>
   <button class="cat-btn" onclick="setCat('Coleccionables')">⭐ Coleccionables</button>
+  <button class="cat-btn" onclick="setCat('Calzado')">👟 Calzado</button>
+  <button class="cat-btn" onclick="setCat('Joyería')">💍 Joyería</button>
 </div>
 
 
@@ -511,8 +511,6 @@ const DEFAULT_WA = '526642601992';
 
 const SUBCATS = {
   'Ropa': ['Hombre','Mujer','Niños','Accesorios'],
-  'Calzado': ['Mujer','Hombre','Niño'],
-  'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets']
   'Electrónica': ['Celulares','Computadoras','Audio','Televisiones','Accesorios'],
   'Hogar': ['Cocina','Decoración','Electrodomésticos'],
   'Juguetes': ['Bebés','Niños','Educativos','Figuras'],
@@ -520,6 +518,8 @@ const SUBCATS = {
   'Deportes': ['Gym','Ciclismo','Outdoor','Accesorios'],
   'Herramientas': ['Eléctricas','Manuales','Jardín'],
   'Coleccionables': [],
+  'Calzado': ['Mujer','Hombre','Niño'],
+  'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets']
 };
 let activeSubcat = '';
 
