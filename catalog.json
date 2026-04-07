@@ -2844,7 +2844,7 @@
       "id": "p_1775008592366",
       "name": "Playera manga larga Montage talla XL",
       "price": 80,
-      "category": "Ropa",
+      "category": "Plus Size",
       "status": "Buen estado",
       "desc": "Playera tipo Henley de manga larga. Algodón y poliéster.",
       "subcategory": "Hombre",
@@ -2864,7 +2864,7 @@
           "publicId": "store-pics/etzk3socxajbzlpfvuvj"
         }
       ],
-      "updatedAt": "2026-04-01T01:56:32.366Z"
+      "updatedAt": "2026-04-07T15:36:16.775Z"
     },
     {
       "id": "p_1775008342271",
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "p_1774741840906",
-      "name": "Blusa",
+      "name": "Blusa talla L",
       "price": 80,
       "category": "Ropa",
       "status": "Como nuevo",
@@ -3012,7 +3012,7 @@
           "publicId": "store-pics/gcwo2ho65tkpw7rxrzjn"
         }
       ],
-      "updatedAt": "2026-04-02T05:40:27.025Z"
+      "updatedAt": "2026-04-07T15:35:21.391Z"
     },
     {
       "id": "p_1774741467617",
@@ -3044,7 +3044,7 @@
       "id": "p_1774739986442",
       "name": "Saco de vestir Mellóday talla 1X",
       "price": 200,
-      "category": "Ropa",
+      "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "Saco semi formal. Llega abajo de la cadera. Spandex y poliéster. Estira mucho.",
       "subcategory": "Mujer",
@@ -3064,7 +3064,7 @@
           "publicId": "store-pics/nqh41vtcgiwey7mb9fev"
         }
       ],
-      "updatedAt": "2026-04-02T05:40:42.497Z"
+      "updatedAt": "2026-04-07T15:34:35.937Z"
     },
     {
       "id": "p_1774739761079",
@@ -3213,7 +3213,7 @@
       "id": "p_1774737942694",
       "name": "Vestido Just Found talla 2X",
       "price": 120,
-      "category": "Ropa",
+      "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "Vestido casual, ligero, 100% poliéster. Corto abajo de la rodilla.",
       "subcategory": "Mujer",
@@ -3229,7 +3229,7 @@
           "publicId": "store-pics/u8zg2lqyjdzwst00wcbd"
         }
       ],
-      "updatedAt": "2026-03-28T22:45:42.695Z"
+      "updatedAt": "2026-04-07T15:34:16.772Z"
     },
     {
       "id": "p_1774737706282",
@@ -3283,10 +3283,10 @@
       "id": "p_1774736254373",
       "name": "Tubos para pelo CONAIR",
       "price": 80,
-      "category": "Ropa",
+      "category": "Hogar",
       "status": "Como nuevo",
       "desc": "9 tubos grandes para crear ondas con volumen y movimiento.",
-      "subcategory": "Mujer",
+      "subcategory": "",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -3299,7 +3299,7 @@
           "publicId": "store-pics/rkzfqzkrxbxwhi0bamps"
         }
       ],
-      "updatedAt": "2026-03-28T22:17:34.373Z"
+      "updatedAt": "2026-04-07T15:35:49.815Z"
     },
     {
       "id": "p_1774735679845",
@@ -3613,5 +3613,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-07T15:33:27.078Z"
+  "updatedAt": "2026-04-07T15:38:41.790Z"
 }
