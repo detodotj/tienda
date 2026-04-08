@@ -1,6 +1,222 @@
 {
   "products": [
     {
+      "id": "p_1775685775556",
+      "name": "Suéter Love and Whimsy talla XL",
+      "price": 80,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/CKrt20jP/9165.jpg",
+          "publicId": "7t9z4y3k"
+        },
+        {
+          "url": "https://i.ibb.co/k6yky3dC/9162.jpg",
+          "publicId": "M5hWh8X0"
+        },
+        {
+          "url": "https://i.ibb.co/4ntBzvzG/9163.jpg",
+          "publicId": "W45SZ8Zw"
+        }
+      ],
+      "updatedAt": "2026-04-08T22:02:55.556Z"
+    },
+    {
+      "id": "p_1775685626003",
+      "name": "Saco Melrose talla XS",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Tela delgada. Algodón.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PvMFdbrw/9166.jpg",
+          "publicId": "XrDjqdWS"
+        },
+        {
+          "url": "https://i.ibb.co/1575d9L/9167.jpg",
+          "publicId": "LWYWJC8"
+        },
+        {
+          "url": "https://i.ibb.co/r2hpyp1M/9168.jpg",
+          "publicId": "nMy1k15f"
+        }
+      ],
+      "updatedAt": "2026-04-08T22:00:26.003Z"
+    },
+    {
+      "id": "p_1775685453084",
+      "name": "Saco Kasper talla 12",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Muy lindo saco corto con hilo brillante.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/DPycGCmK/9172.jpg",
+          "publicId": "HLswNzRg"
+        },
+        {
+          "url": "https://i.ibb.co/Ldg1v0fJ/9170.jpg",
+          "publicId": "PGWgtr89"
+        },
+        {
+          "url": "https://i.ibb.co/7t2dB7Gg/9171.jpg",
+          "publicId": "s9ydcLF5"
+        },
+        {
+          "url": "https://i.ibb.co/Jj1J4hdy/9169.jpg",
+          "publicId": "m5jWwxBX"
+        }
+      ],
+      "updatedAt": "2026-04-08T21:57:33.085Z"
+    },
+    {
+      "id": "p_1775685289812",
+      "name": "Saco Focus talla 8",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/27g56SgW/9173.jpg",
+          "publicId": "rG4vt34F"
+        },
+        {
+          "url": "https://i.ibb.co/5WmF13SZ/9174.jpg",
+          "publicId": "Y7mZNS1g"
+        },
+        {
+          "url": "https://i.ibb.co/4ZRBWTWc/9175.jpg",
+          "publicId": "SXwqNnN2"
+        },
+        {
+          "url": "https://i.ibb.co/tM7vtNKW/9176.jpg",
+          "publicId": "KjMfkQh3"
+        }
+      ],
+      "updatedAt": "2026-04-08T21:55:13.106Z"
+    },
+    {
+      "id": "p_1775685185497",
+      "name": "Saco Lily White talla L",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "La luz no ayuda, pero es dorado.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/CKy2rdWY/9177.jpg",
+          "publicId": "b5VJfh7C"
+        },
+        {
+          "url": "https://i.ibb.co/C3Q2319d/9181.jpg",
+          "publicId": "cSQLSg85"
+        },
+        {
+          "url": "https://i.ibb.co/wZQmpg4T/9179.jpg",
+          "publicId": "cK8n23QP"
+        }
+      ],
+      "updatedAt": "2026-04-08T21:53:05.497Z"
+    },
+    {
+      "id": "p_1775685072073",
+      "name": "Blusa XL",
+      "price": 100,
+      "category": "Plus Size",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/NdM1TMmh/9184.jpg",
+          "publicId": "mV3vN3Xs"
+        },
+        {
+          "url": "https://i.ibb.co/yFLTZjLt/9183.jpg",
+          "publicId": "b5phC9pT"
+        },
+        {
+          "url": "https://i.ibb.co/MDp0FgQ8/9182.jpg",
+          "publicId": "3yWZgTQf"
+        }
+      ],
+      "updatedAt": "2026-04-08T21:51:12.073Z"
+    },
+    {
+      "id": "p_1775684975903",
+      "name": "Vestido Allen B talla XL",
+      "price": 100,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/HTMnNv0M/9188.jpg",
+          "publicId": "xqcJmvyc"
+        },
+        {
+          "url": "https://i.ibb.co/KpF807D7/9186.jpg",
+          "publicId": "fz4T1t9t"
+        },
+        {
+          "url": "https://i.ibb.co/RGs4Q3XM/9187.jpg",
+          "publicId": "Q7TjYPWq"
+        }
+      ],
+      "updatedAt": "2026-04-08T21:49:35.903Z"
+    },
+    {
+      "id": "p_1775684892345",
+      "name": "Vestido Apt.9 XL",
+      "price": 80,
+      "category": "Plus Size",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/GQHvtw0F/9191.jpg",
+          "publicId": "F4Hb0vKn"
+        },
+        {
+          "url": "https://i.ibb.co/dRQfBrW/9193.jpg",
+          "publicId": "wfKdyR0"
+        },
+        {
+          "url": "https://i.ibb.co/8Lv19Bvc/9190.jpg",
+          "publicId": "rR8DHt8s"
+        }
+      ],
+      "updatedAt": "2026-04-08T21:48:12.345Z"
+    },
+    {
       "id": "p_1775684613953",
       "name": "Chamarra Port Authority talla M",
       "price": 100,
@@ -4314,5 +4530,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T21:46:35.060Z"
+  "updatedAt": "2026-04-08T22:03:00.878Z"
 }
