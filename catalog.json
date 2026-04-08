@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1775672562497",
+      "name": "Portavelas",
+      "price": 120,
+      "category": "Hogar",
+      "status": "Buen estado",
+      "desc": "Juego de 5 portavelas",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/cSPFsssy/9074.jpg",
+          "publicId": "fzbpTTTX"
+        },
+        {
+          "url": "https://i.ibb.co/7xZjB94b/9075.jpg",
+          "publicId": "p6MbNmyn"
+        },
+        {
+          "url": "https://i.ibb.co/spgkJbmZ/9076.jpg",
+          "publicId": "CpwNsm1f"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:22:42.501Z"
+    },
+    {
       "id": "p_1775591839045",
       "name": "Atari flashback.",
       "price": 150,
@@ -3688,5 +3714,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T00:07:12.318Z"
+  "updatedAt": "2026-04-08T18:23:21.888Z"
 }
