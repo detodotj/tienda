@@ -1,6 +1,62 @@
 {
   "products": [
     {
+      "id": "p_1775674459517",
+      "name": "Botas Aerosoles talla 10",
+      "price": 120,
+      "category": "Calzado",
+      "status": "Buen estado",
+      "desc": "Gamuza exterior en 💯",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/whz3pJk1/8989.jpg",
+          "publicId": "r2wT5bjJ"
+        },
+        {
+          "url": "https://i.ibb.co/fz4D5r9v/8992.jpg",
+          "publicId": "nNzPvQBC"
+        },
+        {
+          "url": "https://i.ibb.co/hJp5hJ5p/8991.jpg",
+          "publicId": "pBCDGBDC"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:57:53.326Z"
+    },
+    {
+      "id": "p_1775674170210",
+      "name": "Botas American Eagle talla 7 1/2",
+      "price": 120,
+      "category": "Calzado",
+      "status": "Buen estado",
+      "desc": "Gamuza exterior en 💯",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/HW0Hs8j/8985.jpg",
+          "publicId": "v7bjGnS"
+        },
+        {
+          "url": "https://i.ibb.co/whz3pJk1/8989.jpg",
+          "publicId": "r2wT5bjJ"
+        },
+        {
+          "url": "https://i.ibb.co/wN1tr7CG/8987.jpg",
+          "publicId": "XZTHkDp0"
+        },
+        {
+          "url": "https://i.ibb.co/v4P12LNq/8986.jpg",
+          "publicId": "0yMqPY02"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:49:30.211Z"
+    },
+    {
       "id": "p_1775673808926",
       "name": "Botas Street Wear Society talla 10",
       "price": 120,
@@ -3856,5 +3912,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T18:43:32.324Z"
+  "updatedAt": "2026-04-08T18:58:07.252Z"
 }
