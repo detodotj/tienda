@@ -2643,7 +2643,7 @@
     {
       "id": "p_1775010708011",
       "name": "Blusa de tirantes SheIn talla XL",
-      "price": 80,
+      "price": 70,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "Blusa para dama. Algodón.",
@@ -2664,7 +2664,7 @@
           "publicId": "store-pics/iljoumlk0yy3c9ypidhd"
         }
       ],
-      "updatedAt": "2026-04-07T15:29:55.400Z"
+      "updatedAt": "2026-04-08T00:04:22.068Z"
     },
     {
       "id": "p_1775010539678",
@@ -2758,7 +2758,7 @@
     {
       "id": "p_1775009852432",
       "name": "Short de mezclilla Wrangler talla 44",
-      "price": 100,
+      "price": 80,
       "category": "Plus Size",
       "status": "Buen estado",
       "desc": "Short de mezclilla Wrangler para hombre. 100% algodón.",
@@ -2783,7 +2783,7 @@
           "publicId": "store-pics/bgxa2ebxisxeyf0sicqz"
         }
       ],
-      "updatedAt": "2026-04-07T15:30:24.393Z"
+      "updatedAt": "2026-04-08T00:04:41.218Z"
     },
     {
       "id": "p_1775009713038",
@@ -3688,5 +3688,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T00:03:19.340Z"
+  "updatedAt": "2026-04-08T00:05:01.302Z"
 }
