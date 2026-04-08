@@ -10,8 +10,25 @@
       "subcategory": "Hombre",
       "delivery": "",
       "whatsapp": "526642601992",
-      "photos": [],
-      "updatedAt": "2026-04-08T18:35:32.120Z"
+      "photos": [
+        {
+          "url": "https://i.ibb.co/GQvYndVP/9025.jpg",
+          "publicId": "yFnvdN8s"
+        },
+        {
+          "url": "https://i.ibb.co/VWyYj6pF/9029.jpg",
+          "publicId": "GvwQxm3Z"
+        },
+        {
+          "url": "https://i.ibb.co/C5VmCX63/9027.jpg",
+          "publicId": "N6WtDkrd"
+        },
+        {
+          "url": "https://i.ibb.co/bjXy79n8/9026.jpg",
+          "publicId": "XftdVRTv"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:37:30.298Z"
     },
     {
       "id": "p_1775673001493",
@@ -3783,5 +3800,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T18:35:44.728Z"
+  "updatedAt": "2026-04-08T18:37:41.909Z"
 }
