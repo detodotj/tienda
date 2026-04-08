@@ -2702,7 +2702,7 @@
     {
       "id": "p_1775010350100",
       "name": "Short Izod talla L",
-      "price": 100,
+      "price": 80,
       "category": "Ropa",
       "status": "Buen estado",
       "desc": "Short para hombre. Cinta ajustable al interior. 100% algodón.",
@@ -2727,12 +2727,12 @@
           "publicId": "store-pics/dxdd5mlhnegbvbbnxxq8"
         }
       ],
-      "updatedAt": "2026-04-01T02:25:50.100Z"
+      "updatedAt": "2026-04-08T00:06:30.133Z"
     },
     {
       "id": "p_1775010108664",
       "name": "Short Greg Norman talla 38",
-      "price": 100,
+      "price": 80,
       "category": "Ropa",
       "status": "Buen estado",
       "desc": "Short para hombre. Detalles de uso.",
@@ -2753,7 +2753,7 @@
           "publicId": "store-pics/pt40tduryaxo3zuqfzsp"
         }
       ],
-      "updatedAt": "2026-04-01T02:21:48.664Z"
+      "updatedAt": "2026-04-08T00:06:44.410Z"
     },
     {
       "id": "p_1775009852432",
@@ -3688,5 +3688,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T00:05:01.302Z"
+  "updatedAt": "2026-04-08T00:07:12.318Z"
 }
