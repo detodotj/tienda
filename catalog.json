@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1775677047338",
+      "name": "Chamarra Oscar Sports 2XL",
+      "price": 180,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/TNH6vZd/9087.jpg",
+          "publicId": "H9r6F03"
+        },
+        {
+          "url": "https://i.ibb.co/CshY44qp/9088.jpg",
+          "publicId": "Dg5vmmNP"
+        },
+        {
+          "url": "https://i.ibb.co/bRNwvC8H/9089.jpg",
+          "publicId": "mFhZy2Mv"
+        },
+        {
+          "url": "https://i.ibb.co/GQh07XZF/9091.jpg",
+          "publicId": "nMWbrTXR"
+        },
+        {
+          "url": "https://i.ibb.co/qM4YMTZS/9092.jpg",
+          "publicId": "LzqdzVGF"
+        }
+      ],
+      "updatedAt": "2026-04-08T19:39:38.955Z"
+    },
+    {
       "id": "p_1775676654146",
       "name": "Camisa John Ashford XXL",
       "price": 100,
@@ -3990,5 +4024,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T19:31:03.788Z"
+  "updatedAt": "2026-04-08T19:42:03.091Z"
 }
