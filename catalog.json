@@ -1,6 +1,66 @@
 {
   "products": [
     {
+      "id": "p_1775678023779",
+      "name": "Capri Attire talla 20W",
+      "price": 80,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "Stretch",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/VpcVcwXp/9105.jpg",
+          "publicId": "Hpf7fhmp"
+        },
+        {
+          "url": "https://i.ibb.co/vxhmz1pD/9101.jpg",
+          "publicId": "jvzG4hmH"
+        },
+        {
+          "url": "https://i.ibb.co/VpDWnyRJ/9103.jpg",
+          "publicId": "Nnp6Dh5t"
+        },
+        {
+          "url": "https://i.ibb.co/kVCjRDfp/9104.jpg",
+          "publicId": "204xDMQw"
+        }
+      ],
+      "updatedAt": "2026-04-08T19:53:43.781Z"
+    },
+    {
+      "id": "p_1775677666400",
+      "name": "Pantalón UWD talla 15",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Mezclilla. Stretch.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/hJJ0YnyF/9099.jpg",
+          "publicId": "7ddhkTXt"
+        },
+        {
+          "url": "https://i.ibb.co/qLysQmwP/9094.jpg",
+          "publicId": "vCwPnL8K"
+        },
+        {
+          "url": "https://i.ibb.co/ynwqGf7r/9095.jpg",
+          "publicId": "hRPVh7wS"
+        },
+        {
+          "url": "https://i.ibb.co/PstZtb1H/9096.jpg",
+          "publicId": "mrSCSYhW"
+        }
+      ],
+      "updatedAt": "2026-04-08T19:47:46.408Z"
+    },
+    {
       "id": "p_1775677047338",
       "name": "Chamarra Oscar Sports 2XL",
       "price": 180,
@@ -4024,5 +4084,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T19:42:03.091Z"
+  "updatedAt": "2026-04-08T19:53:48.913Z"
 }
