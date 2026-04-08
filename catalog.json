@@ -1,6 +1,19 @@
 {
   "products": [
     {
+      "id": "p_1775673332114",
+      "name": "Botas Steve Madden talla 11",
+      "price": 200,
+      "category": "Calzado",
+      "status": "Buen estado",
+      "desc": "Interior aborregado",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [],
+      "updatedAt": "2026-04-08T18:35:32.120Z"
+    },
+    {
       "id": "p_1775673001493",
       "name": "Tenis Starter talla 13",
       "price": 100,
@@ -3770,5 +3783,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T18:30:05.858Z"
+  "updatedAt": "2026-04-08T18:35:44.728Z"
 }
