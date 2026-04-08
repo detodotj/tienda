@@ -1,6 +1,62 @@
 {
   "products": [
     {
+      "id": "p_1775673808926",
+      "name": "Botas Street Wear Society talla 10",
+      "price": 120,
+      "category": "Calzado",
+      "status": "Como nuevo",
+      "desc": "Sin detalle 😃",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ccV9pm5C/8997.jpg",
+          "publicId": "vxRWrt5Q"
+        },
+        {
+          "url": "https://i.ibb.co/1YPYjRnW/9003.jpg",
+          "publicId": "kVwVvqyC"
+        },
+        {
+          "url": "https://i.ibb.co/Rr8Sw46/9004.jpg",
+          "publicId": "GYmJS3M"
+        },
+        {
+          "url": "https://i.ibb.co/1fxv7mHW/9000.jpg",
+          "publicId": "99j8crR5"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:43:28.926Z"
+    },
+    {
+      "id": "p_1775673631536",
+      "name": "Botas Charlotte Russe talla 8",
+      "price": 120,
+      "category": "Calzado",
+      "status": "Buen estado",
+      "desc": "Sin detalle 🙂",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/NqzVp0R/8994.jpg",
+          "publicId": "q8wy9H6"
+        },
+        {
+          "url": "https://i.ibb.co/yBnMsK0N/8993.jpg",
+          "publicId": "M5DjNKng"
+        },
+        {
+          "url": "https://i.ibb.co/jP9hRR32/8990.jpg",
+          "publicId": "B5HLNNTx"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:41:16.812Z"
+    },
+    {
       "id": "p_1775673332114",
       "name": "Botas Steve Madden talla 11",
       "price": 200,
@@ -3800,5 +3856,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T18:37:41.909Z"
+  "updatedAt": "2026-04-08T18:43:32.324Z"
 }
