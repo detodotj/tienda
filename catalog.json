@@ -1,6 +1,110 @@
 {
   "products": [
     {
+      "id": "p_1775679507626",
+      "name": "Camisa Alfani talla XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Pv4R2qq9/9120.jpg",
+          "publicId": "nNfTXxxn"
+        },
+        {
+          "url": "https://i.ibb.co/S41S05w8/9119.jpg",
+          "publicId": "TxnyRYMS"
+        },
+        {
+          "url": "https://i.ibb.co/Jjx6wCTp/9121.jpg",
+          "publicId": "4RsvnJLS"
+        },
+        {
+          "url": "https://i.ibb.co/FkR2LyqZ/9123.jpg",
+          "publicId": "HL56fbpw"
+        }
+      ],
+      "updatedAt": "2026-04-08T20:18:27.630Z"
+    },
+    {
+      "id": "p_1775679194129",
+      "name": "Pantalón Refuge talla 14",
+      "price": 80,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Stretch. Ajustado.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/zdY6tNb/9114.jpg",
+          "publicId": "8kpYQX2"
+        },
+        {
+          "url": "https://i.ibb.co/YTjF06Sv/9118.jpg",
+          "publicId": "7NydkHD7"
+        },
+        {
+          "url": "https://i.ibb.co/BK53Nc1z/9117.jpg",
+          "publicId": "G34pTnhx"
+        }
+      ],
+      "updatedAt": "2026-04-08T20:13:14.129Z"
+    },
+    {
+      "id": "p_1775678532509",
+      "name": "Chamarra JJ Básico talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rYS6XDj/9110.jpg",
+          "publicId": "YmMkVHC"
+        },
+        {
+          "url": "https://i.ibb.co/TxwmtY6n/9111.jpg",
+          "publicId": "HfKnqB6M"
+        }
+      ],
+      "updatedAt": "2026-04-08T20:02:12.509Z"
+    },
+    {
+      "id": "p_1775678268041",
+      "name": "Chamarra Old Navy talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/4w5B6N4J/9106.jpg",
+          "publicId": "FkjGS78n"
+        },
+        {
+          "url": "https://i.ibb.co/cSfP2DSk/9107.jpg",
+          "publicId": "Xr09FSrj"
+        },
+        {
+          "url": "https://i.ibb.co/FC0HNQj/9109.jpg",
+          "publicId": "CDMPNjT"
+        }
+      ],
+      "updatedAt": "2026-04-08T19:57:48.045Z"
+    },
+    {
       "id": "p_1775678023779",
       "name": "Capri Attire talla 20W",
       "price": 80,
@@ -4084,5 +4188,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T19:53:48.913Z"
+  "updatedAt": "2026-04-08T20:33:00.914Z"
 }
