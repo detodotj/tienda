@@ -2241,7 +2241,7 @@
     {
       "id": "p_1775170687801",
       "name": "Charola de vidrio para quesos, fruta, etc.",
-      "price": 70,
+      "price": 60,
       "category": "Hogar",
       "status": "Como nuevo",
       "desc": "Hermosa charola con lindos detalles en su base, estilo antiguo.",
@@ -2266,7 +2266,7 @@
           "publicId": "store-pics/eqndea2dtqesc1cuubf5"
         }
       ],
-      "updatedAt": "2026-04-02T22:58:07.801Z"
+      "updatedAt": "2026-04-08T00:02:55.135Z"
     },
     {
       "id": "p_1775170495651",
@@ -3688,5 +3688,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T00:01:53.617Z"
+  "updatedAt": "2026-04-08T00:03:19.340Z"
 }
