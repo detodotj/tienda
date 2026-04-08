@@ -1,6 +1,62 @@
 {
   "products": [
     {
+      "id": "p_1775673001493",
+      "name": "Tenis Starter talla 13",
+      "price": 100,
+      "category": "Calzado",
+      "status": "Como nuevo",
+      "desc": "Niña 😍",
+      "subcategory": "Niño",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/r2bgfvpJ/9017.jpg",
+          "publicId": "PGTRztW8"
+        },
+        {
+          "url": "https://i.ibb.co/m5Vy8bg1/9018.jpg",
+          "publicId": "r2RpsFNT"
+        },
+        {
+          "url": "https://i.ibb.co/5gJJYDXH/9021.jpg",
+          "publicId": "LXssQwD7"
+        },
+        {
+          "url": "https://i.ibb.co/Q3HCwWbQ/9020.jpg",
+          "publicId": "rRpcrB70"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:30:01.493Z"
+    },
+    {
+      "id": "p_1775672819388",
+      "name": "Botas Madden Girl talla 11",
+      "price": 100,
+      "category": "Calzado",
+      "status": "Buen estado",
+      "desc": "Par de botas cafés para niña 😍",
+      "subcategory": "Niño",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/f6VFxKk/8982.jpg",
+          "publicId": "PXsj6bc"
+        },
+        {
+          "url": "https://i.ibb.co/Dfx4GYnz/8981.jpg",
+          "publicId": "gZ5yvdCm"
+        },
+        {
+          "url": "https://i.ibb.co/MxsBsMZb/8983.jpg",
+          "publicId": "8L0Y06NJ"
+        }
+      ],
+      "updatedAt": "2026-04-08T18:27:20.666Z"
+    },
+    {
       "id": "p_1775672562497",
       "name": "Portavelas",
       "price": 120,
@@ -3714,5 +3770,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T18:23:21.888Z"
+  "updatedAt": "2026-04-08T18:30:05.858Z"
 }
