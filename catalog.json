@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1775676654146",
+      "name": "Camisa John Ashford XXL",
+      "price": 100,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/TBZ7PNPy/9082.jpg",
+          "publicId": "vxbTLML9"
+        },
+        {
+          "url": "https://i.ibb.co/rRV40fKV/9081.jpg",
+          "publicId": "nNFzm8qF"
+        },
+        {
+          "url": "https://i.ibb.co/cSG4wgKk/9086.jpg",
+          "publicId": "DHx0YVPz"
+        }
+      ],
+      "updatedAt": "2026-04-08T19:30:54.158Z"
+    },
+    {
       "id": "p_1775675089351",
       "name": "Botas Torrid talla 7",
       "price": 120,
@@ -3964,5 +3990,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T19:04:59.172Z"
+  "updatedAt": "2026-04-08T19:30:58.215Z"
 }
