@@ -59,7 +59,7 @@
     {
       "id": "p_1775685626003",
       "name": "Saco Melrose talla XS",
-      "price": 60,
+      "price": 80,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Tela delgada. Algodón.",
@@ -80,7 +80,7 @@
           "publicId": "nMy1k15f"
         }
       ],
-      "updatedAt": "2026-04-08T22:00:26.003Z"
+      "updatedAt": "2026-04-09T07:56:34.693Z"
     },
     {
       "id": "p_1775685453084",
@@ -145,7 +145,7 @@
     {
       "id": "p_1775685185497",
       "name": "Saco Lily White talla L",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Buen estado",
       "desc": "La luz no ayuda, pero es dorado.",
@@ -166,7 +166,7 @@
           "publicId": "cK8n23QP"
         }
       ],
-      "updatedAt": "2026-04-08T21:53:05.497Z"
+      "updatedAt": "2026-04-09T07:57:15.787Z"
     },
     {
       "id": "p_1775685072073",
@@ -223,7 +223,7 @@
     {
       "id": "p_1775684892345",
       "name": "Vestido Apt.9 XL",
-      "price": 80,
+      "price": 100,
       "category": "Plus Size",
       "status": "Buen estado",
       "desc": "",
@@ -244,7 +244,7 @@
           "publicId": "rR8DHt8s"
         }
       ],
-      "updatedAt": "2026-04-08T21:48:12.345Z"
+      "updatedAt": "2026-04-09T07:57:40.194Z"
     },
     {
       "id": "p_1775684613953",
@@ -275,7 +275,7 @@
     {
       "id": "p_1775684535443",
       "name": "Camisa Ecoshield XXL",
-      "price": 80,
+      "price": 100,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "",
@@ -296,12 +296,12 @@
           "publicId": "C59xjPD7"
         }
       ],
-      "updatedAt": "2026-04-08T21:42:15.444Z"
+      "updatedAt": "2026-04-09T07:58:27.642Z"
     },
     {
       "id": "p_1775684461692",
       "name": "Camisa Avalanche XXL",
-      "price": 80,
+      "price": 100,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "",
@@ -322,7 +322,7 @@
           "publicId": "XrLVwcnk"
         }
       ],
-      "updatedAt": "2026-04-08T21:41:01.692Z"
+      "updatedAt": "2026-04-09T07:58:04.510Z"
     },
     {
       "id": "p_1775684391431",
@@ -1115,7 +1115,7 @@
     {
       "id": "p_1775500284947",
       "name": "Vestido MAMA talla S",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Lindo y fresco vestido 😍, estampado de aves .",
@@ -1136,7 +1136,7 @@
           "publicId": "7tYcXWBC"
         }
       ],
-      "updatedAt": "2026-04-06T18:31:24.957Z"
+      "updatedAt": "2026-04-09T08:00:05.094Z"
     },
     {
       "id": "p_1775499948154",
@@ -2911,7 +2911,7 @@
     {
       "id": "p_1775173854974",
       "name": "Vestido Sweet Wanderer talla M",
-      "price": 110,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Vestido lindo y fresco para el verano. Olanes en tirantes y resorte en cintura.",
@@ -2936,7 +2936,7 @@
           "publicId": "store-pics/w2m63bwt5zosbsajiaae"
         }
       ],
-      "updatedAt": "2026-04-07T15:28:31.502Z"
+      "updatedAt": "2026-04-09T08:01:42.691Z"
     },
     {
       "id": "p_1775173564866",
@@ -3790,7 +3790,7 @@
     {
       "id": "p_1775008592366",
       "name": "Playera manga larga Montage talla XL",
-      "price": 80,
+      "price": 100,
       "category": "Plus Size",
       "status": "Buen estado",
       "desc": "Playera tipo Henley de manga larga. Algodón y poliéster.",
@@ -3811,7 +3811,7 @@
           "publicId": "store-pics/etzk3socxajbzlpfvuvj"
         }
       ],
-      "updatedAt": "2026-04-07T15:36:16.775Z"
+      "updatedAt": "2026-04-09T08:03:17.767Z"
     },
     {
       "id": "p_1775008342271",
@@ -4560,5 +4560,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-09T00:45:12.958Z"
+  "updatedAt": "2026-04-09T08:04:14.732Z"
 }
