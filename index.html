@@ -641,21 +641,7 @@ function renderGrid() {
         <div class="products-count-info">Mostrando ${shown} de ${total}</div>
       </div>`);
   }
-  // Lazy loading with IntersectionObserver
-  if('IntersectionObserver' in window){
-    const observer=new IntersectionObserver(function(entries){
-      entries.forEach(function(e){
-        if(e.isIntersecting){
-          const img=e.target;
-          if(img.dataset.src){img.src=img.dataset.src;img.removeAttribute('data-src');}
-          observer.unobserve(img);
-        }
-      });
-    },{rootMargin:'200px'});
-    grid.querySelectorAll('img[data-src]').forEach(function(img){observer.observe(img);});
-  } else {
-    grid.querySelectorAll('img[data-src]').forEach(function(img){img.src=img.dataset.src;img.removeAttribute('data-src');});
-  }
+  // Native lazy loading is handled by loading="lazy" attribute on imgs
 }
 
 function loadMore(){
@@ -673,7 +659,7 @@ function cardHTML(p) {
   const inCart=cart.includes(p.id);
   const deliveryIcon={'Cuesta Blanca':'📍','Soriana La Gloria':'📍','Ley Rosarito':'📍','Uber Flash':'🚗'}[p.delivery]||'📍';
 
-  const imgs=photos.length>0?photos.map((ph,i)=>`<img ${i===0?`src="${ph.url}"`:`data-src="${ph.url}" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"`} class="${i===0?'active':''}" alt="" loading="lazy" onclick="openLightbox('${p.id}',${i})">`).join(''):`<div class="no-img">📷</div>`;
+  const imgs=photos.length>0?photos.map((ph,i)=>`<img src="${ph.url}" class="${i===0?'active':''}" alt="" loading="lazy" onclick="openLightbox('${p.id}',${i})">`).join(''):`<div class="no-img">📷</div>`;
   const arrows=photos.length>1?`<div class="gallery-arrows"><button class="g-arrow" onclick="cardPrev('${p.id}',${photos.length});event.stopPropagation()">‹</button><button class="g-arrow" onclick="cardNext('${p.id}',${photos.length});event.stopPropagation()">›</button></div>`:'';
   const dots=photos.length>1?`<div class="gallery-dots">${photos.map((_,i)=>`<button class="g-dot ${i===0?'active':''}" onclick="cardChange('${p.id}',${i},${photos.length});event.stopPropagation()"></button>`).join('')}</div>`:'';
   const count=photos.length>1?`<div class="photo-count">📷 ${photos.length}</div>`:'';
