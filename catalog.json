@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1775695502953",
+      "name": "Charola de vidrio Neiman Marcus",
+      "price": 150,
+      "category": "Hogar",
+      "status": "Como nuevo",
+      "desc": "Hermosa charola con diseño en el centro ☺️",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/5x5vcVY7/9250.jpg",
+          "publicId": "3Y0WhHfJ"
+        },
+        {
+          "url": "https://i.ibb.co/7dmyFZWq/9251.jpg",
+          "publicId": "rRryJz6V"
+        },
+        {
+          "url": "https://i.ibb.co/vC1QSsXg/9253.jpg",
+          "publicId": "zWs7z86j"
+        },
+        {
+          "url": "https://i.ibb.co/HfZKyXXs/9252.jpg",
+          "publicId": "yc2NCVV1"
+        }
+      ],
+      "updatedAt": "2026-04-09T00:45:02.954Z"
+    },
+    {
       "id": "p_1775685775556",
       "name": "Suéter Love and Whimsy talla XL",
       "price": 80,
@@ -4530,5 +4560,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-08T22:03:00.878Z"
+  "updatedAt": "2026-04-09T00:45:12.958Z"
 }
