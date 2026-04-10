@@ -1584,7 +1584,10 @@
           "publicId": "N6VVKhZj"
         }
       ],
-      "updatedAt": "2026-04-06T02:04:46.697Z"
+      "updatedAt": "2026-04-06T02:04:46.697Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1775840746581
     },
     {
       "id": "p_1775440914321",
@@ -1700,7 +1703,10 @@
           "publicId": "TxB2W0z8"
         }
       ],
-      "updatedAt": "2026-04-09T23:02:34.873Z"
+      "updatedAt": "2026-04-09T23:02:34.873Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1775840758127
     },
     {
       "id": "p_1775438384682",
@@ -1864,22 +1870,19 @@
           "publicId": "23B6XL0R"
         },
         {
+          "url": "https://i.ibb.co/rKdyCFmk/8345.jpg",
+          "publicId": "vCXz7VH1"
+        },
+        {
           "url": "https://i.ibb.co/vCL86jcH/8343.jpg",
           "publicId": "dskyw5fr"
         },
         {
           "url": "https://i.ibb.co/FSs7xnJ/8344.jpg",
           "publicId": "JfxkBC2"
-        },
-        {
-          "url": "https://i.ibb.co/rKdyCFmk/8345.jpg",
-          "publicId": "vCXz7VH1"
         }
       ],
-      "updatedAt": "2026-04-06T00:13:37.663Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775772907326
+      "updatedAt": "2026-04-10T17:06:35.275Z"
     },
     {
       "id": "p_1775434181411",
@@ -4576,5 +4579,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-10T04:36:34.761Z"
+  "updatedAt": "2026-04-10T17:06:40.098Z"
 }
