@@ -1,6 +1,442 @@
 {
   "products": [
     {
+      "id": "p_1775861096496",
+      "name": "VESTIDO Pronto talla S",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Strapless dress",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/mCgr6VVt/9845.jpg",
+          "publicId": "FbCkgLLJ"
+        },
+        {
+          "url": "https://i.ibb.co/JFHxxh8n/9843.jpg",
+          "publicId": "TqtKKCJc"
+        },
+        {
+          "url": "https://i.ibb.co/4R5QBNdR/9844.jpg",
+          "publicId": "m5MxQz85"
+        },
+        {
+          "url": "https://i.ibb.co/BVFd4Ln7/9847.jpg",
+          "publicId": "DDTsG4r6"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:44:56.496Z"
+    },
+    {
+      "id": "p_1775861036077",
+      "name": "SACO Shein Curve XXL",
+      "price": 120,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/zWG13pPm/9851.jpg",
+          "publicId": "SDR2kbV6"
+        },
+        {
+          "url": "https://i.ibb.co/jZLVPhCs/9850.jpg",
+          "publicId": "h1KXJsGw"
+        },
+        {
+          "url": "https://i.ibb.co/Kz2gpjrY/9848.jpg",
+          "publicId": "M5cHxDCb"
+        },
+        {
+          "url": "https://i.ibb.co/4x8T15m/9849.jpg",
+          "publicId": "V8gSwPj"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:43:56.077Z"
+    },
+    {
+      "id": "p_1775860904457",
+      "name": "VESTIDO Charlotte Russe talla XL",
+      "price": 120,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "Strapless dress",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/fzVd6Gg0/9856.jpg",
+          "publicId": "HfLTwpSg"
+        },
+        {
+          "url": "https://i.ibb.co/tTwhbRny/9852.jpg",
+          "publicId": "9kmvqPBR"
+        },
+        {
+          "url": "https://i.ibb.co/392qSymf/9855.jpg",
+          "publicId": "fzf5rYd8"
+        },
+        {
+          "url": "https://i.ibb.co/r2FSYWXP/9858.jpg",
+          "publicId": "fdq5fcTR"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:42:38.860Z"
+    },
+    {
+      "id": "p_1775860785199",
+      "name": "SUDADERA Edie Bauer talla XXL",
+      "price": 100,
+      "category": "Plus Size",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Xx3VyzYP/f5fe4b56-9b8c-4ea6-88b6-64aab520f1a9-1-all-2881.jpg",
+          "publicId": "ZzYNHh2r"
+        },
+        {
+          "url": "https://i.ibb.co/PZcnVP23/9861.jpg",
+          "publicId": "pvf8kMHG"
+        },
+        {
+          "url": "https://i.ibb.co/QvndDph8/9862.jpg",
+          "publicId": "HTYdhBRN"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:39:45.199Z"
+    },
+    {
+      "id": "p_1775860643573",
+      "name": "CHAMARRA Freedom Foundry talla L",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1tzbkBXz/9885.jpg",
+          "publicId": "S4fJzHmf"
+        },
+        {
+          "url": "https://i.ibb.co/qM1DcCBk/9887.jpg",
+          "publicId": "pvX1MQ2J"
+        },
+        {
+          "url": "https://i.ibb.co/23yPQ3Gc/9886.jpg",
+          "publicId": "F4KJM4R8"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:37:23.573Z"
+    },
+    {
+      "id": "p_1775860537867",
+      "name": "PANTALÓN Marvel talla 7",
+      "price": 60,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Niño 😊",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/KptydgHX/9888.jpg",
+          "publicId": "DHBKhFnt"
+        },
+        {
+          "url": "https://i.ibb.co/39452gFk/9890.jpg",
+          "publicId": "ks5VjNDM"
+        },
+        {
+          "url": "https://i.ibb.co/Qv8XvDbY/9889.jpg",
+          "publicId": "7tgbtkYr"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:35:37.867Z"
+    },
+    {
+      "id": "p_1775860466368",
+      "name": "PANTALÓN Anne Klein talla 14",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Stretch",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/RkwjVsZG/9914.jpg",
+          "publicId": "LX7N2cbD"
+        },
+        {
+          "url": "https://i.ibb.co/1GbdVPWH/9891.jpg",
+          "publicId": "pjnRDMFC"
+        },
+        {
+          "url": "https://i.ibb.co/QjCYS1g8/9892.jpg",
+          "publicId": "cXC2f7Bb"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:35:56.486Z"
+    },
+    {
+      "id": "p_1775860384133",
+      "name": "PANTALÓN Stretch Angels talla S",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Niña 😍",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/B5NWVGVx/9915.jpg",
+          "publicId": "nNCdsBsv"
+        },
+        {
+          "url": "https://i.ibb.co/LdtjkN9Z/9917.jpg",
+          "publicId": "fdp61Drx"
+        },
+        {
+          "url": "https://i.ibb.co/Lz77B4qt/9916.jpg",
+          "publicId": "ynjjKLMy"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:33:04.133Z"
+    },
+    {
+      "id": "p_1775860221774",
+      "name": "PANTALÓN Alex Mill talla 4",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Niño 😊",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/9HMNTzjZ/9919.jpg",
+          "publicId": "CKrz7NFP"
+        },
+        {
+          "url": "https://i.ibb.co/KpjK39PF/9918.jpg",
+          "publicId": "S4Xf9KjR"
+        },
+        {
+          "url": "https://i.ibb.co/1G98jNg0/9920.jpg",
+          "publicId": "r2Z4NhjQ"
+        },
+        {
+          "url": "https://i.ibb.co/Ndy8z28z/9921.jpg",
+          "publicId": "xt7pQqpQ"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:31:34.422Z"
+    },
+    {
+      "id": "p_1775859998014",
+      "name": "VESTIDO Ann Taylor talla 6",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/qMg0BWvm/9927.jpg",
+          "publicId": "TB0KcbsP"
+        },
+        {
+          "url": "https://i.ibb.co/LhtGrhwL/9926.jpg",
+          "publicId": "4gTQ2gy6"
+        },
+        {
+          "url": "https://i.ibb.co/ZzJjgKX7/9925.jpg",
+          "publicId": "Wv3hzF5j"
+        },
+        {
+          "url": "https://i.ibb.co/VYCvVQDQ/9955.jpg",
+          "publicId": "1GX9ZdKd"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:26:38.014Z"
+    },
+    {
+      "id": "p_1775859682182",
+      "name": "CAMISA Weatherproof talla XXL",
+      "price": 120,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/bjZddtrt/9937.jpg",
+          "publicId": "FkM77pBp"
+        },
+        {
+          "url": "https://i.ibb.co/B5g6h6Z8/9935.jpg",
+          "publicId": "5g5jQj8q"
+        },
+        {
+          "url": "https://i.ibb.co/B5FRqypR/9936.jpg",
+          "publicId": "FLCtg5rt"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:21:22.182Z"
+    },
+    {
+      "id": "p_1775859495632",
+      "name": "PANTALÓN Ralph Lauren talla 12",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Stretch",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ZktP3pc/9942.jpg",
+          "publicId": "ybG1Dcg"
+        },
+        {
+          "url": "https://i.ibb.co/G4KDmH4P/9940.jpg",
+          "publicId": "B5XJkn5s"
+        },
+        {
+          "url": "https://i.ibb.co/Q3N5stL3/9941.jpg",
+          "publicId": "XrswmM1r"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:18:15.632Z"
+    },
+    {
+      "id": "p_1775859427498",
+      "name": "VESTIDO talla L",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/wF45xDYx/9945.jpg",
+          "publicId": "v6k0K2DK"
+        },
+        {
+          "url": "https://i.ibb.co/35vRGYFn/9946.jpg",
+          "publicId": "7xQk8Npq"
+        },
+        {
+          "url": "https://i.ibb.co/WWG7p3fj/9947.jpg",
+          "publicId": "C5m4stQD"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:17:07.498Z"
+    },
+    {
+      "id": "p_1775859358960",
+      "name": "CHALECO Listicle talla S",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Muy calientito",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/srbXKzf/9950.jpg",
+          "publicId": "NztG9bv"
+        },
+        {
+          "url": "https://i.ibb.co/Z1YLSTgV/9951.jpg",
+          "publicId": "n8ngBk1b"
+        },
+        {
+          "url": "https://i.ibb.co/39vxhB6n/9952.jpg",
+          "publicId": "DHYBK5cZ"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:15:58.960Z"
+    },
+    {
+      "id": "p_1775859253154",
+      "name": "VESTIDO talla L",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/LX8STRVC/9816.jpg",
+          "publicId": "tT4B0KVb"
+        },
+        {
+          "url": "https://i.ibb.co/tw1nddFV/9817.jpg",
+          "publicId": "7x0B99Ls"
+        },
+        {
+          "url": "https://i.ibb.co/zTbgHC0f/9815.jpg",
+          "publicId": "YF8STJqj"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:14:13.154Z"
+    },
+    {
+      "id": "p_1775859139871",
+      "name": "CAMISA The Habanera Co talla XXL",
+      "price": 120,
+      "category": "Plus Size",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/219rwBch/9813.jpg",
+          "publicId": "rRjhgJ50"
+        },
+        {
+          "url": "https://i.ibb.co/7hfMHCX/9812.jpg",
+          "publicId": "q6Sqzjd"
+        },
+        {
+          "url": "https://i.ibb.co/zHGV1yJG/9954.jpg",
+          "publicId": "846gJWc6"
+        }
+      ],
+      "updatedAt": "2026-04-10T22:12:19.874Z"
+    },
+    {
       "id": "p_1775695502953",
       "name": "Charola de vidrio Neiman Marcus",
       "price": 150,
@@ -4579,5 +5015,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-10T17:06:40.098Z"
+  "updatedAt": "2026-04-10T22:45:02.316Z"
 }
