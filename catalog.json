@@ -521,7 +521,7 @@
     {
       "id": "p_1775685453084",
       "name": "Saco Kasper talla 12",
-      "price": 100,
+      "price": 120,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Muy lindo saco corto con hilo brillante.",
@@ -546,7 +546,7 @@
           "publicId": "m5jWwxBX"
         }
       ],
-      "updatedAt": "2026-04-08T21:57:33.085Z"
+      "updatedAt": "2026-04-10T23:38:39.653Z"
     },
     {
       "id": "p_1775685289812",
@@ -5011,5 +5011,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-10T22:56:29.144Z"
+  "updatedAt": "2026-04-10T23:38:44.532Z"
 }
