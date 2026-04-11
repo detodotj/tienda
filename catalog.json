@@ -3,7 +3,7 @@
     {
       "id": "p_1775861096496",
       "name": "VESTIDO Pronto talla S",
-      "price": 120,
+      "price": 150,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Strapless dress",
@@ -28,7 +28,7 @@
           "publicId": "DDTsG4r6"
         }
       ],
-      "updatedAt": "2026-04-10T22:44:56.496Z"
+      "updatedAt": "2026-04-11T01:42:20.546Z"
     },
     {
       "id": "p_1775861036077",
@@ -5011,5 +5011,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-10T23:38:44.532Z"
+  "updatedAt": "2026-04-11T01:42:26.197Z"
 }
