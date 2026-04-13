@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776116640787",
+      "name": "MINI PICADORA Ihom",
+      "price": 250,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Inalámbrico",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/KpXgLNM8/10907.jpg",
+          "publicId": "5g63nYNJ"
+        },
+        {
+          "url": "https://i.ibb.co/PZs5DJ63/10904.jpg",
+          "publicId": "MDyRBKCW"
+        },
+        {
+          "url": "https://i.ibb.co/v4cHFhk5/10906.jpg",
+          "publicId": "ZzfVjSxs"
+        }
+      ],
+      "updatedAt": "2026-04-13T21:44:00.788Z"
+    },
+    {
       "id": "p_1776116250975",
       "name": "Caja para Snacks",
       "price": 120,
@@ -5080,5 +5106,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-13T21:38:27.198Z"
+  "updatedAt": "2026-04-13T21:44:09.075Z"
 }
