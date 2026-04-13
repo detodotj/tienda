@@ -50,7 +50,7 @@
     },
     {
       "id": "p_1776116016152",
-      "name": "GORTO Y BUFANDA Universal Thread",
+      "name": "GORRO Y BUFANDA Universal Thread",
       "price": 150,
       "category": "Ropa",
       "status": "Nuevo",
@@ -68,7 +68,7 @@
           "publicId": "sdfyMYcy"
         }
       ],
-      "updatedAt": "2026-04-13T21:38:01.715Z"
+      "updatedAt": "2026-04-13T23:57:40.086Z"
     },
     {
       "id": "p_1776115436675",
@@ -5106,5 +5106,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-13T21:44:09.075Z"
+  "updatedAt": "2026-04-13T23:57:45.755Z"
 }
