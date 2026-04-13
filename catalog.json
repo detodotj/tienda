@@ -2690,7 +2690,7 @@
     {
       "id": "p_1775422441320",
       "name": "Audífonos inalámbricos JLAB Bluetooth.",
-      "price": 250,
+      "price": 290,
       "category": "Electrónica",
       "status": "Nuevo",
       "desc": "Audífonos inalámbricos Bluetooth.",
@@ -2707,7 +2707,7 @@
           "publicId": "bjgsh70C"
         }
       ],
-      "updatedAt": "2026-04-05T20:54:01.326Z"
+      "updatedAt": "2026-04-13T21:25:11.283Z"
     },
     {
       "id": "p_1775422049752",
@@ -2769,7 +2769,10 @@
           "publicId": "j9PDc2sp"
         }
       ],
-      "updatedAt": "2026-04-04T03:56:50.626Z"
+      "updatedAt": "2026-04-04T03:56:50.626Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1776115483441
     },
     {
       "id": "p_1775274852289",
@@ -5033,5 +5036,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-13T21:24:03.743Z"
+  "updatedAt": "2026-04-13T21:25:41.024Z"
 }
