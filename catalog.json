@@ -1,6 +1,50 @@
 {
   "products": [
     {
+      "id": "p_1776116250975",
+      "name": "Caja para Snacks",
+      "price": 120,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Incluye 3 contenedores con forma de letras",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/DDxQ7KNt/10902.jpg",
+          "publicId": "JRfHzkNK"
+        },
+        {
+          "url": "https://i.ibb.co/KzmxQkW0/10901.jpg",
+          "publicId": "x83qc06C"
+        }
+      ],
+      "updatedAt": "2026-04-13T21:37:30.975Z"
+    },
+    {
+      "id": "p_1776116016152",
+      "name": "GORTO Y BUFANDA Universal Thread",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/TqLq52rt/10894.jpg",
+          "publicId": "KzwzHhmW"
+        },
+        {
+          "url": "https://i.ibb.co/mVj6MWd6/10897.jpg",
+          "publicId": "sdfyMYcy"
+        }
+      ],
+      "updatedAt": "2026-04-13T21:38:01.715Z"
+    },
+    {
       "id": "p_1776115436675",
       "name": "8BitDo adaptador inalámbrico",
       "price": 250,
@@ -5036,5 +5080,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-13T21:25:41.024Z"
+  "updatedAt": "2026-04-13T21:38:27.198Z"
 }
