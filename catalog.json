@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "p_1776115436675",
+      "name": "8BitDo adaptador inalámbrico",
+      "price": 250,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "8BitDo adaptador inalámbrico NES, SNES, SFC",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/vvmG7SnY/10887.jpg",
+          "publicId": "R4Pmxqwy"
+        },
+        {
+          "url": "https://i.ibb.co/mpXpSxC/10888.jpg",
+          "publicId": "Dd8dLqD"
+        }
+      ],
+      "updatedAt": "2026-04-13T21:23:56.675Z"
+    },
+    {
       "id": "p_1775861096496",
       "name": "VESTIDO Pronto talla S",
       "price": 150,
@@ -5011,5 +5033,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-12T17:45:21.847Z"
+  "updatedAt": "2026-04-13T21:24:03.743Z"
 }
