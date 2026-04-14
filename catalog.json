@@ -427,7 +427,7 @@
     {
       "id": "p_1775859427498",
       "name": "VESTIDO talla L",
-      "price": 100,
+      "price": 120,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "",
@@ -448,7 +448,7 @@
           "publicId": "C5m4stQD"
         }
       ],
-      "updatedAt": "2026-04-14T00:28:54.091Z"
+      "updatedAt": "2026-04-14T18:42:12.593Z"
     },
     {
       "id": "p_1775859358960",
@@ -613,7 +613,7 @@
     {
       "id": "p_1775685453084",
       "name": "Saco Kasper talla 12",
-      "price": 120,
+      "price": 150,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Muy lindo saco corto con hilo brillante.",
@@ -638,7 +638,7 @@
           "publicId": "m5jWwxBX"
         }
       ],
-      "updatedAt": "2026-04-10T23:38:39.653Z"
+      "updatedAt": "2026-04-14T18:42:45.258Z"
     },
     {
       "id": "p_1775685289812",
@@ -725,7 +725,7 @@
     {
       "id": "p_1775684975903",
       "name": "Vestido Allen B talla XL",
-      "price": 100,
+      "price": 120,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "",
@@ -746,7 +746,7 @@
           "publicId": "Q7TjYPWq"
         }
       ],
-      "updatedAt": "2026-04-08T21:49:35.903Z"
+      "updatedAt": "2026-04-14T18:43:39.108Z"
     },
     {
       "id": "p_1775684892345",
@@ -855,7 +855,7 @@
     {
       "id": "p_1775684391431",
       "name": "Camisa Pacific Trail XXL",
-      "price": 80,
+      "price": 100,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "",
@@ -872,7 +872,7 @@
           "publicId": "MxXvm9Yv"
         }
       ],
-      "updatedAt": "2026-04-08T21:39:51.433Z"
+      "updatedAt": "2026-04-14T18:44:11.776Z"
     },
     {
       "id": "p_1775683993441",
@@ -1067,7 +1067,7 @@
     {
       "id": "p_1775677047338",
       "name": "Chamarra Oscar Sports 2XL",
-      "price": 180,
+      "price": 200,
       "category": "Plus Size",
       "status": "Como nuevo",
       "desc": "",
@@ -1096,7 +1096,7 @@
           "publicId": "LzqdzVGF"
         }
       ],
-      "updatedAt": "2026-04-08T19:39:38.955Z"
+      "updatedAt": "2026-04-14T18:44:49.580Z"
     },
     {
       "id": "p_1775676654146",
@@ -1717,7 +1717,7 @@
     {
       "id": "p_1775499073372",
       "name": "Vestido As U Wish talla S",
-      "price": 120,
+      "price": 150,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Vestido 👗 con hermoso estampado floral, muy fresco.",
@@ -1742,7 +1742,7 @@
           "publicId": "TBKrqVXK"
         }
       ],
-      "updatedAt": "2026-04-14T00:29:48.290Z"
+      "updatedAt": "2026-04-14T18:46:03.729Z"
     },
     {
       "id": "p_1775498699286",
@@ -2804,7 +2804,7 @@
     {
       "id": "p_1775421804481",
       "name": "Control mini pro elite inalámbrico PS3",
-      "price": 300,
+      "price": 350,
       "category": "Videojuegos",
       "status": "Nuevo",
       "desc": "Control Power A mini pro elite inalámbrico para PS3",
@@ -2821,7 +2821,7 @@
           "publicId": "fRsLVTN"
         }
       ],
-      "updatedAt": "2026-04-14T03:34:05.692Z"
+      "updatedAt": "2026-04-14T18:47:19.099Z"
     },
     {
       "id": "p_1775275010626",
@@ -3193,7 +3193,7 @@
     {
       "id": "p_1775241827830",
       "name": "Blusa BCBG Maxazria talla XXS",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Blusita formal o casual con lindo vuelo en la espalda.",
@@ -3218,7 +3218,7 @@
           "publicId": "store-pics/ojyxicc2ekr8y5r4z0sz"
         }
       ],
-      "updatedAt": "2026-04-03T18:43:47.832Z"
+      "updatedAt": "2026-04-14T18:47:50.643Z"
     },
     {
       "id": "p_1775241540161",
@@ -3481,7 +3481,7 @@
     {
       "id": "p_1775173564866",
       "name": "Vestido de noche o cóctel Sandíva talla S",
-      "price": 120,
+      "price": 150,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Bello vestido azul para gala o cóctel. Detalles de piedras de fantasía en el cuello.",
@@ -3502,7 +3502,7 @@
           "publicId": "store-pics/dx3nvm7ism2mtqqraewc"
         }
       ],
-      "updatedAt": "2026-04-14T00:32:20.763Z"
+      "updatedAt": "2026-04-14T18:48:33.015Z"
     },
     {
       "id": "p_1775173382146",
@@ -5106,5 +5106,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-14T04:33:00.431Z"
+  "updatedAt": "2026-04-14T18:50:27.019Z"
 }
