@@ -1541,7 +1541,7 @@
     {
       "id": "p_1775502470590",
       "name": "Camisa VatPave talla M",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Camisa casual de manga corta.",
@@ -1566,7 +1566,7 @@
           "publicId": "mF8WkMwm"
         }
       ],
-      "updatedAt": "2026-04-06T19:07:50.598Z"
+      "updatedAt": "2026-04-14T21:55:30.783Z"
     },
     {
       "id": "p_1775502156694",
@@ -1911,7 +1911,7 @@
     {
       "id": "p_1775446910109",
       "name": "Vestido Trac talla M",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Vestidito ❤️ lindo escote. Espalda descubierta.",
@@ -1940,7 +1940,7 @@
           "publicId": "bM3V6qSB"
         }
       ],
-      "updatedAt": "2026-04-14T00:29:57.126Z"
+      "updatedAt": "2026-04-14T21:55:53.336Z"
     },
     {
       "id": "p_1775446508890",
@@ -5132,5 +5132,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-14T20:01:33.376Z"
+  "updatedAt": "2026-04-14T21:55:59.416Z"
 }
