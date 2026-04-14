@@ -237,6 +237,11 @@ textarea { resize:vertical; min-height:80px; }
 .deleted-log-btn.show { display:flex; }
 .deleted-log-btn:hover { background:#7d3c98; transform:translateY(-2px); }
 @media(max-width:600px){ .deleted-log-btn { bottom:16px; left:16px; padding:10px 14px; font-size:12px; } }
+
+.admin-load-more { text-align:center; padding:20px 0; }
+.admin-btn-more { background:var(--accent); color:white; border:none; padding:10px 28px; border-radius:50px; font-size:13px; font-weight:600; cursor:pointer; font-family:inherit; transition:all 0.2s; }
+.admin-btn-more:hover { opacity:0.85; }
+.admin-count-info { font-size:12px; color:var(--text2); margin-top:8px; }
 </style>
 </head>
 <body>
@@ -263,7 +268,7 @@ textarea { resize:vertical; min-height:80px; }
 <div class="toolbar">
   <div class="search-wrap">
     <span class="search-icon">🔍</span>
-    <input type="text" id="searchInput" placeholder="Buscar producto..." oninput="renderGrid()" autocomplete="new-password" name="search_x" type="search">
+    <input type="text" id="searchInput" placeholder="Buscar producto..." oninput="adminPage=1;renderGrid()" autocomplete="new-password" name="search_x" type="search">
   </div>
   <select class="filter-select" id="filterCat" onchange="renderGrid()">
     <option value="">Todas las categorías</option>
@@ -469,6 +474,8 @@ const SUBCATS = {
 
 const IMGBB_API_KEY='4900e81d5d53d6c1f6d0b11f4a24b410', DEFAULT_WA='526642601992';
 let products=[], editingId=null, currentPhotos=[], config={}, deletedIds=[], pendingDeleteId=null, deletedPhotosLog=[];
+const ADMIN_PAGE_SIZE=24;
+let adminPage=1;
 
 function init(){
   try { const s=localStorage.getItem('storeProducts'); if(s) products=JSON.parse(s); } catch(e){ products=[]; }
@@ -481,7 +488,13 @@ function init(){
 }
 function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); localStorage.setItem('storeDeleted',JSON.stringify(deletedIds)); localStorage.setItem('storeDeletedPhotos',JSON.stringify(deletedPhotosLog)); }
 
+let _renderDebounce=null;
 function renderGrid(){
+  clearTimeout(_renderDebounce);
+  _renderDebounce=setTimeout(_doRenderGrid,200);
+}
+
+function _doRenderGrid(){
   const search=document.getElementById('searchInput').value.toLowerCase();
   const cat=document.getElementById('filterCat').value;
   const status=document.getElementById('filterStatus').value;
@@ -497,9 +510,24 @@ function renderGrid(){
   });
   updateStats();
   const grid=document.getElementById('productGrid');
+  const oldMore=document.getElementById('adminLoadMore');
+  if(oldMore) oldMore.remove();
   if(products.length===0){grid.innerHTML=`<div class="empty-state"><div class="icon">🛍️</div><h3>Sin productos aún</h3><p>Agrega tu primer producto con el botón de arriba</p></div>`;return;}
   if(filtered.length===0){grid.innerHTML=`<div class="no-results">No se encontraron productos con esos filtros.</div>`;return;}
-  grid.innerHTML=`<div class="product-grid">${filtered.map(cardHTML).join('')}</div>`;
+  const pageItems=filtered.slice(0,adminPage*ADMIN_PAGE_SIZE);
+  const hasMore=filtered.length>pageItems.length;
+  grid.innerHTML=`<div class="product-grid">${pageItems.map(cardHTML).join('')}</div>`;
+  if(hasMore){
+    const shown=pageItems.length,total=filtered.length;
+    grid.insertAdjacentHTML('afterend',`<div class="admin-load-more" id="adminLoadMore"><button class="admin-btn-more" onclick="adminLoadMore()">Ver más productos</button><div class="admin-count-info">Mostrando ${shown} de ${total}</div></div>`);
+  }
+}
+
+function adminLoadMore(){
+  adminPage++;
+  const old=document.getElementById('adminLoadMore');
+  if(old) old.remove();
+  _doRenderGrid();
 }
 
 function cardHTML(p){
@@ -507,7 +535,7 @@ function cardHTML(p){
   const sc={'Nuevo':'nuevo','Como nuevo':'como-nuevo','Buen estado':'buen-estado','Regular':'regular'}[p.status]||'como-nuevo';
   const deliveryIcon={'Cuesta Blanca':'📍','Soriana La Gloria':'📍','Ley Rosarito':'📍','Uber Flash':'🚗','Cualquier punto':'📍'}[p.delivery]||'';
 
-  const imgs=photos.length>0?photos.map((ph,i)=>`<img src="${ph.url}" class="${i===0?'active':''}" alt="">`).join(''):`<div class="no-photo">📷<span>Sin fotos</span></div>`;
+  const imgs=photos.length>0?photos.map((ph,i)=>`<img src="${ph.url}" class="${i===0?'active':''}" alt="" loading="lazy">`).join(''):`<div class="no-photo">📷<span>Sin fotos</span></div>`;
   const arrows=photos.length>1?`<div class="photo-arrows"><button class="photo-arrow" onclick="prevPhoto('${p.id}')">‹</button><button class="photo-arrow" onclick="nextPhoto('${p.id}')">›</button></div>`:'';
   const dots=photos.length>1?`<div class="photo-nav">${photos.map((_,i)=>`<button class="photo-dot ${i===0?'active':''}" onclick="changePhoto('${p.id}',${i})"></button>`).join('')}</div>`:'';
   const count=photos.length>1?`<div class="photo-count-badge">📷 ${photos.length}</div>`:'';

@@ -320,6 +320,18 @@ footer strong { color:rgba(255,255,255,0.65); }
 }
 .product-card.sold-card { opacity:0.8; }
 .product-card.sold-card .card-gallery { filter:grayscale(30%); }
+
+.skeleton-card { background:var(--surface); border-radius:14px; overflow:hidden; border:1px solid var(--border); }
+.skeleton-img { height:180px; background:linear-gradient(90deg,#e8e8e8 25%,#f5f5f5 50%,#e8e8e8 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; }
+.skeleton-body { padding:14px; }
+.skeleton-line { height:12px; border-radius:6px; background:linear-gradient(90deg,#e8e8e8 25%,#f5f5f5 50%,#e8e8e8 75%); background-size:200% 100%; animation:shimmer 1.4s infinite; margin-bottom:10px; }
+.skeleton-line.short { width:60%; }
+.skeleton-line.price { width:40%; height:18px; }
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+.load-more-wrap { text-align:center; padding:24px 0 8px; }
+.btn-load-more { background:var(--text); color:white; border:none; padding:12px 32px; border-radius:50px; font-size:14px; font-weight:600; cursor:pointer; font-family:inherit; transition:all 0.2s; }
+.btn-load-more:hover { opacity:0.85; transform:translateY(-1px); }
+.products-count-info { text-align:center; font-size:12px; color:var(--text2); margin-top:8px; }
 </style>
 </head>
 <body>
@@ -522,6 +534,8 @@ const SUBCATS = {
 let activeSubcat = '';
 
 let allProducts=[], filteredProducts=[], activeCat='', cart=[], priceRange='';
+const PAGE_SIZE=20;
+let currentPage=1;
 
 function filterByPrice(p, range){
   const price = Number(p.price);
@@ -530,6 +544,7 @@ function filterByPrice(p, range){
 }
 
 async function loadCatalog() {
+  showSkeleton();
   try {
     const res = await fetch(CATALOG_URL+'?t='+Date.now());
     if (!res.ok) throw new Error();
@@ -575,6 +590,7 @@ function renderSubcatBar() {
 }
 
 function applyFilters() {
+  currentPage=1;
   const s=document.getElementById('searchInput').value.toLowerCase();
   const st=document.getElementById('filterStatus').value;
   priceRange=document.getElementById('filterPrice').value;
@@ -598,14 +614,34 @@ function applyFilters() {
   renderGrid();
 }
 
+function showSkeleton(){
+  const grid=document.getElementById('productGrid');
+  const cards=Array(6).fill(`<div class="skeleton-card"><div class="skeleton-img"></div><div class="skeleton-body"><div class="skeleton-line short"></div><div class="skeleton-line"></div><div class="skeleton-line price"></div></div></div>`).join('');
+  grid.innerHTML=`<div class="product-grid">${cards}</div>`;
+}
+
+function loadMore(){
+  currentPage++;
+  const old=document.getElementById('loadMoreWrap');
+  if(old) old.remove();
+  renderGrid();
+}
+
 function renderGrid() {
   document.getElementById('countBadge').innerHTML=`<strong>${filteredProducts.length}</strong> producto${filteredProducts.length!==1?'s':''}`;
   const grid=document.getElementById('productGrid');
-  if (allProducts.length===0){grid.innerHTML=`<div class="state-msg"><div class="icon">🛍️</div><h3>Proximamente</h3></div>`;return;}
-  if (filteredProducts.length===0){grid.innerHTML=`<div class="state-msg"><div class="icon">🔍</div><h3>Sin resultados</h3><p>Intenta con otros filtros.</p></div>`;return;}
-  grid.innerHTML=`<div class="product-grid">${filteredProducts.map(cardHTML).join('')}</div>`;
+  const oldWrap=document.getElementById('loadMoreWrap');
+  if(oldWrap) oldWrap.remove();
+  if(allProducts.length===0){grid.innerHTML=`<div class="state-msg"><div class="icon">🛍️</div><h3>Proximamente</h3></div>`;return;}
+  if(filteredProducts.length===0){grid.innerHTML=`<div class="state-msg"><div class="icon">🔍</div><h3>Sin resultados</h3><p>Intenta con otros filtros.</p></div>`;return;}
+  const pageItems=filteredProducts.slice(0,currentPage*PAGE_SIZE);
+  const hasMore=filteredProducts.length>pageItems.length;
+  grid.innerHTML=`<div class="product-grid">${pageItems.map(cardHTML).join('')}</div>`;
+  if(hasMore){
+    const shown=pageItems.length,total=filteredProducts.length;
+    grid.insertAdjacentHTML('afterend',`<div class="load-more-wrap" id="loadMoreWrap"><button class="btn-load-more" onclick="loadMore()">Ver más productos</button><div class="products-count-info">Mostrando ${shown} de ${total}</div></div>`);
+  }
 }
-
 function cardHTML(p) {
   const photos=p.photos||[];
   const sc={'Nuevo':'nuevo','Como nuevo':'como-nuevo','Buen estado':'buen-estado','Regular':'regular'}[p.status]||'como-nuevo';
@@ -614,7 +650,7 @@ function cardHTML(p) {
   const inCart=cart.includes(p.id);
   const deliveryIcon={'Cuesta Blanca':'📍','Soriana La Gloria':'📍','Ley Rosarito':'📍','Uber Flash':'🚗'}[p.delivery]||'📍';
 
-  const imgs=photos.length>0?photos.map((ph,i)=>`<img src="${ph.url}" class="${i===0?'active':''}" alt="" onclick="openLightbox('${p.id}',${i})">`).join(''):`<div class="no-img">📷</div>`;
+  const imgs=photos.length>0?photos.map((ph,i)=>`<img src="${ph.url}" class="${i===0?'active':''}" alt="" loading="lazy" onclick="openLightbox('${p.id}',${i})">`).join(''):`<div class="no-img">📷</div>`;
   const arrows=photos.length>1?`<div class="gallery-arrows"><button class="g-arrow" onclick="cardPrev('${p.id}',${photos.length});event.stopPropagation()">‹</button><button class="g-arrow" onclick="cardNext('${p.id}',${photos.length});event.stopPropagation()">›</button></div>`:'';
   const dots=photos.length>1?`<div class="gallery-dots">${photos.map((_,i)=>`<button class="g-dot ${i===0?'active':''}" onclick="cardChange('${p.id}',${i},${photos.length});event.stopPropagation()"></button>`).join('')}</div>`:'';
   const count=photos.length>1?`<div class="photo-count">📷 ${photos.length}</div>`:'';
