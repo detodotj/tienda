@@ -777,7 +777,7 @@
     {
       "id": "p_1775684613953",
       "name": "Chamarra Port Authority talla M",
-      "price": 100,
+      "price": 150,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "",
@@ -798,7 +798,7 @@
           "publicId": "mVpd7Dj3"
         }
       ],
-      "updatedAt": "2026-04-08T21:43:33.953Z"
+      "updatedAt": "2026-04-14T19:10:44.021Z"
     },
     {
       "id": "p_1775684535443",
@@ -3223,7 +3223,7 @@
     {
       "id": "p_1775241540161",
       "name": "Vestido de noche o cóctel Taylor talla 10",
-      "price": 140,
+      "price": 150,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Elegante y formal. Vestido 👗 con hermoso cuello V.",
@@ -3248,7 +3248,7 @@
           "publicId": "store-pics/hrvzaply8wtdibrph1b1"
         }
       ],
-      "updatedAt": "2026-04-14T00:31:36.128Z"
+      "updatedAt": "2026-04-14T19:11:15.874Z"
     },
     {
       "id": "p_1775241101804",
@@ -5106,5 +5106,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-14T18:50:27.019Z"
+  "updatedAt": "2026-04-14T19:11:20.677Z"
 }
