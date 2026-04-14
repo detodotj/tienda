@@ -2108,7 +2108,10 @@
           "publicId": "N6VVKhZj"
         }
       ],
-      "updatedAt": "2026-04-14T00:30:29.202Z"
+      "updatedAt": "2026-04-14T00:30:29.202Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1776127075988
     },
     {
       "id": "p_1775440914321",
@@ -2224,7 +2227,10 @@
           "publicId": "TxB2W0z8"
         }
       ],
-      "updatedAt": "2026-04-14T00:30:51.222Z"
+      "updatedAt": "2026-04-14T00:30:51.222Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1776127081883
     },
     {
       "id": "p_1775438384682",
@@ -4047,7 +4053,10 @@
           "publicId": "store-pics/jgvax1uczikvgt6dqtie"
         }
       ],
-      "updatedAt": "2026-04-14T00:32:42.861Z"
+      "updatedAt": "2026-04-14T00:32:42.861Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1776127099178
     },
     {
       "id": "p_1775010708011",
@@ -5032,7 +5041,7 @@
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Juego de ganzúas de 16 piezas con 3 cerraduras transparentes de práctica + cubiertas e instrucciones",
-      "subcategory": "",
+      "subcategory": "Herramientas",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -5041,7 +5050,7 @@
           "publicId": "93Gkt4jS"
         }
       ],
-      "updatedAt": "2026-04-14T00:18:43.984Z"
+      "updatedAt": "2026-04-14T00:34:24.470Z"
     }
   ],
   "deletedIds": [
@@ -5097,5 +5106,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-14T00:33:23.981Z"
+  "updatedAt": "2026-04-14T00:39:33.421Z"
 }
