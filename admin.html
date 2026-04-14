@@ -267,9 +267,9 @@ textarea { resize:vertical; min-height:80px; }
   </div>
   <select class="filter-select" id="filterCat" onchange="renderGrid()">
     <option value="">Todas las categorías</option>
-    <option>Ropa</option><option>Plus Size</option><option>Electrónica</option><option>Hogar</option>
-    <option>Juguetes</option><option>Videojuegos</option><option>Deportes</option>
-    <option>Herramientas</option><option>Coleccionables</option><option>Calzado</option><option>Joyería</option>
+    <option>Ropa</option><option>Plus Size</option><option>Calzado</option><option>Joyería</option>
+    <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
+    <option>Videojuegos</option><option>Coleccionables</option>
   </select>
   <select class="filter-select" id="filterStatus" onchange="renderGrid()">
     <option value="">Todos los estados</option>
@@ -331,9 +331,9 @@ textarea { resize:vertical; min-height:80px; }
           <label>Categoría *</label>
           <select id="inputCat" onchange="updateSubcatOptions()">
             <option value="">Seleccionar...</option>
-            <option>Ropa</option><option>Plus Size</option><option>Electrónica</option><option>Hogar</option>
-            <option>Juguetes</option><option>Videojuegos</option><option>Deportes</option>
-            <option>Herramientas</option><option>Coleccionables</option><option>Calzado</option><option>Joyería</option>
+            <option>Ropa</option><option>Plus Size</option><option>Calzado</option><option>Joyería</option>
+            <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
+            <option>Videojuegos</option><option>Coleccionables</option>
           </select>
         </div>
         <div class="form-group">
@@ -456,17 +456,15 @@ textarea { resize:vertical; min-height:80px; }
 <script>
 
 const SUBCATS = {
-  'Ropa': ['Hombre','Mujer','Niños','Accesorios'],
+  'Ropa': ['Hombre','Mujer','Vestidos','Niños','Accesorios'],
   'Plus Size': ['Mujer','Hombre'],
+  'Calzado': ['Mujer','Hombre','Niño'],
+  'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets'],
   'Electrónica': ['Celulares','Computadoras','Audio','Televisiones','Accesorios'],
-  'Hogar': ['Cocina','Decoración','Electrodomésticos'],
+  'Hogar': ['Cocina','Decoración','Electrodomésticos','Herramientas'],
   'Juguetes': ['Bebés','Niños','Educativos','Figuras'],
   'Videojuegos': ['Retro','Modernos','Consolas','Accesorios'],
-  'Deportes': ['Gym','Ciclismo','Outdoor','Accesorios'],
-  'Herramientas': ['Eléctricas','Manuales','Jardín'],
-  'Coleccionables': [],
-  'Calzado': ['Mujer','Hombre','Niño'],
-  'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets']
+  'Coleccionables': []
 };
 
 const IMGBB_API_KEY='4900e81d5d53d6c1f6d0b11f4a24b410', DEFAULT_WA='526642601992';
