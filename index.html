@@ -638,8 +638,9 @@ function renderGrid() {
   const hasMore=filteredProducts.length>pageItems.length;
   grid.innerHTML=`<div class="product-grid">${pageItems.map(cardHTML).join('')}</div>`;
   if(hasMore){
-    const shown=pageItems.length,total=filteredProducts.length;
-    grid.insertAdjacentHTML('afterend',`<div class="load-more-wrap" id="loadMoreWrap"><button class="btn-load-more" onclick="loadMore()">Ver más productos</button><div class="products-count-info">Mostrando ${shown} de ${total}</div></div>`);
+    grid.insertAdjacentHTML('afterend',`<div class="load-more-wrap" id="loadMoreWrap"><button class="btn-load-more" onclick="loadMore()">Ver más productos</button></div>`);
+  } else if(currentPage>1){
+    grid.insertAdjacentHTML('afterend',`<div class="load-more-wrap" id="loadMoreWrap"><p style="color:var(--text2);font-size:13px;margin:0">No hay más productos para mostrar</p></div>`);
   }
 }
 function cardHTML(p) {
