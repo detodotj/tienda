@@ -5038,10 +5038,10 @@
       "id": "p_1775332142680",
       "name": "Juego de Ganzúas",
       "price": 450,
-      "category": "Herramientas",
+      "category": "Hogar",
       "status": "Nuevo",
       "desc": "Juego de ganzúas de 16 piezas con 3 cerraduras transparentes de práctica + cubiertas e instrucciones",
-      "subcategory": "Manuales",
+      "subcategory": "",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -5050,7 +5050,7 @@
           "publicId": "93Gkt4jS"
         }
       ],
-      "updatedAt": "2026-04-04T19:52:41.741Z"
+      "updatedAt": "2026-04-14T00:18:43.984Z"
     }
   ],
   "deletedIds": [
@@ -5106,5 +5106,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-13T23:59:44.756Z"
+  "updatedAt": "2026-04-14T00:18:49.242Z"
 }
