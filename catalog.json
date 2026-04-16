@@ -4135,7 +4135,10 @@
           "publicId": "store-pics/tvohfwq7v6j9cuy03tja"
         }
       ],
-      "updatedAt": "2026-04-16T05:18:57.527Z"
+      "updatedAt": "2026-04-16T05:18:57.527Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1776316974527
     },
     {
       "id": "p_1775010350100",
@@ -4200,7 +4203,7 @@
       "category": "Ropa",
       "status": "Buen estado",
       "desc": "Short de mezclilla Wrangler para hombre. 100% algodón.",
-      "subcategory": "Plus Size Mujer",
+      "subcategory": "Plus Size Hombre",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -4221,7 +4224,7 @@
           "publicId": "store-pics/bgxa2ebxisxeyf0sicqz"
         }
       ],
-      "updatedAt": "2026-04-16T05:19:08.146Z"
+      "updatedAt": "2026-04-16T05:23:08.655Z"
     },
     {
       "id": "p_1775009713038",
@@ -5126,5 +5129,5 @@
     "p_1775243246169",
     "p_1774745038965"
   ],
-  "updatedAt": "2026-04-16T05:21:33.679Z"
+  "updatedAt": "2026-04-16T05:23:45.574Z"
 }
