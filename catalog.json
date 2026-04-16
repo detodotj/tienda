@@ -2111,35 +2111,6 @@
       "updatedAt": "2026-04-06T02:08:47.733Z"
     },
     {
-      "id": "p_1775441086696",
-      "name": "Vestido Merona talla 12",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Vestido muy fresco 😍 con lindos olanes.",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/bMgbLMSf/8394.jpg",
-          "publicId": "v6xXm67t"
-        },
-        {
-          "url": "https://i.ibb.co/zWWWdD31/8392.jpg",
-          "publicId": "rKKK9NBg"
-        },
-        {
-          "url": "https://i.ibb.co/HDFFqvnz/8393.jpg",
-          "publicId": "N6VVKhZj"
-        }
-      ],
-      "updatedAt": "2026-04-14T00:30:29.202Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1776127075988
-    },
-    {
       "id": "p_1775440914321",
       "name": "Vestido Merona talla 12",
       "price": 100,
@@ -2224,39 +2195,6 @@
         }
       ],
       "updatedAt": "2026-04-06T01:55:56.696Z"
-    },
-    {
-      "id": "p_1775440236730",
-      "name": "Vestido Classique Entier talla 10",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Hermoso vestido largo abajo de rodilla. Formal.",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/7dBCsbnh/8373.jpg",
-          "publicId": "dwXM87PZ"
-        },
-        {
-          "url": "https://i.ibb.co/PGQkDdBZ/8375.jpg",
-          "publicId": "1G6czkHf"
-        },
-        {
-          "url": "https://i.ibb.co/9my38hT5/8374.jpg",
-          "publicId": "0pYVDKMb"
-        },
-        {
-          "url": "https://i.ibb.co/fzYFDNmp/8372.jpg",
-          "publicId": "TxB2W0z8"
-        }
-      ],
-      "updatedAt": "2026-04-14T00:30:51.222Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1776127081883
     },
     {
       "id": "p_1775438384682",
@@ -2435,64 +2373,6 @@
       "updatedAt": "2026-04-14T00:31:26.450Z"
     },
     {
-      "id": "p_1775434181411",
-      "name": "Aretes",
-      "price": 70,
-      "category": "Joyería",
-      "status": "Nuevo",
-      "desc": "Hermosos aretes plateados.",
-      "subcategory": "Aretes",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/sdWSc5t5/8440.jpg",
-          "publicId": "Jw3L8xCx"
-        },
-        {
-          "url": "https://i.ibb.co/7dTjznF2/8439.jpg",
-          "publicId": "q347nNwk"
-        },
-        {
-          "url": "https://i.ibb.co/hRyBRXW5/8441.jpg",
-          "publicId": "SXPtXQnT"
-        }
-      ],
-      "updatedAt": "2026-04-06T00:09:41.411Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775583711263
-    },
-    {
-      "id": "p_1775434072734",
-      "name": "Aretes",
-      "price": 70,
-      "category": "Joyería",
-      "status": "Nuevo",
-      "desc": "Aretes de fantasía dorados.",
-      "subcategory": "Aretes",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/RksFWgw9/8442.jpg",
-          "publicId": "XrKQTWRb"
-        },
-        {
-          "url": "https://i.ibb.co/Mk5yXWYd/8443.jpg",
-          "publicId": "F4qkPNSp"
-        },
-        {
-          "url": "https://i.ibb.co/RpkY4bWt/8444.jpg",
-          "publicId": "tMTQPK5n"
-        }
-      ],
-      "updatedAt": "2026-04-06T00:07:52.735Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775583717389
-    },
-    {
       "id": "p_1775426577525",
       "name": "Cable de audio - fibra optica",
       "price": 60,
@@ -2617,35 +2497,6 @@
         }
       ],
       "updatedAt": "2026-04-05T21:44:31.154Z"
-    },
-    {
-      "id": "p_1775424561596",
-      "name": "Mouse pad grande para escritorio.",
-      "price": 140,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Mousepad grande un metro de largo aproximadamente.",
-      "subcategory": "Computadoras",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/S77qBpGH/1000044081.jpg",
-          "publicId": "3YYtcHQV"
-        },
-        {
-          "url": "https://i.ibb.co/CsQkvbwW/1000044084.jpg",
-          "publicId": "yBqw56NV"
-        },
-        {
-          "url": "https://i.ibb.co/MyHdFHSB/1000044082.jpg",
-          "publicId": "mrKpfKTN"
-        }
-      ],
-      "updatedAt": "2026-04-05T21:29:21.601Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775749758374
     },
     {
       "id": "p_1775423961456",
@@ -2850,27 +2701,6 @@
       "updatedAt": "2026-04-14T18:47:19.099Z"
     },
     {
-      "id": "p_1775275010626",
-      "name": "Teclados nuevos Bluetooth recargables.",
-      "price": 280,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Teclados Bluetooth recargables conexión simultánea a tres dispositivos.",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/XfrthgMw/1000043994.jpg",
-          "publicId": "j9PDc2sp"
-        }
-      ],
-      "updatedAt": "2026-04-04T03:56:50.626Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1776115483441
-    },
-    {
       "id": "p_1775274852289",
       "name": "8bitdo control para mini nes/pc.",
       "price": 300,
@@ -3019,35 +2849,6 @@
       "updatedAt": "2026-04-04T02:50:52.340Z"
     },
     {
-      "id": "p_1775270955826",
-      "name": "Figura de batman",
-      "price": 100,
-      "category": "Juguetes",
-      "status": "Nuevo",
-      "desc": "Figura de batman.",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/zh4xt8Mw/1000043955.jpg",
-          "publicId": "99rgdwDj"
-        },
-        {
-          "url": "https://i.ibb.co/WjKgSvk/1000043957.jpg",
-          "publicId": "Jgk5Xjv"
-        },
-        {
-          "url": "https://i.ibb.co/MDvFxqDJ/1000043956.jpg",
-          "publicId": "N6vcdw6G"
-        }
-      ],
-      "updatedAt": "2026-04-04T02:49:15.826Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775367205952
-    },
-    {
       "id": "p_1775270875025",
       "name": "Light gun PS1",
       "price": 350,
@@ -3102,31 +2903,6 @@
         }
       ],
       "updatedAt": "2026-04-03T20:14:09.805Z"
-    },
-    {
-      "id": "p_1775243516000",
-      "name": "Collar",
-      "price": 60,
-      "category": "Joyería",
-      "status": "Como nuevo",
-      "desc": "Lindo collar 🤩 morado 💜.",
-      "subcategory": "Collares",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243447/store-pics/jc1d0twvo49g9m1qheph.jpg",
-          "publicId": "store-pics/jc1d0twvo49g9m1qheph"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775243449/store-pics/h658oflpdzr7noenn92j.jpg",
-          "publicId": "store-pics/h658oflpdzr7noenn92j"
-        }
-      ],
-      "updatedAt": "2026-04-03T19:11:56.000Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775606505217
     },
     {
       "id": "p_1775243412762",
@@ -3613,43 +3389,6 @@
       "updatedAt": "2026-04-16T05:18:07.579Z"
     },
     {
-      "id": "p_1775172249140",
-      "name": "Charolas de vidrio IVV",
-      "price": 400,
-      "category": "Hogar",
-      "status": "Nuevo",
-      "desc": "Hermosas charolas de vidrio italiano IVV con detalles cuadriculados que juegan con la luz.",
-      "subcategory": "Cocina",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172121/store-pics/c0zqcvlnbh2jzjj2pk5v.jpg",
-          "publicId": "store-pics/c0zqcvlnbh2jzjj2pk5v"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172123/store-pics/zugtyv5amhmfnvzradaj.jpg",
-          "publicId": "store-pics/zugtyv5amhmfnvzradaj"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172125/store-pics/fny8oagiqq2qrnrjxotz.jpg",
-          "publicId": "store-pics/fny8oagiqq2qrnrjxotz"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172128/store-pics/d51obhskhv5i5rc9o0b1.jpg",
-          "publicId": "store-pics/d51obhskhv5i5rc9o0b1"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775172331/store-pics/qocsfswokzxnhhlzgkd6.jpg",
-          "publicId": "store-pics/qocsfswokzxnhhlzgkd6"
-        }
-      ],
-      "updatedAt": "2026-04-09T20:48:45.000Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775767733006
-    },
-    {
       "id": "p_1775170855975",
       "name": "2 platos de vidrio grandes",
       "price": 100,
@@ -3708,35 +3447,6 @@
         }
       ],
       "updatedAt": "2026-04-08T00:02:55.135Z"
-    },
-    {
-      "id": "p_1775170495651",
-      "name": "Florero de vidrio transparente",
-      "price": 80,
-      "category": "Hogar",
-      "status": "Como nuevo",
-      "desc": "Hermoso y elegante florero de vidrio.",
-      "subcategory": "Decoración",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170428/store-pics/p69y9khkrevvxpc9qkzz.jpg",
-          "publicId": "store-pics/p69y9khkrevvxpc9qkzz"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170430/store-pics/c7o0sm7tq5scmw2s6kun.jpg",
-          "publicId": "store-pics/c7o0sm7tq5scmw2s6kun"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775170432/store-pics/doy8dlsmtkknihv5nkww.jpg",
-          "publicId": "store-pics/doy8dlsmtkknihv5nkww"
-        }
-      ],
-      "updatedAt": "2026-04-02T22:54:55.651Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775749790822
     },
     {
       "id": "p_1775170405518",
@@ -4053,35 +3763,6 @@
       "updatedAt": "2026-04-16T05:18:36.242Z"
     },
     {
-      "id": "p_1775011043117",
-      "name": "Vestido Bobeau talla s",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Hermoso vestido de verano. Largo a la rodilla y más alargado en la parte de atrás. Fondo integrado.",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010872/store-pics/kdbynfbrofuo1g0l7ntv.jpg",
-          "publicId": "store-pics/kdbynfbrofuo1g0l7ntv"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010873/store-pics/fe8m7icezv3atxqtpgtz.jpg",
-          "publicId": "store-pics/fe8m7icezv3atxqtpgtz"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010875/store-pics/jgvax1uczikvgt6dqtie.jpg",
-          "publicId": "store-pics/jgvax1uczikvgt6dqtie"
-        }
-      ],
-      "updatedAt": "2026-04-14T00:32:42.861Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1776127099178
-    },
-    {
       "id": "p_1775010708011",
       "name": "Blusa de tirantes SheIn talla XL",
       "price": 70,
@@ -4106,39 +3787,6 @@
         }
       ],
       "updatedAt": "2026-04-16T05:18:45.109Z"
-    },
-    {
-      "id": "p_1775010539678",
-      "name": "Blusa AUX 2XL",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusa casual de tela fresca. Amplia. Poliéster y spandex.",
-      "subcategory": "Plus Size Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010386/store-pics/m5p75fzppliddvvc6pvo.jpg",
-          "publicId": "store-pics/m5p75fzppliddvvc6pvo"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010389/store-pics/ggcekjwjgtnk2yzdyylj.jpg",
-          "publicId": "store-pics/ggcekjwjgtnk2yzdyylj"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010391/store-pics/arpd4kjk3od9juzcd5e2.jpg",
-          "publicId": "store-pics/arpd4kjk3od9juzcd5e2"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775010393/store-pics/tvohfwq7v6j9cuy03tja.jpg",
-          "publicId": "store-pics/tvohfwq7v6j9cuy03tja"
-        }
-      ],
-      "updatedAt": "2026-04-16T05:18:57.527Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1776316974527
     },
     {
       "id": "p_1775010350100",
@@ -4603,35 +4251,6 @@
         }
       ],
       "updatedAt": "2026-04-16T05:20:24.818Z"
-    },
-    {
-      "id": "p_1774739543980",
-      "name": "Saco de vestir Jones New York talla M",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Saco formal, muy bonito y ligero. Llega arriba de la rodilla.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739389/store-pics/wb0frcmdhy3irtdk8cme.jpg",
-          "publicId": "store-pics/wb0frcmdhy3irtdk8cme"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739392/store-pics/ardbypv8sejmcxsferok.jpg",
-          "publicId": "store-pics/ardbypv8sejmcxsferok"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774739394/store-pics/fjaczxjrtgjbiesy8ljq.jpg",
-          "publicId": "store-pics/fjaczxjrtgjbiesy8ljq"
-        }
-      ],
-      "updatedAt": "2026-04-02T05:41:12.749Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1775367294970
     },
     {
       "id": "p_1774739217278",
@@ -5127,7 +4746,20 @@
     "p_1775269550830",
     "p_1775243636284",
     "p_1775243246169",
-    "p_1774745038965"
+    "p_1774745038965",
+    "p_1775441086696",
+    "p_1775440236730",
+    "p_1775434181411",
+    "p_1775434072734",
+    "p_1775424561596",
+    "p_1775275010626",
+    "p_1775270955826",
+    "p_1775243516000",
+    "p_1775011043117",
+    "p_1775010539678",
+    "p_1774739543980",
+    "p_1775172249140",
+    "p_1775170495651"
   ],
-  "updatedAt": "2026-04-16T05:25:06.259Z"
+  "updatedAt": "2026-04-16T05:26:47.881Z"
 }
