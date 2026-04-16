@@ -558,11 +558,8 @@ function cardHTML(p){
         <button class="btn btn-edit btn-sm" onclick="openEditModal('${p.id}')">✏️ Editar</button>
         ${p.sold
           ? `<button class="btn btn-unsold btn-sm" onclick="toggleSold('${p.id}')">↩️ Activo</button>`
-          : p.paused
-            ? `<button class="btn btn-resume btn-sm" onclick="togglePause('${p.id}')">▶️ Reactivar</button>`
-            : `<button class="btn btn-pause btn-sm" onclick="togglePause('${p.id}')">⏸️ Pausar</button>`
+          : `<button class="btn btn-sold btn-sm" onclick="toggleSold('${p.id}')">✅ Vendido</button>`
         }
-        ${!p.sold ? `<button class="btn btn-sold btn-sm" onclick="toggleSold('${p.id}')">✅ Vendido</button>` : ''}
         <button class="btn btn-danger btn-sm" onclick="deleteProduct('${p.id}')">🗑️ Borrar</button>
       </div>
     </div>
