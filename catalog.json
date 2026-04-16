@@ -3651,36 +3651,6 @@
       "updatedAt": "2026-04-09T23:04:13.474Z"
     },
     {
-      "id": "p_1775011852078",
-      "name": "Blusa Faded Glory 3X",
-      "price": 60,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusa amplia y fresca. 100 % poliéster.",
-      "subcategory": "Plus Size Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011725/store-pics/zxnr9fbdbjisvrsghaym.jpg",
-          "publicId": "store-pics/zxnr9fbdbjisvrsghaym"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011728/store-pics/kj37rsj8zuo4ufboos49.jpg",
-          "publicId": "store-pics/kj37rsj8zuo4ufboos49"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011731/store-pics/tjrhwoegn8qshfs3vqke.jpg",
-          "publicId": "store-pics/tjrhwoegn8qshfs3vqke"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1775011734/store-pics/tyvslnx9aste41tdxwlf.jpg",
-          "publicId": "store-pics/tyvslnx9aste41tdxwlf"
-        }
-      ],
-      "updatedAt": "2026-04-16T05:18:27.197Z"
-    },
-    {
       "id": "p_1775011695060",
       "name": "Blusa Kendall ,& James Unitalla",
       "price": 100,
@@ -4759,7 +4729,8 @@
     "p_1775010539678",
     "p_1774739543980",
     "p_1775172249140",
-    "p_1775170495651"
+    "p_1775170495651",
+    "p_1775011852078"
   ],
-  "updatedAt": "2026-04-16T05:26:47.881Z"
+  "updatedAt": "2026-04-16T05:40:45.853Z"
 }
