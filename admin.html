@@ -56,6 +56,8 @@ body { font-family:'Segoe UI',sans-serif; background:var(--bg); color:var(--text
 .search-icon { display:none; }
 .filter-select { padding:9px 12px; border:1.5px solid var(--border); border-radius:8px; font-size:13px; background:var(--bg); color:var(--text); cursor:pointer; font-family:inherit; }
 .filter-select:focus { outline:none; border-color:var(--accent); }
+#filterSubcat { display:none; }
+#filterSubcat.visible { display:block; }
 
 .main { padding:24px 28px; padding-bottom:90px; }
 
@@ -487,7 +489,6 @@ function init(){
   updateDeletedLogBtn();
   try { const c=localStorage.getItem('storeConfig'); if(c) config=JSON.parse(c); } catch(e){ config={}; }
   if(!config.imgbbKey) config.imgbbKey=IMGBB_API_KEY;
-  document.getElementById('filterSubcat').style.display='none';
   renderGrid();
 }
 function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); localStorage.setItem('storeDeleted',JSON.stringify(deletedIds)); localStorage.setItem('storeDeletedPhotos',JSON.stringify(deletedPhotosLog)); }
@@ -579,7 +580,12 @@ function updateFilterSubcat() {
   var subs = SUBCATS[cat] || [];
   select.innerHTML = '<option value="">Todas las subcategorías</option>' +
     subs.map(function(s){ return '<option value="'+s+'">'+s+'</option>'; }).join('');
-  select.style.display = subs.length > 0 ? '' : 'none';
+  if (subs.length > 0) {
+    select.classList.add('visible');
+  } else {
+    select.classList.remove('visible');
+    select.value = '';
+  }
 }
 
 function updateSubcatOptions() {
@@ -631,11 +637,21 @@ function downloadDeletedLog(){
     total+=entry.photos.length;
   });
   text+='Total: '+total+' fotos\n';
-  const blob=new Blob([text],{type:'text/plain'});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');
-  a.href=url; a.download='fotos-borrar-'+new Date().toISOString().split('T')[0]+'.txt';
-  a.click(); URL.revokeObjectURL(url);
+
+  // Ask how to share
+  var choice=confirm('¿Enviar lista por WhatsApp?\n\nAceptar = WhatsApp\nCancelar = Descargar .txt');
+  if(choice){
+    var waText=encodeURIComponent(text);
+    var waNumber=config.whatsapp||DEFAULT_WA;
+    window.open('https://wa.me/'+waNumber+'?text='+waText,'_blank');
+  } else {
+    const blob=new Blob([text],{type:'text/plain'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url; a.download='fotos-borrar-'+new Date().toISOString().split('T')[0]+'.txt';
+    a.click(); URL.revokeObjectURL(url);
+  }
+
   if(confirm('¿Marcar estas fotos como borradas y limpiar la lista?')){
     deletedPhotosLog=[];
     saveLocal(); updateDeletedLogBtn();
