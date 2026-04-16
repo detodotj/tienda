@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776360285885",
+      "name": "CAMISA Tommy Hilfiger talla L",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/svp8WS7g/11350.jpg",
+          "publicId": "TBD9WXyw"
+        },
+        {
+          "url": "https://i.ibb.co/rGhQsqTp/11316.jpg",
+          "publicId": "GvDdTGBM"
+        },
+        {
+          "url": "https://i.ibb.co/qMtQzvfC/11315.jpg",
+          "publicId": "WWbJQLw0"
+        }
+      ],
+      "updatedAt": "2026-04-16T17:24:45.885Z"
+    },
+    {
       "id": "p_1776196883418",
       "name": "ARETES",
       "price": 100,
@@ -4732,5 +4758,5 @@
     "p_1775170495651",
     "p_1775011852078"
   ],
-  "updatedAt": "2026-04-16T05:40:45.853Z"
+  "updatedAt": "2026-04-16T17:26:11.117Z"
 }
