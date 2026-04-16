@@ -4374,15 +4374,11 @@
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774737559/store-pics/e4ap6ljiyhpnppuxhwq0.jpg",
-          "publicId": "store-pics/e4ap6ljiyhpnppuxhwq0"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774737561/store-pics/h9iblqopclndccjbt7ri.jpg",
-          "publicId": "store-pics/h9iblqopclndccjbt7ri"
+          "url": "https://i.ibb.co/CKpVyH85/Whats-App-Image-2026-04-16-at-10-52-13-AM.jpg",
+          "publicId": "whZpqzgN"
         }
       ],
-      "updatedAt": "2026-04-14T00:33:03.413Z"
+      "updatedAt": "2026-04-16T17:58:30.070Z"
     },
     {
       "id": "p_1774736584341",
@@ -4758,5 +4754,5 @@
     "p_1775170495651",
     "p_1775011852078"
   ],
-  "updatedAt": "2026-04-16T17:52:37.173Z"
+  "updatedAt": "2026-04-16T17:58:55.128Z"
 }
