@@ -273,7 +273,7 @@ textarea { resize:vertical; min-height:80px; }
   </div>
   <select class="filter-select" id="filterCat" onchange="renderGrid()">
     <option value="">Todas las categorías</option>
-    <option>Ropa</option><option>Plus Size</option><option>Calzado</option><option>Joyería</option>
+    <option>Ropa</option><option>Calzado</option><option>Joyería</option>
     <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
     <option>Videojuegos</option><option>Coleccionables</option>
   </select>
@@ -337,7 +337,7 @@ textarea { resize:vertical; min-height:80px; }
           <label>Categoría *</label>
           <select id="inputCat" onchange="updateSubcatOptions()">
             <option value="">Seleccionar...</option>
-            <option>Ropa</option><option>Plus Size</option><option>Calzado</option><option>Joyería</option>
+            <option>Ropa</option><option>Calzado</option><option>Joyería</option>
             <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
             <option>Videojuegos</option><option>Coleccionables</option>
           </select>
@@ -462,8 +462,7 @@ textarea { resize:vertical; min-height:80px; }
 <script>
 
 const SUBCATS = {
-  'Ropa': ['Hombre','Mujer','Vestidos','Niños','Accesorios'],
-  'Plus Size': ['Mujer','Hombre'],
+  'Ropa': ['Hombre','Plus Size Hombre','Mujer','Plus Size Mujer','Vestidos','Niños','Accesorios'],
   'Calzado': ['Mujer','Hombre','Niño'],
   'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets'],
   'Electrónica': ['Celulares','Computadoras','Audio','Televisiones','Accesorios'],
