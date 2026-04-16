@@ -271,11 +271,14 @@ textarea { resize:vertical; min-height:80px; }
     <span class="search-icon">🔍</span>
     <input type="text" id="searchInput" placeholder="Buscar producto..." oninput="adminPage=1;renderGrid()" autocomplete="new-password" name="search_x" type="search">
   </div>
-  <select class="filter-select" id="filterCat" onchange="renderGrid()">
+  <select class="filter-select" id="filterCat" onchange="adminPage=1;updateFilterSubcat();renderGrid()">
     <option value="">Todas las categorías</option>
     <option>Ropa</option><option>Calzado</option><option>Joyería</option>
     <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
     <option>Videojuegos</option><option>Coleccionables</option>
+  </select>
+  <select class="filter-select" id="filterSubcat" onchange="adminPage=1;renderGrid()">
+    <option value="">Todas las subcategorías</option>
   </select>
   <select class="filter-select" id="filterStatus" onchange="renderGrid()">
     <option value="">Todos los estados</option>
@@ -484,6 +487,7 @@ function init(){
   updateDeletedLogBtn();
   try { const c=localStorage.getItem('storeConfig'); if(c) config=JSON.parse(c); } catch(e){ config={}; }
   if(!config.imgbbKey) config.imgbbKey=IMGBB_API_KEY;
+  document.getElementById('filterSubcat').style.display='none';
   renderGrid();
 }
 function saveLocal(){ localStorage.setItem('storeProducts',JSON.stringify(products)); localStorage.setItem('storeDeleted',JSON.stringify(deletedIds)); localStorage.setItem('storeDeletedPhotos',JSON.stringify(deletedPhotosLog)); }
@@ -497,16 +501,18 @@ function renderGrid(){
 function _doRenderGrid(){
   const search=document.getElementById('searchInput').value.toLowerCase();
   const cat=document.getElementById('filterCat').value;
+  const subcat=document.getElementById('filterSubcat').value;
   const status=document.getElementById('filterStatus').value;
   let filtered=products.filter(p=>{
-    if(!search && !cat && !status) return true;
-    const matchSearch=!search||p.name.toLowerCase().includes(search)||(p.desc||'').toLowerCase().includes(search);
+    if(!search && !cat && !subcat && !status) return true;
+    const matchSearch=!search||p.name.toLowerCase().includes(search)||(p.desc||'').toLowerCase().includes(search)||(p.subcategory||'').toLowerCase().includes(search);
     const matchCat=!cat||p.category===cat;
+    const matchSubcat=!subcat||p.subcategory===subcat;
     let matchStatus=true;
     if(status==='__sold__') matchStatus=!!p.sold;
     else if(status==='__paused__') matchStatus=!!p.paused;
     else matchStatus=!status||p.status===status;
-    return matchSearch&&matchCat&&matchStatus;
+    return matchSearch&&matchCat&&matchSubcat&&matchStatus;
   });
   updateStats();
   const grid=document.getElementById('productGrid');
@@ -567,7 +573,16 @@ function cardHTML(p){
 }
 
 
-function updateSubcatOptions() {
+function updateFilterSubcat() {
+  var cat = document.getElementById('filterCat').value;
+  var select = document.getElementById('filterSubcat');
+  var subs = SUBCATS[cat] || [];
+  select.innerHTML = '<option value="">Todas las subcategorías</option>' +
+    subs.map(function(s){ return '<option value="'+s+'">'+s+'</option>'; }).join('');
+  select.style.display = subs.length > 0 ? '' : 'none';
+}
+
+
   var cat = document.getElementById('inputCat').value;
   var field = document.getElementById('subcatField');
   var select = document.getElementById('inputSubcat');
