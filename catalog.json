@@ -3978,21 +3978,8 @@
       "subcategory": "Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741517/store-pics/rrfndn1cwlqfnycfinyf.jpg",
-          "publicId": "store-pics/rrfndn1cwlqfnycfinyf"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741521/store-pics/xg7ub9pr3g7jswvabdiz.jpg",
-          "publicId": "store-pics/xg7ub9pr3g7jswvabdiz"
-        },
-        {
-          "url": "https://res.cloudinary.com/dcscb3fg4/image/upload/v1774741524/store-pics/gcwo2ho65tkpw7rxrzjn.jpg",
-          "publicId": "store-pics/gcwo2ho65tkpw7rxrzjn"
-        }
-      ],
-      "updatedAt": "2026-04-07T15:35:21.391Z"
+      "photos": [],
+      "updatedAt": "2026-04-16T19:37:10.928Z"
     },
     {
       "id": "p_1774741467617",
@@ -4544,7 +4531,8 @@
     "p_1774739543980",
     "p_1775172249140",
     "p_1775170495651",
-    "p_1775011852078"
+    "p_1775011852078",
+    "p_1775882320750"
   ],
-  "updatedAt": "2026-04-16T19:26:26.649Z"
+  "updatedAt": "2026-04-16T19:38:15.393Z"
 }
