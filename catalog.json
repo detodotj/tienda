@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1776452400152",
+      "name": "VESTIDO Frenchi talla XL",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Vestidos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/5xxkrWzW/11716.jpg",
+          "publicId": "Tqq14BnB"
+        },
+        {
+          "url": "https://i.ibb.co/3YcBvrN3/11721.jpg",
+          "publicId": "1JT8Mvqg"
+        },
+        {
+          "url": "https://i.ibb.co/1JKDQK9R/11717.jpg",
+          "publicId": "3YWDdW0S"
+        },
+        {
+          "url": "https://i.ibb.co/nhDK04c/11718.jpg",
+          "publicId": "v2JMBfP"
+        }
+      ],
+      "updatedAt": "2026-04-17T19:00:00.152Z"
+    },
+    {
       "id": "p_1776360285885",
       "name": "CAMISA Tommy Hilfiger talla L",
       "price": 150,
@@ -4546,5 +4576,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T13:52:46.196Z"
+  "updatedAt": "2026-04-17T19:00:20.124Z"
 }
