@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776453186839",
+      "name": "VESTIDO Poema talla M",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Con hermosa lentejuela",
+      "subcategory": "Vestidos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/FLqRPt7z/11732.jpg",
+          "publicId": "nN8xWSkj"
+        },
+        {
+          "url": "https://i.ibb.co/cXpXZrP1/11734.jpg",
+          "publicId": "Vphpzqdt"
+        },
+        {
+          "url": "https://i.ibb.co/G4DwqNHS/11733.jpg",
+          "publicId": "7dDcqLkm"
+        }
+      ],
+      "updatedAt": "2026-04-17T19:13:06.839Z"
+    },
+    {
       "id": "p_1776452961611",
       "name": "BLUSA Express talla XS",
       "price": 100,
@@ -4632,5 +4658,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T19:10:38.921Z"
+  "updatedAt": "2026-04-17T19:13:10.952Z"
 }
