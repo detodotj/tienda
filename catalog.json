@@ -172,7 +172,7 @@
           "publicId": "DDTsG4r6"
         }
       ],
-      "updatedAt": "2026-04-14T00:28:34.747Z"
+      "updatedAt": "2026-04-17T13:45:12.744Z"
     },
     {
       "id": "p_1775861036077",
@@ -302,19 +302,19 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/Qv8XvDbY/9889.jpg",
+          "publicId": "7tgbtkYr"
+        },
+        {
           "url": "https://i.ibb.co/KptydgHX/9888.jpg",
           "publicId": "DHBKhFnt"
         },
         {
           "url": "https://i.ibb.co/39452gFk/9890.jpg",
           "publicId": "ks5VjNDM"
-        },
-        {
-          "url": "https://i.ibb.co/Qv8XvDbY/9889.jpg",
-          "publicId": "7tgbtkYr"
         }
       ],
-      "updatedAt": "2026-04-10T22:35:37.867Z"
+      "updatedAt": "2026-04-17T13:47:22.966Z"
     },
     {
       "id": "p_1775860466368",
@@ -638,6 +638,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/0VCpR4Cq/11654.jpg",
+          "publicId": "JFvWw6vn"
+        },
+        {
           "url": "https://i.ibb.co/CKrt20jP/9165.jpg",
           "publicId": "7t9z4y3k"
         },
@@ -650,7 +654,7 @@
           "publicId": "W45SZ8Zw"
         }
       ],
-      "updatedAt": "2026-04-16T05:13:31.597Z"
+      "updatedAt": "2026-04-17T13:47:54.250Z"
     },
     {
       "id": "p_1775685626003",
@@ -744,7 +748,7 @@
       "price": 100,
       "category": "Ropa",
       "status": "Buen estado",
-      "desc": "La luz no ayuda, pero es dorado.",
+      "desc": "Dorado.",
       "subcategory": "Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -762,7 +766,7 @@
           "publicId": "cK8n23QP"
         }
       ],
-      "updatedAt": "2026-04-09T23:00:46.826Z"
+      "updatedAt": "2026-04-17T13:48:23.327Z"
     },
     {
       "id": "p_1775685072073",
@@ -812,9 +816,13 @@
         {
           "url": "https://i.ibb.co/RGs4Q3XM/9187.jpg",
           "publicId": "Q7TjYPWq"
+        },
+        {
+          "url": "https://i.ibb.co/LXfH5WQ6/11656.jpg",
+          "publicId": "B5RFNx4j"
         }
       ],
-      "updatedAt": "2026-04-16T05:13:53.990Z"
+      "updatedAt": "2026-04-17T13:50:09.662Z"
     },
     {
       "id": "p_1775684892345",
@@ -840,7 +848,7 @@
           "publicId": "rR8DHt8s"
         }
       ],
-      "updatedAt": "2026-04-16T05:14:06.389Z"
+      "updatedAt": "2026-04-17T13:50:46.863Z"
     },
     {
       "id": "p_1775684613953",
@@ -914,6 +922,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/0jsqNN8X/11658.jpg",
+          "publicId": "rGdkPPTt"
+        },
+        {
           "url": "https://i.ibb.co/ZpsZLC03/9207.jpg",
           "publicId": "7dc9YFqH"
         },
@@ -926,7 +938,7 @@
           "publicId": "XrLVwcnk"
         }
       ],
-      "updatedAt": "2026-04-16T05:14:23.772Z"
+      "updatedAt": "2026-04-17T13:52:25.854Z"
     },
     {
       "id": "p_1775684391431",
@@ -4534,5 +4546,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T13:44:19.098Z"
+  "updatedAt": "2026-04-17T13:52:46.196Z"
 }
