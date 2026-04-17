@@ -103,7 +103,7 @@
     {
       "id": "p_1776116016152",
       "name": "GORRO Y BUFANDA Universal Thread",
-      "price": 150,
+      "price": 130,
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "",
@@ -120,7 +120,7 @@
           "publicId": "sdfyMYcy"
         }
       ],
-      "updatedAt": "2026-04-13T23:57:40.086Z"
+      "updatedAt": "2026-04-17T04:11:09.739Z"
     },
     {
       "id": "p_1776115436675",
@@ -1987,7 +1987,7 @@
     {
       "id": "p_1775446508890",
       "name": "Pantalón Moschino talla 12",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Stretch, muy lindo color azul 💙",
@@ -2008,7 +2008,7 @@
           "publicId": "r24TGmqQ"
         }
       ],
-      "updatedAt": "2026-04-06T03:35:08.893Z"
+      "updatedAt": "2026-04-17T04:13:10.170Z"
     },
     {
       "id": "p_1775446329709",
@@ -4526,5 +4526,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T03:51:16.256Z"
+  "updatedAt": "2026-04-17T04:15:21.937Z"
 }
