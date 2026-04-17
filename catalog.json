@@ -3965,19 +3965,6 @@
       "updatedAt": "2026-04-17T02:55:56.777Z"
     },
     {
-      "id": "p_1774741840906",
-      "name": "Blusa talla L",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusa de manga larga pero tela delgada y fresca. Muy amplia; dice S pero queda L o XL. Poliéster.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [],
-      "updatedAt": "2026-04-16T19:37:10.928Z"
-    },
-    {
       "id": "p_1774741467617",
       "name": "Suéter CALI SPORT talla 3XL",
       "price": 120,
@@ -4527,5 +4514,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T02:57:48.811Z"
+  "updatedAt": "2026-04-17T02:59:55.689Z"
 }
