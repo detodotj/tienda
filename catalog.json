@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1776452961611",
+      "name": "BLUSA Express talla XS",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Tela delgada",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1ffZSGxQ/11727.jpg",
+          "publicId": "svvjB9rR"
+        },
+        {
+          "url": "https://i.ibb.co/j9rcKW79/11729.jpg",
+          "publicId": "Y4Lz9yv4"
+        },
+        {
+          "url": "https://i.ibb.co/9k9XmKSk/11728.jpg",
+          "publicId": "xtSvK9dt"
+        },
+        {
+          "url": "https://i.ibb.co/Y44wb6mT/11730.jpg",
+          "publicId": "sppzthnJ"
+        }
+      ],
+      "updatedAt": "2026-04-17T19:09:21.611Z"
+    },
+    {
       "id": "p_1776452785098",
       "name": "Falda UNIVERSAL THREAD talla L",
       "price": 100,
@@ -4602,5 +4632,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T19:06:51.004Z"
+  "updatedAt": "2026-04-17T19:10:38.921Z"
 }
