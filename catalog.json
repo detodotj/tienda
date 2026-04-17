@@ -1560,7 +1560,7 @@
           "publicId": "VWGBNPwR"
         }
       ],
-      "updatedAt": "2026-04-06T19:18:01.554Z"
+      "updatedAt": "2026-04-17T01:36:03.256Z"
     },
     {
       "id": "p_1775502711522",
@@ -2244,7 +2244,7 @@
           "publicId": "s9sZsXL9"
         }
       ],
-      "updatedAt": "2026-04-06T01:55:56.696Z"
+      "updatedAt": "2026-04-17T01:39:24.725Z"
     },
     {
       "id": "p_1775438384682",
@@ -3536,7 +3536,7 @@
           "publicId": "hz82gSW"
         }
       ],
-      "updatedAt": "2026-04-16T18:57:48.085Z"
+      "updatedAt": "2026-04-17T01:51:45.576Z"
     },
     {
       "id": "p_1775012459490",
@@ -3621,7 +3621,7 @@
     {
       "id": "p_1775011551348",
       "name": "Falda para dama talla M",
-      "price": 60,
+      "price": 80,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Falda corta para dama. Plisada la frente. Se expande a L.",
@@ -3630,11 +3630,15 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/qYyY1pN8/11556.jpg",
+          "publicId": "TMvMht4G"
+        },
+        {
           "url": "https://i.ibb.co/V02jPKHS/Whats-App-Image-2026-04-16-at-12-00-57-PM.jpg",
           "publicId": "JW5BMhx7"
         }
       ],
-      "updatedAt": "2026-04-16T19:01:11.031Z"
+      "updatedAt": "2026-04-17T01:41:42.668Z"
     },
     {
       "id": "p_1775011158505",
@@ -4001,19 +4005,6 @@
       "updatedAt": "2026-03-29T00:42:19.812Z"
     },
     {
-      "id": "p_1774741840906",
-      "name": "Blusa talla L",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusa de manga larga pero tela delgada y fresca. Muy amplia; dice S pero queda L o XL. Poliéster.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [],
-      "updatedAt": "2026-04-16T19:37:10.928Z"
-    },
-    {
       "id": "p_1774741467617",
       "name": "Suéter CALI SPORT talla 3XL",
       "price": 120,
@@ -4303,23 +4294,19 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/4g9rbtR1/11558.jpg",
+          "publicId": "QjzwWQvD"
+        },
+        {
           "url": "https://i.ibb.co/1tmDcQwv/8183.jpg",
           "publicId": "67W3Qwfn"
         },
         {
-          "url": "https://i.ibb.co/tkmRXZ6/8184.jpg",
-          "publicId": "YYRgZDS"
-        },
-        {
           "url": "https://i.ibb.co/MD9DjLsf/8181.jpg",
           "publicId": "VW3Wh8tx"
-        },
-        {
-          "url": "https://i.ibb.co/Y4mbM9pf/8182.jpg",
-          "publicId": "p6cn8DJ4"
         }
       ],
-      "updatedAt": "2026-04-04T20:48:10.838Z"
+      "updatedAt": "2026-04-17T01:46:41.818Z"
     },
     {
       "id": "p_1775335283277",
@@ -4345,11 +4332,11 @@
           "publicId": "kswwpY6k"
         },
         {
-          "url": "https://i.ibb.co/bjxzcGns/8177.jpg",
-          "publicId": "HL0n59Qt"
+          "url": "https://i.ibb.co/yFRDLg8R/11560.jpg",
+          "publicId": "0yXkPYfX"
         }
       ],
-      "updatedAt": "2026-04-04T20:41:23.277Z"
+      "updatedAt": "2026-04-17T01:49:11.855Z"
     },
     {
       "id": "p_1775334992233",
@@ -4461,6 +4448,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/nZgmsj5/8150.jpg",
+          "publicId": "H1F4Dqk"
+        },
+        {
           "url": "https://i.ibb.co/rGQr3yjc/8154.jpg",
           "publicId": "mCRW0zjX"
         },
@@ -4469,15 +4460,11 @@
           "publicId": "9H7Y8q1p"
         },
         {
-          "url": "https://i.ibb.co/nZgmsj5/8150.jpg",
-          "publicId": "H1F4Dqk"
-        },
-        {
           "url": "https://i.ibb.co/BKSZNZps/8152.jpg",
           "publicId": "TqF8L8fh"
         }
       ],
-      "updatedAt": "2026-04-04T20:09:07.849Z"
+      "updatedAt": "2026-04-17T01:50:09.611Z"
     },
     {
       "id": "p_1775332142680",
@@ -4564,7 +4551,8 @@
     "p_1775172249140",
     "p_1775170495651",
     "p_1775011852078",
-    "p_1775882320750"
+    "p_1775882320750",
+    "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T01:33:21.304Z"
+  "updatedAt": "2026-04-17T01:51:54.377Z"
 }
