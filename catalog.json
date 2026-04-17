@@ -655,7 +655,7 @@
     {
       "id": "p_1775685626003",
       "name": "Saco Melrose talla XS",
-      "price": 80,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Tela delgada. Algodón.",
@@ -676,7 +676,7 @@
           "publicId": "nMy1k15f"
         }
       ],
-      "updatedAt": "2026-04-09T07:56:34.693Z"
+      "updatedAt": "2026-04-17T01:04:25.543Z"
     },
     {
       "id": "p_1775685453084",
@@ -854,6 +854,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/xtZGTqsD/11516.jpg",
+          "publicId": "wFtCmhLR"
+        },
+        {
           "url": "https://i.ibb.co/qMrg69Gk/9199.jpg",
           "publicId": "nsL1pf2z"
         },
@@ -866,7 +870,7 @@
           "publicId": "mVpd7Dj3"
         }
       ],
-      "updatedAt": "2026-04-14T19:10:44.021Z"
+      "updatedAt": "2026-04-17T01:07:52.200Z"
     },
     {
       "id": "p_1775684535443",
@@ -932,6 +936,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/p6p43NSh/11525.jpg",
+          "publicId": "MyLPRKmB"
+        },
+        {
           "url": "https://i.ibb.co/d4fn3KJv/9210.jpg",
           "publicId": "7tS7TyND"
         },
@@ -940,12 +948,12 @@
           "publicId": "MxXvm9Yv"
         }
       ],
-      "updatedAt": "2026-04-16T05:14:32.513Z"
+      "updatedAt": "2026-04-17T01:23:06.715Z"
     },
     {
       "id": "p_1775683993441",
       "name": "Camiseta Apt.9 XL",
-      "price": 60,
+      "price": 80,
       "category": "Ropa",
       "status": "Buen estado",
       "desc": "",
@@ -953,6 +961,10 @@
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
+        {
+          "url": "https://i.ibb.co/tM8QLbdb/11527.jpg",
+          "publicId": "3yB4R0J0"
+        },
         {
           "url": "https://i.ibb.co/PzPv3M6Z/9161.jpg",
           "publicId": "prMBGQLv"
@@ -966,7 +978,7 @@
           "publicId": "C5g6Z2cB"
         }
       ],
-      "updatedAt": "2026-04-16T05:14:46.481Z"
+      "updatedAt": "2026-04-17T01:24:20.184Z"
     },
     {
       "id": "p_1775679507626",
@@ -1592,23 +1604,19 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/WpY9mpDY/11523.jpg",
+          "publicId": "M53TF583"
+        },
+        {
           "url": "https://i.ibb.co/sdKQpWxc/8623.jpg",
           "publicId": "nN7fqPd4"
         },
         {
-          "url": "https://i.ibb.co/W4fRckB0/8624.jpg",
-          "publicId": "B5BYgyTG"
-        },
-        {
           "url": "https://i.ibb.co/Q3MgbvPt/8627.jpg",
           "publicId": "39c3rmpQ"
-        },
-        {
-          "url": "https://i.ibb.co/bRJ9T8Zx/8625.jpg",
-          "publicId": "mF8WkMwm"
         }
       ],
-      "updatedAt": "2026-04-14T21:55:30.783Z"
+      "updatedAt": "2026-04-17T01:15:09.523Z"
     },
     {
       "id": "p_1775502156694",
@@ -4550,5 +4558,5 @@
     "p_1775011852078",
     "p_1775882320750"
   ],
-  "updatedAt": "2026-04-17T01:00:26.488Z"
+  "updatedAt": "2026-04-17T01:24:27.221Z"
 }
