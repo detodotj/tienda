@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776452785098",
+      "name": "Falda UNIVERSAL THREAD talla L",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "Manta",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/60dwrWZ7/11710.jpg",
+          "publicId": "v4tqVjB6"
+        },
+        {
+          "url": "https://i.ibb.co/8g1M7d2g/11724.jpg",
+          "publicId": "yFH0QY5F"
+        },
+        {
+          "url": "https://i.ibb.co/kr3X9Ns/11726.jpg",
+          "publicId": "Mj87GFx"
+        }
+      ],
+      "updatedAt": "2026-04-17T19:06:25.098Z"
+    },
+    {
       "id": "p_1776452400152",
       "name": "VESTIDO Frenchi talla XL",
       "price": 120,
@@ -4576,5 +4602,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T19:00:20.124Z"
+  "updatedAt": "2026-04-17T19:06:51.004Z"
 }
