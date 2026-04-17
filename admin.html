@@ -56,8 +56,7 @@ body { font-family:'Segoe UI',sans-serif; background:var(--bg); color:var(--text
 .search-icon { display:none; }
 .filter-select { padding:9px 12px; border:1.5px solid var(--border); border-radius:8px; font-size:13px; background:var(--bg); color:var(--text); cursor:pointer; font-family:inherit; }
 .filter-select:focus { outline:none; border-color:var(--accent); }
-#filterSubcat { display:none; }
-#filterSubcat.visible { display:block; }
+#filterSubcat:disabled { opacity:0.35; cursor:not-allowed; }
 
 .main { padding:24px 28px; padding-bottom:90px; }
 
@@ -279,8 +278,8 @@ textarea { resize:vertical; min-height:80px; }
     <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
     <option>Videojuegos</option><option>Coleccionables</option>
   </select>
-  <select class="filter-select" id="filterSubcat" onchange="adminPage=1;renderGrid()">
-    <option value="">Todas las subcategorías</option>
+  <select class="filter-select" id="filterSubcat" onchange="adminPage=1;renderGrid()" disabled>
+    <option value="">— Subcategoría —</option>
   </select>
   <select class="filter-select" id="filterStatus" onchange="renderGrid()">
     <option value="">Todos los estados</option>
@@ -578,12 +577,13 @@ function updateFilterSubcat() {
   var cat = document.getElementById('filterCat').value;
   var select = document.getElementById('filterSubcat');
   var subs = SUBCATS[cat] || [];
-  select.innerHTML = '<option value="">Todas las subcategorías</option>' +
-    subs.map(function(s){ return '<option value="'+s+'">'+s+'</option>'; }).join('');
   if (subs.length > 0) {
-    select.classList.add('visible');
+    select.innerHTML = '<option value="">Todas las subcategorías</option>' +
+      subs.map(function(s){ return '<option value="'+s+'">'+s+'</option>'; }).join('');
+    select.disabled = false;
   } else {
-    select.classList.remove('visible');
+    select.innerHTML = '<option value="">— Subcategoría —</option>';
+    select.disabled = true;
     select.value = '';
   }
 }
