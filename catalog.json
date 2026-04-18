@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "p_1776480421759",
+      "name": "TECLADO NUMÉRICO INALÁMBRICO",
+      "price": 80,
+      "category": "Electrónica",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/5hN1ms8p/11845.jpg",
+          "publicId": "3mDT2SN6"
+        },
+        {
+          "url": "https://i.ibb.co/7xnH7Z78/11846.jpg",
+          "publicId": "wZSTDPD3"
+        }
+      ],
+      "updatedAt": "2026-04-18T02:47:01.759Z"
+    },
+    {
       "id": "p_1776480290510",
       "name": "SOPORTE ANTI VIBRACIÓN PARA MICRÓFONO",
       "price": 100,
@@ -4818,5 +4840,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-18T02:44:56.131Z"
+  "updatedAt": "2026-04-18T02:47:18.775Z"
 }
