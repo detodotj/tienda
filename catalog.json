@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "p_1776480583699",
+      "name": "CALCULADORA Texas Instruments",
+      "price": 100,
+      "category": "Electrónica",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Ddtpy2h/11849.jpg",
+          "publicId": "FpKVMT2"
+        },
+        {
+          "url": "https://i.ibb.co/0RN0LhSc/11847.jpg",
+          "publicId": "8L3yw6p0"
+        }
+      ],
+      "updatedAt": "2026-04-18T02:49:43.699Z"
+    },
+    {
       "id": "p_1776480421759",
       "name": "TECLADO NUMÉRICO INALÁMBRICO",
       "price": 80,
@@ -4840,5 +4862,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-18T02:47:18.775Z"
+  "updatedAt": "2026-04-18T02:49:47.864Z"
 }
