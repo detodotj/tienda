@@ -1,6 +1,88 @@
 {
   "products": [
     {
+      "id": "p_1776477544000",
+      "name": "LECTOR Y QUEMADOR de dvd y cd externo",
+      "price": 100,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/LXgJTFpQ/11797.jpg",
+          "publicId": "yckYz9sh"
+        },
+        {
+          "url": "https://i.ibb.co/7NjwrN1W/11799.jpg",
+          "publicId": "VpJ7MpqS"
+        },
+        {
+          "url": "https://i.ibb.co/39hzGb7c/11800.jpg",
+          "publicId": "hJ8fhNyV"
+        }
+      ],
+      "updatedAt": "2026-04-18T01:59:04.000Z"
+    },
+    {
+      "id": "p_1776477397247",
+      "name": "COMPRESA para cuello y hombro",
+      "price": 100,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Compresas para terapia de calor",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/m5TXn8BY/11808.jpg",
+          "publicId": "ZzXYQmJw"
+        },
+        {
+          "url": "https://i.ibb.co/gbBvfXNd/11804.jpg",
+          "publicId": "WNYDMdZ0"
+        },
+        {
+          "url": "https://i.ibb.co/fzT8gT71/11806.jpg",
+          "publicId": "TxNKfN5v"
+        }
+      ],
+      "updatedAt": "2026-04-18T01:56:37.247Z"
+    },
+    {
+      "id": "p_1776477039590",
+      "name": "REPELENTE Electro ultrasónico",
+      "price": 100,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Repelente contra roedores y plagas",
+      "subcategory": "Electrodomésticos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/3505mP60/11794.jpg",
+          "publicId": "FkBk4dZB"
+        },
+        {
+          "url": "https://i.ibb.co/bg5bcZ5Q/11795.jpg",
+          "publicId": "Fb4HRM4m"
+        },
+        {
+          "url": "https://i.ibb.co/4Rp2MjgD/11796.jpg",
+          "publicId": "xq6YGM8c"
+        },
+        {
+          "url": "https://i.ibb.co/6JyjXgL8/11792.jpg",
+          "publicId": "Dg10r5TY"
+        }
+      ],
+      "updatedAt": "2026-04-18T01:50:39.593Z"
+    },
+    {
       "id": "p_1776453186839",
       "name": "VESTIDO Poema talla M",
       "price": 150,
@@ -4658,5 +4740,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-17T19:13:10.952Z"
+  "updatedAt": "2026-04-18T01:59:09.269Z"
 }
