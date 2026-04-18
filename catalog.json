@@ -781,7 +781,7 @@
     {
       "id": "p_1775859495632",
       "name": "PANTALÓN Ralph Lauren talla 12",
-      "price": 150,
+      "price": 120,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Stretch",
@@ -806,7 +806,7 @@
           "publicId": "XrswmM1r"
         }
       ],
-      "updatedAt": "2026-04-17T13:37:05.836Z"
+      "updatedAt": "2026-04-18T18:56:31.373Z"
     },
     {
       "id": "p_1775859427498",
@@ -3580,9 +3580,13 @@
         {
           "url": "https://i.ibb.co/dsC7p2tr/Whats-App-Image-2026-04-16-at-12-02-33-PM.jpg",
           "publicId": "ZR4Ng8SV"
+        },
+        {
+          "url": "https://i.ibb.co/b52nTgMv/7425.jpg",
+          "publicId": "ZzYC56pg"
         }
       ],
-      "updatedAt": "2026-04-16T19:03:17.169Z"
+      "updatedAt": "2026-04-18T18:57:19.447Z"
     },
     {
       "id": "p_1775173854974",
@@ -3852,7 +3856,7 @@
           "publicId": "hz82gSW"
         }
       ],
-      "updatedAt": "2026-04-16T18:57:48.085Z"
+      "updatedAt": "2026-04-18T18:57:47.557Z"
     },
     {
       "id": "p_1775012459490",
@@ -3914,7 +3918,7 @@
           "publicId": "zhRMqvhX"
         }
       ],
-      "updatedAt": "2026-04-16T18:59:49.875Z"
+      "updatedAt": "2026-04-18T18:58:14.761Z"
     },
     {
       "id": "p_1775011695060",
@@ -4602,19 +4606,11 @@
           "publicId": "67W3Qwfn"
         },
         {
-          "url": "https://i.ibb.co/tkmRXZ6/8184.jpg",
-          "publicId": "YYRgZDS"
-        },
-        {
           "url": "https://i.ibb.co/MD9DjLsf/8181.jpg",
           "publicId": "VW3Wh8tx"
-        },
-        {
-          "url": "https://i.ibb.co/Y4mbM9pf/8182.jpg",
-          "publicId": "p6cn8DJ4"
         }
       ],
-      "updatedAt": "2026-04-04T20:48:10.838Z"
+      "updatedAt": "2026-04-18T19:00:29.065Z"
     },
     {
       "id": "p_1775335283277",
@@ -4862,5 +4858,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-18T15:28:38.500Z"
+  "updatedAt": "2026-04-18T19:01:38.683Z"
 }
