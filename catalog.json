@@ -1,6 +1,84 @@
 {
   "products": [
     {
+      "id": "p_1776480290510",
+      "name": "SOPORTE ANTI VIBRACIÓN PARA MICRÓFONO",
+      "price": 100,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Diseñado para micrófonos Blue Yeti, Blue Yeti Pro y Blue",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/kgtRTfVZ/11844.jpg",
+          "publicId": "QF42VR70"
+        },
+        {
+          "url": "https://i.ibb.co/2Yvy38Lx/11842.jpg",
+          "publicId": "CsbzKJXg"
+        },
+        {
+          "url": "https://i.ibb.co/39hYmQTn/11838.jpg",
+          "publicId": "9kY3HSp7"
+        }
+      ],
+      "updatedAt": "2026-04-18T02:44:50.511Z"
+    },
+    {
+      "id": "p_1776480025741",
+      "name": "DOCKING STATION",
+      "price": 380,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Docking Station USB-C Dual HDMI 4K con fuente de alimentación Pass-Thru de 100 W",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/b55DJ6kz/11812.jpg",
+          "publicId": "m55g8R36"
+        },
+        {
+          "url": "https://i.ibb.co/SDrqD2Bg/11815.jpg",
+          "publicId": "zWJKW1Zg"
+        },
+        {
+          "url": "https://i.ibb.co/4wM0Cqfs/11814.jpg",
+          "publicId": "LD6sBFPQ"
+        }
+      ],
+      "updatedAt": "2026-04-18T02:40:25.741Z"
+    },
+    {
+      "id": "p_1776479650258",
+      "name": "MINI CONSOLA con 620 juegos",
+      "price": 150,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "620 juegos de 8 bits con 2 controles inalámbricos y salidas de video compuesto",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/xKTGk1P8/11817.jpg",
+          "publicId": "vCnmF3gv"
+        },
+        {
+          "url": "https://i.ibb.co/JjDFSTRN/11816.jpg",
+          "publicId": "TM9qNGBZ"
+        },
+        {
+          "url": "https://i.ibb.co/vxV2MVwx/11809.jpg",
+          "publicId": "RpYLJYvp"
+        }
+      ],
+      "updatedAt": "2026-04-18T02:34:10.258Z"
+    },
+    {
       "id": "p_1776477544000",
       "name": "LECTOR Y QUEMADOR de dvd y cd externo",
       "price": 100,
@@ -4740,5 +4818,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-18T01:59:09.269Z"
+  "updatedAt": "2026-04-18T02:44:56.131Z"
 }
