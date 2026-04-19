@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1776637698036",
+      "name": "BOCINA INALÁMBRICA",
+      "price": 250,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Sonido de lluvia, sonido de mar, sonido de rio, sonido de bosque.",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/zV8JhRXW/12159.jpg",
+          "publicId": "0yBtjMCp"
+        },
+        {
+          "url": "https://i.ibb.co/tMQD9fS3/12160.jpg",
+          "publicId": "Z6Gx0s3N"
+        },
+        {
+          "url": "https://i.ibb.co/TM1W4hXc/12164.jpg",
+          "publicId": "tpzLqCfB"
+        },
+        {
+          "url": "https://i.ibb.co/s9kB58S8/12162.jpg",
+          "publicId": "qYXZ0TGT"
+        }
+      ],
+      "updatedAt": "2026-04-19T22:28:18.036Z"
+    },
+    {
       "id": "p_1776637333706",
       "name": "CAPTURADORA DE VIDEO",
       "price": 100,
@@ -5004,5 +5034,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-19T22:23:04.880Z"
+  "updatedAt": "2026-04-19T22:28:25.015Z"
 }
