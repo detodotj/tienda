@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "p_1776637087159",
+      "name": "SET DE TAZAS MEDIDORAS Mainstays",
+      "price": 120,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "4 tazas",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/xtcS67FV/12150.jpg",
+          "publicId": "VchWTqwX"
+        },
+        {
+          "url": "https://i.ibb.co/mrgYs2dG/12152.jpg",
+          "publicId": "ym7MTZKX"
+        }
+      ],
+      "updatedAt": "2026-04-19T22:18:07.159Z"
+    },
+    {
       "id": "p_1776636866835",
       "name": "PISTOLAS PARA DISPARAR AGUA",
       "price": 170,
@@ -4960,5 +4982,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-19T22:15:14.064Z"
+  "updatedAt": "2026-04-19T22:19:35.050Z"
 }
