@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "p_1776637333706",
+      "name": "CAPTURADORA DE VIDEO",
+      "price": 100,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Vcb48qxM/12153.jpg",
+          "publicId": "wF8m1z7p"
+        },
+        {
+          "url": "https://i.ibb.co/mrfLqHmS/12155.jpg",
+          "publicId": "0pHgMfkQ"
+        }
+      ],
+      "updatedAt": "2026-04-19T22:22:13.706Z"
+    },
+    {
       "id": "p_1776637087159",
       "name": "SET DE TAZAS MEDIDORAS Mainstays",
       "price": 120,
@@ -4982,5 +5004,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-19T22:19:35.050Z"
+  "updatedAt": "2026-04-19T22:23:04.880Z"
 }
