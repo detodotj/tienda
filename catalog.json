@@ -1,6 +1,54 @@
 {
   "products": [
     {
+      "id": "p_1776636866835",
+      "name": "PISTOLAS PARA DISPARAR AGUA",
+      "price": 170,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/HLc1Rm52/12141.jpg",
+          "publicId": "LDTbB4VP"
+        },
+        {
+          "url": "https://i.ibb.co/yFmq4zJm/12140.jpg",
+          "publicId": "m5r4Nn7r"
+        },
+        {
+          "url": "https://i.ibb.co/y3YPHds/12142.jpg",
+          "publicId": "rWc0DFy"
+        }
+      ],
+      "updatedAt": "2026-04-19T22:14:26.835Z"
+    },
+    {
+      "id": "p_1776636703251",
+      "name": "MINI HACEDOR DE BURBUJAS 🫧",
+      "price": 110,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/8DZkRdHQ/12137.jpg",
+          "publicId": "5WHZznPJ"
+        },
+        {
+          "url": "https://i.ibb.co/spBVQnQw/12136.jpg",
+          "publicId": "Ng4yp5pj"
+        }
+      ],
+      "updatedAt": "2026-04-19T22:11:43.251Z"
+    },
+    {
       "id": "p_1776636421495",
       "name": "MÁQUINA DE BURBUJAS Panda",
       "price": 200,
@@ -4912,5 +4960,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-19T22:07:14.590Z"
+  "updatedAt": "2026-04-19T22:15:14.064Z"
 }
