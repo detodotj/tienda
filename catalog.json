@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776636421495",
+      "name": "MÁQUINA DE BURBUJAS Panda",
+      "price": 200,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "Más de 1000 burbujas por segundo \nDos velocidades \nOcupa baterías AA",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rDcmrkX/12148.jpg",
+          "publicId": "7sRXmv0"
+        },
+        {
+          "url": "https://i.ibb.co/Jj3b3XWy/12147.jpg",
+          "publicId": "CKPXPxpM"
+        },
+        {
+          "url": "https://i.ibb.co/nqpnxx6N/12146.jpg",
+          "publicId": "ym2YHHdc"
+        }
+      ],
+      "updatedAt": "2026-04-19T22:07:01.496Z"
+    },
+    {
       "id": "p_1776480583699",
       "name": "CALCULADORA Texas Instruments",
       "price": 100,
@@ -4886,5 +4912,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-19T21:29:20.727Z"
+  "updatedAt": "2026-04-19T22:07:14.590Z"
 }
