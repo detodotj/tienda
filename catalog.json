@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776800210203",
+      "name": "PANTALÓN Twenty-one Black talla 9",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Súper stretch",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PZ3rSyy7/12526.jpg",
+          "publicId": "zhjmkggy"
+        },
+        {
+          "url": "https://i.ibb.co/27GF0hZj/12524.jpg",
+          "publicId": "kgNGVBmh"
+        },
+        {
+          "url": "https://i.ibb.co/9kFdtMj1/12525.jpg",
+          "publicId": "nNHKCWSY"
+        }
+      ],
+      "updatedAt": "2026-04-21T19:36:50.203Z"
+    },
+    {
       "id": "p_1776799740387",
       "name": "BLUSA tradicional mexicana talla M",
       "price": 100,
@@ -5510,5 +5536,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T19:33:33.944Z"
+  "updatedAt": "2026-04-21T19:36:53.684Z"
 }
