@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776786830198",
+      "name": "CAMISA H,&M talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/QFxynGW1/12430.jpg",
+          "publicId": "tM1Vc50W"
+        },
+        {
+          "url": "https://i.ibb.co/WNYTwd7Q/12427.jpg",
+          "publicId": "0pdwSW1k"
+        },
+        {
+          "url": "https://i.ibb.co/WN2djjwy/12428.jpg",
+          "publicId": "7x1TLL5W"
+        }
+      ],
+      "updatedAt": "2026-04-21T15:55:22.568Z"
+    },
+    {
       "id": "p_1776786560470",
       "name": "CAMISA Pokemon talla M",
       "price": 100,
@@ -5146,5 +5172,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T15:51:14.679Z"
+  "updatedAt": "2026-04-21T15:55:31.473Z"
 }
