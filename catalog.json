@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776794525997",
+      "name": "SHORT Good Fellow talla L",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/d0JZqJkh/12486.jpg",
+          "publicId": "C5sLZsVr"
+        },
+        {
+          "url": "https://i.ibb.co/r2tRN804/12482.jpg",
+          "publicId": "d4cwxCMG"
+        },
+        {
+          "url": "https://i.ibb.co/3932n5ZX/12483.jpg",
+          "publicId": "0R7TxpbN"
+        }
+      ],
+      "updatedAt": "2026-04-21T18:02:05.999Z"
+    },
+    {
       "id": "p_1776794137577",
       "name": "PANTALÓN Charlotte Russe talla 6",
       "price": 120,
@@ -5462,5 +5488,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T17:55:40.604Z"
+  "updatedAt": "2026-04-21T18:02:24.508Z"
 }
