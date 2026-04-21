@@ -1,6 +1,62 @@
 {
   "products": [
     {
+      "id": "p_1776803170211",
+      "name": "CAMISA Lucky Brand talla S",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/2099rT2w/12603.jpg",
+          "publicId": "ZRjjr0s3"
+        },
+        {
+          "url": "https://i.ibb.co/Mxk2J00J/12600.jpg",
+          "publicId": "gLZjcKKc"
+        },
+        {
+          "url": "https://i.ibb.co/sJXwkpXf/12601.jpg",
+          "publicId": "4g0T9w0q"
+        }
+      ],
+      "updatedAt": "2026-04-21T20:26:10.211Z"
+    },
+    {
+      "id": "p_1776802933915",
+      "name": "CAMISA Levi's",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/SZBp9wM/12599.jpg",
+          "publicId": "YVhGqB1"
+        },
+        {
+          "url": "https://i.ibb.co/QjQvj9vC/12597.jpg",
+          "publicId": "tPKpPBpx"
+        },
+        {
+          "url": "https://i.ibb.co/9mRqQkwk/12595.jpg",
+          "publicId": "TDzH9xKx"
+        },
+        {
+          "url": "https://i.ibb.co/ZR07FmtD/12596.jpg",
+          "publicId": "FkFCyVNT"
+        }
+      ],
+      "updatedAt": "2026-04-21T20:22:13.915Z"
+    },
+    {
       "id": "p_1776802539388",
       "name": "CAMISA Chaps talla M",
       "price": 120,
@@ -5725,5 +5781,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T20:15:44.394Z"
+  "updatedAt": "2026-04-21T20:26:13.301Z"
 }
