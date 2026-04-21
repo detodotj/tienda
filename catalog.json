@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776786145914",
+      "name": "CAMISA H,&M talla S",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/WvnSqH9y/12414.jpg",
+          "publicId": "YB2vYN9k"
+        },
+        {
+          "url": "https://i.ibb.co/Z6ytgGHp/12415.jpg",
+          "publicId": "bgpqvQHM"
+        },
+        {
+          "url": "https://i.ibb.co/0pZmXHhB/12416.jpg",
+          "publicId": "rKMFtD4b"
+        }
+      ],
+      "updatedAt": "2026-04-21T15:42:25.914Z"
+    },
+    {
       "id": "p_1776785854274",
       "name": "CAMISA de manga corta Hollister talla M",
       "price": 100,
@@ -5064,5 +5090,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T15:39:33.960Z"
+  "updatedAt": "2026-04-21T15:43:01.550Z"
 }
