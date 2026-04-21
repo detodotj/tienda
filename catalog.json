@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776800530131",
+      "name": "VESTIDO H&M talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Vestidos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/MyKwSNxH/12528.jpg",
+          "publicId": "fVZ6F0zW"
+        },
+        {
+          "url": "https://i.ibb.co/1y23ZHd/12527.jpg",
+          "publicId": "x95yhVf"
+        },
+        {
+          "url": "https://i.ibb.co/BHQn3NYF/12529.jpg",
+          "publicId": "spNWRHXz"
+        }
+      ],
+      "updatedAt": "2026-04-21T19:42:10.131Z"
+    },
+    {
       "id": "p_1776800210203",
       "name": "PANTALÓN Twenty-one Black talla 9",
       "price": 120,
@@ -107,7 +133,7 @@
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "",
-      "subcategory": "Mujer",
+      "subcategory": "Vestidos",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -124,7 +150,7 @@
           "publicId": "p6VX34Cd"
         }
       ],
-      "updatedAt": "2026-04-21T17:49:30.563Z"
+      "updatedAt": "2026-04-21T19:42:29.205Z"
     },
     {
       "id": "p_1776793605001",
@@ -133,7 +159,7 @@
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "",
-      "subcategory": "Mujer",
+      "subcategory": "Vestidos",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -154,7 +180,7 @@
           "publicId": "1GNkgw30"
         }
       ],
-      "updatedAt": "2026-04-21T17:48:25.277Z"
+      "updatedAt": "2026-04-21T19:42:35.899Z"
     },
     {
       "id": "p_1776793445766",
@@ -163,7 +189,7 @@
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "",
-      "subcategory": "Mujer",
+      "subcategory": "Vestidos",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -180,7 +206,7 @@
           "publicId": "nH4G08t"
         }
       ],
-      "updatedAt": "2026-04-21T17:45:38.189Z"
+      "updatedAt": "2026-04-21T19:42:41.669Z"
     },
     {
       "id": "p_1776793195711",
@@ -5536,5 +5562,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T19:36:53.684Z"
+  "updatedAt": "2026-04-21T19:42:50.932Z"
 }
