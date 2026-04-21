@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776787651610",
+      "name": "CAMISETA Outdoor Life talla XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Plus Size Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/zht0NQsb/12438.jpg",
+          "publicId": "GvrbFn7k"
+        },
+        {
+          "url": "https://i.ibb.co/2YtDv7wq/12439.jpg",
+          "publicId": "cXFG6cPJ"
+        },
+        {
+          "url": "https://i.ibb.co/zT5xv9vB/12440.jpg",
+          "publicId": "RkSbwrws"
+        }
+      ],
+      "updatedAt": "2026-04-21T16:07:31.610Z"
+    },
+    {
       "id": "p_1776787288181",
       "name": "CAMISA Outdoor Life talla XL",
       "price": 100,
@@ -5228,5 +5254,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T16:05:08.370Z"
+  "updatedAt": "2026-04-21T16:07:48.146Z"
 }
