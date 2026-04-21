@@ -1,6 +1,62 @@
 {
   "products": [
     {
+      "id": "p_1776802539388",
+      "name": "CAMISA Chaps talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/tpT5ph4W/12591.jpg",
+          "publicId": "231B36yf"
+        },
+        {
+          "url": "https://i.ibb.co/sJgy3MXJ/12589.jpg",
+          "publicId": "Z1fWTkb1"
+        },
+        {
+          "url": "https://i.ibb.co/fdt7fgfT/12582.jpg",
+          "publicId": "7tVFPfP0"
+        },
+        {
+          "url": "https://i.ibb.co/6cShxTfQ/12579.jpg",
+          "publicId": "35bXqjLK"
+        }
+      ],
+      "updatedAt": "2026-04-21T20:15:39.388Z"
+    },
+    {
+      "id": "p_1776802166329",
+      "name": "CAMISA Levis talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/8LqvMj7g/12574.jpg",
+          "publicId": "392610Cm"
+        },
+        {
+          "url": "https://i.ibb.co/nMJ2TvYT/12570.jpg",
+          "publicId": "Mk0Tb4tb"
+        },
+        {
+          "url": "https://i.ibb.co/HDcbw8LQ/12573.jpg",
+          "publicId": "N60JDBgz"
+        }
+      ],
+      "updatedAt": "2026-04-21T20:09:26.329Z"
+    },
+    {
       "id": "p_1776801836338",
       "name": "VESTIDO Ellen Tracy talla M",
       "price": 120,
@@ -5669,5 +5725,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T20:05:17.553Z"
+  "updatedAt": "2026-04-21T20:15:44.394Z"
 }
