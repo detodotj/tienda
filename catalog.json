@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776786560470",
+      "name": "CAMISA Pokemon talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/0HF9wcY/12426.jpg",
+          "publicId": "9QV4MNy"
+        },
+        {
+          "url": "https://i.ibb.co/mC98D8Rk/12423.jpg",
+          "publicId": "ns7CgCw9"
+        },
+        {
+          "url": "https://i.ibb.co/PZP7SGTC/12422.jpg",
+          "publicId": "nsYHWM3k"
+        }
+      ],
+      "updatedAt": "2026-04-21T15:51:09.432Z"
+    },
+    {
       "id": "p_1776786287770",
       "name": "CAMISA Express talla M",
       "price": 100,
@@ -5120,5 +5146,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T15:46:35.131Z"
+  "updatedAt": "2026-04-21T15:51:14.679Z"
 }
