@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776793770563",
+      "name": "VESTIDO Tommy Bahama talla S",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rKnTHmrk/12411.jpg",
+          "publicId": "vC2gkHn1"
+        },
+        {
+          "url": "https://i.ibb.co/d0q8VTJz/12405.jpg",
+          "publicId": "JR4DG1FM"
+        },
+        {
+          "url": "https://i.ibb.co/fV60CrmH/12404.jpg",
+          "publicId": "p6VX34Cd"
+        }
+      ],
+      "updatedAt": "2026-04-21T17:49:30.563Z"
+    },
+    {
       "id": "p_1776793605001",
       "name": "VESTIDO Old Navy talla M",
       "price": 150,
@@ -5410,5 +5436,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T17:48:27.752Z"
+  "updatedAt": "2026-04-21T17:49:40.188Z"
 }
