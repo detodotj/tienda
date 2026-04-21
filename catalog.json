@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776801410273",
+      "name": "VESTIDO Divided talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Vestidos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/YFxM8k5x/12540.jpg",
+          "publicId": "FLFMJwQF"
+        },
+        {
+          "url": "https://i.ibb.co/jvtQ4MRQ/12539.jpg",
+          "publicId": "MDdtNV6t"
+        },
+        {
+          "url": "https://i.ibb.co/vCpzBqWc/12538.jpg",
+          "publicId": "SDbvxyg6"
+        }
+      ],
+      "updatedAt": "2026-04-21T19:56:50.273Z"
+    },
+    {
       "id": "p_1776801222475",
       "name": "Falda para dama talla Pêche talla M",
       "price": 100,
@@ -5617,5 +5643,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T19:53:47.374Z"
+  "updatedAt": "2026-04-21T19:57:12.935Z"
 }
