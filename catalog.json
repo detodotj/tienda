@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776793195711",
+      "name": "PANTALÓN Kenzie Jeans 👖 talla 10",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/XxxpH8yk/12469.jpg",
+          "publicId": "m55tp8vF"
+        },
+        {
+          "url": "https://i.ibb.co/yF10XXpF/12465.jpg",
+          "publicId": "v4G1HHh4"
+        },
+        {
+          "url": "https://i.ibb.co/mVZFYnRk/12464.jpg",
+          "publicId": "S4Y71k6b"
+        }
+      ],
+      "updatedAt": "2026-04-21T17:41:41.046Z"
+    },
+    {
       "id": "p_1776788482056",
       "name": "CAMISETA Polo Talla L",
       "price": 120,
@@ -5328,5 +5354,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T16:30:24.036Z"
+  "updatedAt": "2026-04-21T17:41:45.074Z"
 }
