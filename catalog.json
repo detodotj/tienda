@@ -1,6 +1,62 @@
 {
   "products": [
     {
+      "id": "p_1776787288181",
+      "name": "CAMISA Outdoor Life talla XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Plus Size Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/VcFnsJQj/12437.jpg",
+          "publicId": "dwNCRjLW"
+        },
+        {
+          "url": "https://i.ibb.co/SDsVW4hs/12434.jpg",
+          "publicId": "Cp1VN3k1"
+        },
+        {
+          "url": "https://i.ibb.co/nNqywH94/12435.jpg",
+          "publicId": "Vc0GL7Rb"
+        },
+        {
+          "url": "https://i.ibb.co/mVCN5MHs/12436.jpg",
+          "publicId": "tTMLpWbf"
+        }
+      ],
+      "updatedAt": "2026-04-21T16:01:28.181Z"
+    },
+    {
+      "id": "p_1776787071124",
+      "name": "CAMISA Izod talla XXL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Plus Size Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/vvgyfJYB/12433.jpg",
+          "publicId": "3YG6V0zs"
+        },
+        {
+          "url": "https://i.ibb.co/YF22RFDm/12431.jpg",
+          "publicId": "TxccvxK6"
+        },
+        {
+          "url": "https://i.ibb.co/fYKgwH2Y/12432.jpg",
+          "publicId": "FbfrTzKb"
+        }
+      ],
+      "updatedAt": "2026-04-21T15:57:51.124Z"
+    },
+    {
       "id": "p_1776786830198",
       "name": "CAMISA H,&M talla M",
       "price": 100,
@@ -5172,5 +5228,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T15:55:31.473Z"
+  "updatedAt": "2026-04-21T16:01:36.611Z"
 }
