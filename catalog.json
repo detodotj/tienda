@@ -1,6 +1,80 @@
 {
   "products": [
     {
+      "id": "p_1776788482056",
+      "name": "CAMISETA Polo Talla L",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/G1GNbRb/12455.jpg",
+          "publicId": "LqBH212"
+        },
+        {
+          "url": "https://i.ibb.co/V0fPqY3N/12452.jpg",
+          "publicId": "CpRTHKWt"
+        }
+      ],
+      "updatedAt": "2026-04-21T16:21:22.056Z"
+    },
+    {
+      "id": "p_1776788104092",
+      "name": "CAMISETA Nicklaus Talla XL",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Plus Size Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/rK4vYNxM/12446.jpg",
+          "publicId": "ymWVt765"
+        },
+        {
+          "url": "https://i.ibb.co/TDgmQr2Y/12444.jpg",
+          "publicId": "xK7Jn3LX"
+        },
+        {
+          "url": "https://i.ibb.co/hRS9DY3p/12445.jpg",
+          "publicId": "SXzyRfFq"
+        }
+      ],
+      "updatedAt": "2026-04-21T16:15:04.092Z"
+    },
+    {
+      "id": "p_1776787876222",
+      "name": "CAMISETA St.John's Bay talla XL",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Plus Size Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/W47BQHZt/12441.jpg",
+          "publicId": "cSR2Py0L"
+        },
+        {
+          "url": "https://i.ibb.co/QF2NhshT/12443.jpg",
+          "publicId": "tM7snynv"
+        },
+        {
+          "url": "https://i.ibb.co/93Ws9Jgy/12442.jpg",
+          "publicId": "PzgwZRj1"
+        }
+      ],
+      "updatedAt": "2026-04-21T16:11:16.223Z"
+    },
+    {
       "id": "p_1776787651610",
       "name": "CAMISETA Outdoor Life talla XL",
       "price": 100,
@@ -5254,5 +5328,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T16:07:48.146Z"
+  "updatedAt": "2026-04-21T16:21:27.193Z"
 }
