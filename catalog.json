@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776801836338",
+      "name": "VESTIDO Ellen Tracy talla M",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Vestidos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ccdRyKwr/12556.jpg",
+          "publicId": "1fxB0YMm"
+        },
+        {
+          "url": "https://i.ibb.co/xQ601Vg/12551.jpg",
+          "publicId": "4xpG8BS"
+        },
+        {
+          "url": "https://i.ibb.co/Fq0hK7fr/12555.jpg",
+          "publicId": "KzL5XyQP"
+        }
+      ],
+      "updatedAt": "2026-04-21T20:03:56.338Z"
+    },
+    {
       "id": "p_1776801410273",
       "name": "VESTIDO Divided talla M",
       "price": 120,
@@ -5643,5 +5669,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T19:57:12.935Z"
+  "updatedAt": "2026-04-21T20:05:17.553Z"
 }
