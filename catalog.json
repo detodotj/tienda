@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "p_1776799740387",
+      "name": "BLUSA tradicional mexicana talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/VchdS99D/12520.jpg",
+          "publicId": "cSpPF33t"
+        },
+        {
+          "url": "https://i.ibb.co/jX5s7xk/12519.jpg",
+          "publicId": "rrtNnL2"
+        }
+      ],
+      "updatedAt": "2026-04-21T19:29:00.387Z"
+    },
+    {
       "id": "p_1776794525997",
       "name": "SHORT Good Fellow talla L",
       "price": 100,
@@ -5488,5 +5510,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T18:02:24.508Z"
+  "updatedAt": "2026-04-21T19:33:33.944Z"
 }
