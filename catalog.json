@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776801018174",
+      "name": "VESTIDO Allan Dwell talla M",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Vestidos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/BpV5Jcn/12532.jpg",
+          "publicId": "LFzXyYN"
+        },
+        {
+          "url": "https://i.ibb.co/PS4TbPm/12533.jpg",
+          "publicId": "SL0Q1Ms"
+        },
+        {
+          "url": "https://i.ibb.co/Nd89J50z/12531.jpg",
+          "publicId": "sd0KNnTr"
+        }
+      ],
+      "updatedAt": "2026-04-21T19:50:18.174Z"
+    },
+    {
       "id": "p_1776800530131",
       "name": "VESTIDO H&M talla M",
       "price": 100,
@@ -5565,5 +5591,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T19:45:35.820Z"
+  "updatedAt": "2026-04-21T19:50:23.488Z"
 }
