@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776794137577",
+      "name": "PANTALÓN Charlotte Russe talla 6",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Buen estado",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/qMRtgq3Y/12475.jpg",
+          "publicId": "JRzfp6wj"
+        },
+        {
+          "url": "https://i.ibb.co/gLr8c2YX/12477.jpg",
+          "publicId": "Kp5g8PnQ"
+        },
+        {
+          "url": "https://i.ibb.co/0jTCt566/12479.jpg",
+          "publicId": "hRbBf044"
+        }
+      ],
+      "updatedAt": "2026-04-21T17:55:37.577Z"
+    },
+    {
       "id": "p_1776793770563",
       "name": "VESTIDO Tommy Bahama talla S",
       "price": 100,
@@ -5436,5 +5462,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T17:49:40.188Z"
+  "updatedAt": "2026-04-21T17:55:40.604Z"
 }
