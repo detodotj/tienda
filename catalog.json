@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "p_1776785854274",
+      "name": "CAMISA de manga corta Hollister talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/4gCnZ4rs/12413.jpg",
+          "publicId": "zHCThPv8"
+        },
+        {
+          "url": "https://i.ibb.co/cKGmv9Hs/12393.jpg",
+          "publicId": "RGx5SKmJ"
+        },
+        {
+          "url": "https://i.ibb.co/LdCDsncz/12391.jpg",
+          "publicId": "hFKxTD4R"
+        },
+        {
+          "url": "https://i.ibb.co/TBT1f77Z/12392.jpg",
+          "publicId": "xSsYkBBy"
+        }
+      ],
+      "updatedAt": "2026-04-21T15:38:45.535Z"
+    },
+    {
       "id": "p_1776637698036",
       "name": "BOCINA INALÁMBRICA",
       "price": 250,
@@ -5034,5 +5064,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-20T14:00:18.298Z"
+  "updatedAt": "2026-04-21T15:39:33.960Z"
 }
