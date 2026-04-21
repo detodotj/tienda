@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776801222475",
+      "name": "Falda para dama talla Pêche talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ZpNwBV6q/12535.jpg",
+          "publicId": "bM7ysPgc"
+        },
+        {
+          "url": "https://i.ibb.co/20Z7Rw0L/12534.jpg",
+          "publicId": "CpP54qpX"
+        },
+        {
+          "url": "https://i.ibb.co/WN6g23ph/12537.jpg",
+          "publicId": "ymXWQRB9"
+        }
+      ],
+      "updatedAt": "2026-04-21T19:53:42.475Z"
+    },
+    {
       "id": "p_1776801018174",
       "name": "VESTIDO Allan Dwell talla M",
       "price": 150,
@@ -5591,5 +5617,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T19:50:23.488Z"
+  "updatedAt": "2026-04-21T19:53:47.374Z"
 }
