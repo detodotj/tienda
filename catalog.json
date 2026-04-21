@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "p_1776786287770",
+      "name": "CAMISA Express talla M",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/sv6BjsvF/12419.jpg",
+          "publicId": "wNwvypNK"
+        },
+        {
+          "url": "https://i.ibb.co/d4CG3vnJ/12418.jpg",
+          "publicId": "609gpS6J"
+        },
+        {
+          "url": "https://i.ibb.co/YBk5LsFz/12417.jpg",
+          "publicId": "F4wQDTLS"
+        }
+      ],
+      "updatedAt": "2026-04-21T15:44:47.770Z"
+    },
+    {
       "id": "p_1776786145914",
       "name": "CAMISA H,&M talla S",
       "price": 100,
@@ -11,6 +37,10 @@
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
+        {
+          "url": "https://i.ibb.co/27cx3f0N/12421.jpg",
+          "publicId": "KjVdx3cw"
+        },
         {
           "url": "https://i.ibb.co/WvnSqH9y/12414.jpg",
           "publicId": "YB2vYN9k"
@@ -24,7 +54,7 @@
           "publicId": "rKMFtD4b"
         }
       ],
-      "updatedAt": "2026-04-21T15:42:25.914Z"
+      "updatedAt": "2026-04-21T15:46:30.236Z"
     },
     {
       "id": "p_1776785854274",
@@ -5090,5 +5120,5 @@
     "p_1775882320750",
     "p_1774741840906"
   ],
-  "updatedAt": "2026-04-21T15:43:01.550Z"
+  "updatedAt": "2026-04-21T15:46:35.131Z"
 }
