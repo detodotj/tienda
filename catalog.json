@@ -4936,46 +4936,6 @@
       "updatedAt": "2026-04-16T18:50:42.231Z"
     },
     {
-      "id": "p_1775010350100",
-      "name": "Short Izod talla L",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Short para hombre. Cinta ajustable al interior. 100% algodón.",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/wrBYxy5z/Whats-App-Image-2026-04-16-at-11-51-12-AM.jpg",
-          "publicId": "VpJ3PVfq"
-        },
-        {
-          "url": "https://i.ibb.co/HDwbQSGG/Whats-App-Image-2026-04-16-at-11-51-27-AM.jpg",
-          "publicId": "BVWQRpTT"
-        }
-      ],
-      "updatedAt": "2026-04-17T03:23:44.843Z"
-    },
-    {
-      "id": "p_1775010108664",
-      "name": "Short Greg Norman talla 38",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Short para hombre. Detalles de uso.",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/rKsTycBp/Whats-App-Image-2026-04-16-at-11-52-10-AM.jpg",
-          "publicId": "vCYgzQNd"
-        }
-      ],
-      "updatedAt": "2026-04-16T18:53:18.783Z"
-    },
-    {
       "id": "p_1775009852432",
       "name": "Short de mezclilla Wrangler talla 44",
       "price": 80,
@@ -5779,7 +5739,9 @@
     "p_1775170495651",
     "p_1775011852078",
     "p_1775882320750",
-    "p_1774741840906"
+    "p_1774741840906",
+    "p_1775010350100",
+    "p_1775010108664"
   ],
-  "updatedAt": "2026-04-21T20:26:13.301Z"
+  "updatedAt": "2026-04-22T15:29:35.923Z"
 }
