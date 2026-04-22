@@ -1865,32 +1865,6 @@
       "updatedAt": "2026-04-17T13:47:54.250Z"
     },
     {
-      "id": "p_1775685626003",
-      "name": "Saco Melrose talla XS",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Tela delgada. Algodón.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/PvMFdbrw/9166.jpg",
-          "publicId": "XrDjqdWS"
-        },
-        {
-          "url": "https://i.ibb.co/1575d9L/9167.jpg",
-          "publicId": "LWYWJC8"
-        },
-        {
-          "url": "https://i.ibb.co/r2hpyp1M/9168.jpg",
-          "publicId": "nMy1k15f"
-        }
-      ],
-      "updatedAt": "2026-04-09T07:56:34.693Z"
-    },
-    {
       "id": "p_1775685453084",
       "name": "Saco Kasper talla 12",
       "price": 150,
@@ -5712,7 +5686,8 @@
     "p_1774741840906",
     "p_1775010350100",
     "p_1775010108664",
-    "p_1775335283277"
+    "p_1775335283277",
+    "p_1775685626003"
   ],
-  "updatedAt": "2026-04-22T15:31:56.687Z"
+  "updatedAt": "2026-04-22T15:33:17.297Z"
 }
