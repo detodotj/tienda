@@ -1,25 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1776919415066",
-      "name": "tes",
-      "price": 2344,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/hxrknLmQ/2024-06-19-16h48-06.png",
-          "publicId": "Cp4qXmHC",
-          "deleteUrl": "https://ibb.co/Cp4qXmHC/947b494ea2cc3f92453f1c5ae73c8c3a"
-        }
-      ],
-      "updatedAt": "2026-04-23T04:43:35.066Z"
-    },
-    {
       "id": "p_1776803170211",
       "name": "CAMISA Lucky Brand talla S",
       "price": 100,
@@ -5629,7 +5610,8 @@
     "p_1775010708011",
     "p_1775334992233",
     "p_1776919201669",
-    "p_1776919327054"
+    "p_1776919327054",
+    "p_1776919415066"
   ],
-  "updatedAt": "2026-04-23T04:43:41.243Z"
+  "updatedAt": "2026-04-23T04:43:59.348Z"
 }
