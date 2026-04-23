@@ -451,7 +451,7 @@ textarea { resize:vertical; min-height:80px; }
     <div class="modal-body" style="text-align:center;padding:28px 24px">
       <div style="font-size:48px;margin-bottom:16px">🗑️</div>
       <p style="font-size:15px;font-weight:700;margin-bottom:10px;color:var(--text)" id="deleteModalName"></p>
-      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px">Esta acción eliminará el producto del catálogo. <strong>Las fotos se borrarán automáticamente de ImgBB.</strong> Las fotos de productos más antiguos (sin URL de borrado guardada) se agregarán a la lista manual.</p>
+      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px">Esta acción eliminará el producto del catálogo. <strong>Se abrirán pestañas para borrar las fotos de ImgBB</strong> con un clic por pestaña.</p>
       <p style="font-size:12px;color:#e74c3c;font-weight:600">⚠️ Esta acción no se puede deshacer.</p>
     </div>
     <div class="modal-footer" style="justify-content:center;gap:12px">
@@ -801,20 +801,20 @@ async function confirmDelete(){
   closeDeleteModal();
   const p=products.find(x=>x.id===id); if(!p) return;
   if(!deletedIds.includes(id)) deletedIds.push(id);
-  // Auto-delete photos from ImgBB if we have delete_url, otherwise log for manual deletion
   if(p.photos && p.photos.length > 0){
     const imgbbPhotos=p.photos.filter(function(ph){return ph.url&&ph.url.includes('ibb.co');});
     if(imgbbPhotos.length > 0){
       const withDeleteUrl=imgbbPhotos.filter(function(ph){return ph.deleteUrl;});
       const withoutDeleteUrl=imgbbPhotos.filter(function(ph){return !ph.deleteUrl;});
-      // Auto-delete the ones that have a deleteUrl
+      // Open delete pages in new tabs for photos that have deleteUrl
       if(withDeleteUrl.length > 0){
-        showToast('🗑️ Borrando fotos de ImgBB...','');
-        for(var i=0;i<withDeleteUrl.length;i++){
-          try{ await fetch(withDeleteUrl[i].deleteUrl,{method:'GET'}); }catch(e){}
+        if(confirm('Se abrirán '+withDeleteUrl.length+' pestaña(s) para borrar las fotos de ImgBB.\n\nEn cada pestaña da clic en el botón rojo de borrar.\n\n¿Continuar?')){
+          withDeleteUrl.forEach(function(ph){
+            window.open(ph.deleteUrl,'_blank');
+          });
         }
       }
-      // Log the ones without deleteUrl for manual deletion
+      // Log old photos without deleteUrl for manual deletion
       if(withoutDeleteUrl.length > 0){
         deletedPhotosLog.push({
           product:p.name,
