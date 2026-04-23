@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1776967387576",
+      "name": "PALAZZO LILY FUL talla S",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/jk5bS2nH/12932.jpg",
+          "publicId": "B2Pc9x0w",
+          "deleteUrl": "https://ibb.co/B2Pc9x0w/9edcf0ce54ff38613ebfa0b800fc16a6"
+        },
+        {
+          "url": "https://i.ibb.co/rGGhDcVw/12931.jpg",
+          "publicId": "LzzyVJ3Z",
+          "deleteUrl": "https://ibb.co/LzzyVJ3Z/665adf3f6079e88642f9cb922b4b0f0b"
+        },
+        {
+          "url": "https://i.ibb.co/DHSkjb7n/12934.jpg",
+          "publicId": "xtRGrsMQ",
+          "deleteUrl": "https://ibb.co/xtRGrsMQ/c0ca0429db364eba184566434e0a8712"
+        }
+      ],
+      "updatedAt": "2026-04-23T18:03:07.576Z"
+    },
+    {
       "id": "p_1776803170211",
       "name": "CAMISA Lucky Brand talla S",
       "price": 120,
@@ -5614,5 +5643,5 @@
     "p_1776919631574",
     "p_1776919701664"
   ],
-  "updatedAt": "2026-04-23T17:47:15.894Z"
+  "updatedAt": "2026-04-23T18:03:13.278Z"
 }
