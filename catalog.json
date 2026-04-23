@@ -1,25 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1776919631574",
-      "name": "Tes",
-      "price": 35,
-      "category": "Electrónica",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/zTrxqmCb/1000045389.jpg",
-          "publicId": "S4PyF6H0",
-          "deleteUrl": "https://ibb.co/S4PyF6H0/9c52304444e86de2218b46aa468b7f6e"
-        }
-      ],
-      "updatedAt": "2026-04-23T04:47:11.574Z"
-    },
-    {
       "id": "p_1776803170211",
       "name": "CAMISA Lucky Brand talla S",
       "price": 100,
@@ -5631,7 +5612,8 @@
     "p_1776919201669",
     "p_1776919327054",
     "p_1776919415066",
-    "p_1776919533284"
+    "p_1776919533284",
+    "p_1776919631574"
   ],
-  "updatedAt": "2026-04-23T04:47:16.660Z"
+  "updatedAt": "2026-04-23T04:47:47.034Z"
 }
