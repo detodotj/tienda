@@ -451,7 +451,7 @@ textarea { resize:vertical; min-height:80px; }
     <div class="modal-body" style="text-align:center;padding:28px 24px">
       <div style="font-size:48px;margin-bottom:16px">🗑️</div>
       <p style="font-size:15px;font-weight:700;margin-bottom:10px;color:var(--text)" id="deleteModalName"></p>
-      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px">Esta acción eliminará el producto del catálogo y <strong>las fotos quedarán en ImgBB — puedes borrarlas manualmente en imgbb.com cuando quieras.</strong></p>
+      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin-bottom:8px">Esta acción eliminará el producto del catálogo. <strong>Las fotos se borrarán automáticamente de ImgBB.</strong> Las fotos de productos más antiguos (sin URL de borrado guardada) se agregarán a la lista manual.</p>
       <p style="font-size:12px;color:#e74c3c;font-weight:600">⚠️ Esta acción no se puede deshacer.</p>
     </div>
     <div class="modal-footer" style="justify-content:center;gap:12px">
@@ -737,7 +737,7 @@ async function uploadFiles(files){
       fd.append('image',toUpload[i]);
       const res=await fetch(`https://api.imgbb.com/1/upload?key=${apiKey}`,{method:'POST',body:fd});
       const data=await res.json();
-      if(data.success){currentPhotos.push({url:data.data.url,publicId:data.data.id});renderPhotosPreview();}
+      if(data.success){currentPhotos.push({url:data.data.url,publicId:data.data.id,deleteUrl:data.data.delete_url||''});renderPhotosPreview();}
       else showToast(`Error subiendo foto ${i+1}: ${data.error?.message||''},'error`);
     }catch(err){showToast('Error de conexión con ImgBB','error');}
   }
@@ -801,15 +801,27 @@ async function confirmDelete(){
   closeDeleteModal();
   const p=products.find(x=>x.id===id); if(!p) return;
   if(!deletedIds.includes(id)) deletedIds.push(id);
-  // Log ImgBB photos for future manual deletion
+  // Auto-delete photos from ImgBB if we have delete_url, otherwise log for manual deletion
   if(p.photos && p.photos.length > 0){
     const imgbbPhotos=p.photos.filter(function(ph){return ph.url&&ph.url.includes('ibb.co');});
     if(imgbbPhotos.length > 0){
-      deletedPhotosLog.push({
-        product:p.name,
-        date:new Date().toLocaleDateString('es-MX'),
-        photos:imgbbPhotos.map(function(ph){return {id:ph.publicId,url:ph.url};})
-      });
+      const withDeleteUrl=imgbbPhotos.filter(function(ph){return ph.deleteUrl;});
+      const withoutDeleteUrl=imgbbPhotos.filter(function(ph){return !ph.deleteUrl;});
+      // Auto-delete the ones that have a deleteUrl
+      if(withDeleteUrl.length > 0){
+        showToast('🗑️ Borrando fotos de ImgBB...','');
+        for(var i=0;i<withDeleteUrl.length;i++){
+          try{ await fetch(withDeleteUrl[i].deleteUrl,{method:'GET'}); }catch(e){}
+        }
+      }
+      // Log the ones without deleteUrl for manual deletion
+      if(withoutDeleteUrl.length > 0){
+        deletedPhotosLog.push({
+          product:p.name,
+          date:new Date().toLocaleDateString('es-MX'),
+          photos:withoutDeleteUrl.map(function(ph){return {id:ph.publicId,url:ph.url};})
+        });
+      }
     }
   }
   products=products.filter(x=>x.id!==id);
