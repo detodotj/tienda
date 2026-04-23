@@ -809,10 +809,10 @@ async function confirmDelete(){
       // Open delete pages in new tabs for photos that have deleteUrl
       if(withDeleteUrl.length > 0){
         if(confirm('Se abrirán '+withDeleteUrl.length+' pestaña(s) para borrar las fotos de ImgBB.\n\nEn cada pestaña da clic en el botón rojo de borrar.\n\n¿Continuar?')){
-          withDeleteUrl.forEach(function(ph){
-            window.open(ph.deleteUrl,'_blank');
-          });
-        }
+            withDeleteUrl.forEach(function(ph, i){
+              setTimeout(function(){ window.open(ph.deleteUrl,'_blank'); }, i * 400);
+            });
+          }
       }
       // Log old photos without deleteUrl for manual deletion
       if(withoutDeleteUrl.length > 0){
