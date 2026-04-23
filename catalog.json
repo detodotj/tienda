@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "p_1776919533284",
+      "name": "Test",
+      "price": 300,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/HfVqJrX7/1000044614.jpg",
+          "publicId": "0RcrwfQq"
+        }
+      ],
+      "updatedAt": "2026-04-23T04:45:33.284Z"
+    },
+    {
       "id": "p_1776803170211",
       "name": "CAMISA Lucky Brand talla S",
       "price": 100,
@@ -5613,5 +5631,5 @@
     "p_1776919327054",
     "p_1776919415066"
   ],
-  "updatedAt": "2026-04-23T04:43:59.348Z"
+  "updatedAt": "2026-04-23T04:45:40.693Z"
 }
