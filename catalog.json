@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "p_1776919327054",
+      "name": "tes",
+      "price": 2334,
+      "category": "Videojuegos",
+      "status": "Como nuevo",
+      "desc": "eres",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/f7GRYDX/2024-06-19-16h49-32.png",
+          "publicId": "XTkBZYW",
+          "deleteUrl": "https://ibb.co/XTkBZYW/23cf3e46ae8db68c19a6da2c00c2de18"
+        }
+      ],
+      "updatedAt": "2026-04-23T04:42:07.054Z"
+    },
+    {
       "id": "p_1776803170211",
       "name": "CAMISA Lucky Brand talla S",
       "price": 100,
@@ -5611,5 +5630,5 @@
     "p_1775334992233",
     "p_1776919201669"
   ],
-  "updatedAt": "2026-04-23T04:41:03.603Z"
+  "updatedAt": "2026-04-23T04:42:12.529Z"
 }
