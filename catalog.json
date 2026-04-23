@@ -354,6 +354,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/93f7Rfjz/12838.jpg",
+          "publicId": "rfLVnLJT"
+        },
+        {
           "url": "https://i.ibb.co/rKnTHmrk/12411.jpg",
           "publicId": "vC2gkHn1"
         },
@@ -366,7 +370,7 @@
           "publicId": "p6VX34Cd"
         }
       ],
-      "updatedAt": "2026-04-21T19:42:29.205Z"
+      "updatedAt": "2026-04-23T00:43:02.930Z"
     },
     {
       "id": "p_1776793605001",
@@ -1380,7 +1384,7 @@
           "publicId": "DDTsG4r6"
         }
       ],
-      "updatedAt": "2026-04-17T13:45:12.744Z"
+      "updatedAt": "2026-04-23T00:43:36.975Z"
     },
     {
       "id": "p_1775861036077",
@@ -2819,7 +2823,7 @@
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Blusita formal con lindo detalle en tirantes.",
-      "subcategory": "Vestidos",
+      "subcategory": "Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -2840,7 +2844,7 @@
           "publicId": "JWfJNKP6"
         }
       ],
-      "updatedAt": "2026-04-14T00:29:21.156Z"
+      "updatedAt": "2026-04-23T00:44:13.226Z"
     },
     {
       "id": "p_1775500935029",
@@ -2930,7 +2934,7 @@
           "publicId": "7tYcXWBC"
         }
       ],
-      "updatedAt": "2026-04-14T00:29:33.643Z"
+      "updatedAt": "2026-04-23T00:45:01.981Z"
     },
     {
       "id": "p_1775499948154",
@@ -2944,19 +2948,19 @@
       "whatsapp": "526642601992",
       "photos": [
         {
-          "url": "https://i.ibb.co/23GzLvbQ/8601.jpg",
-          "publicId": "B20h7y1x"
-        },
-        {
           "url": "https://i.ibb.co/MxfvXsxq/8598.jpg",
           "publicId": "RkNF59kL"
+        },
+        {
+          "url": "https://i.ibb.co/23GzLvbQ/8601.jpg",
+          "publicId": "B20h7y1x"
         },
         {
           "url": "https://i.ibb.co/FLff8PGv/8599.jpg",
           "publicId": "3988SJtX"
         }
       ],
-      "updatedAt": "2026-04-14T00:29:41.554Z"
+      "updatedAt": "2026-04-23T00:46:42.629Z"
     },
     {
       "id": "p_1775499335549",
@@ -3012,7 +3016,7 @@
           "publicId": "TBKrqVXK"
         }
       ],
-      "updatedAt": "2026-04-14T18:46:03.729Z"
+      "updatedAt": "2026-04-23T00:46:29.625Z"
     },
     {
       "id": "p_1775498699286",
@@ -3250,6 +3254,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/C5MfKSQK/12842.jpg",
+          "publicId": "1fdkG4TG"
+        },
+        {
           "url": "https://i.ibb.co/F4Fy2PWf/8470.jpg",
           "publicId": "DfZvhqb6"
         },
@@ -3262,7 +3270,7 @@
           "publicId": "p6wGNPPp"
         }
       ],
-      "updatedAt": "2026-04-14T00:30:11.491Z"
+      "updatedAt": "2026-04-23T00:47:47.424Z"
     },
     {
       "id": "p_1775442408274",
@@ -3408,7 +3416,7 @@
           "publicId": "FbHGqWPy"
         }
       ],
-      "updatedAt": "2026-04-14T00:30:42.026Z"
+      "updatedAt": "2026-04-23T00:52:21.333Z"
     },
     {
       "id": "p_1775440556692",
@@ -3452,6 +3460,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/2YMJwsCw/12846.jpg",
+          "publicId": "VpC6dQzd"
+        },
+        {
           "url": "https://i.ibb.co/1Jrg1jHV/8368.jpg",
           "publicId": "Xk7Q1MmB"
         },
@@ -3462,13 +3474,9 @@
         {
           "url": "https://i.ibb.co/XkyP2Mvq/8370.jpg",
           "publicId": "k63THvWt"
-        },
-        {
-          "url": "https://i.ibb.co/Cpc6MmxX/8369.jpg",
-          "publicId": "RGFNBYLM"
         }
       ],
-      "updatedAt": "2026-04-14T00:30:59.940Z"
+      "updatedAt": "2026-04-23T00:58:12.461Z"
     },
     {
       "id": "p_1775435087632",
@@ -3538,6 +3546,10 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/YBPfTVpn/12848.jpg",
+          "publicId": "9Hcy3dsK"
+        },
+        {
           "url": "https://i.ibb.co/PZ2XqszK/8357.jpg",
           "publicId": "GvZYzf3y"
         },
@@ -3554,7 +3566,7 @@
           "publicId": "YBNg7BZf"
         }
       ],
-      "updatedAt": "2026-04-14T00:31:05.668Z"
+      "updatedAt": "2026-04-23T00:59:53.817Z"
     },
     {
       "id": "p_1775434671326",
@@ -3584,7 +3596,7 @@
           "publicId": "dnBCqw8"
         }
       ],
-      "updatedAt": "2026-04-14T00:31:12.616Z"
+      "updatedAt": "2026-04-23T01:05:32.680Z"
     },
     {
       "id": "p_1775434417663",
@@ -3614,7 +3626,7 @@
           "publicId": "JfxkBC2"
         }
       ],
-      "updatedAt": "2026-04-14T00:31:26.450Z"
+      "updatedAt": "2026-04-23T01:04:08.476Z"
     },
     {
       "id": "p_1775426577525",
@@ -5598,5 +5610,5 @@
     "p_1775010708011",
     "p_1775334992233"
   ],
-  "updatedAt": "2026-04-23T00:38:54.296Z"
+  "updatedAt": "2026-04-23T01:05:39.449Z"
 }
