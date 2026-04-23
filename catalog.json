@@ -3,7 +3,7 @@
     {
       "id": "p_1776803170211",
       "name": "CAMISA Lucky Brand talla S",
-      "price": 100,
+      "price": 120,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "",
@@ -24,7 +24,7 @@
           "publicId": "4g0T9w0q"
         }
       ],
-      "updatedAt": "2026-04-21T20:26:10.211Z"
+      "updatedAt": "2026-04-23T16:31:00.231Z"
     },
     {
       "id": "p_1776802933915",
@@ -5616,5 +5616,5 @@
     "p_1776919631574",
     "p_1776919701664"
   ],
-  "updatedAt": "2026-04-23T04:49:17.781Z"
+  "updatedAt": "2026-04-23T16:31:16.559Z"
 }
