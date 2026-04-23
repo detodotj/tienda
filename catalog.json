@@ -1,25 +1,6 @@
 {
   "products": [
     {
-      "id": "p_1776919701664",
-      "name": "Test",
-      "price": 64,
-      "category": "Hogar",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/qL2rC9fK/1000045388.jpg",
-          "publicId": "wZ2z7CXV",
-          "deleteUrl": "https://ibb.co/wZ2z7CXV/81839bfa156b91c9d8cf7e13b1df40a7"
-        }
-      ],
-      "updatedAt": "2026-04-23T04:48:21.664Z"
-    },
-    {
       "id": "p_1776803170211",
       "name": "CAMISA Lucky Brand talla S",
       "price": 100,
@@ -5632,7 +5613,8 @@
     "p_1776919327054",
     "p_1776919415066",
     "p_1776919533284",
-    "p_1776919631574"
+    "p_1776919631574",
+    "p_1776919701664"
   ],
-  "updatedAt": "2026-04-23T04:48:43.789Z"
+  "updatedAt": "2026-04-23T04:49:17.781Z"
 }
