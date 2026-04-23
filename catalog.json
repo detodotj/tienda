@@ -2246,7 +2246,7 @@
           "publicId": "HfKnqB6M"
         }
       ],
-      "updatedAt": "2026-04-08T20:02:12.509Z"
+      "updatedAt": "2026-04-23T00:35:54.616Z"
     },
     {
       "id": "p_1775678268041",
@@ -2750,7 +2750,7 @@
           "publicId": "VWGBNPwR"
         }
       ],
-      "updatedAt": "2026-04-06T19:18:01.554Z"
+      "updatedAt": "2026-04-23T00:36:41.355Z"
     },
     {
       "id": "p_1775502711522",
@@ -4570,36 +4570,6 @@
       "updatedAt": "2026-04-16T19:09:20.627Z"
     },
     {
-      "id": "p_1775172937128",
-      "name": "Palazzo negro Wild Fable XL",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Hermoso Palazzo negro con rosas de tela en el frente. Totalmente spandex.",
-      "subcategory": "Plus Size Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/DxYnxdJ/Whats-App-Image-2026-04-16-at-12-09-25-PM.jpg",
-          "publicId": "ZnSCn9j"
-        },
-        {
-          "url": "https://i.ibb.co/svqMC1Qm/Whats-App-Image-2026-04-16-at-12-09-39-PM.jpg",
-          "publicId": "1fTwMXKv"
-        },
-        {
-          "url": "https://i.ibb.co/1fHcndNk/Whats-App-Image-2026-04-16-at-12-09-52-PM.jpg",
-          "publicId": "rGn9tchV"
-        },
-        {
-          "url": "https://i.ibb.co/fYN991dQ/Whats-App-Image-2026-04-16-at-12-10-04-PM.jpg",
-          "publicId": "gMWddjZ6"
-        }
-      ],
-      "updatedAt": "2026-04-16T19:10:33.941Z"
-    },
-    {
       "id": "p_1775170855975",
       "name": "2 platos de vidrio grandes",
       "price": 100,
@@ -4882,32 +4852,6 @@
         }
       ],
       "updatedAt": "2026-04-16T18:49:13.897Z"
-    },
-    {
-      "id": "p_1775010708011",
-      "name": "Blusa de tirantes SheIn talla XL",
-      "price": 70,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusa para dama. Algodón.",
-      "subcategory": "Plus Size Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/466NDbQ/Whats-App-Image-2026-04-16-at-11-50-18-AM.jpg",
-          "publicId": "t77CN0d"
-        },
-        {
-          "url": "https://i.ibb.co/MD8y7fpd/Whats-App-Image-2026-04-16-at-11-49-47-AM.jpg",
-          "publicId": "4Zswp2Mk"
-        },
-        {
-          "url": "https://i.ibb.co/Ndzq9g1t/Whats-App-Image-2026-04-16-at-11-50-04-AM.jpg",
-          "publicId": "Tx5G4DKY"
-        }
-      ],
-      "updatedAt": "2026-04-16T18:50:42.231Z"
     },
     {
       "id": "p_1775009852432",
@@ -5470,44 +5414,6 @@
       "updatedAt": "2026-04-18T19:00:29.065Z"
     },
     {
-      "id": "p_1775334992233",
-      "name": "Palazzo BCX talla 15 o XL",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Hermoso 😻 Palazzo de negro brillante. Tela que se expande.",
-      "subcategory": "Plus Size Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/rKymQY9H/8170.jpg",
-          "publicId": "JWkKcVZH"
-        },
-        {
-          "url": "https://i.ibb.co/Qv1CPkVV/8163.jpg",
-          "publicId": "b582sFVV"
-        },
-        {
-          "url": "https://i.ibb.co/d4cJdh3X/8166.jpg",
-          "publicId": "b53RSfyY"
-        },
-        {
-          "url": "https://i.ibb.co/x8CFBRzN/8165.jpg",
-          "publicId": "HpFhbkGj"
-        },
-        {
-          "url": "https://i.ibb.co/wNh4vK1m/8171.jpg",
-          "publicId": "DDfQq7n2"
-        },
-        {
-          "url": "https://i.ibb.co/7dkcMn6B/8162.jpg",
-          "publicId": "C3PdCbT4"
-        }
-      ],
-      "updatedAt": "2026-04-16T05:21:27.873Z"
-    },
-    {
       "id": "p_1775334119911",
       "name": "Chamarra Caslon talla M",
       "price": 120,
@@ -5687,7 +5593,10 @@
     "p_1775010350100",
     "p_1775010108664",
     "p_1775335283277",
-    "p_1775685626003"
+    "p_1775685626003",
+    "p_1775172937128",
+    "p_1775010708011",
+    "p_1775334992233"
   ],
-  "updatedAt": "2026-04-23T00:11:15.479Z"
+  "updatedAt": "2026-04-23T00:38:54.296Z"
 }
