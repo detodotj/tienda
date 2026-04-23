@@ -3550,23 +3550,21 @@
           "publicId": "9Hcy3dsK"
         },
         {
-          "url": "https://i.ibb.co/PZ2XqszK/8357.jpg",
-          "publicId": "GvZYzf3y"
-        },
-        {
-          "url": "https://i.ibb.co/RTn7YDT9/8355.jpg",
-          "publicId": "0yNQmGyc"
+          "url": "https://i.ibb.co/5x6tJVRF/12925.jpg",
+          "publicId": "CszNSFH2",
+          "deleteUrl": "https://ibb.co/CszNSFH2/614e0a410b78954539d8d9c0ec3ce0a6"
         },
         {
           "url": "https://i.ibb.co/h1xVjvVG/8354.jpg",
           "publicId": "YT4hMGh5"
         },
         {
-          "url": "https://i.ibb.co/b56tg5JN/8356.jpg",
-          "publicId": "YBNg7BZf"
+          "url": "https://i.ibb.co/ZzBVCVb5/12924.jpg",
+          "publicId": "k24xFxPj",
+          "deleteUrl": "https://ibb.co/k24xFxPj/472af8d64bed0ec48f532c6f72d2edc9"
         }
       ],
-      "updatedAt": "2026-04-23T00:59:53.817Z"
+      "updatedAt": "2026-04-23T17:46:57.173Z"
     },
     {
       "id": "p_1775434671326",
@@ -5616,5 +5614,5 @@
     "p_1776919631574",
     "p_1776919701664"
   ],
-  "updatedAt": "2026-04-23T16:31:16.559Z"
+  "updatedAt": "2026-04-23T17:47:15.894Z"
 }
