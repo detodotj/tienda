@@ -3878,31 +3878,6 @@
       "updatedAt": "2026-04-05T21:15:29.212Z"
     },
     {
-      "id": "p_1775423594577",
-      "name": "Consola R36S portátil.",
-      "price": 550,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Consola R36S portátil más de 15000 juegos.",
-      "subcategory": "Consolas",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/MDCsz6vB/1000044070.jpg",
-          "publicId": "svV2THfW"
-        },
-        {
-          "url": "https://i.ibb.co/J04xZHd/1000044071.jpg",
-          "publicId": "CNZJLQt"
-        }
-      ],
-      "updatedAt": "2026-04-16T05:24:54.729Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1776800730178
-    },
-    {
       "id": "p_1775423340638",
       "name": "Raqueta eléctrica para matar mosquitos y moscas",
       "price": 150,
@@ -5671,7 +5646,8 @@
     "p_1776919415066",
     "p_1776919533284",
     "p_1776919631574",
-    "p_1776919701664"
+    "p_1776919701664",
+    "p_1775423594577"
   ],
-  "updatedAt": "2026-04-24T03:38:43.672Z"
+  "updatedAt": "2026-04-24T18:58:38.884Z"
 }
