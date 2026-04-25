@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1777136781781",
+      "name": "Control 8BitDo inalámbrico para SNES/SFC",
+      "price": 350,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Funciona para el Super Nintendo original",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Q71nk3qK/13327.jpg",
+          "publicId": "wZxC7Fbz",
+          "deleteUrl": "https://ibb.co/wZxC7Fbz/5b28d76ec901524dcd2541158e9800ac"
+        },
+        {
+          "url": "https://i.ibb.co/5WPD0Hyb/13326.jpg",
+          "publicId": "MDmTv04F",
+          "deleteUrl": "https://ibb.co/MDmTv04F/caf8129ac54ec78e003e546377c514e7"
+        },
+        {
+          "url": "https://i.ibb.co/k2JtxPQn/13324.jpg",
+          "publicId": "chwj1sD5",
+          "deleteUrl": "https://ibb.co/chwj1sD5/75c3c4372a670d45da3c45f6b6b4efc8"
+        }
+      ],
+      "updatedAt": "2026-04-25T17:06:21.781Z"
+    },
+    {
       "id": "p_1776968727790",
       "name": "VESTIDO AS YOU WISH talla S",
       "price": 120,
@@ -5652,5 +5681,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-25T15:17:46.749Z"
+  "updatedAt": "2026-04-25T17:06:26.850Z"
 }
