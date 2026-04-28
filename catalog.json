@@ -3,7 +3,7 @@
     {
       "id": "p_1777344824778",
       "name": "Bebé Paca The Bearington Collection",
-      "price": 160,
+      "price": 130,
       "category": "Juguetes",
       "status": "Nuevo",
       "desc": "",
@@ -32,7 +32,7 @@
           "deleteUrl": "https://ibb.co/nNY4yG7K/bb473e21f503540d9680027e8a47a70d"
         }
       ],
-      "updatedAt": "2026-04-28T02:57:37.892Z"
+      "updatedAt": "2026-04-28T02:59:31.846Z"
     },
     {
       "id": "p_1777344284270",
@@ -5998,5 +5998,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-28T02:57:43.514Z"
+  "updatedAt": "2026-04-28T03:02:08.383Z"
 }
