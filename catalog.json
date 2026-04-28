@@ -1,6 +1,103 @@
 {
   "products": [
     {
+      "id": "p_1777343919006",
+      "name": "TENIS Starter talla 9.5 y 10",
+      "price": 550,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Para Hombre. Disponibles talla 9.5 y 10",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PZjkD3Hz/13751.jpg",
+          "publicId": "gM9Y4HKF",
+          "deleteUrl": "https://ibb.co/gM9Y4HKF/f2753fbdbfeeae0fd451f256e7e2b3dd"
+        },
+        {
+          "url": "https://i.ibb.co/wr2cLNDJ/13752.jpg",
+          "publicId": "zHt65hK8",
+          "deleteUrl": "https://ibb.co/zHt65hK8/91f2337d1b5d619eea9aa650d2483958"
+        },
+        {
+          "url": "https://i.ibb.co/YBx1CRSZ/13750.jpg",
+          "publicId": "RTqsFvKy",
+          "deleteUrl": "https://ibb.co/RTqsFvKy/676c26c583a5dd0f5f7a5e0c672a3bd2"
+        },
+        {
+          "url": "https://i.ibb.co/HpG2CyY6/13754.jpg",
+          "publicId": "fGrS9Wtf",
+          "deleteUrl": "https://ibb.co/fGrS9Wtf/c8b87864f2e9ea74069b4c2438ef77b2"
+        }
+      ],
+      "updatedAt": "2026-04-28T02:39:23.699Z"
+    },
+    {
+      "id": "p_1777343374708",
+      "name": "KIT PARA CORTE DE PELO Bell Howell",
+      "price": 250,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "22 piezas incluidas",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/dJ3RPfK8/13749.jpg",
+          "publicId": "KzQJ25yT",
+          "deleteUrl": "https://ibb.co/KzQJ25yT/cc8d12c34f82a67da70e4e165d67719a"
+        },
+        {
+          "url": "https://i.ibb.co/7xWgqRCJ/13744.jpg",
+          "publicId": "ymyhrYPn",
+          "deleteUrl": "https://ibb.co/ymyhrYPn/56052ac2e7cb991d7cfe8c0718a8fd50"
+        },
+        {
+          "url": "https://i.ibb.co/TMzqNrwY/13745.jpg",
+          "publicId": "4RBg0JFK",
+          "deleteUrl": "https://ibb.co/4RBg0JFK/6f78660f36042df3bbe5eaff46b668a1"
+        },
+        {
+          "url": "https://i.ibb.co/TqxMz5F7/13746.jpg",
+          "publicId": "XkrxmTvK",
+          "deleteUrl": "https://ibb.co/XkrxmTvK/7fa5a69fb71d431a643da2213dd1badd"
+        }
+      ],
+      "updatedAt": "2026-04-28T02:29:34.711Z"
+    },
+    {
+      "id": "p_1777342833193",
+      "name": "RELOJ DESPERTADOR ⏰ G-BUZZ",
+      "price": 200,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Los despertadores pueden ser aburridos. Dale un giro a tu rutina con G-BUZZ. Dale un golpe al botón de repetición (snooze) para dormir un poco más o sacúdelo para detener la alarma.",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ZR8X0gGp/13733.jpg",
+          "publicId": "35NdnF49",
+          "deleteUrl": "https://ibb.co/35NdnF49/7d72e2853e1e7611d2d93c55151df196"
+        },
+        {
+          "url": "https://i.ibb.co/67kcQTm0/13738.jpg",
+          "publicId": "S4zDSMPw",
+          "deleteUrl": "https://ibb.co/S4zDSMPw/ef35dfc2e6a2f12a9f74ab875aeb2f69"
+        },
+        {
+          "url": "https://i.ibb.co/jkLbbJs4/13739.jpg",
+          "publicId": "3m044RQh",
+          "deleteUrl": "https://ibb.co/3m044RQh/136e140a9c9e401cf3162a9f2e1029a2"
+        }
+      ],
+      "updatedAt": "2026-04-28T02:22:33.733Z"
+    },
+    {
       "id": "p_1777341647996",
       "name": "CAFETERA Mainstays",
       "price": 280,
@@ -5843,5 +5940,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-28T02:01:19.790Z"
+  "updatedAt": "2026-04-28T02:39:28.077Z"
 }
