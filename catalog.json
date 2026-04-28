@@ -6,11 +6,16 @@
       "price": 350,
       "category": "Juguetes",
       "status": "Nuevo",
-      "desc": "OBI-WAN KENOBI 40 cm de alto. Efectos de salud nido y frases, light saber con iluminación.",
+      "desc": "OBI-WAN KENOBI 40 cm de alto. Efectos de sonido y frases, light saber con iluminación.",
       "subcategory": "Figuras",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
+        {
+          "url": "https://i.ibb.co/S7P3BwJg/13832.jpg",
+          "publicId": "NnsyK27q",
+          "deleteUrl": "https://ibb.co/NnsyK27q/408603ff1880447c9f0d30a630e93c87"
+        },
         {
           "url": "https://i.ibb.co/fd5dzgtm/13820.jpg",
           "publicId": "7t5tdfV7",
@@ -37,7 +42,7 @@
           "deleteUrl": "https://ibb.co/B2mNsns0/735cd60749ca91d56599224930eab5f0"
         }
       ],
-      "updatedAt": "2026-04-28T19:05:24.753Z"
+      "updatedAt": "2026-04-28T19:08:21.080Z"
     },
     {
       "id": "p_1777344824778",
@@ -6042,5 +6047,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-28T19:05:39.324Z"
+  "updatedAt": "2026-04-28T19:08:28.859Z"
 }
