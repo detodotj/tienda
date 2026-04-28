@@ -6,7 +6,7 @@
       "price": 120,
       "category": "Juguetes",
       "status": "Nuevo",
-      "desc": "",
+      "desc": "Adorable bebé Paca de peluche",
       "subcategory": "Niños",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -32,7 +32,7 @@
           "deleteUrl": "https://ibb.co/nNY4yG7K/bb473e21f503540d9680027e8a47a70d"
         }
       ],
-      "updatedAt": "2026-04-28T03:07:59.228Z"
+      "updatedAt": "2026-04-28T03:46:50.351Z"
     },
     {
       "id": "p_1777344284270",
@@ -6003,5 +6003,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-28T03:44:09.838Z"
+  "updatedAt": "2026-04-28T03:46:55.370Z"
 }
