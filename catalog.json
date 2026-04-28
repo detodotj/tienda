@@ -1,6 +1,165 @@
 {
   "products": [
     {
+      "id": "p_1777341647996",
+      "name": "CAFETERA Mainstays",
+      "price": 280,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Capacidad 12 tazas",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/MDZ5HJsH/13725.jpg",
+          "publicId": "ns68yKby",
+          "deleteUrl": "https://ibb.co/ns68yKby/e636075ead728fc7bb33b3f13199d29e"
+        },
+        {
+          "url": "https://i.ibb.co/pj7p228w/13727.jpg",
+          "publicId": "5h0VTTy4",
+          "deleteUrl": "https://ibb.co/5h0VTTy4/3f2248073bb005fe4423cd574fdfcef4"
+        }
+      ],
+      "updatedAt": "2026-04-28T02:00:47.996Z"
+    },
+    {
+      "id": "p_1777341437462",
+      "name": "SANDALIAS Casy Fever talla 10",
+      "price": 120,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Muy flexibles y cómodas",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/gZjpC3S5/13724.jpg",
+          "publicId": "23nQByvD",
+          "deleteUrl": "https://ibb.co/23nQByvD/dea8faa1e1a6d28ea323758f16e4d5d0"
+        },
+        {
+          "url": "https://i.ibb.co/dsmK21SR/13722.jpg",
+          "publicId": "mrNzq1m3",
+          "deleteUrl": "https://ibb.co/mrNzq1m3/858d335d0c4b98dd8a72c8de095f30ff"
+        }
+      ],
+      "updatedAt": "2026-04-28T01:57:17.462Z"
+    },
+    {
+      "id": "p_1777340677530",
+      "name": "MINI VENTILADOR para cuello",
+      "price": 150,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Rkz5Z4yv/13720.jpg",
+          "publicId": "hJDqh1f7",
+          "deleteUrl": "https://ibb.co/hJDqh1f7/78b52840fbbdcb67fe027e88a5f44bce"
+        },
+        {
+          "url": "https://i.ibb.co/hFMHKNpC/13716.jpg",
+          "publicId": "chvtN9zx",
+          "deleteUrl": "https://ibb.co/chvtN9zx/3d02b3a4549f73faee9aa9e7cd75ee81"
+        },
+        {
+          "url": "https://i.ibb.co/Cpnw0sWr/13718.jpg",
+          "publicId": "zWSmfHNk",
+          "deleteUrl": "https://ibb.co/zWSmfHNk/b41ae919e03ccd5da5a89c511081b3c7"
+        }
+      ],
+      "updatedAt": "2026-04-28T01:44:37.530Z"
+    },
+    {
+      "id": "p_1777340262355",
+      "name": "KIT para pintar 🖌️ sobre figuras de madera",
+      "price": 100,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "3 años en adelante",
+      "subcategory": "Educativos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/fwJZBwX/13715.jpg",
+          "publicId": "mWpd1WR",
+          "deleteUrl": "https://ibb.co/mWpd1WR/d31014a505c5c577f990133fa34836d7"
+        },
+        {
+          "url": "https://i.ibb.co/nMRXRKW5/13711.jpg",
+          "publicId": "235z5pbf",
+          "deleteUrl": "https://ibb.co/235z5pbf/f43021e491ad4d97ebfb50dee68716a0"
+        },
+        {
+          "url": "https://i.ibb.co/8nhGBRbR/13713.jpg",
+          "publicId": "bjfY3yFy",
+          "deleteUrl": "https://ibb.co/bjfY3yFy/dc9809a830c82085e068acbff32e360a"
+        }
+      ],
+      "updatedAt": "2026-04-28T01:39:12.747Z"
+    },
+    {
+      "id": "p_1777340019861",
+      "name": "AUDÍFONOS 🎧 alámbricos",
+      "price": 100,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/pBSC2DpC/13709.jpg",
+          "publicId": "Jw9XnLPX",
+          "deleteUrl": "https://ibb.co/Jw9XnLPX/c11a885f9f73408a62325bd26b047a51"
+        },
+        {
+          "url": "https://i.ibb.co/93zDSWfw/13710.jpg",
+          "publicId": "KzRPSWQN",
+          "deleteUrl": "https://ibb.co/KzRPSWQN/6046dc7f9477c2763d3edc85607977f4"
+        }
+      ],
+      "updatedAt": "2026-04-28T01:33:39.861Z"
+    },
+    {
+      "id": "p_1777339385004",
+      "name": "Jueguito interactivo",
+      "price": 100,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "3 Años en adelante. Juguete de empuje rápido con luces",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/9kcZhQ05/13708.jpg",
+          "publicId": "pBbhQYTF",
+          "deleteUrl": "https://ibb.co/pBbhQYTF/f7ccca200fec3a21fd3aa1ec83fb184e"
+        },
+        {
+          "url": "https://i.ibb.co/VXgfQ3G/13706.jpg",
+          "publicId": "D3908LF",
+          "deleteUrl": "https://ibb.co/D3908LF/889b1603425fc53af85a26692662ee8d"
+        },
+        {
+          "url": "https://i.ibb.co/20zTS7PD/13705.jpg",
+          "publicId": "0p0xKjZg",
+          "deleteUrl": "https://ibb.co/0p0xKjZg/7253b4d1b5157df7d525f6e32ec3e544"
+        }
+      ],
+      "updatedAt": "2026-04-28T01:23:05.006Z"
+    },
+    {
       "id": "p_1777136781781",
       "name": "Control 8BitDo inalámbrico para SNES/SFC",
       "price": 350,
@@ -5684,5 +5843,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-25T19:17:12.319Z"
+  "updatedAt": "2026-04-28T02:01:19.790Z"
 }
