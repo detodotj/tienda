@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1777403124753",
+      "name": "OBI-WAN KENOBI",
+      "price": 350,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "OBI-WAN KENOBI 40 cm de alto. Efectos de salud nido y frases, light saber con iluminación.",
+      "subcategory": "Figuras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/fd5dzgtm/13820.jpg",
+          "publicId": "7t5tdfV7",
+          "deleteUrl": "https://ibb.co/7t5tdfV7/1ec8670ac5bee0bf5e38d32129d3553c"
+        },
+        {
+          "url": "https://i.ibb.co/7mrFj4V/13821.jpg",
+          "publicId": "SCVp5r0",
+          "deleteUrl": "https://ibb.co/SCVp5r0/6c837cf5572cfa35b52718227d6cffe4"
+        },
+        {
+          "url": "https://i.ibb.co/jv9Yfhqk/13830.jpg",
+          "publicId": "3y5bd1Vm",
+          "deleteUrl": "https://ibb.co/3y5bd1Vm/c26399bf9cd3be3dde7f32db423fcde1"
+        },
+        {
+          "url": "https://i.ibb.co/N0RxbLy/13823.jpg",
+          "publicId": "5QZTw5R",
+          "deleteUrl": "https://ibb.co/5QZTw5R/e6b931195d9ff2169d6b6b627617b4c2"
+        },
+        {
+          "url": "https://i.ibb.co/LdM5pNpV/13824.jpg",
+          "publicId": "B2mNsns0",
+          "deleteUrl": "https://ibb.co/B2mNsns0/735cd60749ca91d56599224930eab5f0"
+        }
+      ],
+      "updatedAt": "2026-04-28T19:05:24.753Z"
+    },
+    {
       "id": "p_1777344824778",
       "name": "Bebé Paca The Bearington Collection",
       "price": 120,
@@ -6003,5 +6042,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-28T03:47:04.920Z"
+  "updatedAt": "2026-04-28T19:05:39.324Z"
 }
