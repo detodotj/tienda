@@ -1,6 +1,64 @@
 {
   "products": [
     {
+      "id": "p_1777344824778",
+      "name": "Bebé Paca The Bearington Collection",
+      "price": 160,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/RTDtBHP5/13762.jpg",
+          "publicId": "PG6J9C4S",
+          "deleteUrl": "https://ibb.co/PG6J9C4S/81b2709cae6392df3c0b522c45b0531d"
+        },
+        {
+          "url": "https://i.ibb.co/sprPvHJX/13763.jpg",
+          "publicId": "zWw5hJHt",
+          "deleteUrl": "https://ibb.co/zWw5hJHt/b16ab8fe1b179b482e006d2bf8c232c3"
+        },
+        {
+          "url": "https://i.ibb.co/7tLcXCFh/13765.jpg",
+          "publicId": "d4x9rMyZ",
+          "deleteUrl": "https://ibb.co/d4x9rMyZ/9e39f7813db642ec9344b06aa062cacf"
+        },
+        {
+          "url": "https://i.ibb.co/MxtKHvcJ/13766.jpg",
+          "publicId": "nNY4yG7K",
+          "deleteUrl": "https://ibb.co/nNY4yG7K/bb473e21f503540d9680027e8a47a70d"
+        }
+      ],
+      "updatedAt": "2026-04-28T02:57:37.892Z"
+    },
+    {
+      "id": "p_1777344284270",
+      "name": "CUCHARA grande",
+      "price": 110,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Cuchara grande para servir helado, arroz, puré, etc.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/XxnVhjry/13758.jpg",
+          "publicId": "hFGCPLJX",
+          "deleteUrl": "https://ibb.co/hFGCPLJX/82542fdde50239ee968a8eb9578b7650"
+        },
+        {
+          "url": "https://i.ibb.co/wZZ2kb2R/13757.jpg",
+          "publicId": "BHHYp7Yt",
+          "deleteUrl": "https://ibb.co/BHHYp7Yt/ade484b69892eb05c862d69de784da40"
+        }
+      ],
+      "updatedAt": "2026-04-28T02:44:44.270Z"
+    },
+    {
       "id": "p_1777343919006",
       "name": "TENIS Starter talla 9.5 y 10",
       "price": 550,
@@ -5940,5 +5998,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-28T02:39:28.077Z"
+  "updatedAt": "2026-04-28T02:57:43.514Z"
 }
