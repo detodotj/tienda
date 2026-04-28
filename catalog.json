@@ -291,7 +291,7 @@
       "price": 100,
       "category": "Juguetes",
       "status": "Nuevo",
-      "desc": "3 Años en adelante. Juguete de empuje rápido con luces",
+      "desc": "3 Años en adelante. Juguete de empuje rápido con luces.\nCuenta con cuatro modos: desafío (niveles), memoria (seguir secuencias), puntuación (contrarreloj) y multijugador.",
       "subcategory": "Niños",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -312,7 +312,7 @@
           "deleteUrl": "https://ibb.co/0p0xKjZg/7253b4d1b5157df7d525f6e32ec3e544"
         }
       ],
-      "updatedAt": "2026-04-28T01:23:05.006Z"
+      "updatedAt": "2026-04-28T03:41:46.253Z"
     },
     {
       "id": "p_1777136781781",
@@ -5998,5 +5998,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-28T03:39:13.211Z"
+  "updatedAt": "2026-04-28T03:41:51.629Z"
 }
