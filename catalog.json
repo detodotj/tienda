@@ -1957,32 +1957,6 @@
       "updatedAt": "2026-04-17T00:39:11.693Z"
     },
     {
-      "id": "p_1775860537867",
-      "name": "PANTALÓN Marvel talla 7",
-      "price": 60,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Niño 😊",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/Qv8XvDbY/9889.jpg",
-          "publicId": "7tgbtkYr"
-        },
-        {
-          "url": "https://i.ibb.co/KptydgHX/9888.jpg",
-          "publicId": "DHBKhFnt"
-        },
-        {
-          "url": "https://i.ibb.co/39452gFk/9890.jpg",
-          "publicId": "ks5VjNDM"
-        }
-      ],
-      "updatedAt": "2026-04-17T13:47:22.966Z"
-    },
-    {
       "id": "p_1775860466368",
       "name": "PANTALÓN Anne Klein talla 14",
       "price": 100,
@@ -2011,62 +1985,6 @@
         }
       ],
       "updatedAt": "2026-04-17T13:34:36.561Z"
-    },
-    {
-      "id": "p_1775860384133",
-      "name": "PANTALÓN Stretch Angels talla S",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Niña 😍",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/B5NWVGVx/9915.jpg",
-          "publicId": "nNCdsBsv"
-        },
-        {
-          "url": "https://i.ibb.co/LdtjkN9Z/9917.jpg",
-          "publicId": "fdp61Drx"
-        },
-        {
-          "url": "https://i.ibb.co/Lz77B4qt/9916.jpg",
-          "publicId": "ynjjKLMy"
-        }
-      ],
-      "updatedAt": "2026-04-17T13:35:17.233Z"
-    },
-    {
-      "id": "p_1775860221774",
-      "name": "PANTALÓN Alex Mill talla 4",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Niño 😊",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/9HMNTzjZ/9919.jpg",
-          "publicId": "CKrz7NFP"
-        },
-        {
-          "url": "https://i.ibb.co/KpjK39PF/9918.jpg",
-          "publicId": "S4Xf9KjR"
-        },
-        {
-          "url": "https://i.ibb.co/1G98jNg0/9920.jpg",
-          "publicId": "r2Z4NhjQ"
-        },
-        {
-          "url": "https://i.ibb.co/Ndy8z28z/9921.jpg",
-          "publicId": "xt7pQqpQ"
-        }
-      ],
-      "updatedAt": "2026-04-17T13:35:30.753Z"
     },
     {
       "id": "p_1775859998014",
@@ -3727,36 +3645,6 @@
       "updatedAt": "2026-04-23T00:47:47.424Z"
     },
     {
-      "id": "p_1775442408274",
-      "name": "Chamarra talla 8",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Chamarrita con capuchón para niño.",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/vxym5318/8413.jpg",
-          "publicId": "RprPn32W"
-        },
-        {
-          "url": "https://i.ibb.co/FP17gyy/8412.jpg",
-          "publicId": "R5KHzss"
-        },
-        {
-          "url": "https://i.ibb.co/pvt1NKkk/8411.jpg",
-          "publicId": "nsHw41KK"
-        },
-        {
-          "url": "https://i.ibb.co/20zffGxm/8414.jpg",
-          "publicId": "TDQFF96p"
-        }
-      ],
-      "updatedAt": "2026-04-06T02:29:59.371Z"
-    },
-    {
       "id": "p_1775441505560",
       "name": "Chamarra 🧥 Nissi talla L",
       "price": 100,
@@ -3785,36 +3673,6 @@
         }
       ],
       "updatedAt": "2026-04-09T23:01:57.034Z"
-    },
-    {
-      "id": "p_1775441327728",
-      "name": "Vestido talla 8-9",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Vestido blanco para niña 😍",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/JW71kh7m/8461.jpg",
-          "publicId": "vCPFztPV"
-        },
-        {
-          "url": "https://i.ibb.co/0V97T3xg/8400.jpg",
-          "publicId": "prK7cpSt"
-        },
-        {
-          "url": "https://i.ibb.co/kVHdktDx/8403.jpg",
-          "publicId": "7xY98qpX"
-        },
-        {
-          "url": "https://i.ibb.co/yc34v1Dc/8402.jpg",
-          "publicId": "jPpJ02dP"
-        }
-      ],
-      "updatedAt": "2026-04-06T02:08:47.733Z"
     },
     {
       "id": "p_1775440914321",
@@ -6050,7 +5908,12 @@
     "p_1776919533284",
     "p_1776919631574",
     "p_1776919701664",
-    "p_1775423594577"
+    "p_1775423594577",
+    "p_1775860537867",
+    "p_1775860384133",
+    "p_1775442408274",
+    "p_1775860221774",
+    "p_1775441327728"
   ],
-  "updatedAt": "2026-04-29T16:26:59.902Z"
+  "updatedAt": "2026-04-29T19:29:05.944Z"
 }
