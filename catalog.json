@@ -3954,9 +3954,14 @@
         {
           "url": "https://i.ibb.co/jZyBBqQZ/8364.jpg",
           "publicId": "6JHVVGTJ"
+        },
+        {
+          "url": "https://i.ibb.co/1fQ6bsw9/13967.jpg",
+          "publicId": "VW9m3HPv",
+          "deleteUrl": "https://ibb.co/VW9m3HPv/be0d631bfb08ec6afaac8cb9485f3bb4"
         }
       ],
-      "updatedAt": "2026-04-16T05:16:59.090Z"
+      "updatedAt": "2026-04-29T16:26:37.823Z"
     },
     {
       "id": "p_1775434958737",
@@ -6047,5 +6052,5 @@
     "p_1776919701664",
     "p_1775423594577"
   ],
-  "updatedAt": "2026-04-29T00:01:32.985Z"
+  "updatedAt": "2026-04-29T16:26:59.902Z"
 }
