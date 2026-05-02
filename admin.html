@@ -274,7 +274,7 @@ textarea { resize:vertical; min-height:80px; }
   </div>
   <select class="filter-select" id="filterCat" onchange="adminPage=1;updateFilterSubcat();renderGrid()">
     <option value="">Todas las categorías</option>
-    <option>Ropa</option><option>Calzado</option><option>Joyería</option>
+    <option>Ropa</option><option>Calzado</option>
     <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
     <option>Videojuegos</option><option>Coleccionables</option>
   </select>
@@ -341,7 +341,7 @@ textarea { resize:vertical; min-height:80px; }
           <label>Categoría *</label>
           <select id="inputCat" onchange="updateSubcatOptions()">
             <option value="">Seleccionar...</option>
-            <option>Ropa</option><option>Calzado</option><option>Joyería</option>
+            <option>Ropa</option><option>Calzado</option>
             <option>Electrónica</option><option>Hogar</option><option>Juguetes</option>
             <option>Videojuegos</option><option>Coleccionables</option>
           </select>
@@ -468,7 +468,6 @@ textarea { resize:vertical; min-height:80px; }
 const SUBCATS = {
   'Ropa': ['Hombre','Plus Size Hombre','Mujer','Plus Size Mujer','Vestidos'],
   'Calzado': ['Mujer','Hombre','Niño'],
-  'Joyería': ['Collares','Anillos','Pulseras','Aretes','Sets'],
   'Electrónica': ['Celulares','Computadoras','Audio','Televisiones','Accesorios'],
   'Hogar': ['Cocina','Decoración','Electrodomésticos','Herramientas'],
   'Juguetes': ['Bebés','Niños','Educativos','Figuras'],
