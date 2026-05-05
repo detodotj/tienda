@@ -178,7 +178,7 @@
     {
       "id": "p_1777342833193",
       "name": "RELOJ DESPERTADOR ⏰ G-BUZZ",
-      "price": 200,
+      "price": 230,
       "category": "Electrónica",
       "status": "Nuevo",
       "desc": "Sonidos de la naturaleza: Para ayudar a conciliar el sueño o despertar de manera más natural, incluye sonidos de olas rompiendo, grillos, búhos ululando y ruido blanco.\nSonidos de despertar: Además de un zumbador tradicional, incluye sonidos temáticos como el canto de un gallo.",
@@ -202,7 +202,7 @@
           "deleteUrl": "https://ibb.co/3m044RQh/136e140a9c9e401cf3162a9f2e1029a2"
         }
       ],
-      "updatedAt": "2026-04-28T03:42:34.864Z"
+      "updatedAt": "2026-05-05T23:28:24.507Z"
     },
     {
       "id": "p_1777341647996",
@@ -5764,5 +5764,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-05T23:22:35.272Z"
+  "updatedAt": "2026-05-05T23:28:30.786Z"
 }
