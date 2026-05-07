@@ -390,7 +390,10 @@
           "deleteUrl": "https://ibb.co/chwj1sD5/75c3c4372a670d45da3c45f6b6b4efc8"
         }
       ],
-      "updatedAt": "2026-04-25T17:06:21.781Z"
+      "updatedAt": "2026-04-25T17:06:21.781Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778113447282
     },
     {
       "id": "p_1776968727790",
@@ -4093,7 +4096,10 @@
           "publicId": "cXQvcDF5"
         }
       ],
-      "updatedAt": "2026-04-05T21:15:29.212Z"
+      "updatedAt": "2026-04-05T21:15:29.212Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778113471226
     },
     {
       "id": "p_1775423340638",
@@ -4384,7 +4390,10 @@
           "publicId": "gb2QZ2td"
         }
       ],
-      "updatedAt": "2026-04-04T02:47:55.026Z"
+      "updatedAt": "2026-04-04T02:47:55.026Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778113479027
     },
     {
       "id": "p_1775247249804",
@@ -5767,5 +5776,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-06T05:51:29.634Z"
+  "updatedAt": "2026-05-07T00:25:07.747Z"
 }
