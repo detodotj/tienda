@@ -655,7 +655,10 @@
           "publicId": "sd0KNnTr"
         }
       ],
-      "updatedAt": "2026-04-21T19:50:18.174Z"
+      "updatedAt": "2026-04-21T19:50:18.174Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778270320672
     },
     {
       "id": "p_1776800530131",
@@ -707,7 +710,10 @@
           "publicId": "nNHKCWSY"
         }
       ],
-      "updatedAt": "2026-04-21T19:36:50.203Z"
+      "updatedAt": "2026-04-21T19:36:50.203Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778270377108
     },
     {
       "id": "p_1776799740387",
@@ -867,7 +873,10 @@
           "publicId": "nH4G08t"
         }
       ],
-      "updatedAt": "2026-04-21T19:42:41.669Z"
+      "updatedAt": "2026-04-21T19:42:41.669Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778270331193
     },
     {
       "id": "p_1776793195711",
@@ -915,7 +924,10 @@
           "publicId": "CpRTHKWt"
         }
       ],
-      "updatedAt": "2026-04-21T16:21:22.056Z"
+      "updatedAt": "2026-04-21T16:21:22.056Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778270398664
     },
     {
       "id": "p_1776788104092",
@@ -5779,5 +5791,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-08T19:15:33.800Z"
+  "updatedAt": "2026-05-08T20:00:11.213Z"
 }
