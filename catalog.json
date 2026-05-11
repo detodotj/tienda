@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1778524335430",
+      "name": "HIELERA LIFE CARE",
+      "price": 150,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Hielera portátil con capacidad para 12 latas y con capacidad extra en parte exterior.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/0Vf77XVc/16142.jpg",
+          "publicId": "h1K66M1y",
+          "deleteUrl": "https://ibb.co/h1K66M1y/6a040da132166a966a5316d05315b30c"
+        },
+        {
+          "url": "https://i.ibb.co/273yj9d0/16143.jpg",
+          "publicId": "0jycf7rp",
+          "deleteUrl": "https://ibb.co/0jycf7rp/9cd1b01fd1b19dbbbe9bed81f5975402"
+        },
+        {
+          "url": "https://i.ibb.co/0ygHbZ0r/16138.jpg",
+          "publicId": "ZznqDKQx",
+          "deleteUrl": "https://ibb.co/ZznqDKQx/6935cf293bbf763e2c9e419bd9dbf29f"
+        },
+        {
+          "url": "https://i.ibb.co/08t53xk/16141.jpg",
+          "publicId": "vgY98Sb",
+          "deleteUrl": "https://ibb.co/vgY98Sb/3db7e4d5460956df8b3711d9e2f8e27c"
+        }
+      ],
+      "updatedAt": "2026-05-11T18:32:15.430Z"
+    },
+    {
       "id": "p_1778523460736",
       "name": "AUDÍFONOS INALÁMBRICOS JLAB",
       "price": 230,
@@ -6083,5 +6117,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-11T18:19:10.657Z"
+  "updatedAt": "2026-05-11T18:32:20.856Z"
 }
