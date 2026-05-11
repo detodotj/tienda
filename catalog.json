@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1778521551100",
+      "name": "BOTAS UNIVERSAL THREAD talla 8 1/2",
+      "price": 500,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Botas altas de gamuza color beige con tacón bajo tipo cono.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/8DfgVJhw/16121.jpg",
+          "publicId": "C5YKFqry",
+          "deleteUrl": "https://ibb.co/C5YKFqry/2530e37a7e772a81db1eed2b0f1bb16e"
+        },
+        {
+          "url": "https://i.ibb.co/8DPTCL4X/16110.jpg",
+          "publicId": "SXVWj47J",
+          "deleteUrl": "https://ibb.co/SXVWj47J/698d46286422cb815e722ba631c26abe"
+        },
+        {
+          "url": "https://i.ibb.co/DPvSt0WF/16113.jpg",
+          "publicId": "V0zPtf9G",
+          "deleteUrl": "https://ibb.co/V0zPtf9G/550cd42d8a24d856da648df14855032b"
+        },
+        {
+          "url": "https://i.ibb.co/8LRStQvb/16111.jpg",
+          "publicId": "hJntwTQc",
+          "deleteUrl": "https://ibb.co/hJntwTQc/50fe0c7d3c8e799b629368db7dfa749a"
+        },
+        {
+          "url": "https://i.ibb.co/tPQCkRmN/16114.jpg",
+          "publicId": "YTPjYgRK",
+          "deleteUrl": "https://ibb.co/YTPjYgRK/0fa092505e3df50dd2c3682bd8445007"
+        }
+      ],
+      "updatedAt": "2026-05-11T17:45:51.100Z"
+    },
+    {
       "id": "p_1778520782905",
       "name": "BOTAS UNIVERSAL THREAD talla 9",
       "price": 500,
@@ -5981,5 +6020,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-11T17:33:07.941Z"
+  "updatedAt": "2026-05-11T17:45:56.191Z"
 }
