@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1778519927377",
+      "name": "BOTAS A NEW DAY talla 9 1/2",
+      "price": 500,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Botas altas de A New Day cubiertas de lentejuelas negras con punta afilada y tacón.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Ps2bgKWY/16090.jpg",
+          "publicId": "spTDqn1P",
+          "deleteUrl": "https://ibb.co/spTDqn1P/dd7d853cc7edcd76ef7d58b7c7136545"
+        },
+        {
+          "url": "https://i.ibb.co/q31yFr29/16086.jpg",
+          "publicId": "kscH6SP0",
+          "deleteUrl": "https://ibb.co/kscH6SP0/525db811b6ad350b7202173c2c640f37"
+        },
+        {
+          "url": "https://i.ibb.co/XfqrNBfm/16083.jpg",
+          "publicId": "ZR0ptsRy",
+          "deleteUrl": "https://ibb.co/ZR0ptsRy/6b55832adf969ed7f445a1c3c6a3eef6"
+        },
+        {
+          "url": "https://i.ibb.co/LzWK86Dt/16085.jpg",
+          "publicId": "XZgHbpfs",
+          "deleteUrl": "https://ibb.co/XZgHbpfs/f2bf9f56325b90f3c7cb099a5618ae97"
+        },
+        {
+          "url": "https://i.ibb.co/3yjgMhTv/16081.jpg",
+          "publicId": "1fPFd20M",
+          "deleteUrl": "https://ibb.co/1fPFd20M/57d789d78c428e1ca30935f32ca496c4"
+        }
+      ],
+      "updatedAt": "2026-05-11T17:18:47.377Z"
+    },
+    {
       "id": "p_1778518990375",
       "name": "BOTAS UNIVERSAL THREAD talla 9",
       "price": 400,
@@ -5908,5 +5947,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-11T17:05:27.600Z"
+  "updatedAt": "2026-05-11T17:19:31.506Z"
 }
