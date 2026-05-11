@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1778525004747",
+      "name": "BOLSA CANGURERA",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Bolsa con ziper al frente, ajustable a la cintura.",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/WNGxcL1m/16152.jpg",
+          "publicId": "DPzV7Zn0",
+          "deleteUrl": "https://ibb.co/DPzV7Zn0/9556ac7d6bdff850f18a3eb06ea4bd14"
+        },
+        {
+          "url": "https://i.ibb.co/1tT55TB7/16147.jpg",
+          "publicId": "pBd88dNb",
+          "deleteUrl": "https://ibb.co/pBd88dNb/7db6a5c4ef469a8780a1a36ac4240096"
+        },
+        {
+          "url": "https://i.ibb.co/0jC2ktvw/16148.jpg",
+          "publicId": "Fb539VCP",
+          "deleteUrl": "https://ibb.co/Fb539VCP/3ea4564ae97dfaa50906b8b3e79c19de"
+        },
+        {
+          "url": "https://i.ibb.co/7xVdHpgr/16144.jpg",
+          "publicId": "ds6wSpbk",
+          "deleteUrl": "https://ibb.co/ds6wSpbk/52b919c15398f24ba47c0bc930bfc12d"
+        },
+        {
+          "url": "https://i.ibb.co/2DVRk5b/16151.jpg",
+          "publicId": "0g41GQw",
+          "deleteUrl": "https://ibb.co/0g41GQw/b69aac05452d91ed13be8db8a1229093"
+        }
+      ],
+      "updatedAt": "2026-05-11T18:43:24.753Z"
+    },
+    {
       "id": "p_1778524335430",
       "name": "HIELERA LIFE CARE",
       "price": 150,
@@ -6117,5 +6156,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-11T18:32:20.856Z"
+  "updatedAt": "2026-05-11T18:43:28.441Z"
 }
