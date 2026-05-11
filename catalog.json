@@ -1,6 +1,123 @@
 {
   "products": [
     {
+      "id": "p_1778518990375",
+      "name": "BOTAS UNIVERSAL THREAD talla 9",
+      "price": 400,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Diseño de caña al tobillo, cordones estilo senderismo y una suela de plataforma gruesa.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ghrZyGw/16074.jpg",
+          "publicId": "KS5x6Y7",
+          "deleteUrl": "https://ibb.co/KS5x6Y7/ec25f8839cbffee14f3a6bd86a0c64c7"
+        },
+        {
+          "url": "https://i.ibb.co/gL76mZqx/16078.jpg",
+          "publicId": "jP5Hbk0S",
+          "deleteUrl": "https://ibb.co/jP5Hbk0S/f49f9f87fb8d5af730eaf40efa8cc04d"
+        },
+        {
+          "url": "https://i.ibb.co/tT38F48t/16076.jpg",
+          "publicId": "8LX6t06p",
+          "deleteUrl": "https://ibb.co/8LX6t06p/971d26148d11c5e5de56cc5b5a105bcf"
+        },
+        {
+          "url": "https://i.ibb.co/JRKq9RTh/16075.jpg",
+          "publicId": "nsbBFsyW",
+          "deleteUrl": "https://ibb.co/nsbBFsyW/3e7091dfe149b13b22a84dd4f399d2bb"
+        },
+        {
+          "url": "https://i.ibb.co/HpCQ3V1Y/16079.jpg",
+          "publicId": "LhrfH8b6",
+          "deleteUrl": "https://ibb.co/LhrfH8b6/52e4bf8db8439e7a3f327282b41a68b0"
+        }
+      ],
+      "updatedAt": "2026-05-11T17:03:10.375Z"
+    },
+    {
+      "id": "p_1778518406641",
+      "name": "BOTAS WILD FABLE talla 10",
+      "price": 350,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Botas tipo Missy con plataforma y detalles de brillos de la marca Wild Fable.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/RGk30ZMC/16073.jpg",
+          "publicId": "LDXxtbqC",
+          "deleteUrl": "https://ibb.co/LDXxtbqC/04d7826cf38691f6e484434134a11547"
+        },
+        {
+          "url": "https://i.ibb.co/GQ6ng4th/16070.jpg",
+          "publicId": "Swj5q4dL",
+          "deleteUrl": "https://ibb.co/Swj5q4dL/b4c0915b43332726cc9ad7308a52b947"
+        },
+        {
+          "url": "https://i.ibb.co/fGkY6bhc/16068.jpg",
+          "publicId": "4g8Zvc6Q",
+          "deleteUrl": "https://ibb.co/4g8Zvc6Q/ca47ba25acabe28d08c1dc9709a3d69a"
+        },
+        {
+          "url": "https://i.ibb.co/CpVjDYhb/16071.jpg",
+          "publicId": "rK5BNz4x",
+          "deleteUrl": "https://ibb.co/rK5BNz4x/6c893aaa269ac3adf58002af3e0d3be7"
+        },
+        {
+          "url": "https://i.ibb.co/s8YfKbm/16069.jpg",
+          "publicId": "WmJhkGx",
+          "deleteUrl": "https://ibb.co/WmJhkGx/5dd892b04f0b4d383114a228f73d9dd6"
+        },
+        {
+          "url": "https://i.ibb.co/NdvrT6X7/16067.jpg",
+          "publicId": "bM0Fbgx7",
+          "deleteUrl": "https://ibb.co/bM0Fbgx7/a694c6510c7c3b53600083d191e791ec"
+        }
+      ],
+      "updatedAt": "2026-05-11T16:53:26.642Z"
+    },
+    {
+      "id": "p_1778517558528",
+      "name": "BOTAS A NEW DAY talla 9",
+      "price": 350,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Botines negros de tacón de aguja marca A New Day con diseño estilo motero y puntera afilada.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/GfhvgMVh/16059.jpg",
+          "publicId": "6cdR6t4d",
+          "deleteUrl": "https://ibb.co/6cdR6t4d/ede63ccead0dcb334ca6cf2420dcb983"
+        },
+        {
+          "url": "https://i.ibb.co/HD09VLSr/16060.jpg",
+          "publicId": "xSyrDKkM",
+          "deleteUrl": "https://ibb.co/xSyrDKkM/acbf188e6752e686a94a7d034e5ca7f0"
+        },
+        {
+          "url": "https://i.ibb.co/Qjcvj93q/16061.jpg",
+          "publicId": "0VXyVqRW",
+          "deleteUrl": "https://ibb.co/0VXyVqRW/8e8419272186d4af65d451295caca597"
+        },
+        {
+          "url": "https://i.ibb.co/rg1nf3W/16062.jpg",
+          "publicId": "jd17Zzp",
+          "deleteUrl": "https://ibb.co/jd17Zzp/ebe9ed8510123173bff13e46d5367e63"
+        }
+      ],
+      "updatedAt": "2026-05-11T16:39:18.534Z"
+    },
+    {
       "id": "p_1777403124753",
       "name": "OBI-WAN KENOBI",
       "price": 350,
@@ -5791,5 +5908,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-10T04:47:38.063Z"
+  "updatedAt": "2026-05-11T17:05:27.600Z"
 }
