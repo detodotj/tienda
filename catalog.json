@@ -1,6 +1,69 @@
 {
   "products": [
     {
+      "id": "p_1778523460736",
+      "name": "AUDÍFONOS INALÁMBRICOS JLAB",
+      "price": 230,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Audífonos inalámbricos JLab Go Pop ANC en color verde azulado.",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/TMs6pnVs/16128.jpg",
+          "publicId": "Xxq1Ndhq",
+          "deleteUrl": "https://ibb.co/Xxq1Ndhq/d87ceb75d17a408ed05ed2d0ff1cee74"
+        },
+        {
+          "url": "https://i.ibb.co/KjW21FBm/16134.jpg",
+          "publicId": "jvDypgqH",
+          "deleteUrl": "https://ibb.co/jvDypgqH/8c2c1bdf1eb4a0cdab1c5e532e045bb9"
+        },
+        {
+          "url": "https://i.ibb.co/zTphc4yb/16133.jpg",
+          "publicId": "Hf6DvHWY",
+          "deleteUrl": "https://ibb.co/Hf6DvHWY/9b45730887c0be39fc1251a5ddffde01"
+        },
+        {
+          "url": "https://i.ibb.co/0pyxmsmg/16136.jpg",
+          "publicId": "35mn4R4D",
+          "deleteUrl": "https://ibb.co/35mn4R4D/778794924884746ebd30e3935425f973"
+        }
+      ],
+      "updatedAt": "2026-05-11T18:17:40.736Z"
+    },
+    {
+      "id": "p_1778522985614",
+      "name": "AUDÍFONOS INALÁMBRICOS JLAB",
+      "price": 230,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Auriculares inalámbricos JLab Go Air Sport en color verde azulado.",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/cXXC6tj6/16122.jpg",
+          "publicId": "S77dt0zt",
+          "deleteUrl": "https://ibb.co/S77dt0zt/447a069a03a65fec495710c7ad98b129"
+        },
+        {
+          "url": "https://i.ibb.co/fVZY302T/16123.jpg",
+          "publicId": "5XCWQc6J",
+          "deleteUrl": "https://ibb.co/5XCWQc6J/bb44f4f5f203c7a367325413325ac772"
+        },
+        {
+          "url": "https://i.ibb.co/jkKp92qY/16124.jpg",
+          "publicId": "0yNwpS1L",
+          "deleteUrl": "https://ibb.co/0yNwpS1L/856e2577a243aa5a29e94b5642176547"
+        }
+      ],
+      "updatedAt": "2026-05-11T18:11:54.988Z"
+    },
+    {
       "id": "p_1778521551100",
       "name": "BOTAS UNIVERSAL THREAD talla 8 1/2",
       "price": 500,
@@ -6020,5 +6083,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-11T18:03:06.390Z"
+  "updatedAt": "2026-05-11T18:17:45.160Z"
 }
