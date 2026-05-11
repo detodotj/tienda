@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1778520782905",
+      "name": "BOTAS UNIVERSAL THREAD talla 9",
+      "price": 500,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Botas negras estilo biker o moteras, con detalles de arnés y hebillas plateadas, son una de las tendencias más fuertes para las temporadas de frío.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/P8DVRMR/16105.jpg",
+          "publicId": "03szkKk",
+          "deleteUrl": "https://ibb.co/03szkKk/1abc4c69970a16519d47331d276e2e68"
+        },
+        {
+          "url": "https://i.ibb.co/2VPRW2Z/16102.jpg",
+          "publicId": "1yKB7Vz",
+          "deleteUrl": "https://ibb.co/1yKB7Vz/e56534a9a7753f7161b4ac81d5ddba17"
+        },
+        {
+          "url": "https://i.ibb.co/B5dxgMyc/16106.jpg",
+          "publicId": "ZptPhDBG",
+          "deleteUrl": "https://ibb.co/ZptPhDBG/7a95519a707f2e3a54589b3eaa7b3111"
+        },
+        {
+          "url": "https://i.ibb.co/rC5DTnD/16107.jpg",
+          "publicId": "N8WcQwc",
+          "deleteUrl": "https://ibb.co/N8WcQwc/3c8c556861a9f1edbb4b87e2aab5c4df"
+        }
+      ],
+      "updatedAt": "2026-05-11T17:33:02.913Z"
+    },
+    {
       "id": "p_1778519927377",
       "name": "BOTAS A NEW DAY talla 9 1/2",
       "price": 500,
@@ -5947,5 +5981,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-11T17:19:31.506Z"
+  "updatedAt": "2026-05-11T17:33:07.941Z"
 }
