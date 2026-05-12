@@ -4625,7 +4625,7 @@
     {
       "id": "p_1775274852289",
       "name": "8bitdo control para mini nes/pc.",
-      "price": 300,
+      "price": 350,
       "category": "Videojuegos",
       "status": "Nuevo",
       "desc": "8bitdo control para mini nes classic.",
@@ -4646,7 +4646,7 @@
           "publicId": "kgX2pt79"
         }
       ],
-      "updatedAt": "2026-04-05T22:36:31.514Z"
+      "updatedAt": "2026-05-12T01:08:22.419Z"
     },
     {
       "id": "p_1775274691169",
@@ -6180,5 +6180,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-12T01:07:29.848Z"
+  "updatedAt": "2026-05-12T01:08:44.543Z"
 }
