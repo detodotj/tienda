@@ -3,7 +3,7 @@
     {
       "id": "p_1778539537334",
       "name": "8 BitDo",
-      "price": 200,
+      "price": 250,
       "category": "Videojuegos",
       "status": "Nuevo",
       "desc": "Retro Receiver NES-SNESS-SFC",
@@ -22,7 +22,7 @@
           "deleteUrl": "https://ibb.co/C3kv4hjH/3cd5f5766102d2fe23440b3407eaf20a"
         }
       ],
-      "updatedAt": "2026-05-11T22:45:37.354Z"
+      "updatedAt": "2026-05-12T01:07:00.249Z"
     },
     {
       "id": "p_1778525004747",
@@ -6180,5 +6180,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-11T22:45:46.926Z"
+  "updatedAt": "2026-05-12T01:07:29.848Z"
 }
