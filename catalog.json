@@ -22,7 +22,10 @@
           "deleteUrl": "https://ibb.co/C3kv4hjH/3cd5f5766102d2fe23440b3407eaf20a"
         }
       ],
-      "updatedAt": "2026-05-12T01:07:00.249Z"
+      "updatedAt": "2026-05-12T01:07:00.249Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778594025346
     },
     {
       "id": "p_1778525004747",
@@ -2173,7 +2176,10 @@
           "publicId": "Dd8dLqD"
         }
       ],
-      "updatedAt": "2026-04-13T21:23:56.675Z"
+      "updatedAt": "2026-04-13T21:23:56.675Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1778594042627
     },
     {
       "id": "p_1775861096496",
@@ -6180,5 +6186,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-12T01:08:44.543Z"
+  "updatedAt": "2026-05-12T13:54:08.570Z"
 }
