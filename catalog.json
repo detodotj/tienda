@@ -1,6 +1,50 @@
 {
   "products": [
     {
+      "id": "p_1779157892815",
+      "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 7 americano",
+      "price": 500,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Botas de trabajo de la marca JERKO con punta de acero y diseño impermeable en color negro. Talla 7 americano o 26 mexicano. Antiderrapantes.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1tjxFKhV/16993.jpg",
+          "publicId": "v6R80mg5",
+          "deleteUrl": "https://ibb.co/v6R80mg5/e905ff4cf5be7b7734f1537634ba3cd7"
+        },
+        {
+          "url": "https://i.ibb.co/TxdPDjGJ/16995.jpg",
+          "publicId": "pB546VTN",
+          "deleteUrl": "https://ibb.co/pB546VTN/6a6ac61c5bb28a074ba3fe39be0a9242"
+        },
+        {
+          "url": "https://i.ibb.co/ch0xRvzT/16994.jpg",
+          "publicId": "1G1bBnH2",
+          "deleteUrl": "https://ibb.co/1G1bBnH2/62f3bf6f3d6e4b2b7191a2ad7fa87608"
+        },
+        {
+          "url": "https://i.ibb.co/dsXBJLGv/16991.jpg",
+          "publicId": "fVZMGn4W",
+          "deleteUrl": "https://ibb.co/fVZMGn4W/838a495b7779ed27750208c10773db93"
+        },
+        {
+          "url": "https://i.ibb.co/DPrJTZPq/16990.jpg",
+          "publicId": "LDNFH3DG",
+          "deleteUrl": "https://ibb.co/LDNFH3DG/4fff0b6cf06845d52f12d9018afe454c"
+        },
+        {
+          "url": "https://i.ibb.co/N65gsvPt/16997.jpg",
+          "publicId": "hRbxy6jL",
+          "deleteUrl": "https://ibb.co/hRbxy6jL/7416862a4bf423cb603df5f0f06350e1"
+        }
+      ],
+      "updatedAt": "2026-05-19T02:31:32.821Z"
+    },
+    {
       "id": "p_1779153390630",
       "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 9",
       "price": 550,
@@ -37,7 +81,7 @@
           "deleteUrl": "https://ibb.co/PdM2HVB/7bd24b35a0b8822a0f61aee28919db72"
         }
       ],
-      "updatedAt": "2026-05-19T01:16:30.640Z"
+      "updatedAt": "2026-05-19T01:21:26.997Z"
     },
     {
       "id": "p_1778604857875",
@@ -6284,5 +6328,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-19T01:16:36.957Z"
+  "updatedAt": "2026-05-19T02:31:43.031Z"
 }
