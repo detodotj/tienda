@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1779153390630",
+      "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 9",
+      "price": 550,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Botas de trabajo para hombre. Marca JERKO con punta de acero y diseño impermeable, talla 9 americano. Antiderrapantes.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/mFyww46k/16960.jpg",
+          "publicId": "JFp44H5V",
+          "deleteUrl": "https://ibb.co/JFp44H5V/15de926af65acdd29bd1b33900dca166"
+        },
+        {
+          "url": "https://i.ibb.co/7dn6v3XZ/16964.jpg",
+          "publicId": "zTX0s3rB",
+          "deleteUrl": "https://ibb.co/zTX0s3rB/77eea657a6b6933f10d30ddf7157848b"
+        },
+        {
+          "url": "https://i.ibb.co/v4yfgvHy/16984.jpg",
+          "publicId": "YBnJYT3n",
+          "deleteUrl": "https://ibb.co/YBnJYT3n/97e46793e9ed0d5cbb9686bfec1c838d"
+        },
+        {
+          "url": "https://i.ibb.co/kR2Dhy8/16959.jpg",
+          "publicId": "1DGX9nq",
+          "deleteUrl": "https://ibb.co/1DGX9nq/da8c6e5705dc4eb48ebed6a0d7d5e280"
+        },
+        {
+          "url": "https://i.ibb.co/B9GhMY8/16965.jpg",
+          "publicId": "PdM2HVB",
+          "deleteUrl": "https://ibb.co/PdM2HVB/7bd24b35a0b8822a0f61aee28919db72"
+        }
+      ],
+      "updatedAt": "2026-05-19T01:16:30.640Z"
+    },
+    {
       "id": "p_1778604857875",
       "name": "Violín Acústico",
       "price": 900,
@@ -6245,5 +6284,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-16T01:29:11.674Z"
+  "updatedAt": "2026-05-19T01:16:36.957Z"
 }
