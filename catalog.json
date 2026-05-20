@@ -160,7 +160,7 @@
     {
       "id": "p_1778525004747",
       "name": "BOLSA CANGURERA",
-      "price": 150,
+      "price": 100,
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "Bolsa con ziper al frente, ajustable a la cintura.",
@@ -194,7 +194,7 @@
           "deleteUrl": "https://ibb.co/0g41GQw/b69aac05452d91ed13be8db8a1229093"
         }
       ],
-      "updatedAt": "2026-05-11T18:43:24.753Z"
+      "updatedAt": "2026-05-20T02:55:09.174Z"
     },
     {
       "id": "p_1778524335430",
@@ -299,7 +299,7 @@
     {
       "id": "p_1778521551100",
       "name": "BOTAS UNIVERSAL THREAD talla 8 1/2",
-      "price": 500,
+      "price": 450,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas altas de gamuza color beige con tacón bajo tipo cono.",
@@ -333,12 +333,12 @@
           "deleteUrl": "https://ibb.co/YTPjYgRK/0fa092505e3df50dd2c3682bd8445007"
         }
       ],
-      "updatedAt": "2026-05-11T21:14:02.608Z"
+      "updatedAt": "2026-05-20T02:55:53.066Z"
     },
     {
       "id": "p_1778520782905",
       "name": "BOTAS UNIVERSAL THREAD talla 9",
-      "price": 500,
+      "price": 450,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas negras estilo biker o moteras, con detalles de arnés y hebillas plateadas, son una de las tendencias más fuertes para las temporadas de frío.",
@@ -367,12 +367,12 @@
           "deleteUrl": "https://ibb.co/N8WcQwc/3c8c556861a9f1edbb4b87e2aab5c4df"
         }
       ],
-      "updatedAt": "2026-05-11T21:16:19.037Z"
+      "updatedAt": "2026-05-20T02:56:04.711Z"
     },
     {
       "id": "p_1778519927377",
       "name": "BOTAS A NEW DAY talla 9 1/2",
-      "price": 500,
+      "price": 450,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas altas de A New Day cubiertas de lentejuelas negras con punta afilada y tacón.",
@@ -406,7 +406,7 @@
           "deleteUrl": "https://ibb.co/1fPFd20M/57d789d78c428e1ca30935f32ca496c4"
         }
       ],
-      "updatedAt": "2026-05-11T17:18:47.377Z"
+      "updatedAt": "2026-05-20T02:56:16.586Z"
     },
     {
       "id": "p_1778518990375",
@@ -6328,5 +6328,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-19T02:31:43.031Z"
+  "updatedAt": "2026-05-20T02:56:22.912Z"
 }
