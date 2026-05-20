@@ -411,7 +411,7 @@
     {
       "id": "p_1778518990375",
       "name": "BOTAS UNIVERSAL THREAD talla 9",
-      "price": 400,
+      "price": 350,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Diseño de caña al tobillo, cordones estilo senderismo y una suela de plataforma gruesa.",
@@ -445,7 +445,7 @@
           "deleteUrl": "https://ibb.co/LhrfH8b6/52e4bf8db8439e7a3f327282b41a68b0"
         }
       ],
-      "updatedAt": "2026-05-11T17:03:10.375Z"
+      "updatedAt": "2026-05-20T15:49:31.489Z"
     },
     {
       "id": "p_1778518406641",
@@ -633,7 +633,7 @@
     {
       "id": "p_1777343919006",
       "name": "TENIS Starter talla 9.5 y 10",
-      "price": 550,
+      "price": 500,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Para Hombre. Disponibles talla 9.5 y 10",
@@ -667,7 +667,7 @@
           "deleteUrl": "https://ibb.co/hJYpTgnk/6ad1976680501f10436fcec976376b14"
         }
       ],
-      "updatedAt": "2026-04-29T00:01:28.496Z"
+      "updatedAt": "2026-05-20T15:50:14.483Z"
     },
     {
       "id": "p_1777343374708",
@@ -6328,5 +6328,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-20T02:57:49.170Z"
+  "updatedAt": "2026-05-20T15:50:20.612Z"
 }
