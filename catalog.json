@@ -1490,88 +1490,6 @@
       "updatedAt": "2026-04-21T16:15:04.092Z"
     },
     {
-      "id": "p_1776787876222",
-      "name": "CAMISETA St.John's Bay talla XL",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Plus Size Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/W47BQHZt/12441.jpg",
-          "publicId": "cSR2Py0L"
-        },
-        {
-          "url": "https://i.ibb.co/QF2NhshT/12443.jpg",
-          "publicId": "tM7snynv"
-        },
-        {
-          "url": "https://i.ibb.co/93Ws9Jgy/12442.jpg",
-          "publicId": "PzgwZRj1"
-        }
-      ],
-      "updatedAt": "2026-04-21T16:11:16.223Z"
-    },
-    {
-      "id": "p_1776787651610",
-      "name": "CAMISETA Outdoor Life talla XL",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Plus Size Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/zht0NQsb/12438.jpg",
-          "publicId": "GvrbFn7k"
-        },
-        {
-          "url": "https://i.ibb.co/2YtDv7wq/12439.jpg",
-          "publicId": "cXFG6cPJ"
-        },
-        {
-          "url": "https://i.ibb.co/zT5xv9vB/12440.jpg",
-          "publicId": "RkSbwrws"
-        }
-      ],
-      "updatedAt": "2026-04-21T16:07:31.610Z"
-    },
-    {
-      "id": "p_1776787288181",
-      "name": "CAMISA Outdoor Life talla XL",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Plus Size Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/VcFnsJQj/12437.jpg",
-          "publicId": "dwNCRjLW"
-        },
-        {
-          "url": "https://i.ibb.co/SDsVW4hs/12434.jpg",
-          "publicId": "Cp1VN3k1"
-        },
-        {
-          "url": "https://i.ibb.co/nNqywH94/12435.jpg",
-          "publicId": "Vc0GL7Rb"
-        },
-        {
-          "url": "https://i.ibb.co/mVCN5MHs/12436.jpg",
-          "publicId": "tTMLpWbf"
-        }
-      ],
-      "updatedAt": "2026-04-21T16:01:28.181Z"
-    },
-    {
       "id": "p_1776787071124",
       "name": "CAMISA Izod talla XXL",
       "price": 100,
@@ -2089,32 +2007,6 @@
         }
       ],
       "updatedAt": "2026-04-18T01:50:39.593Z"
-    },
-    {
-      "id": "p_1776453186839",
-      "name": "VESTIDO Poema talla M",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Con hermosa lentejuela",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/FLqRPt7z/11732.jpg",
-          "publicId": "nN8xWSkj"
-        },
-        {
-          "url": "https://i.ibb.co/cXpXZrP1/11734.jpg",
-          "publicId": "Vphpzqdt"
-        },
-        {
-          "url": "https://i.ibb.co/G4DwqNHS/11733.jpg",
-          "publicId": "7dDcqLkm"
-        }
-      ],
-      "updatedAt": "2026-04-17T19:13:06.839Z"
     },
     {
       "id": "p_1776452961611",
@@ -3728,36 +3620,6 @@
       "updatedAt": "2026-04-23T00:44:13.226Z"
     },
     {
-      "id": "p_1775500935029",
-      "name": "Blusa Torrid talla 1X",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusa 👚 de tirantes y manga, muy amplia.",
-      "subcategory": "Plus Size Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/ksJ0MrGx/8614.jpg",
-          "publicId": "rR3MvLQm"
-        },
-        {
-          "url": "https://i.ibb.co/qKkV1hw/8616.jpg",
-          "publicId": "ytW7sKJ"
-        },
-        {
-          "url": "https://i.ibb.co/v6qTbHK5/8615.jpg",
-          "publicId": "PvjPRNfp"
-        },
-        {
-          "url": "https://i.ibb.co/Mx8sc3m5/8617.jpg",
-          "publicId": "ZpHVBk01"
-        }
-      ],
-      "updatedAt": "2026-04-16T05:15:49.385Z"
-    },
-    {
       "id": "p_1775500507604",
       "name": "Blusa Urban Coco talla S",
       "price": 60,
@@ -5125,28 +4987,6 @@
       "updatedAt": "2026-04-16T19:23:21.005Z"
     },
     {
-      "id": "p_1775240289980",
-      "name": "Vestido Princess Polly talla 2 o XS",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Lindo vestido y muy fresco. Llega a la rodilla. Fondo integrado. 100 % poliéster.",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/twRnwL8D/Whats-App-Image-2026-04-16-at-12-21-33-PM.jpg",
-          "publicId": "35KV5RBc"
-        },
-        {
-          "url": "https://i.ibb.co/Y4Xr411X/7432.jpg",
-          "publicId": "zWFkWBBF"
-        }
-      ],
-      "updatedAt": "2026-04-18T19:03:31.486Z"
-    },
-    {
       "id": "p_1775174299121",
       "name": "Palazzo Charlotte Russe talla S",
       "price": 120,
@@ -6329,7 +6169,13 @@
     "p_1775242937585",
     "p_1775242803570",
     "p_1775242104549",
-    "p_1774745382555"
+    "p_1774745382555",
+    "p_1776787288181",
+    "p_1776787876222",
+    "p_1776787651610",
+    "p_1776453186839",
+    "p_1775500935029",
+    "p_1775240289980"
   ],
-  "updatedAt": "2026-05-21T01:44:35.012Z"
+  "updatedAt": "2026-05-21T13:53:17.112Z"
 }
