@@ -701,7 +701,10 @@
           "deleteUrl": "https://ibb.co/XkrxmTvK/7fa5a69fb71d431a643da2213dd1badd"
         }
       ],
-      "updatedAt": "2026-05-11T20:57:59.522Z"
+      "updatedAt": "2026-05-11T20:57:59.522Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779327859555
     },
     {
       "id": "p_1777342833193",
@@ -6328,5 +6331,5 @@
     "p_1775242104549",
     "p_1774745382555"
   ],
-  "updatedAt": "2026-05-20T15:50:20.612Z"
+  "updatedAt": "2026-05-21T01:44:35.012Z"
 }
