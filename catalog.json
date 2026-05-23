@@ -228,7 +228,10 @@
           "deleteUrl": "https://ibb.co/vgY98Sb/3db7e4d5460956df8b3711d9e2f8e27c"
         }
       ],
-      "updatedAt": "2026-05-11T21:10:07.190Z"
+      "updatedAt": "2026-05-11T21:10:07.190Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542611167
     },
     {
       "id": "p_1778523460736",
@@ -763,30 +766,6 @@
       "updatedAt": "2026-04-28T02:00:47.996Z"
     },
     {
-      "id": "p_1777341437462",
-      "name": "SANDALIAS Casy Fever talla 10",
-      "price": 120,
-      "category": "Calzado",
-      "status": "Nuevo",
-      "desc": "Muy flexibles y cómodas",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/gZjpC3S5/13724.jpg",
-          "publicId": "23nQByvD",
-          "deleteUrl": "https://ibb.co/23nQByvD/dea8faa1e1a6d28ea323758f16e4d5d0"
-        },
-        {
-          "url": "https://i.ibb.co/dsmK21SR/13722.jpg",
-          "publicId": "mrNzq1m3",
-          "deleteUrl": "https://ibb.co/mrNzq1m3/858d335d0c4b98dd8a72c8de095f30ff"
-        }
-      ],
-      "updatedAt": "2026-04-28T01:57:17.462Z"
-    },
-    {
       "id": "p_1777340677530",
       "name": "MINI VENTILADOR para cuello",
       "price": 150,
@@ -842,7 +821,10 @@
           "deleteUrl": "https://ibb.co/bjfY3yFy/dc9809a830c82085e068acbff32e360a"
         }
       ],
-      "updatedAt": "2026-04-28T01:39:12.747Z"
+      "updatedAt": "2026-04-28T01:39:12.747Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542656016
     },
     {
       "id": "p_1777340019861",
@@ -895,7 +877,10 @@
           "deleteUrl": "https://ibb.co/0p0xKjZg/7253b4d1b5157df7d525f6e32ec3e544"
         }
       ],
-      "updatedAt": "2026-04-28T03:41:46.253Z"
+      "updatedAt": "2026-04-28T03:41:46.253Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542666713
     },
     {
       "id": "p_1777136781781",
@@ -1001,7 +986,10 @@
           "publicId": "4g0T9w0q"
         }
       ],
-      "updatedAt": "2026-04-23T16:31:00.231Z"
+      "updatedAt": "2026-04-23T16:31:00.231Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542672808
     },
     {
       "id": "p_1776802933915",
@@ -1351,7 +1339,10 @@
           "publicId": "p6VX34Cd"
         }
       ],
-      "updatedAt": "2026-04-23T00:43:02.930Z"
+      "updatedAt": "2026-04-23T00:43:02.930Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542696884
     },
     {
       "id": "p_1776793605001",
@@ -1437,31 +1428,6 @@
         }
       ],
       "updatedAt": "2026-04-21T17:41:41.046Z"
-    },
-    {
-      "id": "p_1776788482056",
-      "name": "CAMISETA Polo Talla L",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/G1GNbRb/12455.jpg",
-          "publicId": "LqBH212"
-        },
-        {
-          "url": "https://i.ibb.co/V0fPqY3N/12452.jpg",
-          "publicId": "CpRTHKWt"
-        }
-      ],
-      "updatedAt": "2026-04-21T16:21:22.056Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778270398664
     },
     {
       "id": "p_1776788104092",
@@ -1565,7 +1531,10 @@
           "publicId": "nsYHWM3k"
         }
       ],
-      "updatedAt": "2026-04-21T15:51:09.432Z"
+      "updatedAt": "2026-04-21T15:51:09.432Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542730080
     },
     {
       "id": "p_1776786287770",
@@ -1592,36 +1561,6 @@
         }
       ],
       "updatedAt": "2026-04-21T15:44:47.770Z"
-    },
-    {
-      "id": "p_1776786145914",
-      "name": "CAMISA H,&M talla S",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/27cx3f0N/12421.jpg",
-          "publicId": "KjVdx3cw"
-        },
-        {
-          "url": "https://i.ibb.co/WvnSqH9y/12414.jpg",
-          "publicId": "YB2vYN9k"
-        },
-        {
-          "url": "https://i.ibb.co/Z6ytgGHp/12415.jpg",
-          "publicId": "bgpqvQHM"
-        },
-        {
-          "url": "https://i.ibb.co/0pZmXHhB/12416.jpg",
-          "publicId": "rKMFtD4b"
-        }
-      ],
-      "updatedAt": "2026-04-21T15:46:30.236Z"
     },
     {
       "id": "p_1776785854274",
@@ -1754,7 +1693,10 @@
           "publicId": "rWc0DFy"
         }
       ],
-      "updatedAt": "2026-04-19T22:14:26.835Z"
+      "updatedAt": "2026-04-19T22:14:26.835Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542741265
     },
     {
       "id": "p_1776636703251",
@@ -1776,7 +1718,10 @@
           "publicId": "Ng4yp5pj"
         }
       ],
-      "updatedAt": "2026-04-20T13:59:18.742Z"
+      "updatedAt": "2026-04-20T13:59:18.742Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542744135
     },
     {
       "id": "p_1776636421495",
@@ -2243,7 +2188,10 @@
           "publicId": "DDTsG4r6"
         }
       ],
-      "updatedAt": "2026-04-23T00:43:36.975Z"
+      "updatedAt": "2026-04-23T00:43:36.975Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542768180
     },
     {
       "id": "p_1775861036077",
@@ -2415,7 +2363,10 @@
           "publicId": "1GX9ZdKd"
         }
       ],
-      "updatedAt": "2026-04-14T00:28:46.022Z"
+      "updatedAt": "2026-04-14T00:28:46.022Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542774211
     },
     {
       "id": "p_1775859682182",
@@ -3617,7 +3568,10 @@
           "publicId": "JWfJNKP6"
         }
       ],
-      "updatedAt": "2026-04-23T00:44:13.226Z"
+      "updatedAt": "2026-04-23T00:44:13.226Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542821075
     },
     {
       "id": "p_1775500507604",
@@ -4252,7 +4206,10 @@
           "deleteUrl": "https://ibb.co/k24xFxPj/472af8d64bed0ec48f532c6f72d2edc9"
         }
       ],
-      "updatedAt": "2026-04-23T17:46:57.173Z"
+      "updatedAt": "2026-04-23T17:46:57.173Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542844076
     },
     {
       "id": "p_1775434671326",
@@ -4984,7 +4941,10 @@
           "publicId": "Sw221tYs"
         }
       ],
-      "updatedAt": "2026-04-16T19:23:21.005Z"
+      "updatedAt": "2026-04-16T19:23:21.005Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1779542874468
     },
     {
       "id": "p_1775174299121",
@@ -6175,7 +6135,10 @@
     "p_1776787651610",
     "p_1776453186839",
     "p_1775500935029",
-    "p_1775240289980"
+    "p_1775240289980",
+    "p_1777341437462",
+    "p_1776788482056",
+    "p_1776786145914"
   ],
-  "updatedAt": "2026-05-21T13:53:17.112Z"
+  "updatedAt": "2026-05-23T13:28:45.887Z"
 }
