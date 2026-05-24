@@ -573,43 +573,6 @@
       "updatedAt": "2026-04-28T19:08:21.080Z"
     },
     {
-      "id": "p_1777344824778",
-      "name": "Bebé Paca The Bearington Collection",
-      "price": 120,
-      "category": "Juguetes",
-      "status": "Nuevo",
-      "desc": "Adorable bebé Paca de peluche",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/RTDtBHP5/13762.jpg",
-          "publicId": "PG6J9C4S",
-          "deleteUrl": "https://ibb.co/PG6J9C4S/81b2709cae6392df3c0b522c45b0531d"
-        },
-        {
-          "url": "https://i.ibb.co/sprPvHJX/13763.jpg",
-          "publicId": "zWw5hJHt",
-          "deleteUrl": "https://ibb.co/zWw5hJHt/b16ab8fe1b179b482e006d2bf8c232c3"
-        },
-        {
-          "url": "https://i.ibb.co/7tLcXCFh/13765.jpg",
-          "publicId": "d4x9rMyZ",
-          "deleteUrl": "https://ibb.co/d4x9rMyZ/9e39f7813db642ec9344b06aa062cacf"
-        },
-        {
-          "url": "https://i.ibb.co/MxtKHvcJ/13766.jpg",
-          "publicId": "nNY4yG7K",
-          "deleteUrl": "https://ibb.co/nNY4yG7K/bb473e21f503540d9680027e8a47a70d"
-        }
-      ],
-      "updatedAt": "2026-04-28T03:46:50.351Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778891344459
-    },
-    {
       "id": "p_1777344284270",
       "name": "CUCHARA grande",
       "price": 110,
@@ -6141,7 +6104,8 @@
     "p_1775240289980",
     "p_1777341437462",
     "p_1776788482056",
-    "p_1776786145914"
+    "p_1776786145914",
+    "p_1777344824778"
   ],
-  "updatedAt": "2026-05-24T13:20:17.220Z"
+  "updatedAt": "2026-05-24T13:22:09.151Z"
 }
