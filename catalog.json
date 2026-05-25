@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "p_1779745717691",
+      "name": "Chamarra",
+      "price": 100,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/xt2KjZM1/17848.png",
+          "publicId": "JwcW7Zzv",
+          "deleteUrl": "https://ibb.co/JwcW7Zzv/3258402b8d00228e119f555ed2f8b1da"
+        }
+      ],
+      "updatedAt": "2026-05-25T21:48:37.691Z"
+    },
+    {
       "id": "p_1779157892815",
       "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 7 americano",
       "price": 500,
@@ -5899,5 +5918,5 @@
     "p_1775861096496",
     "p_1775859998014"
   ],
-  "updatedAt": "2026-05-25T13:46:04.673Z"
+  "updatedAt": "2026-05-25T21:48:47.772Z"
 }
