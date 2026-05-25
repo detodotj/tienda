@@ -926,68 +926,6 @@
       "updatedAt": "2026-04-30T03:33:09.401Z"
     },
     {
-      "id": "p_1776803170211",
-      "name": "CAMISA Lucky Brand talla S",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/2099rT2w/12603.jpg",
-          "publicId": "ZRjjr0s3"
-        },
-        {
-          "url": "https://i.ibb.co/Mxk2J00J/12600.jpg",
-          "publicId": "gLZjcKKc"
-        },
-        {
-          "url": "https://i.ibb.co/sJXwkpXf/12601.jpg",
-          "publicId": "4g0T9w0q"
-        }
-      ],
-      "updatedAt": "2026-04-23T16:31:00.231Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542672808
-    },
-    {
-      "id": "p_1776802933915",
-      "name": "CAMISA Levi's",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/SZBp9wM/12599.jpg",
-          "publicId": "YVhGqB1"
-        },
-        {
-          "url": "https://i.ibb.co/QjQvj9vC/12597.jpg",
-          "publicId": "tPKpPBpx"
-        },
-        {
-          "url": "https://i.ibb.co/9mRqQkwk/12595.jpg",
-          "publicId": "TDzH9xKx"
-        },
-        {
-          "url": "https://i.ibb.co/ZR07FmtD/12596.jpg",
-          "publicId": "FkFCyVNT"
-        }
-      ],
-      "updatedAt": "2026-04-21T20:22:13.915Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779628791013
-    },
-    {
       "id": "p_1776802539388",
       "name": "CAMISA Chaps talla M",
       "price": 120,
@@ -1120,35 +1058,6 @@
       "updatedAt": "2026-04-21T19:53:42.475Z"
     },
     {
-      "id": "p_1776801018174",
-      "name": "VESTIDO Allan Dwell talla M",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Nuevo",
-      "desc": "",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/BpV5Jcn/12532.jpg",
-          "publicId": "LFzXyYN"
-        },
-        {
-          "url": "https://i.ibb.co/PS4TbPm/12533.jpg",
-          "publicId": "SL0Q1Ms"
-        },
-        {
-          "url": "https://i.ibb.co/Nd89J50z/12531.jpg",
-          "publicId": "sd0KNnTr"
-        }
-      ],
-      "updatedAt": "2026-04-21T19:50:18.174Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778270320672
-    },
-    {
       "id": "p_1776800530131",
       "name": "VESTIDO H&M talla M",
       "price": 100,
@@ -1173,35 +1082,6 @@
         }
       ],
       "updatedAt": "2026-04-21T19:42:10.131Z"
-    },
-    {
-      "id": "p_1776800210203",
-      "name": "PANTALÓN Twenty-one Black talla 9",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Súper stretch",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/PZ3rSyy7/12526.jpg",
-          "publicId": "zhjmkggy"
-        },
-        {
-          "url": "https://i.ibb.co/27GF0hZj/12524.jpg",
-          "publicId": "kgNGVBmh"
-        },
-        {
-          "url": "https://i.ibb.co/9kFdtMj1/12525.jpg",
-          "publicId": "nNHKCWSY"
-        }
-      ],
-      "updatedAt": "2026-04-21T19:36:50.203Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778270377108
     },
     {
       "id": "p_1776799740387",
@@ -1339,35 +1219,6 @@
         }
       ],
       "updatedAt": "2026-04-21T19:42:35.899Z"
-    },
-    {
-      "id": "p_1776793445766",
-      "name": "VESTIDO 👗 Wenrine talla M",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Nuevo",
-      "desc": "",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/v4tw1zZL/12471.jpg",
-          "publicId": "b5fW1dzN"
-        },
-        {
-          "url": "https://i.ibb.co/LDPjTxVY/12459.jpg",
-          "publicId": "4wfvb8hK"
-        },
-        {
-          "url": "https://i.ibb.co/ddXTcJx/12410.jpg",
-          "publicId": "nH4G08t"
-        }
-      ],
-      "updatedAt": "2026-04-21T19:42:41.669Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778270331193
     },
     {
       "id": "p_1776793195711",
@@ -2127,39 +1978,6 @@
       "soldAt": 1778594042627
     },
     {
-      "id": "p_1775861096496",
-      "name": "VESTIDO Pronto talla S",
-      "price": 150,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Strapless dress",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/mCgr6VVt/9845.jpg",
-          "publicId": "FbCkgLLJ"
-        },
-        {
-          "url": "https://i.ibb.co/JFHxxh8n/9843.jpg",
-          "publicId": "TqtKKCJc"
-        },
-        {
-          "url": "https://i.ibb.co/4R5QBNdR/9844.jpg",
-          "publicId": "m5MxQz85"
-        },
-        {
-          "url": "https://i.ibb.co/BVFd4Ln7/9847.jpg",
-          "publicId": "DDTsG4r6"
-        }
-      ],
-      "updatedAt": "2026-04-23T00:43:36.975Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542768180
-    },
-    {
       "id": "p_1775861036077",
       "name": "SACO Shein Curve XXL",
       "price": 120,
@@ -2300,39 +2118,6 @@
         }
       ],
       "updatedAt": "2026-04-17T13:34:36.561Z"
-    },
-    {
-      "id": "p_1775859998014",
-      "name": "VESTIDO Ann Taylor talla 6",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/qMg0BWvm/9927.jpg",
-          "publicId": "TB0KcbsP"
-        },
-        {
-          "url": "https://i.ibb.co/LhtGrhwL/9926.jpg",
-          "publicId": "4gTQ2gy6"
-        },
-        {
-          "url": "https://i.ibb.co/ZzJjgKX7/9925.jpg",
-          "publicId": "Wv3hzF5j"
-        },
-        {
-          "url": "https://i.ibb.co/VYCvVQDQ/9955.jpg",
-          "publicId": "1GX9ZdKd"
-        }
-      ],
-      "updatedAt": "2026-04-14T00:28:46.022Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542774211
     },
     {
       "id": "p_1775859682182",
@@ -6105,7 +5890,14 @@
     "p_1777341437462",
     "p_1776788482056",
     "p_1776786145914",
-    "p_1777344824778"
+    "p_1777344824778",
+    "p_1776803170211",
+    "p_1776802933915",
+    "p_1776801018174",
+    "p_1776800210203",
+    "p_1776793445766",
+    "p_1775861096496",
+    "p_1775859998014"
   ],
-  "updatedAt": "2026-05-24T13:22:09.151Z"
+  "updatedAt": "2026-05-25T13:46:04.673Z"
 }
