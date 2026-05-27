@@ -3,7 +3,7 @@
     {
       "id": "p_1779157892815",
       "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 7 americano",
-      "price": 500,
+      "price": 450,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas de trabajo de la marca JERKO con punta de acero y diseño impermeable en color negro. Talla 7 americano o 26 mexicano. Antiderrapantes.",
@@ -42,7 +42,7 @@
           "deleteUrl": "https://ibb.co/hRbxy6jL/7416862a4bf423cb603df5f0f06350e1"
         }
       ],
-      "updatedAt": "2026-05-19T02:31:32.821Z"
+      "updatedAt": "2026-05-27T16:23:58.003Z"
     },
     {
       "id": "p_1779153390630",
@@ -5900,5 +5900,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-27T15:37:49.447Z"
+  "updatedAt": "2026-05-27T16:24:03.823Z"
 }
