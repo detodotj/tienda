@@ -47,7 +47,7 @@
     {
       "id": "p_1779153390630",
       "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 9",
-      "price": 550,
+      "price": 500,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas de trabajo para hombre. Marca JERKO con punta de acero y diseño impermeable, talla 9 americano. Antiderrapantes.",
@@ -81,7 +81,7 @@
           "deleteUrl": "https://ibb.co/PdM2HVB/7bd24b35a0b8822a0f61aee28919db72"
         }
       ],
-      "updatedAt": "2026-05-19T01:21:26.997Z"
+      "updatedAt": "2026-05-27T16:34:05.101Z"
     },
     {
       "id": "p_1778604857875",
@@ -5900,5 +5900,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-27T16:24:03.823Z"
+  "updatedAt": "2026-05-27T16:34:10.278Z"
 }
