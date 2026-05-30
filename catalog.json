@@ -1,6 +1,113 @@
 {
   "products": [
     {
+      "id": "p_1780160891062",
+      "name": "VESTIDO CITY STUDIO talla 5 o S",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/q3pDJj6M/18691.jpg",
+          "publicId": "dwDfmMZ0",
+          "deleteUrl": "https://ibb.co/dwDfmMZ0/fa5c3b224f0cdc19ff3489c33f21fc90"
+        },
+        {
+          "url": "https://i.ibb.co/m558Cxv7/18464.jpg",
+          "publicId": "CKK25rJF",
+          "deleteUrl": "https://ibb.co/CKK25rJF/7dcc8449176cfca9c262ec5412b43c16"
+        },
+        {
+          "url": "https://i.ibb.co/qL7cy1NF/18467.jpg",
+          "publicId": "4wKXmN8g",
+          "deleteUrl": "https://ibb.co/4wKXmN8g/736fde6ce438937c9461f7a4c33203a8"
+        },
+        {
+          "url": "https://i.ibb.co/R8c93BX/18466.jpg",
+          "publicId": "NRKs9m0",
+          "deleteUrl": "https://ibb.co/NRKs9m0/2009be3ab6defd92cfa07b119ad70c11"
+        }
+      ],
+      "updatedAt": "2026-05-30T17:08:11.062Z"
+    },
+    {
+      "id": "p_1780160597132",
+      "name": "VESTIDO A NEW DAY talla L",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Hermoso vestido largo y ligero con olanes en cuello y falda🥰",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/KxF054KH/18687.jpg",
+          "publicId": "TMmvwjW5",
+          "deleteUrl": "https://ibb.co/TMmvwjW5/578cb3f99076a3172223b97edc614d9c"
+        },
+        {
+          "url": "https://i.ibb.co/spTsBNW4/18463.jpg",
+          "publicId": "5XQs7SK3",
+          "deleteUrl": "https://ibb.co/5XQs7SK3/c67c52ae3c8938a79502f6a9a7865431"
+        },
+        {
+          "url": "https://i.ibb.co/fz4VJh19/18456.jpg",
+          "publicId": "67gcQ3n8",
+          "deleteUrl": "https://ibb.co/67gcQ3n8/30c4c529676f26f5ef0214e2cf9b573a"
+        },
+        {
+          "url": "https://i.ibb.co/n8DY4DSX/18461.jpg",
+          "publicId": "qFRchRwH",
+          "deleteUrl": "https://ibb.co/qFRchRwH/ff4bfe6211b0a66864aaa5a3f59ef129"
+        },
+        {
+          "url": "https://i.ibb.co/NdcxYYZ9/18639.jpg",
+          "publicId": "v601zzZ3",
+          "deleteUrl": "https://ibb.co/v601zzZ3/270a68ce1bf97fe4a369e70816cd42ae"
+        },
+        {
+          "url": "https://i.ibb.co/JW77rxGT/18457.jpg",
+          "publicId": "1YqqRsPN",
+          "deleteUrl": "https://ibb.co/1YqqRsPN/d1e06bef961417a0e35b0d2e51c18bed"
+        }
+      ],
+      "updatedAt": "2026-05-30T17:03:17.133Z"
+    },
+    {
+      "id": "p_1780160141747",
+      "name": "FALDA PHILOSOPHY talla 10",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Stretch.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/hJTpM8TV/18685.png",
+          "publicId": "4n0BfN0p",
+          "deleteUrl": "https://ibb.co/4n0BfN0p/f710cacd4933a5e802fcb246fb60e574"
+        },
+        {
+          "url": "https://i.ibb.co/S4z0n86K/18449.jpg",
+          "publicId": "FLFJwMhB",
+          "deleteUrl": "https://ibb.co/FLFJwMhB/dddaffe52dde4635ce977be7a7eafbbd"
+        },
+        {
+          "url": "https://i.ibb.co/N6cBzDzj/18450.jpg",
+          "publicId": "BV0MRWRZ",
+          "deleteUrl": "https://ibb.co/BV0MRWRZ/75b31253b3e0e763cf58cb82100f661b"
+        }
+      ],
+      "updatedAt": "2026-05-30T16:55:41.747Z"
+    },
+    {
       "id": "p_1780159768145",
       "name": "PANTALÓN XL",
       "price": 150,
@@ -5978,5 +6085,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-30T16:51:25.737Z"
+  "updatedAt": "2026-05-30T17:08:29.450Z"
 }
