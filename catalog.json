@@ -1,6 +1,152 @@
 {
   "products": [
     {
+      "id": "p_1780166406160",
+      "name": "PANTALÓN talla XL",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Ajustado. Stretch.",
+      "subcategory": "Plus Size Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/ynvCdGjj/18753.jpg",
+          "publicId": "27VrWm44",
+          "deleteUrl": "https://ibb.co/27VrWm44/4c4081d131edfa532eb2599b6e5b43e2"
+        },
+        {
+          "url": "https://i.ibb.co/cX1wkJCG/18712.jpg",
+          "publicId": "dJrtjBLd",
+          "deleteUrl": "https://ibb.co/dJrtjBLd/8cc379d05a2ce02cd74451fe0f4f49fb"
+        },
+        {
+          "url": "https://i.ibb.co/Y7cFs2bC/18713.jpg",
+          "publicId": "C5b3GBWc",
+          "deleteUrl": "https://ibb.co/C5b3GBWc/bd61cc84aad3484ebdd036a07418008c"
+        },
+        {
+          "url": "https://i.ibb.co/vvBJM9PJ/18714.jpg",
+          "publicId": "h1MKT0WK",
+          "deleteUrl": "https://ibb.co/h1MKT0WK/fab807aba33ef9e1f4b1dcff0724e2b4"
+        }
+      ],
+      "updatedAt": "2026-05-30T18:40:06.160Z"
+    },
+    {
+      "id": "p_1780166078594",
+      "name": "PANTALÓN DIVIDED talla 8",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Poliéster. Con elástico en cintura y tobillos. Zipper dorados en bolsas laterales.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/zTrHNtKG/18749.jpg",
+          "publicId": "FLKqndGg",
+          "deleteUrl": "https://ibb.co/FLKqndGg/c94b6197edcb7a4ae21b3e972f474461"
+        },
+        {
+          "url": "https://i.ibb.co/chGGMH07/18715.jpg",
+          "publicId": "wh993XVx",
+          "deleteUrl": "https://ibb.co/wh993XVx/7b4bcec21020a889ac36c1c0cf8fcecc"
+        },
+        {
+          "url": "https://i.ibb.co/DgTJgcsQ/18719.jpg",
+          "publicId": "Wpjhp8qf",
+          "deleteUrl": "https://ibb.co/Wpjhp8qf/440f67f1e931a59736ee7946ca7118fb"
+        },
+        {
+          "url": "https://i.ibb.co/HDHBBzyX/18720.jpg",
+          "publicId": "4ZVKKTLJ",
+          "deleteUrl": "https://ibb.co/4ZVKKTLJ/1ec1c452ed6804579abaf697a6f65022"
+        },
+        {
+          "url": "https://i.ibb.co/DgwhPY4c/18716.jpg",
+          "publicId": "h12bxcsQ",
+          "deleteUrl": "https://ibb.co/h12bxcsQ/c3de9f19d7f4600274ab1d2d6ecbc777"
+        }
+      ],
+      "updatedAt": "2026-05-30T18:34:38.594Z"
+    },
+    {
+      "id": "p_1780165698190",
+      "name": "PANTALÓN Mossimo talla 13",
+      "price": 130,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Stretch. Skinny.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/hJj3yLrB/18745.jpg",
+          "publicId": "ksfNx5z4",
+          "deleteUrl": "https://ibb.co/ksfNx5z4/3d0cec404dc2a639c12e400a1e1eb9f0"
+        },
+        {
+          "url": "https://i.ibb.co/Q373jW7b/18728.jpg",
+          "publicId": "mVrVFnrD",
+          "deleteUrl": "https://ibb.co/mVrVFnrD/143acb20a6010a5ce54e2bc17744cd9a"
+        },
+        {
+          "url": "https://i.ibb.co/Gfj9MFFG/18729.jpg",
+          "publicId": "Ps8MWttJ",
+          "deleteUrl": "https://ibb.co/Ps8MWttJ/5414018521368c7ed01df2d23151cc96"
+        },
+        {
+          "url": "https://i.ibb.co/prRg3fMy/18726.jpg",
+          "publicId": "gFPGDSfV",
+          "deleteUrl": "https://ibb.co/gFPGDSfV/db74c2c4411cf5b6c87f1e300dfe1950"
+        },
+        {
+          "url": "https://i.ibb.co/WWrZN4tD/18725.jpg",
+          "publicId": "gM0NbLVv",
+          "deleteUrl": "https://ibb.co/gM0NbLVv/622ec6c7930c6e981bd1f93048504d8e"
+        }
+      ],
+      "updatedAt": "2026-05-30T18:28:43.370Z"
+    },
+    {
+      "id": "p_1780165471836",
+      "name": "PANTALÓN COUNTERPARTS talla 16",
+      "price": 120,
+      "category": "Ropa",
+      "status": "Como nuevo",
+      "desc": "Stretch. Pantalones ajustados de mujer con un patrón floral negro sobre una base gris o blanca.",
+      "subcategory": "Plus Size Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/j9wyp9VF/18731.jpg",
+          "publicId": "4wS8Qwsx",
+          "deleteUrl": "https://ibb.co/4wS8Qwsx/088280c45753d4165f7ba73461dbd83f"
+        },
+        {
+          "url": "https://i.ibb.co/8L4VTXGn/18743.jpg",
+          "publicId": "39YHGkV5",
+          "deleteUrl": "https://ibb.co/39YHGkV5/50116bb2c4a4d165ae33903d74db29c9"
+        },
+        {
+          "url": "https://i.ibb.co/3yt0cGwv/18738.jpg",
+          "publicId": "nshDjZTB",
+          "deleteUrl": "https://ibb.co/nshDjZTB/dfa7c327488bff51004805d2497fd35f"
+        },
+        {
+          "url": "https://i.ibb.co/ZRKzJ2nY/18737.jpg",
+          "publicId": "xKGqsFpf",
+          "deleteUrl": "https://ibb.co/xKGqsFpf/9047579026d48740a1b95757cc55fb97"
+        }
+      ],
+      "updatedAt": "2026-05-30T18:24:31.836Z"
+    },
+    {
       "id": "p_1780160891062",
       "name": "VESTIDO CITY STUDIO talla 5 o S",
       "price": 150,
@@ -6085,5 +6231,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-30T17:08:29.450Z"
+  "updatedAt": "2026-05-30T18:41:04.925Z"
 }
