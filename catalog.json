@@ -56,6 +56,11 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/vCjbfY7Q/18606.png",
+          "publicId": "hxmkrfPZ",
+          "deleteUrl": "https://ibb.co/hxmkrfPZ/54ef6941824ce4d132f6ca5a1204f160"
+        },
+        {
           "url": "https://i.ibb.co/mFyww46k/16960.jpg",
           "publicId": "JFp44H5V",
           "deleteUrl": "https://ibb.co/JFp44H5V/15de926af65acdd29bd1b33900dca166"
@@ -81,7 +86,7 @@
           "deleteUrl": "https://ibb.co/PdM2HVB/7bd24b35a0b8822a0f61aee28919db72"
         }
       ],
-      "updatedAt": "2026-05-27T16:34:05.101Z"
+      "updatedAt": "2026-05-30T16:10:34.750Z"
     },
     {
       "id": "p_1778604857875",
@@ -360,17 +365,17 @@
           "deleteUrl": "https://ibb.co/1yKB7Vz/e56534a9a7753f7161b4ac81d5ddba17"
         },
         {
-          "url": "https://i.ibb.co/B5dxgMyc/16106.jpg",
-          "publicId": "ZptPhDBG",
-          "deleteUrl": "https://ibb.co/ZptPhDBG/7a95519a707f2e3a54589b3eaa7b3111"
-        },
-        {
           "url": "https://i.ibb.co/rC5DTnD/16107.jpg",
           "publicId": "N8WcQwc",
           "deleteUrl": "https://ibb.co/N8WcQwc/3c8c556861a9f1edbb4b87e2aab5c4df"
+        },
+        {
+          "url": "https://i.ibb.co/PsZxbFcG/18677.jpg",
+          "publicId": "LDzSqYxd",
+          "deleteUrl": "https://ibb.co/LDzSqYxd/732837b60f8091004945ec5fe19ee1a7"
         }
       ],
-      "updatedAt": "2026-05-20T02:57:12.266Z"
+      "updatedAt": "2026-05-30T16:12:46.097Z"
     },
     {
       "id": "p_1778519927377",
@@ -599,7 +604,7 @@
     {
       "id": "p_1777343919006",
       "name": "TENIS Starter talla 9.5 y 10",
-      "price": 500,
+      "price": 450,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Para Hombre. Disponibles talla 9.5 y 10",
@@ -626,14 +631,9 @@
           "url": "https://i.ibb.co/HpG2CyY6/13754.jpg",
           "publicId": "fGrS9Wtf",
           "deleteUrl": "https://ibb.co/fGrS9Wtf/c8b87864f2e9ea74069b4c2438ef77b2"
-        },
-        {
-          "url": "https://i.ibb.co/Zp2ybfw3/13772.jpg",
-          "publicId": "hJYpTgnk",
-          "deleteUrl": "https://ibb.co/hJYpTgnk/6ad1976680501f10436fcec976376b14"
         }
       ],
-      "updatedAt": "2026-05-27T15:37:42.568Z"
+      "updatedAt": "2026-05-30T16:13:43.158Z"
     },
     {
       "id": "p_1777343374708",
@@ -5900,5 +5900,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-27T16:34:10.278Z"
+  "updatedAt": "2026-05-30T16:14:03.714Z"
 }
