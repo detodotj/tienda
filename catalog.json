@@ -1,6 +1,84 @@
 {
   "products": [
     {
+      "id": "p_1780159768145",
+      "name": "PANTALÓN XL",
+      "price": 150,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Muy fresco. Con abertura en las piernas. Ideal para playa o fiesta en verano. XL o L",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/JRDkVLVk/18439.jpg",
+          "publicId": "xSx5WvW5",
+          "deleteUrl": "https://ibb.co/xSx5WvW5/c8feee6e7af5360da6b9bf2f8ed174d4"
+        },
+        {
+          "url": "https://i.ibb.co/1G0ttRKC/18642.jpg",
+          "publicId": "jk8PP3GC",
+          "deleteUrl": "https://ibb.co/jk8PP3GC/11b90ed34f09c504e2cffaa689f5e649"
+        },
+        {
+          "url": "https://i.ibb.co/q38VV3vd/18440.jpg",
+          "publicId": "FL1CCLFK",
+          "deleteUrl": "https://ibb.co/FL1CCLFK/f4d6eb5069a3220c774e6f6797a79669"
+        },
+        {
+          "url": "https://i.ibb.co/5gJh6Br7/18441.jpg",
+          "publicId": "0RzychCw",
+          "deleteUrl": "https://ibb.co/0RzychCw/e676b88da413507eb8853582ba4bd9a6"
+        }
+      ],
+      "updatedAt": "2026-05-30T16:49:28.145Z"
+    },
+    {
+      "id": "p_1780159555962",
+      "name": "Variedad de aretes 😍",
+      "price": 50,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Variedad de lindos aretes de fantasía color plata y dorado.",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/DHC7SFHX/18435.jpg",
+          "publicId": "B5ZgSJ5D",
+          "deleteUrl": "https://ibb.co/B5ZgSJ5D/5122c2d134ee19bf8590e49a4dba404d"
+        },
+        {
+          "url": "https://i.ibb.co/wFPK8Vc4/18433.jpg",
+          "publicId": "sdNFcnWq",
+          "deleteUrl": "https://ibb.co/sdNFcnWq/e83374d1731941cf27cdd762ef5f1a4f"
+        },
+        {
+          "url": "https://i.ibb.co/rG9ZnT1V/18432.jpg",
+          "publicId": "JRZzX0M9",
+          "deleteUrl": "https://ibb.co/JRZzX0M9/b1c4acf11401ba549df7c88d51facf5e"
+        },
+        {
+          "url": "https://i.ibb.co/Ngnn8mSb/18431.jpg",
+          "publicId": "wZrr9wsj",
+          "deleteUrl": "https://ibb.co/wZrr9wsj/e79c41461972c0cb1fa4f7593e815806"
+        },
+        {
+          "url": "https://i.ibb.co/Gv6sQs9y/18430.jpg",
+          "publicId": "bg0H5HFT",
+          "deleteUrl": "https://ibb.co/bg0H5HFT/87535ff4a64d7997a1d2515e34ff4a50"
+        },
+        {
+          "url": "https://i.ibb.co/kgnkhq5q/18429.jpg",
+          "publicId": "zhcjSPQP",
+          "deleteUrl": "https://ibb.co/zhcjSPQP/aa1e5915aa1b19ab1529db42712bf63f"
+        }
+      ],
+      "updatedAt": "2026-05-30T16:45:55.962Z"
+    },
+    {
       "id": "p_1779157892815",
       "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 7 americano",
       "price": 450,
@@ -5900,5 +5978,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-30T16:15:32.541Z"
+  "updatedAt": "2026-05-30T16:51:25.737Z"
 }
