@@ -37,7 +37,7 @@
     {
       "id": "p_1780166078594",
       "name": "PANTALÓN DIVIDED talla 8",
-      "price": 120,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Poliéster. Con elástico en cintura y tobillos. Zipper dorados en bolsas laterales.",
@@ -71,7 +71,7 @@
           "deleteUrl": "https://ibb.co/h12bxcsQ/c3de9f19d7f4600274ab1d2d6ecbc777"
         }
       ],
-      "updatedAt": "2026-05-30T18:34:38.594Z"
+      "updatedAt": "2026-05-31T06:09:38.991Z"
     },
     {
       "id": "p_1780165698190",
@@ -149,7 +149,7 @@
     {
       "id": "p_1780160891062",
       "name": "VESTIDO CITY STUDIO talla 5 o S",
-      "price": 150,
+      "price": 130,
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "",
@@ -178,7 +178,7 @@
           "deleteUrl": "https://ibb.co/NRKs9m0/2009be3ab6defd92cfa07b119ad70c11"
         }
       ],
-      "updatedAt": "2026-05-30T17:08:11.062Z"
+      "updatedAt": "2026-05-31T06:11:02.518Z"
     },
     {
       "id": "p_1780160597132",
@@ -227,7 +227,7 @@
     {
       "id": "p_1780160141747",
       "name": "FALDA PHILOSOPHY talla 10",
-      "price": 120,
+      "price": 100,
       "category": "Ropa",
       "status": "Como nuevo",
       "desc": "Stretch.",
@@ -251,7 +251,7 @@
           "deleteUrl": "https://ibb.co/BV0MRWRZ/75b31253b3e0e763cf58cb82100f661b"
         }
       ],
-      "updatedAt": "2026-05-30T16:55:41.747Z"
+      "updatedAt": "2026-05-31T06:10:39.092Z"
     },
     {
       "id": "p_1780159768145",
@@ -6236,5 +6236,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-30T19:41:13.306Z"
+  "updatedAt": "2026-05-31T06:11:23.626Z"
 }
