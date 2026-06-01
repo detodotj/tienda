@@ -2216,7 +2216,7 @@
     {
       "id": "p_1776116640787",
       "name": "MINI PICADORA Ihom",
-      "price": 250,
+      "price": 220,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Inalámbrico",
@@ -2237,7 +2237,7 @@
           "publicId": "ZzfVjSxs"
         }
       ],
-      "updatedAt": "2026-04-13T21:44:00.788Z"
+      "updatedAt": "2026-06-01T15:28:18.941Z"
     },
     {
       "id": "p_1776116250975",
@@ -2251,6 +2251,11 @@
       "whatsapp": "526642601992",
       "photos": [
         {
+          "url": "https://i.ibb.co/35Z7Yy4h/18944.jpg",
+          "publicId": "PsHNzZFC",
+          "deleteUrl": "https://ibb.co/PsHNzZFC/6c80e21b95f14defb5b4416b9676bfee"
+        },
+        {
           "url": "https://i.ibb.co/DDxQ7KNt/10902.jpg",
           "publicId": "JRfHzkNK"
         },
@@ -2259,7 +2264,7 @@
           "publicId": "x83qc06C"
         }
       ],
-      "updatedAt": "2026-04-13T23:59:12.202Z"
+      "updatedAt": "2026-06-01T15:31:53.000Z"
     },
     {
       "id": "p_1776116016152",
@@ -6236,5 +6241,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-05-31T06:11:23.626Z"
+  "updatedAt": "2026-06-01T15:32:18.196Z"
 }
