@@ -3243,7 +3243,7 @@
     {
       "id": "p_1775674953492",
       "name": "Pantuflas Route 66 (9-10)",
-      "price": 60,
+      "price": 100,
       "category": "Calzado",
       "status": "Como nuevo",
       "desc": "Muy calientitas!",
@@ -3264,7 +3264,7 @@
           "publicId": "ZRxBvbxN"
         }
       ],
-      "updatedAt": "2026-04-08T19:02:33.492Z"
+      "updatedAt": "2026-06-01T15:33:19.615Z"
     },
     {
       "id": "p_1775674459517",
@@ -6241,5 +6241,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-01T15:32:18.196Z"
+  "updatedAt": "2026-06-01T15:33:49.328Z"
 }
