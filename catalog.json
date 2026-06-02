@@ -676,7 +676,7 @@
     },
     {
       "id": "p_1778520782905",
-      "name": "BOTAS UNIVERSAL THREAD talla 9",
+      "name": "BOTAS UNIVERSAL THREAD para dama talla 9",
       "price": 400,
       "category": "Calzado",
       "status": "Nuevo",
@@ -706,7 +706,7 @@
           "deleteUrl": "https://ibb.co/LDzSqYxd/732837b60f8091004945ec5fe19ee1a7"
         }
       ],
-      "updatedAt": "2026-05-30T16:12:46.097Z"
+      "updatedAt": "2026-06-02T00:09:38.308Z"
     },
     {
       "id": "p_1778519927377",
@@ -6241,5 +6241,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-01T15:36:36.350Z"
+  "updatedAt": "2026-06-02T00:09:43.547Z"
 }
