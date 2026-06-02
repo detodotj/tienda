@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "id": "p_1780425289165",
+      "name": "SENSOR ALARMA DE MONÓXIDO DE CARBONO First Alert",
+      "price": 150,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Este detector de monóxido de carbono First Utiliza un sensor electroquímico avanzado para monitorear continuamente los niveles de CO y emite una alarma de 85 decibelios al detectar peligro. Se conecta directamente a cualquier toma de corriente estándar. Cuenta con una batería de respaldo de 9V incluida para mantener la protección activa durante cortes de energía.",
+      "subcategory": "Herramientas",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/M5k19MfC/19152.jpg",
+          "publicId": "zHV2NGF4",
+          "deleteUrl": "https://ibb.co/zHV2NGF4/5ed95032521ede2f68d2139d9dc546f3"
+        },
+        {
+          "url": "https://i.ibb.co/wr7qnKZ8/19151.jpg",
+          "publicId": "XkDPnzf6",
+          "deleteUrl": "https://ibb.co/XkDPnzf6/4814d821f0018b2b455b497ee9992dfb"
+        }
+      ],
+      "updatedAt": "2026-06-02T18:34:49.173Z"
+    },
+    {
       "id": "p_1780363871191",
       "name": "8BitDo adaptador inalámbrico",
       "price": 250,
@@ -6328,5 +6352,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-02T02:47:23.442Z"
+  "updatedAt": "2026-06-02T18:35:04.706Z"
 }
