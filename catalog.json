@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1780363510181",
+      "name": "AUDÍFONOS INALÁMBRICOS JLAB",
+      "price": 230,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/LdmM00mR/19065.jpg",
+          "publicId": "m5kmRRkT",
+          "deleteUrl": "https://ibb.co/m5kmRRkT/d65570cf4289e5efdfb6585f74bc21c4"
+        },
+        {
+          "url": "https://i.ibb.co/jvWMr7qq/19067.jpg",
+          "publicId": "DD8CR3mm",
+          "deleteUrl": "https://ibb.co/DD8CR3mm/a24fae76353a582cede7668b99dccb6c"
+        },
+        {
+          "url": "https://i.ibb.co/Lh5N9MG2/19068.jpg",
+          "publicId": "4gd14cQ5",
+          "deleteUrl": "https://ibb.co/4gd14cQ5/7e72b3d6547f4c9248a0cc996e2cbbab"
+        }
+      ],
+      "updatedAt": "2026-06-02T01:26:36.084Z"
+    },
+    {
       "id": "p_1780363253371",
       "name": "KIT PARA CORTE DE PELO Bell Howell",
       "price": 300,
@@ -6275,5 +6304,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-02T01:22:42.787Z"
+  "updatedAt": "2026-06-02T01:26:38.904Z"
 }
