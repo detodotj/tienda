@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1780363253371",
+      "name": "KIT PARA CORTE DE PELO Bell Howell",
+      "price": 300,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "22 piezas incluídas.",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/RGQBRRmK/19061.jpg",
+          "publicId": "GfCtzzLD",
+          "deleteUrl": "https://ibb.co/GfCtzzLD/ecbdc84d7ed73080f3328f345df7c02d"
+        },
+        {
+          "url": "https://i.ibb.co/84S1GGDj/19062.jpg",
+          "publicId": "BKS0vvVg",
+          "deleteUrl": "https://ibb.co/BKS0vvVg/80a3aa4689037f392c3fd58d89c62c9a"
+        },
+        {
+          "url": "https://i.ibb.co/7x69dPW9/19063.jpg",
+          "publicId": "zW0kTpRk",
+          "deleteUrl": "https://ibb.co/zW0kTpRk/7c281123200c0a46a21e4b7226bfeec1"
+        },
+        {
+          "url": "https://i.ibb.co/LXzV3TZJ/19064.jpg",
+          "publicId": "Q3Fy4WKC",
+          "deleteUrl": "https://ibb.co/Q3Fy4WKC/8554b21537676d5650c4e6697996a770"
+        }
+      ],
+      "updatedAt": "2026-06-02T01:22:23.525Z"
+    },
+    {
       "id": "p_1780166406160",
       "name": "PANTALÓN talla XL",
       "price": 120,
@@ -6241,5 +6275,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-02T00:16:04.899Z"
+  "updatedAt": "2026-06-02T01:22:42.787Z"
 }
