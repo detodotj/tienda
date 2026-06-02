@@ -6,7 +6,7 @@
       "price": 230,
       "category": "Electrónica",
       "status": "Nuevo",
-      "desc": "",
+      "desc": "Auriculares inalámbricos JLab Go Air Sport en color verde azulado.",
       "subcategory": "Audio",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -27,7 +27,7 @@
           "deleteUrl": "https://ibb.co/4gd14cQ5/7e72b3d6547f4c9248a0cc996e2cbbab"
         }
       ],
-      "updatedAt": "2026-06-02T01:26:36.084Z"
+      "updatedAt": "2026-06-02T01:28:24.485Z"
     },
     {
       "id": "p_1780363253371",
@@ -6304,5 +6304,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-02T01:26:38.904Z"
+  "updatedAt": "2026-06-02T01:28:28.083Z"
 }
