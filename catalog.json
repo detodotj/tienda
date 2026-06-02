@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "id": "p_1780363871191",
+      "name": "8BitDo adaptador inalámbrico",
+      "price": 250,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Retro",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/3m9Mr2X3/19069.jpg",
+          "publicId": "v46Qwp5F",
+          "deleteUrl": "https://ibb.co/v46Qwp5F/aa70b7dc77410d6a7076a50534c01158"
+        },
+        {
+          "url": "https://i.ibb.co/C5H9DQXh/19070.jpg",
+          "publicId": "MDC1Q7jM",
+          "deleteUrl": "https://ibb.co/MDC1Q7jM/8d586b56242b4eb4051bb574054da052"
+        }
+      ],
+      "updatedAt": "2026-06-02T01:32:45.991Z"
+    },
+    {
       "id": "p_1780363510181",
       "name": "AUDÍFONOS INALÁMBRICOS JLAB",
       "price": 230,
@@ -6304,5 +6328,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-02T01:28:28.083Z"
+  "updatedAt": "2026-06-02T01:39:30.893Z"
 }
