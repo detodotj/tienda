@@ -240,7 +240,7 @@
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "",
-      "subcategory": "Mujer",
+      "subcategory": "Vestidos",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -265,7 +265,7 @@
           "deleteUrl": "https://ibb.co/NRKs9m0/2009be3ab6defd92cfa07b119ad70c11"
         }
       ],
-      "updatedAt": "2026-05-31T06:11:02.518Z"
+      "updatedAt": "2026-06-02T02:46:43.691Z"
     },
     {
       "id": "p_1780160597132",
@@ -274,7 +274,7 @@
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "Hermoso vestido largo y ligero con olanes en cuello y falda🥰",
-      "subcategory": "Mujer",
+      "subcategory": "Vestidos",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
@@ -309,7 +309,7 @@
           "deleteUrl": "https://ibb.co/1YqqRsPN/d1e06bef961417a0e35b0d2e51c18bed"
         }
       ],
-      "updatedAt": "2026-05-30T17:03:17.133Z"
+      "updatedAt": "2026-06-02T02:46:52.360Z"
     },
     {
       "id": "p_1780160141747",
@@ -6328,5 +6328,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-02T01:39:30.893Z"
+  "updatedAt": "2026-06-02T02:47:23.442Z"
 }
