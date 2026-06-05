@@ -80,7 +80,7 @@
     {
       "id": "p_1780363253371",
       "name": "KIT PARA CORTE DE PELO Bell Howell",
-      "price": 300,
+      "price": 290,
       "category": "Electrónica",
       "status": "Nuevo",
       "desc": "22 piezas incluídas.",
@@ -109,7 +109,7 @@
           "deleteUrl": "https://ibb.co/Q3Fy4WKC/8554b21537676d5650c4e6697996a770"
         }
       ],
-      "updatedAt": "2026-06-02T01:22:23.525Z"
+      "updatedAt": "2026-06-05T22:47:31.598Z"
     },
     {
       "id": "p_1780166406160",
@@ -6357,5 +6357,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-02T21:49:04.689Z"
+  "updatedAt": "2026-06-05T22:47:38.543Z"
 }
