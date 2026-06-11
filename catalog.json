@@ -5844,7 +5844,7 @@
     {
       "id": "p_1774744939799",
       "name": "Almohadillas para pañales para perro marca Joccik",
-      "price": 120,
+      "price": 100,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Almohadillas para pañales para perro. 150 unidades. Dog Diaper Liners.",
@@ -5857,7 +5857,7 @@
           "publicId": "x8ScbyNJ"
         }
       ],
-      "updatedAt": "2026-04-17T02:55:56.777Z"
+      "updatedAt": "2026-06-11T16:48:28.473Z"
     },
     {
       "id": "p_1774741467617",
@@ -6360,5 +6360,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-11T04:52:57.246Z"
+  "updatedAt": "2026-06-11T16:48:53.752Z"
 }
