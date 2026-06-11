@@ -749,7 +749,7 @@
     {
       "id": "p_1778521551100",
       "name": "BOTAS UNIVERSAL THREAD talla 8 1/2",
-      "price": 400,
+      "price": 380,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas altas de gamuza color beige con tacón bajo tipo cono.",
@@ -783,12 +783,12 @@
           "deleteUrl": "https://ibb.co/YTPjYgRK/0fa092505e3df50dd2c3682bd8445007"
         }
       ],
-      "updatedAt": "2026-05-20T02:56:58.445Z"
+      "updatedAt": "2026-06-11T04:47:29.186Z"
     },
     {
       "id": "p_1778520782905",
       "name": "BOTAS UNIVERSAL THREAD para dama talla 9",
-      "price": 400,
+      "price": 380,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas negras estilo biker o moteras, con detalles de arnés y hebillas plateadas, son una de las tendencias más fuertes para las temporadas de frío.",
@@ -817,12 +817,12 @@
           "deleteUrl": "https://ibb.co/LDzSqYxd/732837b60f8091004945ec5fe19ee1a7"
         }
       ],
-      "updatedAt": "2026-06-02T00:09:38.308Z"
+      "updatedAt": "2026-06-11T04:48:14.555Z"
     },
     {
       "id": "p_1778519927377",
       "name": "BOTAS A NEW DAY talla 9 1/2",
-      "price": 400,
+      "price": 380,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Botas altas de A New Day cubiertas de lentejuelas negras con punta afilada y tacón.",
@@ -856,7 +856,7 @@
           "deleteUrl": "https://ibb.co/1fPFd20M/57d789d78c428e1ca30935f32ca496c4"
         }
       ],
-      "updatedAt": "2026-05-20T02:57:41.786Z"
+      "updatedAt": "2026-06-11T04:47:51.520Z"
     },
     {
       "id": "p_1778518990375",
@@ -6360,5 +6360,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-11T02:23:25.969Z"
+  "updatedAt": "2026-06-11T04:48:20.851Z"
 }
