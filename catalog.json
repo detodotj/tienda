@@ -1046,7 +1046,7 @@
     {
       "id": "p_1777343919006",
       "name": "TENIS Starter talla 9.5 y 10",
-      "price": 420,
+      "price": 450,
       "category": "Calzado",
       "status": "Nuevo",
       "desc": "Para Hombre. Disponibles talla 9.5 y 10",
@@ -1054,6 +1054,11 @@
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
+        {
+          "url": "https://i.ibb.co/TMFhq9BW/20672.png",
+          "publicId": "HTkgp5Dh",
+          "deleteUrl": "https://ibb.co/HTkgp5Dh/9e034ef642a081cb78a9438b46257bba"
+        },
         {
           "url": "https://i.ibb.co/PZjkD3Hz/13751.jpg",
           "publicId": "gM9Y4HKF",
@@ -1075,7 +1080,7 @@
           "deleteUrl": "https://ibb.co/fGrS9Wtf/c8b87864f2e9ea74069b4c2438ef77b2"
         }
       ],
-      "updatedAt": "2026-06-11T04:48:58.169Z"
+      "updatedAt": "2026-06-12T18:14:10.730Z"
     },
     {
       "id": "p_1777343374708",
@@ -6360,5 +6365,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-12T15:33:38.548Z"
+  "updatedAt": "2026-06-12T18:14:15.078Z"
 }
