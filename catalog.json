@@ -1,6 +1,59 @@
 {
   "products": [
     {
+      "id": "p_1781633254303",
+      "name": "Juego de cuchillos Kunsion",
+      "price": 350,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Juego de cuchillos de cocina Kunsion de 6 piezas que incluye cuchillas con un revestimiento antiadherente de efecto mármol.\nEl set incluye un cuchillo de chef, un cuchillo de pan, un cuchillo rebanador, un cuchillo utilitario, un cuchillo de pelar y un pelador cerámico.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/4RgMJkH6/21127.jpg",
+          "publicId": "5hxv2ZPN",
+          "deleteUrl": "https://ibb.co/5hxv2ZPN/a9a717b7c5548a94f48a84df407ddb43"
+        },
+        {
+          "url": "https://i.ibb.co/7Np6mVsJ/21128.jpg",
+          "publicId": "qFgPQ9TM",
+          "deleteUrl": "https://ibb.co/qFgPQ9TM/2c6aaab25fd9580927e11677318e8688"
+        },
+        {
+          "url": "https://i.ibb.co/WQPPyTj/21133.jpg",
+          "publicId": "wTwwWvj",
+          "deleteUrl": "https://ibb.co/wTwwWvj/c6002bf654b089f4a7339babbd32ed6b"
+        }
+      ],
+      "updatedAt": "2026-06-16T18:07:34.306Z"
+    },
+    {
+      "id": "p_1781632648033",
+      "name": "Mouse inalámbrico Surf Onn",
+      "price": 100,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Mouse inalámbrico Surf Onn de 5 botones.\n\nCuenta con un sensor óptico de 1600 dpi y funciona mediante un receptor USB de 2.4 GHz.\n\nIncluye baterías AAA .",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Tx1mz3cc/21126.jpg",
+          "publicId": "NdrZwBxx",
+          "deleteUrl": "https://ibb.co/NdrZwBxx/299da77dd5edd7b43663f328908ce9bc"
+        },
+        {
+          "url": "https://i.ibb.co/p6qN8HD8/21125.jpg",
+          "publicId": "PskJn2pn",
+          "deleteUrl": "https://ibb.co/PskJn2pn/ad4832dd2d1fe515ae550b55f3af99c1"
+        }
+      ],
+      "updatedAt": "2026-06-16T17:57:28.036Z"
+    },
+    {
       "id": "p_1780425289165",
       "name": "SENSOR ALARMA DE MONÓXIDO DE CARBONO First Alert",
       "price": 150,
@@ -6373,5 +6426,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-16T04:20:30.400Z"
+  "updatedAt": "2026-06-16T18:07:39.060Z"
 }
