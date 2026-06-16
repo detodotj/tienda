@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1781641272257",
+      "name": "Sleeping Bag marca Pacific Coast Trail",
+      "price": 250,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Saco de dormir ligero de color rojo vino de la marca Pacific Coast Trail.\nIncluye una funda de compresión con correas para facilitar su transporte y almacenamiento.\nIdeal para actividades al aire libre como camping y senderismo.",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/VpqyHWc7/21150.jpg",
+          "publicId": "HpHvNDfW",
+          "deleteUrl": "https://ibb.co/HpHvNDfW/4c91ac925f0100a7e98cac71594da769"
+        },
+        {
+          "url": "https://i.ibb.co/XfCBKbfL/21154.jpg",
+          "publicId": "WN29M6N5",
+          "deleteUrl": "https://ibb.co/WN29M6N5/2d0f955edc5f9b0171a4a8b7a05a7836"
+        },
+        {
+          "url": "https://i.ibb.co/nyWcv2c/21153.jpg",
+          "publicId": "XPwsgBs",
+          "deleteUrl": "https://ibb.co/XPwsgBs/d5d036d8dbfa6d79a994afce03e3b69d"
+        },
+        {
+          "url": "https://i.ibb.co/S41zxzY7/21155.png",
+          "publicId": "4nDHfHvg",
+          "deleteUrl": "https://ibb.co/4nDHfHvg/f222e20276f7ad48f11babfd628e53e3"
+        }
+      ],
+      "updatedAt": "2026-06-16T20:21:12.259Z"
+    },
+    {
       "id": "p_1781633254303",
       "name": "Juego de cuchillos Kunsion",
       "price": 350,
@@ -6426,5 +6460,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-16T18:07:39.060Z"
+  "updatedAt": "2026-06-16T20:21:14.906Z"
 }
