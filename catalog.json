@@ -32,7 +32,10 @@
           "deleteUrl": "https://ibb.co/XPwsgBs/d5d036d8dbfa6d79a994afce03e3b69d"
         }
       ],
-      "updatedAt": "2026-06-16T20:22:56.219Z"
+      "updatedAt": "2026-06-16T20:22:56.219Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1781657175757
     },
     {
       "id": "p_1781633254303",
@@ -6460,5 +6463,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-16T21:38:03.082Z"
+  "updatedAt": "2026-06-17T00:46:18.816Z"
 }
