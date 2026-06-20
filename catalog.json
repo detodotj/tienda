@@ -1,6 +1,50 @@
 {
   "products": [
     {
+      "id": "p_1781985999793",
+      "name": "Télévision CRT Panasonic CT-G2175S",
+      "price": 1500,
+      "category": "Electrónica",
+      "status": "Buen estado",
+      "desc": "Televisor Panasonic 21\" CRT (CT-G2175S)TV de tubo Panasonic de 21 pulgadas en perfecto estado. \nIdeal para gaming retro (consolas antiguas). Entradas RCA funcionando al 100%.",
+      "subcategory": "Televisiones",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1YNGkpHJ/21788.jpg",
+          "publicId": "zWgVzLKH",
+          "deleteUrl": "https://ibb.co/zWgVzLKH/1514ebba7ebe2764d7b745bee97e3b9b"
+        },
+        {
+          "url": "https://i.ibb.co/4wHFJjQh/21790.jpg",
+          "publicId": "5XP1257b",
+          "deleteUrl": "https://ibb.co/5XP1257b/94887d2384f4252a82b582e2a69757bd"
+        },
+        {
+          "url": "https://i.ibb.co/kdQ9gPX/21786.jpg",
+          "publicId": "TCmbBNt",
+          "deleteUrl": "https://ibb.co/TCmbBNt/fdc0d07108b43e8ed66921f316d7524f"
+        },
+        {
+          "url": "https://i.ibb.co/bjkD4KDz/21776.jpg",
+          "publicId": "4wH3bV3P",
+          "deleteUrl": "https://ibb.co/4wH3bV3P/e659d0e02b6f3854ddb2dc3202ff8bb7"
+        },
+        {
+          "url": "https://i.ibb.co/wNkDF1jc/21773.jpg",
+          "publicId": "HDSmfQ3h",
+          "deleteUrl": "https://ibb.co/HDSmfQ3h/5c5e0ae0580dbd83e9fa57ab81ffa484"
+        },
+        {
+          "url": "https://i.ibb.co/ksCthpfv/21767.jpg",
+          "publicId": "FLTFB9MC",
+          "deleteUrl": "https://ibb.co/FLTFB9MC/637c0c8ee14f443b4e7efb5fd87c8fc2"
+        }
+      ],
+      "updatedAt": "2026-06-20T20:06:39.797Z"
+    },
+    {
       "id": "p_1781641272257",
       "name": "Sleeping Bag marca Pacific Coast Trail",
       "price": 250,
@@ -6370,5 +6414,5 @@
     "p_1775859998014",
     "p_1779745717691"
   ],
-  "updatedAt": "2026-06-18T21:39:17.732Z"
+  "updatedAt": "2026-06-20T20:06:54.144Z"
 }
