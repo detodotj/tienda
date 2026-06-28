@@ -3,7 +3,7 @@
     {
       "id": "p_1781985999793",
       "name": "Télévision CRT Panasonic CT-G2175S",
-      "price": 1500,
+      "price": 1300,
       "category": "Electrónica",
       "status": "Buen estado",
       "desc": "Televisor Panasonic 21\" CRT (CT-G2175S)TV de tubo Panasonic de 21 pulgadas en perfecto estado. \nIdeal para gaming retro (consolas antiguas). Entradas RCA funcionando al 100%.",
@@ -42,7 +42,7 @@
           "deleteUrl": "https://ibb.co/FLTFB9MC/637c0c8ee14f443b4e7efb5fd87c8fc2"
         }
       ],
-      "updatedAt": "2026-06-20T20:06:39.797Z"
+      "updatedAt": "2026-06-28T04:23:18.856Z"
     },
     {
       "id": "p_1781641272257",
@@ -1698,39 +1698,6 @@
       "updatedAt": "2026-06-18T16:02:56.027Z"
     },
     {
-      "id": "p_1776793770563",
-      "name": "VESTIDO Tommy Bahama talla S",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/93f7Rfjz/12838.jpg",
-          "publicId": "rfLVnLJT"
-        },
-        {
-          "url": "https://i.ibb.co/rKnTHmrk/12411.jpg",
-          "publicId": "vC2gkHn1"
-        },
-        {
-          "url": "https://i.ibb.co/d0q8VTJz/12405.jpg",
-          "publicId": "JR4DG1FM"
-        },
-        {
-          "url": "https://i.ibb.co/fV60CrmH/12404.jpg",
-          "publicId": "p6VX34Cd"
-        }
-      ],
-      "updatedAt": "2026-04-23T00:43:02.930Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542696884
-    },
-    {
       "id": "p_1776793605001",
       "name": "VESTIDO Old Navy talla M",
       "price": 150,
@@ -1855,35 +1822,6 @@
         }
       ],
       "updatedAt": "2026-06-18T16:03:51.509Z"
-    },
-    {
-      "id": "p_1776786560470",
-      "name": "CAMISA Pokemon talla M",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/0HF9wcY/12426.jpg",
-          "publicId": "9QV4MNy"
-        },
-        {
-          "url": "https://i.ibb.co/mC98D8Rk/12423.jpg",
-          "publicId": "ns7CgCw9"
-        },
-        {
-          "url": "https://i.ibb.co/PZP7SGTC/12422.jpg",
-          "publicId": "nsYHWM3k"
-        }
-      ],
-      "updatedAt": "2026-04-21T15:51:09.432Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542730080
     },
     {
       "id": "p_1776786287770",
@@ -3802,39 +3740,6 @@
       "updatedAt": "2026-04-17T03:17:48.558Z"
     },
     {
-      "id": "p_1775502156694",
-      "name": "Blusa Chelsea & Theodore talla S",
-      "price": 80,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Blusita formal con lindo detalle en tirantes.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/jPpDhW2p/8622.jpg",
-          "publicId": "YFrh2yMr"
-        },
-        {
-          "url": "https://i.ibb.co/j9xJr5p9/8620.jpg",
-          "publicId": "CpXPHtrp"
-        },
-        {
-          "url": "https://i.ibb.co/RG0347FP/8619.jpg",
-          "publicId": "Cp7bsWcv"
-        },
-        {
-          "url": "https://i.ibb.co/GfKSX0jY/8621.jpg",
-          "publicId": "JWfJNKP6"
-        }
-      ],
-      "updatedAt": "2026-04-23T00:44:13.226Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542821075
-    },
-    {
       "id": "p_1775500507604",
       "name": "Blusa Urban Coco talla S",
       "price": 60,
@@ -4432,41 +4337,6 @@
         }
       ],
       "updatedAt": "2026-04-16T05:17:16.576Z"
-    },
-    {
-      "id": "p_1775434792460",
-      "name": "Vestido Sanctuary talla XS",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Lindo vestido, muy fresco, con tirantes y olanes.",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/YBPfTVpn/12848.jpg",
-          "publicId": "9Hcy3dsK"
-        },
-        {
-          "url": "https://i.ibb.co/5x6tJVRF/12925.jpg",
-          "publicId": "CszNSFH2",
-          "deleteUrl": "https://ibb.co/CszNSFH2/614e0a410b78954539d8d9c0ec3ce0a6"
-        },
-        {
-          "url": "https://i.ibb.co/h1xVjvVG/8354.jpg",
-          "publicId": "YT4hMGh5"
-        },
-        {
-          "url": "https://i.ibb.co/ZzBVCVb5/12924.jpg",
-          "publicId": "k24xFxPj",
-          "deleteUrl": "https://ibb.co/k24xFxPj/472af8d64bed0ec48f532c6f72d2edc9"
-        }
-      ],
-      "updatedAt": "2026-04-23T17:46:57.173Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542844076
     },
     {
       "id": "p_1775434671326",
@@ -5181,35 +5051,6 @@
         }
       ],
       "updatedAt": "2026-04-16T19:22:48.751Z"
-    },
-    {
-      "id": "p_1775240510709",
-      "name": "Vestido Charming Charlie talla S",
-      "price": 120,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Lindo vestido de verano con tirantes. Tiene fondo integrado. Tela exterior con mucho vuelo.",
-      "subcategory": "Vestidos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/dwGjgbYQ/Whats-App-Image-2026-04-16-at-12-20-30-PM.jpg",
-          "publicId": "cSDkLbnN"
-        },
-        {
-          "url": "https://i.ibb.co/6ckFRQ5B/Whats-App-Image-2026-04-16-at-12-20-55-PM.jpg",
-          "publicId": "p6Sdvqpy"
-        },
-        {
-          "url": "https://i.ibb.co/RT11M3rv/Whats-App-Image-2026-04-16-at-12-20-42-PM.jpg",
-          "publicId": "Sw221tYs"
-        }
-      ],
-      "updatedAt": "2026-04-16T19:23:21.005Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542874468
     },
     {
       "id": "p_1775174299121",
@@ -6412,7 +6253,12 @@
     "p_1776793445766",
     "p_1775861096496",
     "p_1775859998014",
-    "p_1779745717691"
+    "p_1779745717691",
+    "p_1776793770563",
+    "p_1776786560470",
+    "p_1775502156694",
+    "p_1775434792460",
+    "p_1775240510709"
   ],
-  "updatedAt": "2026-06-20T20:07:07.752Z"
+  "updatedAt": "2026-06-28T04:23:27.283Z"
 }
