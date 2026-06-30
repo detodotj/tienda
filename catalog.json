@@ -84,43 +84,6 @@
       "updatedAt": "2026-06-28T04:23:18.856Z"
     },
     {
-      "id": "p_1781641272257",
-      "name": "Sleeping Bag marca Pacific Coast Trail",
-      "price": 250,
-      "category": "Hogar",
-      "status": "Nuevo",
-      "desc": "Saco de dormir ligero de color rojo vino de la marca Pacific Coast Trail.\nIncluye una funda de compresión con correas para facilitar su transporte y almacenamiento.\nIdeal para actividades al aire libre como camping y senderismo.",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/b52dJXzr/21156.png",
-          "publicId": "tpxCXD8b",
-          "deleteUrl": "https://ibb.co/tpxCXD8b/fc85a6c9dd5c91e34bf412470e853059"
-        },
-        {
-          "url": "https://i.ibb.co/VpqyHWc7/21150.jpg",
-          "publicId": "HpHvNDfW",
-          "deleteUrl": "https://ibb.co/HpHvNDfW/4c91ac925f0100a7e98cac71594da769"
-        },
-        {
-          "url": "https://i.ibb.co/XfCBKbfL/21154.jpg",
-          "publicId": "WN29M6N5",
-          "deleteUrl": "https://ibb.co/WN29M6N5/2d0f955edc5f9b0171a4a8b7a05a7836"
-        },
-        {
-          "url": "https://i.ibb.co/nyWcv2c/21153.jpg",
-          "publicId": "XPwsgBs",
-          "deleteUrl": "https://ibb.co/XPwsgBs/d5d036d8dbfa6d79a994afce03e3b69d"
-        }
-      ],
-      "updatedAt": "2026-06-16T20:22:56.219Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1781657175757
-    },
-    {
       "id": "p_1781633254303",
       "name": "Juego de cuchillos Kunsion",
       "price": 350,
@@ -576,53 +539,6 @@
       "updatedAt": "2026-05-30T16:45:55.962Z"
     },
     {
-      "id": "p_1779157892815",
-      "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 7 americano",
-      "price": 400,
-      "category": "Calzado",
-      "status": "Nuevo",
-      "desc": "Botas de trabajo de la marca JERKO con punta de acero y diseño impermeable en color negro. Talla 7 americano o 26 mexicano. Antiderrapantes.",
-      "subcategory": "Hombre",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/4R0mkvdp/19060.png",
-          "publicId": "TMNvyjLt",
-          "deleteUrl": "https://ibb.co/TMNvyjLt/6e207f0e831af16a0e9a82d83953b18d"
-        },
-        {
-          "url": "https://i.ibb.co/1tjxFKhV/16993.jpg",
-          "publicId": "v6R80mg5",
-          "deleteUrl": "https://ibb.co/v6R80mg5/e905ff4cf5be7b7734f1537634ba3cd7"
-        },
-        {
-          "url": "https://i.ibb.co/TxdPDjGJ/16995.jpg",
-          "publicId": "pB546VTN",
-          "deleteUrl": "https://ibb.co/pB546VTN/6a6ac61c5bb28a074ba3fe39be0a9242"
-        },
-        {
-          "url": "https://i.ibb.co/ch0xRvzT/16994.jpg",
-          "publicId": "1G1bBnH2",
-          "deleteUrl": "https://ibb.co/1G1bBnH2/62f3bf6f3d6e4b2b7191a2ad7fa87608"
-        },
-        {
-          "url": "https://i.ibb.co/DPrJTZPq/16990.jpg",
-          "publicId": "LDNFH3DG",
-          "deleteUrl": "https://ibb.co/LDNFH3DG/4fff0b6cf06845d52f12d9018afe454c"
-        },
-        {
-          "url": "https://i.ibb.co/N65gsvPt/16997.jpg",
-          "publicId": "hRbxy6jL",
-          "deleteUrl": "https://ibb.co/hRbxy6jL/7416862a4bf423cb603df5f0f06350e1"
-        }
-      ],
-      "updatedAt": "2026-06-12T15:33:28.822Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1781583627534
-    },
-    {
       "id": "p_1779153390630",
       "name": "BOTAS DE CASQUILLO PARA HOMBRE talla 9",
       "price": 450,
@@ -665,80 +581,6 @@
         }
       ],
       "updatedAt": "2026-06-16T21:37:56.444Z"
-    },
-    {
-      "id": "p_1778604857875",
-      "name": "Violín Acústico",
-      "price": 900,
-      "category": "Coleccionables",
-      "status": "Nuevo",
-      "desc": "Kit incluye violín, reposabrazos, caja triangular, afinador, recina, arco, pegatina de escala, cola de caballo de Mongolia.",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/QF6MRJYw/16230.jpg",
-          "publicId": "6R4FxyDC",
-          "deleteUrl": "https://ibb.co/6R4FxyDC/99209e369ce08be0dc85c6dcbca581e2"
-        },
-        {
-          "url": "https://i.ibb.co/S44M95f6/16234.jpg",
-          "publicId": "G448bnHd",
-          "deleteUrl": "https://ibb.co/G448bnHd/6fc8110ac2f1344c3610aaa587b3acd9"
-        },
-        {
-          "url": "https://i.ibb.co/CCbkyw0/16233.jpg",
-          "publicId": "Rr3xKgH",
-          "deleteUrl": "https://ibb.co/Rr3xKgH/98140d21066e2bfe2d41b4b8f4e30d42"
-        },
-        {
-          "url": "https://i.ibb.co/MydRnHp7/16277.jpg",
-          "publicId": "dsZQBv6D",
-          "deleteUrl": "https://ibb.co/dsZQBv6D/c07a680fd3fc89b9079369d9d2c3f253"
-        },
-        {
-          "url": "https://i.ibb.co/9mqzS2KV/16276.jpg",
-          "publicId": "HLr13Ywx",
-          "deleteUrl": "https://ibb.co/HLr13Ywx/4faf7b24fbcd5c56701d82f0d55bb0d8"
-        },
-        {
-          "url": "https://i.ibb.co/d0gPPt70/16273.jpg",
-          "publicId": "rGsxx3vG",
-          "deleteUrl": "https://ibb.co/rGsxx3vG/92eb6474b1d21ce6e21c5c648a210654"
-        }
-      ],
-      "updatedAt": "2026-05-12T16:58:48.532Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778730682489
-    },
-    {
-      "id": "p_1778539537334",
-      "name": "8 BitDo",
-      "price": 250,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Retro Receiver NES-SNESS-SFC",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/wZzMVRTq/16193.jpg",
-          "publicId": "WN2gZ6QX",
-          "deleteUrl": "https://ibb.co/WN2gZ6QX/a03b0b56a5c817b6da2f0881fb417b75"
-        },
-        {
-          "url": "https://i.ibb.co/0RgZ1h0G/16195.jpg",
-          "publicId": "C3kv4hjH",
-          "deleteUrl": "https://ibb.co/C3kv4hjH/3cd5f5766102d2fe23440b3407eaf20a"
-        }
-      ],
-      "updatedAt": "2026-05-12T01:07:00.249Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778594025346
     },
     {
       "id": "p_1778525004747",
@@ -849,38 +691,6 @@
         }
       ],
       "updatedAt": "2026-05-11T21:04:16.091Z"
-    },
-    {
-      "id": "p_1778522985614",
-      "name": "AUDÍFONOS INALÁMBRICOS JLAB",
-      "price": 230,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Auriculares inalámbricos JLab Go Air Sport en color verde azulado.",
-      "subcategory": "Audio",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/cXXC6tj6/16122.jpg",
-          "publicId": "S77dt0zt",
-          "deleteUrl": "https://ibb.co/S77dt0zt/447a069a03a65fec495710c7ad98b129"
-        },
-        {
-          "url": "https://i.ibb.co/fVZY302T/16123.jpg",
-          "publicId": "5XCWQc6J",
-          "deleteUrl": "https://ibb.co/5XCWQc6J/bb44f4f5f203c7a367325413325ac772"
-        },
-        {
-          "url": "https://i.ibb.co/jkKp92qY/16124.jpg",
-          "publicId": "0yNwpS1L",
-          "deleteUrl": "https://ibb.co/0yNwpS1L/856e2577a243aa5a29e94b5642176547"
-        }
-      ],
-      "updatedAt": "2026-05-11T21:07:53.643Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778773290501
     },
     {
       "id": "p_1778521551100",
@@ -1078,48 +888,6 @@
       "updatedAt": "2026-06-11T04:51:30.405Z"
     },
     {
-      "id": "p_1778517558528",
-      "name": "BOTAS A NEW DAY talla 9",
-      "price": 280,
-      "category": "Calzado",
-      "status": "Nuevo",
-      "desc": "Botines negros de tacón de aguja marca A New Day con diseño estilo motero y puntera afilada.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/8nPM1W8T/19815.jpg",
-          "publicId": "LD9SVLpb",
-          "deleteUrl": "https://ibb.co/LD9SVLpb/777133748ea84f119500689ade6713a1"
-        },
-        {
-          "url": "https://i.ibb.co/GfhvgMVh/16059.jpg",
-          "publicId": "6cdR6t4d",
-          "deleteUrl": "https://ibb.co/6cdR6t4d/ede63ccead0dcb334ca6cf2420dcb983"
-        },
-        {
-          "url": "https://i.ibb.co/HD09VLSr/16060.jpg",
-          "publicId": "xSyrDKkM",
-          "deleteUrl": "https://ibb.co/xSyrDKkM/acbf188e6752e686a94a7d034e5ca7f0"
-        },
-        {
-          "url": "https://i.ibb.co/Qjcvj93q/16061.jpg",
-          "publicId": "0VXyVqRW",
-          "deleteUrl": "https://ibb.co/0VXyVqRW/8e8419272186d4af65d451295caca597"
-        },
-        {
-          "url": "https://i.ibb.co/rg1nf3W/16062.jpg",
-          "publicId": "jd17Zzp",
-          "deleteUrl": "https://ibb.co/jd17Zzp/ebe9ed8510123173bff13e46d5367e63"
-        }
-      ],
-      "updatedAt": "2026-06-12T18:39:29.893Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1781818752922
-    },
-    {
       "id": "p_1777403124753",
       "name": "OBI-WAN KENOBI",
       "price": 350,
@@ -1227,75 +995,6 @@
       "updatedAt": "2026-06-12T18:14:10.730Z"
     },
     {
-      "id": "p_1777343374708",
-      "name": "KIT PARA CORTE DE PELO Bell Howell",
-      "price": 290,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "22 piezas incluidas",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/dJ3RPfK8/13749.jpg",
-          "publicId": "KzQJ25yT",
-          "deleteUrl": "https://ibb.co/KzQJ25yT/cc8d12c34f82a67da70e4e165d67719a"
-        },
-        {
-          "url": "https://i.ibb.co/7xWgqRCJ/13744.jpg",
-          "publicId": "ymyhrYPn",
-          "deleteUrl": "https://ibb.co/ymyhrYPn/56052ac2e7cb991d7cfe8c0718a8fd50"
-        },
-        {
-          "url": "https://i.ibb.co/TMzqNrwY/13745.jpg",
-          "publicId": "4RBg0JFK",
-          "deleteUrl": "https://ibb.co/4RBg0JFK/6f78660f36042df3bbe5eaff46b668a1"
-        },
-        {
-          "url": "https://i.ibb.co/TqxMz5F7/13746.jpg",
-          "publicId": "XkrxmTvK",
-          "deleteUrl": "https://ibb.co/XkrxmTvK/7fa5a69fb71d431a643da2213dd1badd"
-        }
-      ],
-      "updatedAt": "2026-05-11T20:57:59.522Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779327859555
-    },
-    {
-      "id": "p_1777342833193",
-      "name": "RELOJ DESPERTADOR ⏰ G-BUZZ",
-      "price": 230,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Sonidos de la naturaleza: Para ayudar a conciliar el sueño o despertar de manera más natural, incluye sonidos de olas rompiendo, grillos, búhos ululando y ruido blanco.\nSonidos de despertar: Además de un zumbador tradicional, incluye sonidos temáticos como el canto de un gallo.",
-      "subcategory": "Audio",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/ZR8X0gGp/13733.jpg",
-          "publicId": "35NdnF49",
-          "deleteUrl": "https://ibb.co/35NdnF49/7d72e2853e1e7611d2d93c55151df196"
-        },
-        {
-          "url": "https://i.ibb.co/67kcQTm0/13738.jpg",
-          "publicId": "S4zDSMPw",
-          "deleteUrl": "https://ibb.co/S4zDSMPw/ef35dfc2e6a2f12a9f74ab875aeb2f69"
-        },
-        {
-          "url": "https://i.ibb.co/jkLbbJs4/13739.jpg",
-          "publicId": "3m044RQh",
-          "deleteUrl": "https://ibb.co/3m044RQh/136e140a9c9e401cf3162a9f2e1029a2"
-        }
-      ],
-      "updatedAt": "2026-05-05T23:28:24.507Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778894947471
-    },
-    {
       "id": "p_1777341647996",
       "name": "CAFETERA Mainstays",
       "price": 280,
@@ -1349,38 +1048,6 @@
       "updatedAt": "2026-04-28T01:44:37.530Z"
     },
     {
-      "id": "p_1777340262355",
-      "name": "KIT para pintar 🖌️ sobre figuras de madera",
-      "price": 100,
-      "category": "Juguetes",
-      "status": "Nuevo",
-      "desc": "3 años en adelante",
-      "subcategory": "Educativos",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/fwJZBwX/13715.jpg",
-          "publicId": "mWpd1WR",
-          "deleteUrl": "https://ibb.co/mWpd1WR/d31014a505c5c577f990133fa34836d7"
-        },
-        {
-          "url": "https://i.ibb.co/nMRXRKW5/13711.jpg",
-          "publicId": "235z5pbf",
-          "deleteUrl": "https://ibb.co/235z5pbf/f43021e491ad4d97ebfb50dee68716a0"
-        },
-        {
-          "url": "https://i.ibb.co/8nhGBRbR/13713.jpg",
-          "publicId": "bjfY3yFy",
-          "deleteUrl": "https://ibb.co/bjfY3yFy/dc9809a830c82085e068acbff32e360a"
-        }
-      ],
-      "updatedAt": "2026-04-28T01:39:12.747Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542656016
-    },
-    {
       "id": "p_1777340019861",
       "name": "AUDÍFONOS 🎧 alámbricos",
       "price": 100,
@@ -1403,70 +1070,6 @@
         }
       ],
       "updatedAt": "2026-04-28T01:33:39.861Z"
-    },
-    {
-      "id": "p_1777339385004",
-      "name": "Jueguito interactivo",
-      "price": 100,
-      "category": "Juguetes",
-      "status": "Nuevo",
-      "desc": "3 Años en adelante. Juguete de empuje rápido con luces.\nCuenta con cuatro modos: desafío (niveles), memoria (seguir secuencias), puntuación (contrarreloj) y multijugador.",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/9kcZhQ05/13708.jpg",
-          "publicId": "pBbhQYTF",
-          "deleteUrl": "https://ibb.co/pBbhQYTF/f7ccca200fec3a21fd3aa1ec83fb184e"
-        },
-        {
-          "url": "https://i.ibb.co/VXgfQ3G/13706.jpg",
-          "publicId": "D3908LF",
-          "deleteUrl": "https://ibb.co/D3908LF/889b1603425fc53af85a26692662ee8d"
-        },
-        {
-          "url": "https://i.ibb.co/20zTS7PD/13705.jpg",
-          "publicId": "0p0xKjZg",
-          "deleteUrl": "https://ibb.co/0p0xKjZg/7253b4d1b5157df7d525f6e32ec3e544"
-        }
-      ],
-      "updatedAt": "2026-04-28T03:41:46.253Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542666713
-    },
-    {
-      "id": "p_1777136781781",
-      "name": "Control 8BitDo inalámbrico para SNES/SFC",
-      "price": 350,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Funciona para el Super Nintendo original",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/Q71nk3qK/13327.jpg",
-          "publicId": "wZxC7Fbz",
-          "deleteUrl": "https://ibb.co/wZxC7Fbz/5b28d76ec901524dcd2541158e9800ac"
-        },
-        {
-          "url": "https://i.ibb.co/5WPD0Hyb/13326.jpg",
-          "publicId": "MDmTv04F",
-          "deleteUrl": "https://ibb.co/MDmTv04F/caf8129ac54ec78e003e546377c514e7"
-        },
-        {
-          "url": "https://i.ibb.co/k2JtxPQn/13324.jpg",
-          "publicId": "chwj1sD5",
-          "deleteUrl": "https://ibb.co/chwj1sD5/75c3c4372a670d45da3c45f6b6b4efc8"
-        }
-      ],
-      "updatedAt": "2026-04-25T17:06:21.781Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778113447282
     },
     {
       "id": "p_1776968727790",
@@ -1915,39 +1518,6 @@
       "updatedAt": "2026-06-18T16:04:12.822Z"
     },
     {
-      "id": "p_1776637698036",
-      "name": "BOCINA INALÁMBRICA",
-      "price": 250,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Sonido de lluvia, sonido de mar, sonido de rio, sonido de bosque.",
-      "subcategory": "Audio",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/zV8JhRXW/12159.jpg",
-          "publicId": "0yBtjMCp"
-        },
-        {
-          "url": "https://i.ibb.co/tMQD9fS3/12160.jpg",
-          "publicId": "Z6Gx0s3N"
-        },
-        {
-          "url": "https://i.ibb.co/TM1W4hXc/12164.jpg",
-          "publicId": "tpzLqCfB"
-        },
-        {
-          "url": "https://i.ibb.co/s9kB58S8/12162.jpg",
-          "publicId": "qYXZ0TGT"
-        }
-      ],
-      "updatedAt": "2026-04-19T22:28:18.036Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1777130158179
-    },
-    {
       "id": "p_1776637333706",
       "name": "CAPTURADORA DE VIDEO",
       "price": 100,
@@ -1990,60 +1560,6 @@
         }
       ],
       "updatedAt": "2026-04-19T22:18:07.159Z"
-    },
-    {
-      "id": "p_1776636866835",
-      "name": "PISTOLAS PARA DISPARAR AGUA",
-      "price": 170,
-      "category": "Juguetes",
-      "status": "Nuevo",
-      "desc": "",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/HLc1Rm52/12141.jpg",
-          "publicId": "LDTbB4VP"
-        },
-        {
-          "url": "https://i.ibb.co/yFmq4zJm/12140.jpg",
-          "publicId": "m5r4Nn7r"
-        },
-        {
-          "url": "https://i.ibb.co/y3YPHds/12142.jpg",
-          "publicId": "rWc0DFy"
-        }
-      ],
-      "updatedAt": "2026-04-19T22:14:26.835Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542741265
-    },
-    {
-      "id": "p_1776636703251",
-      "name": "MINI HACEDOR DE BURBUJAS 🫧",
-      "price": 110,
-      "category": "Juguetes",
-      "status": "Nuevo",
-      "desc": "",
-      "subcategory": "Niños",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/8DZkRdHQ/12137.jpg",
-          "publicId": "5WHZznPJ"
-        },
-        {
-          "url": "https://i.ibb.co/spBVQnQw/12136.jpg",
-          "publicId": "Ng4yp5pj"
-        }
-      ],
-      "updatedAt": "2026-04-20T13:59:18.742Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1779542744135
     },
     {
       "id": "p_1776636421495",
@@ -2461,31 +1977,6 @@
         }
       ],
       "updatedAt": "2026-04-17T04:11:09.739Z"
-    },
-    {
-      "id": "p_1776115436675",
-      "name": "8BitDo adaptador inalámbrico",
-      "price": 250,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "8BitDo adaptador inalámbrico NES, SNES, SFC",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/vvmG7SnY/10887.jpg",
-          "publicId": "R4Pmxqwy"
-        },
-        {
-          "url": "https://i.ibb.co/mpXpSxC/10888.jpg",
-          "publicId": "Dd8dLqD"
-        }
-      ],
-      "updatedAt": "2026-04-13T21:23:56.675Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778594042627
     },
     {
       "id": "p_1775861036077",
@@ -4534,39 +4025,6 @@
       "updatedAt": "2026-04-05T21:48:26.150Z"
     },
     {
-      "id": "p_1775425471152",
-      "name": "Cortadora de pelo Wahl",
-      "price": 250,
-      "category": "Electrónica",
-      "status": "Como nuevo",
-      "desc": "Cortadora de pelo Wahl",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/PsB2jV9k/1000044088.jpg",
-          "publicId": "1YHCQ4dc"
-        },
-        {
-          "url": "https://i.ibb.co/C3Zzpd3j/1000044085.jpg",
-          "publicId": "xt0DKvtn"
-        },
-        {
-          "url": "https://i.ibb.co/HLR2WH9M/1000044086.jpg",
-          "publicId": "rKqtCwXL"
-        },
-        {
-          "url": "https://i.ibb.co/Y4xfphy0/1000044087.jpg",
-          "publicId": "0pxYhrFs"
-        }
-      ],
-      "updatedAt": "2026-04-05T21:44:31.154Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1777144627601
-    },
-    {
       "id": "p_1775423961456",
       "name": "Ergonomic mouse",
       "price": 150,
@@ -4587,86 +4045,6 @@
         }
       ],
       "updatedAt": "2026-04-05T22:05:46.056Z"
-    },
-    {
-      "id": "p_1775423856039",
-      "name": "Android TV box hd",
-      "price": 250,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Android TV box hd",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/x8LDxF5W/1000044074.jpg",
-          "publicId": "LhR8VNpm"
-        },
-        {
-          "url": "https://i.ibb.co/8DT6vkB0/1000044075.jpg",
-          "publicId": "RpZzr8S9"
-        }
-      ],
-      "updatedAt": "2026-04-05T21:17:36.039Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778266300693
-    },
-    {
-      "id": "p_1775423729211",
-      "name": "8BitDo controller mini Sega genesis/pc",
-      "price": 250,
-      "category": "Videojuegos",
-      "status": "Como nuevo",
-      "desc": "8BitDo controller mini Sega genesis/pc",
-      "subcategory": "Accesorios",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/dszZGM04/1000044072.jpg",
-          "publicId": "1Ywc8QfG"
-        },
-        {
-          "url": "https://i.ibb.co/7NKzJ2Wc/1000044073.jpg",
-          "publicId": "cXQvcDF5"
-        }
-      ],
-      "updatedAt": "2026-04-05T21:15:29.212Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778113471226
-    },
-    {
-      "id": "p_1775423340638",
-      "name": "Raqueta eléctrica para matar mosquitos y moscas",
-      "price": 150,
-      "category": "Hogar",
-      "status": "Nuevo",
-      "desc": "Raqueta eléctrica para matar mosquitos y moscas",
-      "subcategory": "",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/xqCKbhvt/19166.jpg",
-          "publicId": "DfVPF4XH",
-          "deleteUrl": "https://ibb.co/DfVPF4XH/11d63234096c7dcd1b14174727b2c8ad"
-        },
-        {
-          "url": "https://i.ibb.co/TMYdgDLJ/1000044069.jpg",
-          "publicId": "CKmDHp24"
-        },
-        {
-          "url": "https://i.ibb.co/hx79vRvx/1000044068.jpg",
-          "publicId": "SDsypXpD"
-        }
-      ],
-      "updatedAt": "2026-06-02T21:48:58.772Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1781144603310
     },
     {
       "id": "p_1775423022843",
@@ -4693,31 +4071,6 @@
         }
       ],
       "updatedAt": "2026-04-10T04:36:28.445Z"
-    },
-    {
-      "id": "p_1775422441320",
-      "name": "Audífonos inalámbricos JLAB Bluetooth.",
-      "price": 290,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Audífonos inalámbricos Bluetooth.",
-      "subcategory": "Audio",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/c9qnG9W/1000044059.jpg",
-          "publicId": "fWJwhW3"
-        },
-        {
-          "url": "https://i.ibb.co/1YfrVbgP/1000044060.jpg",
-          "publicId": "bjgsh70C"
-        }
-      ],
-      "updatedAt": "2026-04-25T17:37:57.940Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778046680284
     },
     {
       "id": "p_1775422049752",
@@ -4788,31 +4141,6 @@
         }
       ],
       "updatedAt": "2026-05-12T01:08:22.419Z"
-    },
-    {
-      "id": "p_1775274691169",
-      "name": "Retro receiver para Sega genesis",
-      "price": 250,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Retro receiver SEGA para Genesis",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/99YtygxV/1000043992.jpg",
-          "publicId": "6RsBDwK1"
-        },
-        {
-          "url": "https://i.ibb.co/GfkLzzCX/1000043993.jpg",
-          "publicId": "JW24DDrN"
-        }
-      ],
-      "updatedAt": "2026-04-04T03:57:43.770Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778594122640
     },
     {
       "id": "p_1775274555708",
@@ -4913,35 +4241,6 @@
         }
       ],
       "updatedAt": "2026-04-04T02:50:52.340Z"
-    },
-    {
-      "id": "p_1775270875025",
-      "name": "Light gun PS1",
-      "price": 350,
-      "category": "Videojuegos",
-      "status": "Nuevo",
-      "desc": "Light gun marca pelican PS1",
-      "subcategory": "Retro",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/bRHSvPTf/1000043965.jpg",
-          "publicId": "h1XPdybq"
-        },
-        {
-          "url": "https://i.ibb.co/C3fBbSgG/1000043964.jpg",
-          "publicId": "G4q7WryS"
-        },
-        {
-          "url": "https://i.ibb.co/fVgZdgr9/1000043960.jpg",
-          "publicId": "gb2QZ2td"
-        }
-      ],
-      "updatedAt": "2026-04-04T02:47:55.026Z",
-      "sold": true,
-      "paused": false,
-      "soldAt": 1778113479027
     },
     {
       "id": "p_1775247249804",
@@ -5388,28 +4687,6 @@
         }
       ],
       "updatedAt": "2026-04-17T02:54:20.316Z"
-    },
-    {
-      "id": "p_1775012593307",
-      "name": "Pantalón Liz Claiborne talla 14",
-      "price": 100,
-      "category": "Ropa",
-      "status": "Como nuevo",
-      "desc": "Hermoso pantalón color rosa. Stretch. Algodón y spandex.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/TqrW8RX7/Whats-App-Image-2026-04-16-at-11-57-16-AM.jpg",
-          "publicId": "KzmKq7Zf"
-        },
-        {
-          "url": "https://i.ibb.co/qQ1mDvs/Whats-App-Image-2026-04-16-at-11-56-57-AM.jpg",
-          "publicId": "hz82gSW"
-        }
-      ],
-      "updatedAt": "2026-04-18T18:57:47.557Z"
     },
     {
       "id": "p_1775012459490",
@@ -6052,28 +5329,6 @@
       "updatedAt": "2026-04-17T03:12:33.590Z"
     },
     {
-      "id": "p_1775335690838",
-      "name": "Sweater Spence talla L",
-      "price": 60,
-      "category": "Ropa",
-      "status": "Buen estado",
-      "desc": "Sweater Spence. Tela brillante, largo a la rodilla. Rayón y poliéster.",
-      "subcategory": "Mujer",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/1tmDcQwv/8183.jpg",
-          "publicId": "67W3Qwfn"
-        },
-        {
-          "url": "https://i.ibb.co/MD9DjLsf/8181.jpg",
-          "publicId": "VW3Wh8tx"
-        }
-      ],
-      "updatedAt": "2026-04-18T19:00:29.065Z"
-    },
-    {
       "id": "p_1775334119911",
       "name": "Chamarra Caslon talla M",
       "price": 120,
@@ -6166,7 +5421,7 @@
     {
       "id": "p_1775332142680",
       "name": "Juego de Ganzúas",
-      "price": 450,
+      "price": 400,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Juego de ganzúas de 16 piezas con 3 cerraduras transparentes de práctica + cubiertas e instrucciones",
@@ -6179,7 +5434,7 @@
           "publicId": "93Gkt4jS"
         }
       ],
-      "updatedAt": "2026-04-14T00:34:24.470Z"
+      "updatedAt": "2026-06-30T03:38:36.005Z"
     }
   ],
   "deletedIds": [
@@ -6297,7 +5552,31 @@
     "p_1776786560470",
     "p_1775502156694",
     "p_1775434792460",
-    "p_1775240510709"
+    "p_1775240510709",
+    "p_1781641272257",
+    "p_1779157892815",
+    "p_1778604857875",
+    "p_1778539537334",
+    "p_1778522985614",
+    "p_1778517558528",
+    "p_1777343374708",
+    "p_1777342833193",
+    "p_1777340262355",
+    "p_1777339385004",
+    "p_1777136781781",
+    "p_1776637698036",
+    "p_1776636866835",
+    "p_1776636703251",
+    "p_1776115436675",
+    "p_1775425471152",
+    "p_1775423856039",
+    "p_1775423729211",
+    "p_1775423340638",
+    "p_1775422441320",
+    "p_1775274691169",
+    "p_1775270875025",
+    "p_1775012593307",
+    "p_1775335690838"
   ],
-  "updatedAt": "2026-06-30T03:30:08.589Z"
+  "updatedAt": "2026-06-30T03:38:42.274Z"
 }
