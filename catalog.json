@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1782789797092",
+      "name": "Mini Consola Portátil R36S",
+      "price": 650,
+      "category": "Videojuegos",
+      "status": "Nuevo",
+      "desc": "Consola Portátil R36S. Más de 5000 juegos retro.",
+      "subcategory": "Consolas",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/fYKhGK0h/23318.jpg",
+          "publicId": "kgrR6rcR",
+          "deleteUrl": "https://ibb.co/kgrR6rcR/a7befb7021cf24372d4a15b5400cf690"
+        },
+        {
+          "url": "https://i.ibb.co/20jqqjv2/23237.jpg",
+          "publicId": "rKZkkZxP",
+          "deleteUrl": "https://ibb.co/rKZkkZxP/91430d82634338514115e42050a20e87"
+        },
+        {
+          "url": "https://i.ibb.co/JwKyDHwm/23236.jpg",
+          "publicId": "ycXYHqcd",
+          "deleteUrl": "https://ibb.co/ycXYHqcd/49b8c38546bd65e0b76b95fb438c5263"
+        },
+        {
+          "url": "https://i.ibb.co/W9hNmX7/23235.jpg",
+          "publicId": "zcMWqgC",
+          "deleteUrl": "https://ibb.co/zcMWqgC/a24c96bd57af6486016aa0db198d2bfc"
+        },
+        {
+          "url": "https://i.ibb.co/FL59k5f3/23316.jpg",
+          "publicId": "yc6Dm6MP",
+          "deleteUrl": "https://ibb.co/yc6Dm6MP/9126cc1c2f0cd392aa804f83da169a59"
+        }
+      ],
+      "updatedAt": "2026-06-30T03:23:17.097Z"
+    },
+    {
       "id": "p_1781985999793",
       "name": "Télévision CRT Panasonic CT-G2175S",
       "price": 1300,
@@ -6260,5 +6299,5 @@
     "p_1775434792460",
     "p_1775240510709"
   ],
-  "updatedAt": "2026-06-28T04:23:27.283Z"
+  "updatedAt": "2026-06-30T03:30:08.589Z"
 }
