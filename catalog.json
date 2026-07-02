@@ -42,7 +42,7 @@
     {
       "id": "p_1781985999793",
       "name": "Télévision CRT Panasonic CT-G2175S",
-      "price": 1300,
+      "price": 1000,
       "category": "Electrónica",
       "status": "Buen estado",
       "desc": "Televisor Panasonic 21\" CRT (CT-G2175S)TV de tubo Panasonic de 21 pulgadas en perfecto estado. \nIdeal para gaming retro (consolas antiguas). Entradas RCA funcionando al 100%.",
@@ -81,7 +81,7 @@
           "deleteUrl": "https://ibb.co/FLTFB9MC/637c0c8ee14f443b4e7efb5fd87c8fc2"
         }
       ],
-      "updatedAt": "2026-06-28T04:23:18.856Z"
+      "updatedAt": "2026-07-02T04:41:30.101Z"
     },
     {
       "id": "p_1781633254303",
@@ -4573,32 +4573,6 @@
       "updatedAt": "2026-04-17T02:52:07.228Z"
     },
     {
-      "id": "p_1775170246923",
-      "name": "Portavelas dorados",
-      "price": 120,
-      "category": "Hogar",
-      "status": "Como nuevo",
-      "desc": "Hermosos portavelas dorados. Incluyen velas.",
-      "subcategory": "Decoración",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/kgdLJzgv/Whats-App-Image-2026-04-16-at-7-52-42-PM.jpg",
-          "publicId": "XZwnD6ZM"
-        },
-        {
-          "url": "https://i.ibb.co/0jF0rYC7/Whats-App-Image-2026-04-16-at-7-52-43-PM-1.jpg",
-          "publicId": "TBbQtP4f"
-        },
-        {
-          "url": "https://i.ibb.co/xKMwzrLR/Whats-App-Image-2026-04-16-at-7-52-43-PM.jpg",
-          "publicId": "nqD4QKm5"
-        }
-      ],
-      "updatedAt": "2026-04-17T02:53:23.447Z"
-    },
-    {
       "id": "p_1775161610691",
       "name": "Charola de cerámica Merry Moments",
       "price": 120,
@@ -5370,7 +5344,10 @@
           "publicId": "93Gkt4jS"
         }
       ],
-      "updatedAt": "2026-06-30T03:38:36.005Z"
+      "updatedAt": "2026-06-30T03:38:36.005Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1782967372061
     }
   ],
   "deletedIds": [
@@ -5514,7 +5491,8 @@
     "p_1775012593307",
     "p_1775335690838",
     "p_1778520782905",
-    "p_1775170687801"
+    "p_1775170687801",
+    "p_1775170246923"
   ],
-  "updatedAt": "2026-07-02T02:31:26.840Z"
+  "updatedAt": "2026-07-02T04:42:55.444Z"
 }
