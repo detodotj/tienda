@@ -4547,36 +4547,6 @@
       "updatedAt": "2026-04-17T02:50:28.069Z"
     },
     {
-      "id": "p_1775170687801",
-      "name": "Charola de vidrio para quesos, fruta, etc.",
-      "price": 60,
-      "category": "Hogar",
-      "status": "Como nuevo",
-      "desc": "Hermosa charola con lindos detalles en su base, estilo antiguo.",
-      "subcategory": "Cocina",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/vKPgTW0/Whats-App-Image-2026-04-16-at-7-50-44-PM.jpg",
-          "publicId": "L2tbcyV"
-        },
-        {
-          "url": "https://i.ibb.co/tG451mD/Whats-App-Image-2026-04-16-at-7-50-44-PM-1.jpg",
-          "publicId": "mjG7PD4"
-        },
-        {
-          "url": "https://i.ibb.co/KpWx0ySQ/Whats-App-Image-2026-04-16-at-7-50-45-PM-1.jpg",
-          "publicId": "fzHd10LK"
-        },
-        {
-          "url": "https://i.ibb.co/WwJZXB5/Whats-App-Image-2026-04-16-at-7-50-45-PM.jpg",
-          "publicId": "0SbTLY2"
-        }
-      ],
-      "updatedAt": "2026-04-17T02:51:26.986Z"
-    },
-    {
       "id": "p_1775170405518",
       "name": "Vaso portavelas",
       "price": 60,
@@ -5543,7 +5513,8 @@
     "p_1775270875025",
     "p_1775012593307",
     "p_1775335690838",
-    "p_1778520782905"
+    "p_1778520782905",
+    "p_1775170687801"
   ],
-  "updatedAt": "2026-07-01T16:23:40.552Z"
+  "updatedAt": "2026-07-02T02:31:26.840Z"
 }
