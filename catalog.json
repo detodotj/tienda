@@ -1,6 +1,50 @@
 {
   "products": [
     {
+      "id": "p_1783656464402",
+      "name": "Set de frascos Mason Craft & More",
+      "price": 400,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Juego de 3 recipientes de vidrio de la marca Mason Craft & More para almacenamiento en la cocina.\nLos frascos están hechos de vidrio duradero y cuentan con tapas de acero inoxidable de cierre giratorio.",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/DHZzk8rQ/23247.jpg",
+          "publicId": "cSjktCYQ",
+          "deleteUrl": "https://ibb.co/cSjktCYQ/91a8f8ff70b26668c3a47ff283b39864"
+        },
+        {
+          "url": "https://i.ibb.co/PpKw6v9/23239.jpg",
+          "publicId": "fRf4xzn",
+          "deleteUrl": "https://ibb.co/fRf4xzn/a6311f06073d35c5ae33631c49dcc0d1"
+        },
+        {
+          "url": "https://i.ibb.co/qFnxqtyD/23248.jpg",
+          "publicId": "Z1JN4nLf",
+          "deleteUrl": "https://ibb.co/Z1JN4nLf/a0c8a50e5d8b4679b2eea0a518eafe67"
+        },
+        {
+          "url": "https://i.ibb.co/SDfRFQ5j/23243.jpg",
+          "publicId": "wZcM5JBk",
+          "deleteUrl": "https://ibb.co/wZcM5JBk/3b847279a7f5db1550e801e56bacee5d"
+        },
+        {
+          "url": "https://i.ibb.co/hxJvCgy3/23249.jpg",
+          "publicId": "rKRJvQmD",
+          "deleteUrl": "https://ibb.co/rKRJvQmD/0247ba73c11c54a9b8332c13e3aef6ad"
+        },
+        {
+          "url": "https://i.ibb.co/Kp1wBCK3/23244.jpg",
+          "publicId": "MxX6KqB3",
+          "deleteUrl": "https://ibb.co/MxX6KqB3/4cc53522fd620bccff450a8bd9547f89"
+        }
+      ],
+      "updatedAt": "2026-07-10T04:07:44.409Z"
+    },
+    {
       "id": "p_1782789797092",
       "name": "Mini Consola Portátil R36S",
       "price": 650,
@@ -5453,5 +5497,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-10T00:50:45.832Z"
+  "updatedAt": "2026-07-10T04:07:58.793Z"
 }
