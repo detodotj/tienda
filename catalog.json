@@ -624,7 +624,7 @@
     {
       "id": "p_1778524335430",
       "name": "HIELERA LIFE CARE",
-      "price": 150,
+      "price": 130,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Hielera portátil con capacidad para 12 latas y con capacidad extra en parte exterior.",
@@ -653,10 +653,7 @@
           "deleteUrl": "https://ibb.co/vgY98Sb/3db7e4d5460956df8b3711d9e2f8e27c"
         }
       ],
-      "updatedAt": "2026-05-11T21:10:07.190Z",
-      "sold": false,
-      "paused": false,
-      "soldAt": 1781476503833
+      "updatedAt": "2026-07-10T00:49:14.945Z"
     },
     {
       "id": "p_1778523460736",
@@ -5494,5 +5491,5 @@
     "p_1775170687801",
     "p_1775170246923"
   ],
-  "updatedAt": "2026-07-02T04:42:55.444Z"
+  "updatedAt": "2026-07-10T00:49:17.669Z"
 }
