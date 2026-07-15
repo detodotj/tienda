@@ -1,6 +1,89 @@
 {
   "products": [
     {
+      "id": "p_1784141503084",
+      "name": "Billetera para caballero",
+      "price": 250,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Billetera para caballero hecha de cuero vegano, de la marca Horse Imperial.",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/WNbjtqWp/25762.jpg",
+          "publicId": "20DHNm7Y",
+          "deleteUrl": "https://ibb.co/20DHNm7Y/a043f201e9f075d1ea704090f4e38405"
+        },
+        {
+          "url": "https://i.ibb.co/274D0J0X/25758.jpg",
+          "publicId": "RpwxG8GL",
+          "deleteUrl": "https://ibb.co/RpwxG8GL/ceefe8dba8db81eccd854c4d3894793e"
+        },
+        {
+          "url": "https://i.ibb.co/xSP5KcQk/25750.jpg",
+          "publicId": "HD1gLMQS",
+          "deleteUrl": "https://ibb.co/HD1gLMQS/69bd8f33c9a18e5c2cb45d3193c7e2a4"
+        },
+        {
+          "url": "https://i.ibb.co/LzxRVLtV/25751.jpg",
+          "publicId": "WWk5mbym",
+          "deleteUrl": "https://ibb.co/WWk5mbym/fb1f9677229077f6f25ebd01521094a8"
+        },
+        {
+          "url": "https://i.ibb.co/JjfTKNLM/25754.jpg",
+          "publicId": "qYt8dzGP",
+          "deleteUrl": "https://ibb.co/qYt8dzGP/b584e12a7ce553dddd118e6cd5543fb5"
+        },
+        {
+          "url": "https://i.ibb.co/TMHyCwKs/25757.jpg",
+          "publicId": "HTrZJKNj",
+          "deleteUrl": "https://ibb.co/HTrZJKNj/8ebacb7c19315f0cd86b69dc0816e67b"
+        }
+      ],
+      "updatedAt": "2026-07-15T18:52:54.718Z"
+    },
+    {
+      "id": "p_1784140947847",
+      "name": "Cámara de seguridad interior",
+      "price": 350,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Cámara de seguridad interior que cuenta con detección humana por IA, visión nocturna y audio bidireccional.\nEl dispositivo soporta Wi-Fi de doble banda (2.4G / 5G) y ofrece almacenamiento en la nube.",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1f6wTKF3/25764.jpg",
+          "publicId": "fYvPHtjb",
+          "deleteUrl": "https://ibb.co/fYvPHtjb/ed8bceb6a7808f5abe30b5370a12fe85"
+        },
+        {
+          "url": "https://i.ibb.co/vCHWLGjL/25736.jpg",
+          "publicId": "Y43SfMLf",
+          "deleteUrl": "https://ibb.co/Y43SfMLf/680221b80665d4e30c1426e579bfddcd"
+        },
+        {
+          "url": "https://i.ibb.co/TMRhnR2V/25735.jpg",
+          "publicId": "WvFKdF5b",
+          "deleteUrl": "https://ibb.co/WvFKdF5b/1c84e24d92ead0edaaa154a51674fe87"
+        },
+        {
+          "url": "https://i.ibb.co/9m1T6vZL/25733.jpg",
+          "publicId": "spNwnPWG",
+          "deleteUrl": "https://ibb.co/spNwnPWG/c31233782aa6fe2375003d6d99b15254"
+        },
+        {
+          "url": "https://i.ibb.co/FqLhZ16B/25734.jpg",
+          "publicId": "NndFDqxL",
+          "deleteUrl": "https://ibb.co/NndFDqxL/dca1276800709b15652bbb1b409914c3"
+        }
+      ],
+      "updatedAt": "2026-07-15T18:44:33.526Z"
+    },
+    {
       "id": "p_1783656464402",
       "name": "Set de frascos Mason Craft & More",
       "price": 400,
@@ -5500,5 +5583,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-15T06:05:35.131Z"
+  "updatedAt": "2026-07-15T18:52:58.915Z"
 }
