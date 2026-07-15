@@ -86,7 +86,7 @@
     {
       "id": "p_1781985999793",
       "name": "Télévision CRT Panasonic CT-G2175S",
-      "price": 1000,
+      "price": 900,
       "category": "Electrónica",
       "status": "Buen estado",
       "desc": "Televisor Panasonic 21\" CRT (CT-G2175S)TV de tubo Panasonic de 21 pulgadas en perfecto estado. \nIdeal para gaming retro (consolas antiguas). Entradas RCA funcionando al 100%.",
@@ -125,7 +125,7 @@
           "deleteUrl": "https://ibb.co/FLTFB9MC/637c0c8ee14f443b4e7efb5fd87c8fc2"
         }
       ],
-      "updatedAt": "2026-07-02T04:41:30.101Z"
+      "updatedAt": "2026-07-15T06:04:54.296Z"
     },
     {
       "id": "p_1781633254303",
@@ -202,7 +202,10 @@
           "deleteUrl": "https://ibb.co/XkDPnzf6/4814d821f0018b2b455b497ee9992dfb"
         }
       ],
-      "updatedAt": "2026-06-02T18:34:49.173Z"
+      "updatedAt": "2026-06-02T18:34:49.173Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1784095529587
     },
     {
       "id": "p_1780363871191",
@@ -5497,5 +5500,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-10T04:08:37.536Z"
+  "updatedAt": "2026-07-15T06:05:35.131Z"
 }
