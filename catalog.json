@@ -1,6 +1,93 @@
 {
   "products": [
     {
+      "id": "p_1784413024404",
+      "name": "Pijamada Women Owned",
+      "price": 200,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Frescas y ligeras! 😻\nTallas 3X\nVarias unidades",
+      "subcategory": "Plus Size Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/WN3RhKgh/26246.png",
+          "publicId": "6cZqMsgM",
+          "deleteUrl": "https://ibb.co/6cZqMsgM/d592115dfc5d3ecb8ac9d3d9b0354761"
+        },
+        {
+          "url": "https://i.ibb.co/pBKsS5g3/26248.jpg",
+          "publicId": "dwp3RxSQ",
+          "deleteUrl": "https://ibb.co/dwp3RxSQ/a533869e2c3a616706f4f1e8d922c72c"
+        },
+        {
+          "url": "https://i.ibb.co/Z6ZTbMKv/26249.jpg",
+          "publicId": "tMdC1Jcn",
+          "deleteUrl": "https://ibb.co/tMdC1Jcn/2b71c4ce0c5c769800ce91c5fe65c83d"
+        }
+      ],
+      "updatedAt": "2026-07-18T22:17:04.404Z"
+    },
+    {
+      "id": "p_1784412394070",
+      "name": "Pijamas Women Owned",
+      "price": 200,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Ligeras y frescas 😍\nTalla S\nVarias unidades",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/G4z791Dz/26242.png",
+          "publicId": "bMc1FyVc",
+          "deleteUrl": "https://ibb.co/bMc1FyVc/eb8f5a811e0edb1bcae8200c4e0b9860"
+        },
+        {
+          "url": "https://i.ibb.co/V0FVTXMK/26225.jpg",
+          "publicId": "DPB4Q3wq",
+          "deleteUrl": "https://ibb.co/DPB4Q3wq/c5c9b00723967fc54e4632c87278354a"
+        },
+        {
+          "url": "https://i.ibb.co/nxJ3CmH/26226.jpg",
+          "publicId": "5bHYF4N",
+          "deleteUrl": "https://ibb.co/5bHYF4N/690e50bb57d4b08790ff27094e35c42b"
+        }
+      ],
+      "updatedAt": "2026-07-18T22:08:37.331Z"
+    },
+    {
+      "id": "p_1784412002492",
+      "name": "Pijamas Women Owned",
+      "price": 200,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Ligeras y frescas! \nTallas 1X y 2X",
+      "subcategory": "Plus Size Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/DPwm9mb5/26231.png",
+          "publicId": "rK5qxqt4",
+          "deleteUrl": "https://ibb.co/rK5qxqt4/842f6fbb8f46e49ec4317d1d4a46b801"
+        },
+        {
+          "url": "https://i.ibb.co/RkJVr0z2/26233.jpg",
+          "publicId": "rRX1864k",
+          "deleteUrl": "https://ibb.co/rRX1864k/3fb308da08bd90e704d5352523707b6a"
+        },
+        {
+          "url": "https://i.ibb.co/FkVFgjKq/26232.jpg",
+          "publicId": "DPpZ5Stg",
+          "deleteUrl": "https://ibb.co/DPpZ5Stg/2604e72c9feb4454455b3794d4dd7668"
+        }
+      ],
+      "updatedAt": "2026-07-18T22:01:36.386Z"
+    },
+    {
       "id": "p_1784141860236",
       "name": "Audífonos",
       "price": 150,
@@ -5612,5 +5699,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-15T19:36:03.645Z"
+  "updatedAt": "2026-07-18T22:17:09.484Z"
 }
