@@ -6,7 +6,7 @@
       "price": 200,
       "category": "Ropa",
       "status": "Nuevo",
-      "desc": "Frescas y ligeras! 😻\nTallas 3X\nVarias unidades",
+      "desc": "Regalo ideal! 😍\nFrescas y ligeras! \nTallas 3X\nVarias unidades",
       "subcategory": "Plus Size Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -27,7 +27,7 @@
           "deleteUrl": "https://ibb.co/tMdC1Jcn/2b71c4ce0c5c769800ce91c5fe65c83d"
         }
       ],
-      "updatedAt": "2026-07-18T22:17:04.404Z"
+      "updatedAt": "2026-07-18T22:19:56.065Z"
     },
     {
       "id": "p_1784412394070",
@@ -35,7 +35,7 @@
       "price": 200,
       "category": "Ropa",
       "status": "Nuevo",
-      "desc": "Ligeras y frescas 😍\nTalla S\nVarias unidades",
+      "desc": "El 🎁 perfecto en el verano!\nLigeras y frescas 😍\nTalla S\nVarias unidades",
       "subcategory": "Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -56,7 +56,7 @@
           "deleteUrl": "https://ibb.co/5bHYF4N/690e50bb57d4b08790ff27094e35c42b"
         }
       ],
-      "updatedAt": "2026-07-18T22:08:37.331Z"
+      "updatedAt": "2026-07-18T22:20:47.226Z"
     },
     {
       "id": "p_1784412002492",
@@ -64,7 +64,7 @@
       "price": 200,
       "category": "Ropa",
       "status": "Nuevo",
-      "desc": "Ligeras y frescas! \nTallas 1X y 2X",
+      "desc": "Ideales para 🎁 en clima de verano!\nLigeras y frescas! ☺️\nTallas 1X y 2X",
       "subcategory": "Plus Size Mujer",
       "delivery": "",
       "whatsapp": "526642601992",
@@ -85,7 +85,7 @@
           "deleteUrl": "https://ibb.co/DPpZ5Stg/2604e72c9feb4454455b3794d4dd7668"
         }
       ],
-      "updatedAt": "2026-07-18T22:01:36.386Z"
+      "updatedAt": "2026-07-18T22:22:10.592Z"
     },
     {
       "id": "p_1784141860236",
@@ -5699,5 +5699,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-18T22:17:53.896Z"
+  "updatedAt": "2026-07-18T22:22:15.962Z"
 }
