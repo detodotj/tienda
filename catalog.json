@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1784424435706",
+      "name": "Collar para dama",
+      "price": 200,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Hermosos collares con baño de oro de 14 kilates😍",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1tbBj3kw/26270.jpg",
+          "publicId": "ycVK7Drb",
+          "deleteUrl": "https://ibb.co/ycVK7Drb/7111895b7a86ae00d36103190dd7e096"
+        },
+        {
+          "url": "https://i.ibb.co/Sw9JXtDK/24861.jpg",
+          "publicId": "b587gsjr",
+          "deleteUrl": "https://ibb.co/b587gsjr/6017b0b39798dfab2645a33ee7e74dc1"
+        },
+        {
+          "url": "https://i.ibb.co/N6JFJPSv/26271.jpg",
+          "publicId": "RpsgsmyF",
+          "deleteUrl": "https://ibb.co/RpsgsmyF/0171ecf973b9cf8ba86e111f6a734568"
+        }
+      ],
+      "updatedAt": "2026-07-19T01:27:15.711Z"
+    },
+    {
       "id": "p_1784413024404",
       "name": "Pijamada Women Owned",
       "price": 200,
@@ -5699,5 +5728,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-18T22:22:15.962Z"
+  "updatedAt": "2026-07-19T01:27:21.074Z"
 }
