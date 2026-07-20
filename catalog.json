@@ -2,15 +2,20 @@
   "products": [
     {
       "id": "p_1784579860663",
-      "name": "Palomitero Presto Power Pop🍿",
+      "name": "Palomero Presto Power Pop🍿",
       "price": 230,
       "category": "Hogar",
       "status": "Nuevo",
-      "desc": "Para uso en microondas.\nPermite preparar palomitas con o sin aceite según la preferencia del usuario.\nEl dispositivo tiene una capacidad de hasta 3 cuartos de galón y puede cocinar palomitas en aproximadamente 2 minutos y medio",
+      "desc": "Disfruta de unas deliciosas palomitas hechas en 2 minutos y sin necesidad de aceite!\nPara uso en microondas.\nPermite preparar palomitas con o sin aceite según la preferencia del usuario.\nEl dispositivo tiene una capacidad de hasta 3 cuartos de galón y puede cocinar palomitas en aproximadamente 2 minutos y medio",
       "subcategory": "Cocina",
       "delivery": "",
       "whatsapp": "526642601992",
       "photos": [
+        {
+          "url": "https://i.ibb.co/TBTJ9tQ0/26525.jpg",
+          "publicId": "gM7QkJ0W",
+          "deleteUrl": "https://ibb.co/gM7QkJ0W/3caa794540754fa9f35252f9107da964"
+        },
         {
           "url": "https://i.ibb.co/208JzY1d/26511.jpg",
           "publicId": "twZR0PTD",
@@ -27,12 +32,12 @@
           "deleteUrl": "https://ibb.co/0Rv1Jtbf/5370806ca1e2d239a62a4fce0722ce2c"
         },
         {
-          "url": "https://i.ibb.co/xZq6nBY/26509.jpg",
-          "publicId": "r92HBz3",
-          "deleteUrl": "https://ibb.co/r92HBz3/3f91620838d2a11a2cdc0859e868d57f"
+          "url": "https://i.ibb.co/1JnMx2Mm/26522.jpg",
+          "publicId": "5x9kVckR",
+          "deleteUrl": "https://ibb.co/5x9kVckR/1b929f5224be23bb24f5e0dd97e76b8c"
         }
       ],
-      "updatedAt": "2026-07-20T20:37:40.668Z"
+      "updatedAt": "2026-07-20T22:19:41.436Z"
     },
     {
       "id": "p_1784577709542",
@@ -5801,5 +5806,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-20T20:38:44.500Z"
+  "updatedAt": "2026-07-20T22:20:13.737Z"
 }
