@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1784579860663",
+      "name": "Palomitero Presto Power Pop🍿",
+      "price": 230,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Para uso en microondas.\nPermite preparar palomitas con o sin aceite según la preferencia del usuario.\nEl dispositivo tiene una capacidad de hasta 3 cuartos de galón y puede cocinar palomitas en aproximadamente 2 minutos y medio",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/208JzY1d/26511.jpg",
+          "publicId": "twZR0PTD",
+          "deleteUrl": "https://ibb.co/twZR0PTD/62622681a85f01d46c3b149cd2529fb5"
+        },
+        {
+          "url": "https://i.ibb.co/PzQ1TLp1/26510.jpg",
+          "publicId": "fGvr8gRr",
+          "deleteUrl": "https://ibb.co/fGvr8gRr/ce1e192c1a46485403e17ee2fd8de966"
+        },
+        {
+          "url": "https://i.ibb.co/FLCc7VTB/26508.jpg",
+          "publicId": "0Rv1Jtbf",
+          "deleteUrl": "https://ibb.co/0Rv1Jtbf/5370806ca1e2d239a62a4fce0722ce2c"
+        },
+        {
+          "url": "https://i.ibb.co/xZq6nBY/26509.jpg",
+          "publicId": "r92HBz3",
+          "deleteUrl": "https://ibb.co/r92HBz3/3f91620838d2a11a2cdc0859e868d57f"
+        }
+      ],
+      "updatedAt": "2026-07-20T20:37:40.668Z"
+    },
+    {
       "id": "p_1784577709542",
       "name": "Teclado Mecánico Alámbrico",
       "price": 250,
@@ -5767,5 +5801,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-20T20:01:57.987Z"
+  "updatedAt": "2026-07-20T20:37:45.122Z"
 }
