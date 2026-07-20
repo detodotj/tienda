@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1784590472730",
+      "name": "Lámpara de escritorio LED",
+      "price": 230,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Lámpara de escritorio LED Wonderlit Beyond Lighting Dinolite con forma de dinosaurio y diseño recargable.\nIncluye 3 niveles de brillo ajustables y características inalámbricas.\nEl diseño permite cambiar los modos de luz presionando la cola.",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/v4n87vyk/26549.png",
+          "publicId": "HT8QWpwq",
+          "deleteUrl": "https://ibb.co/HT8QWpwq/087039000b3f4452d2d30fde2f6c77d8"
+        },
+        {
+          "url": "https://i.ibb.co/r8fxrgh/26539.jpg",
+          "publicId": "2VYv4wr",
+          "deleteUrl": "https://ibb.co/2VYv4wr/73fb5b60cf0c394c15d36e44cb42d15b"
+        },
+        {
+          "url": "https://i.ibb.co/h1KHby3f/26534.jpg",
+          "publicId": "wrKCVR5s",
+          "deleteUrl": "https://ibb.co/wrKCVR5s/87e91d509bf62f3a376afc2a95d63fa4"
+        },
+        {
+          "url": "https://i.ibb.co/Rky7Gy3g/26536.jpg",
+          "publicId": "7d4bx4nS",
+          "deleteUrl": "https://ibb.co/7d4bx4nS/e901b996cddaf6621fc6fa7e1f73689b"
+        },
+        {
+          "url": "https://i.ibb.co/1t1DHKDc/26548.jpg",
+          "publicId": "LXmL46LK",
+          "deleteUrl": "https://ibb.co/LXmL46LK/2eefae53b90ddf9a6e1fc9c7c9d39096"
+        }
+      ],
+      "updatedAt": "2026-07-20T23:34:32.730Z"
+    },
+    {
       "id": "p_1784589437479",
       "name": "Lámpara con proyector de estrellas 💫",
       "price": 220,
@@ -5845,5 +5884,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-20T23:23:26.709Z"
+  "updatedAt": "2026-07-20T23:34:38.318Z"
 }
