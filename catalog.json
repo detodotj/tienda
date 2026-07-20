@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1784577709542",
+      "name": "Teclado Mecánico Alámbrico",
+      "price": 250,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Teclado mecánico inalámbrico switch rojo.",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/d4PRP3km/26503.jpg",
+          "publicId": "23vTvLcZ",
+          "deleteUrl": "https://ibb.co/23vTvLcZ/728d441c1f03eb675c470b6949ead714"
+        },
+        {
+          "url": "https://i.ibb.co/chkq4KGM/26501.jpg",
+          "publicId": "60rQjc3V",
+          "deleteUrl": "https://ibb.co/60rQjc3V/fb0d5300087eb52bf1c49023d1cadf08"
+        },
+        {
+          "url": "https://i.ibb.co/fzpCzpHJ/26496.jpg",
+          "publicId": "jPMLPMDt",
+          "deleteUrl": "https://ibb.co/jPMLPMDt/04831afd74c198e9de22286ba8aa5a43"
+        },
+        {
+          "url": "https://i.ibb.co/zTC3HQgj/26502.jpg",
+          "publicId": "cSRWXk9M",
+          "deleteUrl": "https://ibb.co/cSRWXk9M/8489d7002b977ccba29cb8947e58aca1"
+        },
+        {
+          "url": "https://i.ibb.co/qYD9nzy7/26500.jpg",
+          "publicId": "pj1ZPg0b",
+          "deleteUrl": "https://ibb.co/pj1ZPg0b/5fd48ae2949ae6ec041350505a2f0d0c"
+        }
+      ],
+      "updatedAt": "2026-07-20T20:01:49.550Z"
+    },
+    {
       "id": "p_1784424435706",
       "name": "Collar para dama",
       "price": 200,
@@ -5728,5 +5767,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-19T01:27:35.341Z"
+  "updatedAt": "2026-07-20T20:01:57.987Z"
 }
