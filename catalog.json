@@ -42,7 +42,7 @@
     {
       "id": "p_1784579860663",
       "name": "Palomero Presto Power Pop🍿",
-      "price": 230,
+      "price": 220,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Disfruta de unas deliciosas palomitas hechas en 2 minutos y medio!\nPara uso en microondas.\nPermite preparar palomitas con o sin aceite según la preferencia del usuario.\nEl dispositivo tiene una capacidad de hasta 3 cuartos de galón y puede cocinar palomitas en aproximadamente 2 minutos y medio",
@@ -76,7 +76,7 @@
           "deleteUrl": "https://ibb.co/0Rv1Jtbf/5370806ca1e2d239a62a4fce0722ce2c"
         }
       ],
-      "updatedAt": "2026-07-20T23:04:42.201Z"
+      "updatedAt": "2026-07-20T23:22:23.147Z"
     },
     {
       "id": "p_1784577709542",
@@ -5845,5 +5845,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-20T23:17:25.734Z"
+  "updatedAt": "2026-07-20T23:23:26.709Z"
 }
