@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1784589437479",
+      "name": "Lámpara con proyector de estrellas 💫",
+      "price": 220,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Wonderlit Beyond Lighting Starry Night Light & Star Projector.\nCuenta con una batería recargable de 1800mAh y controles táctiles para encendido, apagado y ajuste de intensidad.\nEste dispositivo portátil se carga mediante USB-C",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/KpZ3ZskH/26545.jpg",
+          "publicId": "DHXSXMyn",
+          "deleteUrl": "https://ibb.co/DHXSXMyn/f94a087da4fba98a43bef10f80db1ba2"
+        },
+        {
+          "url": "https://i.ibb.co/239r62g5/26543.jpg",
+          "publicId": "XxQP4BSV",
+          "deleteUrl": "https://ibb.co/XxQP4BSV/7f9d9ec1aab9750f371692f7527f20f2"
+        },
+        {
+          "url": "https://i.ibb.co/RGyr11sm/26542.jpg",
+          "publicId": "zWJ911BY",
+          "deleteUrl": "https://ibb.co/zWJ911BY/7533ce3add15cd668e2edd0d99a33993"
+        },
+        {
+          "url": "https://i.ibb.co/JRhqH0sC/26527.jpg",
+          "publicId": "fYc9HBxQ",
+          "deleteUrl": "https://ibb.co/fYc9HBxQ/092fb45380961ec8de59546d414c3bb8"
+        },
+        {
+          "url": "https://i.ibb.co/LzGVygG3/26541.jpg",
+          "publicId": "XZwcP5wq",
+          "deleteUrl": "https://ibb.co/XZwcP5wq/abd8a992d765a6160ae63c871a8ad63b"
+        }
+      ],
+      "updatedAt": "2026-07-20T23:17:17.479Z"
+    },
+    {
       "id": "p_1784579860663",
       "name": "Palomero Presto Power Pop🍿",
       "price": 230,
@@ -5806,5 +5845,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-20T23:05:38.226Z"
+  "updatedAt": "2026-07-20T23:17:25.734Z"
 }
