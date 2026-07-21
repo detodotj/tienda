@@ -3,7 +3,7 @@
     {
       "id": "p_1784590472730",
       "name": "Lámpara de escritorio LED",
-      "price": 230,
+      "price": 220,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Lámpara de escritorio LED Wonderlit Beyond Lighting Dinolite con forma de dinosaurio y diseño recargable.\nIncluye 3 niveles de brillo ajustables y características inalámbricas.\nEl diseño permite cambiar los modos de luz presionando la cola.",
@@ -37,7 +37,7 @@
           "deleteUrl": "https://ibb.co/LXmL46LK/2eefae53b90ddf9a6e1fc9c7c9d39096"
         }
       ],
-      "updatedAt": "2026-07-20T23:34:32.730Z"
+      "updatedAt": "2026-07-21T00:20:07.390Z"
     },
     {
       "id": "p_1784589437479",
@@ -5884,5 +5884,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-20T23:35:46.079Z"
+  "updatedAt": "2026-07-21T00:20:11.211Z"
 }
