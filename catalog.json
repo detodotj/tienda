@@ -543,7 +543,10 @@
           "deleteUrl": "https://ibb.co/FLTFB9MC/637c0c8ee14f443b4e7efb5fd87c8fc2"
         }
       ],
-      "updatedAt": "2026-07-15T06:04:54.296Z"
+      "updatedAt": "2026-07-15T06:04:54.296Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1785159616975
     },
     {
       "id": "p_1781633254303",
@@ -5918,5 +5921,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-25T04:31:48.379Z"
+  "updatedAt": "2026-07-27T13:40:28.775Z"
 }
