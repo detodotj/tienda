@@ -421,7 +421,7 @@
     {
       "id": "p_1783656464402",
       "name": "Set de frascos Mason Craft & More",
-      "price": 400,
+      "price": 350,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Juego de 3 recipientes de vidrio de la marca Mason Craft & More para almacenamiento en la cocina.\nLos frascos están hechos de vidrio duradero y cuentan con tapas de acero inoxidable de cierre giratorio.",
@@ -460,7 +460,7 @@
           "deleteUrl": "https://ibb.co/MxX6KqB3/4cc53522fd620bccff450a8bd9547f89"
         }
       ],
-      "updatedAt": "2026-07-10T04:07:44.409Z"
+      "updatedAt": "2026-07-29T16:56:50.755Z"
     },
     {
       "id": "p_1782789797092",
@@ -5921,5 +5921,5 @@
     "p_1775170246923",
     "p_1778518990375"
   ],
-  "updatedAt": "2026-07-27T13:40:28.775Z"
+  "updatedAt": "2026-07-29T16:56:54.338Z"
 }
