@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1785706302696",
+      "name": "Pantuflas Mission Ridge",
+      "price": 200,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "Pantuflas ligeras para hombre.\nTalla XL",
+      "subcategory": "Hombre",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/vvvtdPbx/28638.jpg",
+          "publicId": "Kzz1sqYj",
+          "deleteUrl": "https://ibb.co/Kzz1sqYj/fd3eda6402efabdf4c126562c39df17c"
+        },
+        {
+          "url": "https://i.ibb.co/JwqbPGXF/28639.jpg",
+          "publicId": "0RKW36PV",
+          "deleteUrl": "https://ibb.co/0RKW36PV/82190fcefb94bf5e1fce006bab686759"
+        },
+        {
+          "url": "https://i.ibb.co/m5pMR411/28640.jpg",
+          "publicId": "k2ZWGXkk",
+          "deleteUrl": "https://ibb.co/k2ZWGXkk/147f7618e3fb587f79c211f53c31f29b"
+        }
+      ],
+      "updatedAt": "2026-08-02T21:31:42.699Z"
+    },
+    {
       "id": "p_1785703927930",
       "name": "Mochila Ogio",
       "price": 350,
@@ -5942,5 +5971,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-02T21:04:07.582Z"
+  "updatedAt": "2026-08-02T21:31:47.128Z"
 }
