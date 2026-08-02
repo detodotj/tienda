@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1785702297139",
+      "name": "Cortina de baño Threshold",
+      "price": 220,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Nueva. Incluye ganchos stainless steel.",
+      "subcategory": "Decoración",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/8DMP8ZqH/28614.jpg",
+          "publicId": "Gv7CPSyq",
+          "deleteUrl": "https://ibb.co/Gv7CPSyq/f7a76f54c86baee2f42e7c6503b5b50e"
+        },
+        {
+          "url": "https://i.ibb.co/Csbf6bys/28623.jpg",
+          "publicId": "zHXzFXgH",
+          "deleteUrl": "https://ibb.co/zHXzFXgH/87e70d663f7b6396ec89f9ee35c86e58"
+        },
+        {
+          "url": "https://i.ibb.co/rRkMXy2T/28625.jpg",
+          "publicId": "LXS6spdb",
+          "deleteUrl": "https://ibb.co/LXS6spdb/2784842a48919c9efa8a8508e3b12007"
+        },
+        {
+          "url": "https://i.ibb.co/21mSCGQz/28628.jpg",
+          "publicId": "bMqFCcZ4",
+          "deleteUrl": "https://ibb.co/bMqFCcZ4/e459bdd4eea7088fb3a5764e9dd8aae5"
+        },
+        {
+          "url": "https://i.ibb.co/sv12CvNP/28624.jpg",
+          "publicId": "pvKxQvMP",
+          "deleteUrl": "https://ibb.co/pvKxQvMP/ee296785c6cb3afc68ceaf5f07b35ed0"
+        }
+      ],
+      "updatedAt": "2026-08-02T20:29:35.646Z"
+    },
+    {
       "id": "p_1785701665616",
       "name": "Set The Crème Shop x Hello Kitty Silky Skin Spa",
       "price": 180,
@@ -5864,5 +5903,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-02T20:15:01.288Z"
+  "updatedAt": "2026-08-02T20:29:40.880Z"
 }
