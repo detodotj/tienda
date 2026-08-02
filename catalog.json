@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "id": "p_1785701665616",
+      "name": "Set The Crème Shop x Hello Kitty Silky Skin Spa",
+      "price": 180,
+      "category": "Ropa",
+      "status": "Nuevo",
+      "desc": "Exfoliante corporal de azúcar de 400 g con fórmula 2 en 1 para exfoliar y renovar la piel con delicioso aroma a durazno.\nAdemás incluye bomba de baño hidratante en 3D.",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Q7SVDLnY/28602.jpg",
+          "publicId": "356bR2WS",
+          "deleteUrl": "https://ibb.co/356bR2WS/eb8ff1103deb831cd149fb4b7a7c250f"
+        },
+        {
+          "url": "https://i.ibb.co/nqLPs0Qz/28607.jpg",
+          "publicId": "BHCnVPTq",
+          "deleteUrl": "https://ibb.co/BHCnVPTq/12425c737707d97b741ec9be04a58b86"
+        }
+      ],
+      "updatedAt": "2026-08-02T20:14:25.616Z"
+    },
+    {
       "id": "p_1784655186186",
       "name": "Exhibidor de cupcakes Wilton",
       "price": 230,
@@ -5840,5 +5864,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-07-31T16:04:22.735Z"
+  "updatedAt": "2026-08-02T20:14:30.334Z"
 }
