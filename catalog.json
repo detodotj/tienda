@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "id": "p_1786471771812",
+      "name": "Aceite de hígado de bacalao",
+      "price": 170,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Aporte natural de ácidos grasos Omega-3 (EPA y DHA).\nFuente de vitaminas A y D que contribuyen al mantenimiento normal de huesos y defensas.\nApoyo para disminuir la rigidez articular leve.\nDosis recomendada: una cápsula diaria.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/1tPZrFmJ/30396.jpg",
+          "publicId": "bMC1scKR",
+          "deleteUrl": "https://ibb.co/bMC1scKR/1c5bb26c86f5003d16563b16d7c4c4dc"
+        },
+        {
+          "url": "https://i.ibb.co/mVCRf0gt/30400.jpg",
+          "publicId": "Kpj5TDS7",
+          "deleteUrl": "https://ibb.co/Kpj5TDS7/3c351003e05fa26e9b10fae725419622"
+        }
+      ],
+      "updatedAt": "2026-08-11T18:09:31.812Z"
+    },
+    {
       "id": "p_1786471516339",
       "name": "Omega-3 Aceite de pescado",
       "price": 220,
@@ -6079,5 +6103,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-11T18:05:22.168Z"
+  "updatedAt": "2026-08-11T18:09:36.724Z"
 }
