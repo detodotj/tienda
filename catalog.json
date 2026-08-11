@@ -207,7 +207,7 @@
     {
       "id": "p_1784590472730",
       "name": "Lámpara de escritorio LED",
-      "price": 220,
+      "price": 200,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Lámpara de escritorio LED Wonderlit Beyond Lighting Dinolite con forma de dinosaurio y diseño recargable.\nIncluye 3 niveles de brillo ajustables y características inalámbricas.\nEl diseño permite cambiar los modos de luz presionando la cola.",
@@ -241,12 +241,12 @@
           "deleteUrl": "https://ibb.co/LXmL46LK/2eefae53b90ddf9a6e1fc9c7c9d39096"
         }
       ],
-      "updatedAt": "2026-07-21T00:20:07.390Z"
+      "updatedAt": "2026-08-11T17:52:36.771Z"
     },
     {
       "id": "p_1784589437479",
       "name": "Lámpara con proyector de estrellas 💫",
-      "price": 220,
+      "price": 200,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Wonderlit Beyond Lighting Starry Night Light & Star Projector.\nCuenta con una batería recargable de 1800mAh y controles táctiles para encendido, apagado y ajuste de intensidad.\nEste dispositivo portátil se carga mediante USB-C",
@@ -280,7 +280,7 @@
           "deleteUrl": "https://ibb.co/XZwcP5wq/abd8a992d765a6160ae63c871a8ad63b"
         }
       ],
-      "updatedAt": "2026-07-20T23:17:17.479Z"
+      "updatedAt": "2026-08-11T17:52:27.245Z"
     },
     {
       "id": "p_1784579860663",
@@ -6055,5 +6055,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-11T17:51:53.649Z"
+  "updatedAt": "2026-08-11T17:52:42.030Z"
 }
