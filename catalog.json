@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "id": "p_1786471516339",
+      "name": "Omega-3 Aceite de pescado",
+      "price": 220,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Ayuda a la reducción de triglicéridos en sangre, el apoyo a la función cognitiva o cerebral y la contribución al mantenimiento de una presión arterial normal.\nContiene 100 cápsulas. \nDosis: una cápsula diaria.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/d0N3C0pn/30394.jpg",
+          "publicId": "rGBL8Gpn",
+          "deleteUrl": "https://ibb.co/rGBL8Gpn/3516e2d9561a2d5a25f04d58a7fd17db"
+        },
+        {
+          "url": "https://i.ibb.co/M5p1DTcC/30395.jpg",
+          "publicId": "Z1Kg6sBM",
+          "deleteUrl": "https://ibb.co/Z1Kg6sBM/5734d6dd710d0443e948cd26bed3c35b"
+        }
+      ],
+      "updatedAt": "2026-08-11T18:05:16.343Z"
+    },
+    {
       "id": "p_1786469935063",
       "name": "Protector para iPod",
       "price": 180,
@@ -6055,5 +6079,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-11T17:53:20.709Z"
+  "updatedAt": "2026-08-11T18:05:22.168Z"
 }
