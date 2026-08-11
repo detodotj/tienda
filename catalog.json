@@ -396,7 +396,7 @@
           "deleteUrl": "https://ibb.co/DPpZ5Stg/2604e72c9feb4454455b3794d4dd7668"
         }
       ],
-      "updatedAt": "2026-07-18T22:22:10.592Z"
+      "updatedAt": "2026-08-11T03:34:04.684Z"
     },
     {
       "id": "p_1784141860236",
@@ -1755,7 +1755,10 @@
           "publicId": "0R7TxpbN"
         }
       ],
-      "updatedAt": "2026-04-21T18:02:05.999Z"
+      "updatedAt": "2026-04-21T18:02:05.999Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419348486
     },
     {
       "id": "p_1776794137577",
@@ -2285,7 +2288,10 @@
           "publicId": "Mj87GFx"
         }
       ],
-      "updatedAt": "2026-06-18T16:04:28.105Z"
+      "updatedAt": "2026-06-18T16:04:28.105Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419359038
     },
     {
       "id": "p_1776452400152",
@@ -2416,7 +2422,10 @@
           "publicId": "sdfyMYcy"
         }
       ],
-      "updatedAt": "2026-04-17T04:11:09.739Z"
+      "updatedAt": "2026-04-17T04:11:09.739Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419363097
     },
     {
       "id": "p_1775861036077",
@@ -2922,7 +2931,10 @@
           "publicId": "rR8DHt8s"
         }
       ],
-      "updatedAt": "2026-04-17T13:50:46.863Z"
+      "updatedAt": "2026-04-17T13:50:46.863Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419412587
     },
     {
       "id": "p_1775684613953",
@@ -3741,7 +3753,10 @@
           "publicId": "DP75c9Pq"
         }
       ],
-      "updatedAt": "2026-04-06T18:38:09.403Z"
+      "updatedAt": "2026-04-06T18:38:09.403Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419450164
     },
     {
       "id": "p_1775500284947",
@@ -4828,7 +4843,10 @@
           "publicId": "nq9T82gk"
         }
       ],
-      "updatedAt": "2026-04-16T19:22:48.751Z"
+      "updatedAt": "2026-04-16T19:22:48.751Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419486807
     },
     {
       "id": "p_1775174299121",
@@ -5114,7 +5132,10 @@
           "publicId": "QjqstHwT"
         }
       ],
-      "updatedAt": "2026-04-16T18:59:16.541Z"
+      "updatedAt": "2026-04-16T18:59:16.541Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419496531
     },
     {
       "id": "p_1775012044553",
@@ -5150,7 +5171,10 @@
           "publicId": "0j9gcZ3t"
         }
       ],
-      "updatedAt": "2026-04-16T19:00:32.635Z"
+      "updatedAt": "2026-04-16T19:00:32.635Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419500093
     },
     {
       "id": "p_1775011551348",
@@ -5246,7 +5270,10 @@
           "publicId": "KpsB7hm6"
         }
       ],
-      "updatedAt": "2026-04-17T03:19:29.958Z"
+      "updatedAt": "2026-04-17T03:19:29.958Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419522041
     },
     {
       "id": "p_1775009479292",
@@ -5386,7 +5413,10 @@
           "publicId": "ZpR2mp6b"
         }
       ],
-      "updatedAt": "2026-04-16T18:46:21.949Z"
+      "updatedAt": "2026-04-16T18:46:21.949Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419527155
     },
     {
       "id": "p_1775007916346",
@@ -5594,7 +5624,10 @@
           "publicId": "wN2V3XzM"
         }
       ],
-      "updatedAt": "2026-04-16T18:07:28.076Z"
+      "updatedAt": "2026-04-16T18:07:28.076Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419545971
     },
     {
       "id": "p_1774737942694",
@@ -5630,7 +5663,10 @@
           "publicId": "whZpqzgN"
         }
       ],
-      "updatedAt": "2026-04-16T17:58:30.070Z"
+      "updatedAt": "2026-04-16T17:58:30.070Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419548996
     },
     {
       "id": "p_1774736584341",
@@ -5656,7 +5692,10 @@
           "publicId": "LzLK8XcS"
         }
       ],
-      "updatedAt": "2026-04-16T17:52:32.138Z"
+      "updatedAt": "2026-04-16T17:52:32.138Z",
+      "sold": true,
+      "paused": false,
+      "soldAt": 1786419555234
     },
     {
       "id": "p_1774736254373",
@@ -5971,5 +6010,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-02T21:31:47.128Z"
+  "updatedAt": "2026-08-11T03:39:33.584Z"
 }
