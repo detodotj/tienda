@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1786469935063",
+      "name": "Protector para tablet",
+      "price": 180,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Incluye teclado.",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/cpMjK51/30408.jpg",
+          "publicId": "38Gn5X7",
+          "deleteUrl": "https://ibb.co/38Gn5X7/005e9c74fe815e25208a5c9af7afccde"
+        },
+        {
+          "url": "https://i.ibb.co/gb59wYwS/30403.jpg",
+          "publicId": "6c3wbQbH",
+          "deleteUrl": "https://ibb.co/6c3wbQbH/b77ab4f16f0c53c487ca0d8a355979b2"
+        },
+        {
+          "url": "https://i.ibb.co/jvdGstPj/30407.jpg",
+          "publicId": "fYbtLJzT",
+          "deleteUrl": "https://ibb.co/fYbtLJzT/2b641cb6d54f7ac0220e5ad773019d5a"
+        },
+        {
+          "url": "https://i.ibb.co/SDvWTLM0/30406.jpg",
+          "publicId": "4wN9yQXM",
+          "deleteUrl": "https://ibb.co/4wN9yQXM/dd82848b249f7e61c6a3c271c01cd498"
+        },
+        {
+          "url": "https://i.ibb.co/B9ZcF7p/30402.jpg",
+          "publicId": "XqsjMdQ",
+          "deleteUrl": "https://ibb.co/XqsjMdQ/f4ce2276979482daec524b8bf17b1ac4"
+        }
+      ],
+      "updatedAt": "2026-08-11T17:39:49.930Z"
+    },
+    {
       "id": "p_1785706302696",
       "name": "Pantuflas Mission Ridge",
       "price": 200,
@@ -6016,5 +6055,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-11T03:45:29.590Z"
+  "updatedAt": "2026-08-11T17:39:53.815Z"
 }
