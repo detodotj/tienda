@@ -50,7 +50,7 @@
     },
     {
       "id": "p_1786469935063",
-      "name": "Protector para iPad",
+      "name": "Protector para iPad con teclado integrado",
       "price": 180,
       "category": "Electrónica",
       "status": "Nuevo",
@@ -85,7 +85,7 @@
           "deleteUrl": "https://ibb.co/XqsjMdQ/f4ce2276979482daec524b8bf17b1ac4"
         }
       ],
-      "updatedAt": "2026-08-11T23:14:27.940Z"
+      "updatedAt": "2026-08-12T22:41:21.393Z"
     },
     {
       "id": "p_1785706302696",
@@ -6103,5 +6103,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-11T23:15:06.293Z"
+  "updatedAt": "2026-08-12T22:41:28.804Z"
 }
