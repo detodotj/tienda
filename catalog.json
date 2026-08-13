@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1786583193933",
+      "name": "Test",
+      "price": 100,
+      "category": "Coleccionables",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/5XB8jPn5/19563.jpg",
+          "publicId": "Cph79fMn",
+          "deleteUrl": "https://ibb.co/Cph79fMn/95b9a4706825ddde19660a8de94a8b4a"
+        },
+        {
+          "url": "https://i.ibb.co/Q3dGbpTR/19558.jpg",
+          "publicId": "NdSzVtJP",
+          "deleteUrl": "https://ibb.co/NdSzVtJP/887aaa5e9dfcdff338201bbb629ce73f"
+        },
+        {
+          "url": "https://i.ibb.co/svVcfKcn/19557.jpg",
+          "publicId": "nsL4G749",
+          "deleteUrl": "https://ibb.co/nsL4G749/8588763a6bf5ab26b63f5488b8f1364b"
+        },
+        {
+          "url": "https://i.ibb.co/C35XNN2W/19559.jpg",
+          "publicId": "sdvDkkHt",
+          "deleteUrl": "https://ibb.co/sdvDkkHt/b56be2fc83381b832096b062f9a118d0"
+        }
+      ],
+      "updatedAt": "2026-08-13T01:06:33.933Z"
+    },
+    {
       "id": "p_1786471771812",
       "name": "Aceite de hígado de bacalao",
       "price": 170,
@@ -6103,5 +6137,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-13T01:02:08.670Z"
+  "updatedAt": "2026-08-13T01:06:39.289Z"
 }
