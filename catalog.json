@@ -73,14 +73,9 @@
           "url": "https://i.ibb.co/d0N3C0pn/30394.jpg",
           "publicId": "rGBL8Gpn",
           "deleteUrl": "https://ibb.co/rGBL8Gpn/3516e2d9561a2d5a25f04d58a7fd17db"
-        },
-        {
-          "url": "https://i.ibb.co/M5p1DTcC/30395.jpg",
-          "publicId": "Z1Kg6sBM",
-          "deleteUrl": "https://ibb.co/Z1Kg6sBM/5734d6dd710d0443e948cd26bed3c35b"
         }
       ],
-      "updatedAt": "2026-08-11T18:05:16.343Z"
+      "updatedAt": "2026-08-13T01:09:31.018Z"
     },
     {
       "id": "p_1786469935063",
@@ -99,19 +94,9 @@
           "deleteUrl": "https://ibb.co/38Gn5X7/005e9c74fe815e25208a5c9af7afccde"
         },
         {
-          "url": "https://i.ibb.co/gb59wYwS/30403.jpg",
-          "publicId": "6c3wbQbH",
-          "deleteUrl": "https://ibb.co/6c3wbQbH/b77ab4f16f0c53c487ca0d8a355979b2"
-        },
-        {
           "url": "https://i.ibb.co/jvdGstPj/30407.jpg",
           "publicId": "fYbtLJzT",
           "deleteUrl": "https://ibb.co/fYbtLJzT/2b641cb6d54f7ac0220e5ad773019d5a"
-        },
-        {
-          "url": "https://i.ibb.co/SDvWTLM0/30406.jpg",
-          "publicId": "4wN9yQXM",
-          "deleteUrl": "https://ibb.co/4wN9yQXM/dd82848b249f7e61c6a3c271c01cd498"
         },
         {
           "url": "https://i.ibb.co/B9ZcF7p/30402.jpg",
@@ -119,7 +104,7 @@
           "deleteUrl": "https://ibb.co/XqsjMdQ/f4ce2276979482daec524b8bf17b1ac4"
         }
       ],
-      "updatedAt": "2026-08-12T22:41:21.393Z"
+      "updatedAt": "2026-08-13T01:10:08.082Z"
     },
     {
       "id": "p_1785706302696",
@@ -6137,5 +6122,5 @@
     "p_1784577709542",
     "p_1783656464402"
   ],
-  "updatedAt": "2026-08-13T01:06:39.289Z"
+  "updatedAt": "2026-08-13T01:10:13.176Z"
 }
