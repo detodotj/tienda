@@ -1,9 +1,33 @@
 {
   "products": [
     {
+      "id": "p_1787356588740",
+      "name": "CALCULADORA Texas Instruments",
+      "price": 180,
+      "category": "Coleccionables",
+      "status": "Como nuevo",
+      "desc": "Calculadora científica",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/B5p1K9gT/32222.jpg",
+          "publicId": "DHJqgZ7w",
+          "deleteUrl": "https://ibb.co/DHJqgZ7w/9e4b0ee94b1510351ea0d9096cd4fcab"
+        },
+        {
+          "url": "https://i.ibb.co/r2yWpvLK/32221.jpg",
+          "publicId": "Qvm5HXq7",
+          "deleteUrl": "https://ibb.co/Qvm5HXq7/d610f6083624da8f096a15600effc81f"
+        }
+      ],
+      "updatedAt": "2026-08-21T23:56:28.740Z"
+    },
+    {
       "id": "p_1786471771812",
       "name": "Aceite de hígado de bacalao",
-      "price": 170,
+      "price": 180,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Aporte natural de ácidos grasos Omega-3 (EPA y DHA).\nFuente de vitaminas A y D que contribuyen al mantenimiento normal de huesos y defensas.\nApoyo para disminuir la rigidez articular leve.\nDosis recomendada: una cápsula diaria.",
@@ -22,7 +46,7 @@
           "deleteUrl": "https://ibb.co/Kpj5TDS7/3c351003e05fa26e9b10fae725419622"
         }
       ],
-      "updatedAt": "2026-08-11T18:09:31.812Z"
+      "updatedAt": "2026-08-21T23:57:05.838Z"
     },
     {
       "id": "p_1786471516339",
@@ -6110,5 +6134,5 @@
     "p_1783656464402",
     "p_1786583193933"
   ],
-  "updatedAt": "2026-08-17T18:53:11.862Z"
+  "updatedAt": "2026-08-22T00:02:29.624Z"
 }
