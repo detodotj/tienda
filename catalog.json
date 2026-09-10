@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1789062215090",
+      "name": "Rodillos de cerámica",
+      "price": 130,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Con hermosos detalles navideños.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/7dZGDncZ/35112.jpg",
+          "publicId": "mV2HK9s2",
+          "deleteUrl": "https://ibb.co/mV2HK9s2/0a0c5e1a58aaaa81d6c2ae5a358d3f46"
+        },
+        {
+          "url": "https://i.ibb.co/4wRhsRjq/35111.jpg",
+          "publicId": "mr5fv5Hj",
+          "deleteUrl": "https://ibb.co/mr5fv5Hj/1bc5efc7cc46a861709f380afc365baf"
+        },
+        {
+          "url": "https://i.ibb.co/1GMvggy9/35110.jpg",
+          "publicId": "KxD0PP49",
+          "deleteUrl": "https://ibb.co/KxD0PP49/94ab98b86e5cef50f98f97de407e9675"
+        }
+      ],
+      "updatedAt": "2026-09-10T17:43:35.093Z"
+    },
+    {
       "id": "p_1789061551064",
       "name": "Mini enfriador de aire portátil",
       "price": 250,
@@ -6210,5 +6239,5 @@
     "p_1783656464402",
     "p_1786583193933"
   ],
-  "updatedAt": "2026-09-10T17:32:36.371Z"
+  "updatedAt": "2026-09-10T17:43:43.625Z"
 }
