@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1789060135155",
+      "name": "Soporte para Laptop",
+      "price": 150,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Base giratoria. Nuevo, en caja.",
+      "subcategory": "Computadoras",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/vx1BHcRf/35091.jpg",
+          "publicId": "XZX4bWM6",
+          "deleteUrl": "https://ibb.co/XZX4bWM6/cfd9e12c8a7f4d71d52d25114ee93c38"
+        },
+        {
+          "url": "https://i.ibb.co/k21Dk8J9/35090.jpg",
+          "publicId": "s9H1kwC6",
+          "deleteUrl": "https://ibb.co/s9H1kwC6/c25f7989cb3dbe37bba1e8675929e502"
+        },
+        {
+          "url": "https://i.ibb.co/LXTJ1bxc/35092.jpg",
+          "publicId": "xtnf6P1B",
+          "deleteUrl": "https://ibb.co/xtnf6P1B/e0c0cd4aff283495c204545cff2616f5"
+        },
+        {
+          "url": "https://i.ibb.co/gMbMTWDj/35094.jpg",
+          "publicId": "4ZwZTSjm",
+          "deleteUrl": "https://ibb.co/4ZwZTSjm/1f2d95ee27c1bdc11660695571d4e26d"
+        }
+      ],
+      "updatedAt": "2026-09-10T17:08:55.156Z"
+    },
+    {
       "id": "p_1787356588740",
       "name": "CALCULADORA Texas Instruments",
       "price": 180,
@@ -70,7 +104,7 @@
     {
       "id": "p_1786469935063",
       "name": "Protector para iPad con teclado integrado",
-      "price": 180,
+      "price": 150,
       "category": "Electrónica",
       "status": "Nuevo",
       "desc": "Para iPad Air 3 (10.5\") o iPad Pro (10.5\")\nIncluye teclado y cable.",
@@ -94,7 +128,7 @@
           "deleteUrl": "https://ibb.co/XqsjMdQ/f4ce2276979482daec524b8bf17b1ac4"
         }
       ],
-      "updatedAt": "2026-08-13T01:10:08.082Z"
+      "updatedAt": "2026-09-10T17:09:33.508Z"
     },
     {
       "id": "p_1785706302696",
@@ -230,7 +264,7 @@
     {
       "id": "p_1784655186186",
       "name": "Exhibidor de cupcakes Wilton",
-      "price": 200,
+      "price": 150,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Soporte de metal Wilton diseñado para exhibir 13 cupcakes estándar.",
@@ -259,7 +293,7 @@
           "deleteUrl": "https://ibb.co/whGsCCHB/08d7ae825ac7253040a90e0097ff4052"
         }
       ],
-      "updatedAt": "2026-08-11T17:49:59.776Z"
+      "updatedAt": "2026-09-10T17:10:30.744Z"
     },
     {
       "id": "p_1784590472730",
@@ -381,7 +415,7 @@
     {
       "id": "p_1784424435706",
       "name": "Collar para dama",
-      "price": 200,
+      "price": 150,
       "category": "Ropa",
       "status": "Nuevo",
       "desc": "Hermosos collares con baño de oro de 14 kilates😍",
@@ -405,7 +439,7 @@
           "deleteUrl": "https://ibb.co/RpsgsmyF/0171ecf973b9cf8ba86e111f6a734568"
         }
       ],
-      "updatedAt": "2026-07-19T01:27:15.711Z"
+      "updatedAt": "2026-09-10T17:09:57.662Z"
     },
     {
       "id": "p_1784413024404",
@@ -6137,5 +6171,5 @@
     "p_1783656464402",
     "p_1786583193933"
   ],
-  "updatedAt": "2026-09-03T23:55:24.499Z"
+  "updatedAt": "2026-09-10T17:10:42.975Z"
 }
