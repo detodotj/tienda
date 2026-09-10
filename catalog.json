@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1789061551064",
+      "name": "Mini enfriador de aire portátil",
+      "price": 250,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Enfriamiento ultra: Ayuda a bajar la temperatura del aire cercano usando evaporación de agua.",
+      "subcategory": "Electrodomésticos",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/PZ1bxMZv/35109.jpg",
+          "publicId": "GvC179v4",
+          "deleteUrl": "https://ibb.co/GvC179v4/e3d0c697eae2a27e41ad728909eb5942"
+        },
+        {
+          "url": "https://i.ibb.co/7tnP5wVR/35103.jpg",
+          "publicId": "ZzB5PnKY",
+          "deleteUrl": "https://ibb.co/ZzB5PnKY/e6fc0c20dc4a874041d1cf514d29e547"
+        },
+        {
+          "url": "https://i.ibb.co/XZn7qcBh/35104.jpg",
+          "publicId": "PZ2cdqp7",
+          "deleteUrl": "https://ibb.co/PZ2cdqp7/79c55f2d6f74572ab60a688082741807"
+        },
+        {
+          "url": "https://i.ibb.co/Y7p5bqw2/35105.jpg",
+          "publicId": "ccDWx7VJ",
+          "deleteUrl": "https://ibb.co/ccDWx7VJ/ca29cf942738a01fe969340a9a6016b6"
+        },
+        {
+          "url": "https://i.ibb.co/WNYxL7VW/35107.jpg",
+          "publicId": "qLPyvhJM",
+          "deleteUrl": "https://ibb.co/qLPyvhJM/cf20d77006539d34a38b2cb970064281"
+        }
+      ],
+      "updatedAt": "2026-09-10T17:32:31.064Z"
+    },
+    {
       "id": "p_1789060135155",
       "name": "Soporte para Laptop",
       "price": 150,
@@ -6171,5 +6210,5 @@
     "p_1783656464402",
     "p_1786583193933"
   ],
-  "updatedAt": "2026-09-10T17:10:42.975Z"
+  "updatedAt": "2026-09-10T17:32:36.371Z"
 }
