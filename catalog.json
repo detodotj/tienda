@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1791562753776",
+      "name": "Amplificador Fender Frontman 10G.",
+      "price": 1900,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "• Potencia: 10 vatios\n• Altavoz: 1 de 6 pulgadas con diseño especial (6\" Fender Special Design)\n• Canales y tonos: 1 canal con interruptor de selección de Clean y Overdrive (saturación)\n• Controles: Perillas de Gain (Ganancia), Volume (Volumen), Treble (Agudos) y Bass (Graves)\n• Conexiones: Entrada para guitarra (INPUT), entrada auxiliar de 1/8\" para reproducir música externa y salida de auriculares de 1/8\" para práctica silenciosa.",
+      "subcategory": "Audio",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/spH18hBq/38909.jpg",
+          "publicId": "V0mCfdKT",
+          "deleteUrl": "https://ibb.co/V0mCfdKT/67355919564dd69a74904fdc3534199c"
+        },
+        {
+          "url": "https://i.ibb.co/WN3LGtZr/38910.jpg",
+          "publicId": "6cZkrBzK",
+          "deleteUrl": "https://ibb.co/6cZkrBzK/dca388419f3c39337be0a6323e8077e2"
+        },
+        {
+          "url": "https://i.ibb.co/tpxdhT58/38911.jpg",
+          "publicId": "MkGXhxLM",
+          "deleteUrl": "https://ibb.co/MkGXhxLM/9447f24c563b1d58f2a0412293402cff"
+        }
+      ],
+      "updatedAt": "2026-10-09T16:19:13.785Z"
+    },
+    {
       "id": "p_1789062215090",
       "name": "Rodillos de cerámica",
       "price": 130,
@@ -6275,5 +6304,5 @@
     "p_1783656464402",
     "p_1786583193933"
   ],
-  "updatedAt": "2026-10-03T02:24:32.401Z"
+  "updatedAt": "2026-10-09T16:19:33.160Z"
 }
