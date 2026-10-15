@@ -1,6 +1,19 @@
 {
   "products": [
     {
+      "id": "p_1792090227403",
+      "name": "Tazas de vidrio transparente",
+      "price": 300,
+      "category": "Hogar",
+      "status": "Nuevo",
+      "desc": "Tazas de vidrio transparente. Grandes.\nHermoso detalle navideño.",
+      "subcategory": "Cocina",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [],
+      "updatedAt": "2026-10-15T18:50:27.403Z"
+    },
+    {
       "id": "p_1791562753776",
       "name": "Amplificador Fender Frontman 10G.",
       "price": 1700,
@@ -6310,5 +6323,5 @@
     "p_1783656464402",
     "p_1786583193933"
   ],
-  "updatedAt": "2026-10-10T22:18:16.672Z"
+  "updatedAt": "2026-10-15T18:50:43.042Z"
 }
