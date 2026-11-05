@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1793908154638",
+      "name": "Mochila Cocoon",
+      "price": 300,
+      "category": "Coleccionables",
+      "status": "Nuevo",
+      "desc": "Con organizador integrado Grid-IT!, diseñada para laptops de hasta 15\" y accesorios.",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/sJkjbphX/43322.jpg",
+          "publicId": "R4Z2YG1J",
+          "deleteUrl": "https://ibb.co/R4Z2YG1J/2861210084ad2c91b322fb1f2a123d49"
+        },
+        {
+          "url": "https://i.ibb.co/tMrcSR1j/43321.jpg",
+          "publicId": "4ZrMck0v",
+          "deleteUrl": "https://ibb.co/4ZrMck0v/9f517687c8bbc2a039b4bb0331e2efb1"
+        },
+        {
+          "url": "https://i.ibb.co/Fk4q8hvf/43320.jpg",
+          "publicId": "bj5RN6hy",
+          "deleteUrl": "https://ibb.co/bj5RN6hy/34e641d829ae2884721822ab087a2196"
+        },
+        {
+          "url": "https://i.ibb.co/xq0fFLVP/43319.jpg",
+          "publicId": "zVY76xKj",
+          "deleteUrl": "https://ibb.co/zVY76xKj/ec428552bd34fa7d8ecdda6b456b25a9"
+        }
+      ],
+      "updatedAt": "2026-11-05T19:49:14.638Z"
+    },
+    {
       "id": "p_1793908007783",
       "name": "Mochila Cocoon",
       "price": 300,
@@ -6450,5 +6484,5 @@
     "p_1786583193933",
     "p_1792090227403"
   ],
-  "updatedAt": "2026-11-05T19:46:53.187Z"
+  "updatedAt": "2026-11-05T19:49:19.530Z"
 }
