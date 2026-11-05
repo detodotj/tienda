@@ -1,6 +1,50 @@
 {
   "products": [
     {
+      "id": "p_1793908007783",
+      "name": "Mochila Cocoon",
+      "price": 300,
+      "category": "Coleccionables",
+      "status": "Nuevo",
+      "desc": "Mochila de lona, color verde. Incluye un organizador integrado GRID-IT!® y compartimentos para una laptop de hasta 16\" y una tablet de 10\".",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/WNpJmgX7/43312.jpg",
+          "publicId": "j9ZXngYq",
+          "deleteUrl": "https://ibb.co/j9ZXngYq/ab820dcbc8a201c12fe40b31996a18f3"
+        },
+        {
+          "url": "https://i.ibb.co/vv6TsqS5/43313.jpg",
+          "publicId": "XkrKyLqB",
+          "deleteUrl": "https://ibb.co/XkrKyLqB/2fc3e696f1a8585de5afcc1f47b060d3"
+        },
+        {
+          "url": "https://i.ibb.co/Zz4Hy3B0/43315.jpg",
+          "publicId": "yFvhLD6r",
+          "deleteUrl": "https://ibb.co/yFvhLD6r/08607aafed184b40ffb7f0e6ffb46afc"
+        },
+        {
+          "url": "https://i.ibb.co/DHPX7SGR/43317.jpg",
+          "publicId": "0RpNfdBG",
+          "deleteUrl": "https://ibb.co/0RpNfdBG/9503f9921d96fdeb5f9a2e7d50c1f17a"
+        },
+        {
+          "url": "https://i.ibb.co/BH2NJxwK/43314.jpg",
+          "publicId": "p6jyT8nr",
+          "deleteUrl": "https://ibb.co/p6jyT8nr/2d46a0681c32fa7150f443eadd90471b"
+        },
+        {
+          "url": "https://i.ibb.co/jPngRSbZ/43323.jpg",
+          "publicId": "YFHpZxPT",
+          "deleteUrl": "https://ibb.co/YFHpZxPT/569c9ed4f8d3fd57a3c1db978320f4bd"
+        }
+      ],
+      "updatedAt": "2026-11-05T19:46:47.785Z"
+    },
+    {
       "id": "p_1793845526795",
       "name": "Televisor Samsung CRT (21 pulgadas)",
       "price": 1300,
@@ -6406,5 +6450,5 @@
     "p_1786583193933",
     "p_1792090227403"
   ],
-  "updatedAt": "2026-11-05T03:30:49.753Z"
+  "updatedAt": "2026-11-05T19:46:53.187Z"
 }
