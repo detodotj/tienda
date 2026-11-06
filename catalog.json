@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1793984439097",
+      "name": "Pantuflas para dama Mysoft 9-10",
+      "price": 220,
+      "category": "Calzado",
+      "status": "Nuevo",
+      "desc": "",
+      "subcategory": "Mujer",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/WWN66CWB/43460.jpg",
+          "publicId": "1fYLLcfR",
+          "deleteUrl": "https://ibb.co/1fYLLcfR/e56c46a1f221c931d68e9153b3e6f425"
+        },
+        {
+          "url": "https://i.ibb.co/twmSsPBG/43377.jpg",
+          "publicId": "zWn1RHsM",
+          "deleteUrl": "https://ibb.co/zWn1RHsM/58693f132c8521759bf137050feba6c4"
+        },
+        {
+          "url": "https://i.ibb.co/dJDGyT0j/43429.jpg",
+          "publicId": "6JFg5MRr",
+          "deleteUrl": "https://ibb.co/6JFg5MRr/fd408d9add5f07ebb8bdcd1fc489a24c"
+        },
+        {
+          "url": "https://i.ibb.co/xKDLyVmp/43376.jpg",
+          "publicId": "wZRgTDJ9",
+          "deleteUrl": "https://ibb.co/wZRgTDJ9/008e384a93554aeb521e6776cefdfd05"
+        },
+        {
+          "url": "https://i.ibb.co/CsTpxMZg/43368.jpg",
+          "publicId": "1JwYHd51",
+          "deleteUrl": "https://ibb.co/1JwYHd51/900af552109a9330d0233226798a706a"
+        }
+      ],
+      "updatedAt": "2026-11-06T17:00:39.099Z"
+    },
+    {
       "id": "p_1793917444306",
       "name": "Cartera de piel Fox",
       "price": 300,
@@ -6518,5 +6557,5 @@
     "p_1786583193933",
     "p_1792090227403"
   ],
-  "updatedAt": "2026-11-05T22:24:09.826Z"
+  "updatedAt": "2026-11-06T17:00:44.380Z"
 }
