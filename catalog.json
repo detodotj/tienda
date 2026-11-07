@@ -4995,28 +4995,6 @@
       "updatedAt": "2026-04-05T21:49:22.311Z"
     },
     {
-      "id": "p_1775425706148",
-      "name": "Mini dp portb to HDMI",
-      "price": 80,
-      "category": "Electrónica",
-      "status": "Nuevo",
-      "desc": "Mini dp portb to HDMI",
-      "subcategory": "Computadoras",
-      "delivery": "",
-      "whatsapp": "526642601992",
-      "photos": [
-        {
-          "url": "https://i.ibb.co/gM5YjrW5/1000044090.jpg",
-          "publicId": "JRfZBcpf"
-        },
-        {
-          "url": "https://i.ibb.co/xqDC0kFd/1000044089.jpg",
-          "publicId": "Xxb2gQYM"
-        }
-      ],
-      "updatedAt": "2026-04-05T21:48:26.150Z"
-    },
-    {
       "id": "p_1775423961456",
       "name": "Ergonomic mouse",
       "price": 150,
@@ -6574,7 +6552,8 @@
     "p_1784577709542",
     "p_1783656464402",
     "p_1786583193933",
-    "p_1792090227403"
+    "p_1792090227403",
+    "p_1775425706148"
   ],
-  "updatedAt": "2026-11-06T17:15:46.289Z"
+  "updatedAt": "2026-11-07T17:50:19.760Z"
 }
