@@ -1,6 +1,64 @@
 {
   "products": [
     {
+      "id": "p_1794249288932",
+      "name": "Hot Wheels Street Beasts Pack de 5 carritos",
+      "price": 230,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "Hot Wheels Street Beasts Pack de 5 carritos",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/wZVQHxLg/43772.jpg",
+          "publicId": "BHb6DSP3",
+          "deleteUrl": "https://ibb.co/BHb6DSP3/8fcc1be23fd5fb9f323b5d2604898989"
+        },
+        {
+          "url": "https://i.ibb.co/RGqC0ndc/43771.jpg",
+          "publicId": "4wHjTy3p",
+          "deleteUrl": "https://ibb.co/4wHjTy3p/6c3fdfa27c8452c3fcad9e76b169870e"
+        },
+        {
+          "url": "https://i.ibb.co/vvx9R2RJ/43773.jpg",
+          "publicId": "Nn6RbwbL",
+          "deleteUrl": "https://ibb.co/Nn6RbwbL/c2f1d2c6dcff45aa6ca6a0ac703b1d14"
+        }
+      ],
+      "updatedAt": "2026-11-09T18:34:48.932Z"
+    },
+    {
+      "id": "p_1794249132900",
+      "name": "Hot Wheels Street Beasts Pack de 5 carritos",
+      "price": 230,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "Hot Wheels Street Beasts Pack de 5 carritos.",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/Q78WgZfP/43768.jpg",
+          "publicId": "0pB07kcC",
+          "deleteUrl": "https://ibb.co/0pB07kcC/32aaf9d9e3c7d39d02b6fe2b4a67ff32"
+        },
+        {
+          "url": "https://i.ibb.co/G1GVc25/43767.jpg",
+          "publicId": "xcwMJj7",
+          "deleteUrl": "https://ibb.co/xcwMJj7/3ce6a6f899708e597dca3583325d7d0a"
+        },
+        {
+          "url": "https://i.ibb.co/RG9F0cQK/43769.jpg",
+          "publicId": "DPtJCQwF",
+          "deleteUrl": "https://ibb.co/DPtJCQwF/eeeca6177fcb1a04c5f24f328cc40e2c"
+        }
+      ],
+      "updatedAt": "2026-11-09T18:32:12.902Z"
+    },
+    {
       "id": "p_1793984636645",
       "name": "Pantuflas para hombre Mysoft 10-11",
       "price": 220,
@@ -1682,7 +1740,10 @@
           "deleteUrl": "https://ibb.co/vgY98Sb/3db7e4d5460956df8b3711d9e2f8e27c"
         }
       ],
-      "updatedAt": "2026-07-10T00:49:14.945Z"
+      "updatedAt": "2026-07-10T00:49:14.945Z",
+      "sold": false,
+      "paused": false,
+      "soldAt": 1794164485872
     },
     {
       "id": "p_1778523460736",
@@ -6555,5 +6616,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-07T17:51:34.806Z"
+  "updatedAt": "2026-11-09T18:34:53.033Z"
 }
