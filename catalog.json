@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1794250916583",
+      "name": "Camión de construcción (dump truck)",
+      "price": 200,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "A partir de 3 años.\nTiene luces y sonido.",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/TxmBkxwd/43766.jpg",
+          "publicId": "XrSZbrWM",
+          "deleteUrl": "https://ibb.co/XrSZbrWM/da95bb95021885171efac88809a99e1e"
+        },
+        {
+          "url": "https://i.ibb.co/nSsfxDG/43763.jpg",
+          "publicId": "P8Z4q5L",
+          "deleteUrl": "https://ibb.co/P8Z4q5L/50b6ef893a9396975bb927e6bd78b784"
+        },
+        {
+          "url": "https://i.ibb.co/G49TGSzC/43764.jpg",
+          "publicId": "W40t7JmB",
+          "deleteUrl": "https://ibb.co/W40t7JmB/c6a849d527477db3b8dbb9e13900c281"
+        },
+        {
+          "url": "https://i.ibb.co/ttX5jfV/43765.jpg",
+          "publicId": "LW5fjwV",
+          "deleteUrl": "https://ibb.co/LW5fjwV/a7dd7784eb2e728fb1c87fa9620afa5f"
+        }
+      ],
+      "updatedAt": "2026-11-09T19:01:56.587Z"
+    },
+    {
       "id": "p_1794249288932",
       "name": "Hot Wheels Street Beasts Pack de 5 carritos",
       "price": 230,
@@ -6616,5 +6650,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-09T18:35:39.946Z"
+  "updatedAt": "2026-11-09T19:02:01.298Z"
 }
