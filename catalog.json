@@ -499,7 +499,7 @@
     {
       "id": "p_1786471516339",
       "name": "Omega-3 Aceite de pescado",
-      "price": 220,
+      "price": 200,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Ayuda a la reducción de triglicéridos en sangre, el apoyo a la función cognitiva o cerebral y la contribución al mantenimiento de una presión arterial normal.\nContiene 100 cápsulas. \nDosis: una cápsula diaria.",
@@ -513,7 +513,7 @@
           "deleteUrl": "https://ibb.co/rGBL8Gpn/3516e2d9561a2d5a25f04d58a7fd17db"
         }
       ],
-      "updatedAt": "2026-08-13T01:09:31.018Z"
+      "updatedAt": "2026-11-09T18:35:36.278Z"
     },
     {
       "id": "p_1786469935063",
@@ -6616,5 +6616,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-09T18:34:53.033Z"
+  "updatedAt": "2026-11-09T18:35:39.946Z"
 }
