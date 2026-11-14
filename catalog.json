@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "id": "p_1794619161579",
+      "name": "Camiones de tracción",
+      "price": 200,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "Off Road Friction Truck de juguete para niños a partir de los 3 años en adelante.",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/HfbWNRnm/43789.jpg",
+          "publicId": "8LfWzG6F",
+          "deleteUrl": "https://ibb.co/8LfWzG6F/682c9c461abab18370f80c9e93fd8dea"
+        },
+        {
+          "url": "https://i.ibb.co/5WyMDpQd/43788.jpg",
+          "publicId": "qMfyGqHz",
+          "deleteUrl": "https://ibb.co/qMfyGqHz/9b2205fb9c3816082275774319f7e99c"
+        }
+      ],
+      "updatedAt": "2026-11-14T01:19:21.579Z"
+    },
+    {
       "id": "p_1794619020147",
       "name": "Adaptador de AC",
       "price": 150,
@@ -6784,5 +6808,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-14T01:17:05.059Z"
+  "updatedAt": "2026-11-14T01:19:27.310Z"
 }
