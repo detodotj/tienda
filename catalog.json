@@ -1,6 +1,35 @@
 {
   "products": [
     {
+      "id": "p_1794619020147",
+      "name": "Adaptador de AC",
+      "price": 150,
+      "category": "Electrónica",
+      "status": "Nuevo",
+      "desc": "Usos principales: Está pensado para equipos de internet (módems y routers), cámaras de seguridad o monitoreo, tiras de luces LED y otros aparatos de cómputo.",
+      "subcategory": "Accesorios",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/RkNM5548/44209.jpg",
+          "publicId": "gLdXnnFY",
+          "deleteUrl": "https://ibb.co/gLdXnnFY/ae3be77699427b3bae1e9eacfbe0b3a8"
+        },
+        {
+          "url": "https://i.ibb.co/JRpXLvjW/44208.jpg",
+          "publicId": "pvKCDfj6",
+          "deleteUrl": "https://ibb.co/pvKCDfj6/42199b17199819f9658bba7d1c51e3bf"
+        },
+        {
+          "url": "https://i.ibb.co/j9FzSmV7/44210.jpg",
+          "publicId": "DPnYZhG3",
+          "deleteUrl": "https://ibb.co/DPnYZhG3/6a896bf5a346396ee7f25aabbb93cd40"
+        }
+      ],
+      "updatedAt": "2026-11-14T01:17:00.147Z"
+    },
+    {
       "id": "p_1794618507237",
       "name": "Juego de Creatividad jumbo de Ninja Turtles",
       "price": 220,
@@ -6755,5 +6784,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-14T01:08:32.461Z"
+  "updatedAt": "2026-11-14T01:17:05.059Z"
 }
