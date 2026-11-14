@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1794618387506",
+      "name": "Juego de Creatividad jumbo de Barbie",
+      "price": 220,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "500 piezas.\nBlock de actividades de 10 hojas.\n3 pósters con purpurina / brillante.\n12 marcadores.\n4 pósters de revelación mágica.\n1 construye una escena (2 hojas).\n8 hojas de calcomanías.",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/cSvyhmS5/43762.jpg",
+          "publicId": "zT5mVkTc",
+          "deleteUrl": "https://ibb.co/zT5mVkTc/d03b476403bfab1df38341f725459fe0"
+        },
+        {
+          "url": "https://i.ibb.co/ZR7msZKH/43790.jpg",
+          "publicId": "zWDJckb8",
+          "deleteUrl": "https://ibb.co/zWDJckb8/86dda5a0572c9274898196749420ddb1"
+        },
+        {
+          "url": "https://i.ibb.co/fVTTP1cT/44124.jpg",
+          "publicId": "8nQQSKhQ",
+          "deleteUrl": "https://ibb.co/8nQQSKhQ/d08753a74eb5f72e880b76c8bb1b0336"
+        },
+        {
+          "url": "https://i.ibb.co/3Y9G8Mm2/43949.jpg",
+          "publicId": "rfRTLc2Y",
+          "deleteUrl": "https://ibb.co/rfRTLc2Y/8b3329479fd0991316035ae1afd0e3ae"
+        }
+      ],
+      "updatedAt": "2026-11-14T01:06:27.507Z"
+    },
+    {
       "id": "p_1794510287540",
       "name": "Velas aromáticas",
       "price": 200,
@@ -6687,5 +6721,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-12T19:04:51.193Z"
+  "updatedAt": "2026-11-14T01:06:38.203Z"
 }
