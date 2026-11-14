@@ -1,6 +1,45 @@
 {
   "products": [
     {
+      "id": "p_1794619753323",
+      "name": "Cremas perfumadas para manos y cuerpo",
+      "price": 140,
+      "category": "Coleccionables",
+      "status": "Nuevo",
+      "desc": "Sugar Berry \nCoco Rose\nPistachio Chocolate \nVelvet Vanilla",
+      "subcategory": "",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/LzMxkT1X/44223.jpg",
+          "publicId": "TBZ4vQtx",
+          "deleteUrl": "https://ibb.co/TBZ4vQtx/dc8fb7ea2ed63519e232a4e75b7865f2"
+        },
+        {
+          "url": "https://i.ibb.co/QjJZ7Cg7/44224.jpg",
+          "publicId": "HpK0LxSL",
+          "deleteUrl": "https://ibb.co/HpK0LxSL/75d214e6158edb0fab5888a99e5195ba"
+        },
+        {
+          "url": "https://i.ibb.co/Z6q8yJkc/44225.jpg",
+          "publicId": "LzVt4P29",
+          "deleteUrl": "https://ibb.co/LzVt4P29/2b68b96e269ab51d5dc5bb924c7b5b17"
+        },
+        {
+          "url": "https://i.ibb.co/xq1v6XkQ/44226.jpg",
+          "publicId": "yF6Tqd9J",
+          "deleteUrl": "https://ibb.co/yF6Tqd9J/cd4ae73911c10d84f1b9e951688e0bd4"
+        },
+        {
+          "url": "https://i.ibb.co/W47Fqxwj/44227.jpg",
+          "publicId": "ZpvKtLP7",
+          "deleteUrl": "https://ibb.co/ZpvKtLP7/98203774bcf2e6e2036e6dd833347862"
+        }
+      ],
+      "updatedAt": "2026-11-14T01:29:13.323Z"
+    },
+    {
       "id": "p_1794619161579",
       "name": "Camiones de tracción",
       "price": 200,
@@ -6808,5 +6847,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-14T01:20:09.673Z"
+  "updatedAt": "2026-11-14T01:29:17.122Z"
 }
