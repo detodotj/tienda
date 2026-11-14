@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "p_1794618507237",
+      "name": "Juego de Creatividad jumbo de Ninja Turtles",
+      "price": 220,
+      "category": "Juguetes",
+      "status": "Nuevo",
+      "desc": "500 piezas.\nBlock de actividades de 10 hojas.\n3 pósters con purpurina / brillante.\n12 marcadores.\n4 pósters de revelación mágica.\n1 construye una escena (2 hojas).\n8 hojas de calcomanías.",
+      "subcategory": "Niños",
+      "delivery": "",
+      "whatsapp": "526642601992",
+      "photos": [
+        {
+          "url": "https://i.ibb.co/xSmbqMvb/43754.jpg",
+          "publicId": "fY8WdCRW",
+          "deleteUrl": "https://ibb.co/fY8WdCRW/81d083ccbd5b88729865a09124da0640"
+        },
+        {
+          "url": "https://i.ibb.co/spLZ7Lcw/43755.jpg",
+          "publicId": "FkGFpGcw",
+          "deleteUrl": "https://ibb.co/FkGFpGcw/e966b340fc3112e4a81bd9dc832d206d"
+        },
+        {
+          "url": "https://i.ibb.co/d4P15zdV/43950.jpg",
+          "publicId": "VYgrqP7z",
+          "deleteUrl": "https://ibb.co/VYgrqP7z/49d2eece86c6a9262e53c2357eb7339d"
+        },
+        {
+          "url": "https://i.ibb.co/GbT6tGP/44122.jpg",
+          "publicId": "3Lz3MVh",
+          "deleteUrl": "https://ibb.co/3Lz3MVh/47e72c3aacdaf1f6d65a8e78e3be34f6"
+        }
+      ],
+      "updatedAt": "2026-11-14T01:08:27.237Z"
+    },
+    {
       "id": "p_1794618387506",
       "name": "Juego de Creatividad jumbo de Barbie",
       "price": 220,
@@ -6721,5 +6755,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-14T01:06:38.203Z"
+  "updatedAt": "2026-11-14T01:08:32.461Z"
 }
