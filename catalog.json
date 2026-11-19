@@ -493,7 +493,7 @@
     {
       "id": "p_1793845526795",
       "name": "Televisor Samsung CRT (21 pulgadas)",
-      "price": 1100,
+      "price": 900,
       "category": "Electrónica",
       "status": "Buen estado",
       "desc": "Televisor a color (CRT) de la línea Samsung SlimFit (Modelo CL-21Z43MJ).\n\nCuenta con un diseño compacto en acabado de gabinete en color negro, ideal para videojuegos retro y coleccionistas.",
@@ -527,7 +527,7 @@
           "deleteUrl": "https://ibb.co/S42gPH71/cf8fd51b343d728d81430f998bdd0206"
         }
       ],
-      "updatedAt": "2026-11-14T02:07:20.677Z"
+      "updatedAt": "2026-11-19T18:43:56.629Z"
     },
     {
       "id": "p_1793402462434",
@@ -6881,5 +6881,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-18T20:25:46.521Z"
+  "updatedAt": "2026-11-19T18:44:01.719Z"
 }
