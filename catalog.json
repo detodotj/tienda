@@ -3,7 +3,7 @@
     {
       "id": "p_1795549923836",
       "name": "Calefactor eléctrico de torre",
-      "price": 1300,
+      "price": 1400,
       "category": "Hogar",
       "status": "Nuevo",
       "desc": "Lasko Revolution II Full Room Heater\ncon rotación de rejilla de 360°, con oscilación, pantalla digital superior, control remoto, modo Auto Eco, carcasa fría al tacto y protección contra sobrecalentamiento y vuelco.",
@@ -32,7 +32,7 @@
           "deleteUrl": "https://ibb.co/bDCSnK2/8e0fae3d7b1bd2481aa66727e986a920"
         }
       ],
-      "updatedAt": "2026-11-24T19:52:03.841Z"
+      "updatedAt": "2026-11-24T19:57:38.026Z"
     },
     {
       "id": "p_1795033512970",
@@ -6921,5 +6921,5 @@
     "p_1792090227403",
     "p_1775425706148"
   ],
-  "updatedAt": "2026-11-24T19:52:42.192Z"
+  "updatedAt": "2026-11-24T19:57:41.071Z"
 }
